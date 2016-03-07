@@ -1,12 +1,14 @@
-# Site settings
 title: Learners Guild
 email: info@learnersguild.org
 description: > # this means to ignore newlines until "baseurl:"
+  Give us 40 weeks to challenge, guide, and support you in the most engaging learning experience you’ve ever had.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: https://www.learnersguild.org
 
 twitter_username:
 github_username: LearnersGuild
 
 # Build settings
 markdown: kramdown
+
+exclude: [.gitignore, .sass-cache, CNAME, Gemfile, Gemfile.lock, README.md]
