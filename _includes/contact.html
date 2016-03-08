@@ -1,29 +1,36 @@
-<section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
-                <hr class="primary">
-                <p>Ready to start your learning journey with us? That's great! Send us an email and we will get back to you as soon as possible!</p>
-            </div>
-        <div class="col-lg-2 col-lg-offset-3   text-center">
-            <a href="http://eepurl.com/bS1Qln">
-            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>Learnersguild.org</p>
-            </a>
-        </div>
-        <div class="col-lg-2 col-lg-offset-2 text-center">
-            <a href="https://github.com/{{ site.github_username }}">
-            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.github_username }}</p>
-            </a>
-        </div>
-        <div class="col-lg-2 col-lg-offset-2 text-center">
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-                <!---<i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.twitter_username }}</p>-->
-            </a>
-        </div>
+<section id="section-contact" class="page-section">
+  <div class="container clearfix">
+    <div class="row clear-bottommargin">
+      <div class="heading-block center">
+        <h2>Contact us</h2>
+      </div>
 
+      <div class="col_one_third bottommargin clearfix">
+        <div class="feature-box fbox-center fbox-bg fbox-plain">
+          <div class="fbox-icon">
+            <a href="#"><i class="icon-email"></i></a>
+          </div>
+          <h3>Sens us an email<span class="subtitle"><a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></span></h3>
+        </div>
+      </div>
+
+      <div class="col_one_third bottommargin clearfix">
+        <div class="feature-box fbox-center fbox-bg fbox-plain">
+          <div class="fbox-icon">
+            <a href="#"><i class="icon-facebook"></i></a>
+          </div>
+          <h3>Find us on Facebook<span class="subtitle">{{ site.facebook_username }}</span></h3>
+        </div>
+      </div>
+
+      <div class="col_one_third col_last bottommargin clearfix">
+        <div class="feature-box fbox-center fbox-bg fbox-plain">
+          <div class="fbox-icon">
+            <a href="#"><i class="icon-twitter2"></i></a>
+          </div>
+          <h3>Follow on Twitter<span class="subtitle">{{ site.twitter_username }}</span></h3>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
