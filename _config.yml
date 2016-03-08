@@ -5,7 +5,10 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://www.learnersguild.org
 
-twitter_username:
+# contact details
+contact_email: info@learnersguild.org
+twitter_username: lg_twitter
+facebook_username: lg_facebook
 github_username: LearnersGuild
 
 # Build settings
