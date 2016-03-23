@@ -160,3 +160,17 @@ ga('create', 'UA-75030082-1', 'auto');
 ga('send', 'pageview');
 
 </script>
+
+
+
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false">
+</script>
+
+
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"481a47142e2623453d4effb69","lid":"f33874a364"}) })
+    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+};
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script>
