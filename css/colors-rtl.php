@@ -9,7 +9,7 @@ header ("Content-Type:text/css");
  *
  ================================================================== */
 
-$color = "#1ABC9C"; // Change your Color Here
+$color = "#53777A"; // Change your Color Here
 
 /** ===============================================================
  *
@@ -59,4 +59,3 @@ if( !$color OR !checkhexcolor( $color ) ) {
 .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i,
 .dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
 .dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 0 <?php echo $color; ?>; }
-
