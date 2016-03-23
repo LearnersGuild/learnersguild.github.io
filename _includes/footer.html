@@ -32,17 +32,21 @@
         </div>
 
         <div class="col_two_thirds">
-          <div id="google-map1" style="height: 100px;" class="gmap"></div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+          <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCFdNozqctqr6WPYQHK5t2R1z6YaIgdKp8"></script>
+          <script type="text/javascript" src="js/jquery.gmap.js"></script>
+
+          <div id="google-map1" style="height: 270px;" class="gmap"></div>
           <script type="text/javascript">
 
           	$('#google-map1').gMap({
 
-          		 address: 'Oakland, California',
+          		 address: '19th and Broadway, Oakland, California',
           		 maptype: 'TERRAIN',
           		 zoom: 14,
           		 markers: [
           			{
-          				address: "Oakland, California"
+          				address: "19th and Broadway, Oakland, California"
           			}
           		 ],
           		 doubleclickzoom: false,
@@ -53,7 +57,8 @@
           			 scaleControl: false,
           			 streetViewControl: false,
           			 overviewMapControl: false
-          		 }
+          		 },
+               styles: [{"stylers":[{"visibility":"on"},{"saturation":-100},{"gamma":0.54}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"color":"#4d4946"}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"gamma":0.48}]},{"featureType":"transit.station","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"gamma":7.18}]}]
 
           	});
 
