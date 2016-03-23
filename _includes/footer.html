@@ -31,13 +31,33 @@
 
         </div>
 
-        <div class="col_one_third">
+        <div class="col_two_thirds">
+          <div id="google-map1" style="height: 100px;" class="gmap"></div>
+          <script type="text/javascript">
 
+          	$('#google-map1').gMap({
 
-        </div>
+          		 address: 'Oakland, California',
+          		 maptype: 'TERRAIN',
+          		 zoom: 14,
+          		 markers: [
+          			{
+          				address: "Oakland, California"
+          			}
+          		 ],
+          		 doubleclickzoom: false,
+          		 controls: {
+          			 panControl: true,
+          			 zoomControl: true,
+          			 mapTypeControl: true,
+          			 scaleControl: false,
+          			 streetViewControl: false,
+          			 overviewMapControl: false
+          		 }
 
-        <div class="col_one_third col_last">
+          	});
 
+          </script>
 
         </div>
 
