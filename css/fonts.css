@@ -8,7 +8,7 @@
 
 body,
 small,
-#primary-menu ul ul a,
+#primary-menu ul ul li > a,
 .wp-caption,
 .feature-box.fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
@@ -22,8 +22,8 @@ h4,
 h5,
 h6,
 #logo,
-#primary-menu ul li a,
-#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a,
+#primary-menu ul li > a,
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a,
 #top-search form input,
 .entry-link,
 .entry.entry-date-section span,
@@ -71,20 +71,20 @@ h6 {
     line-height: 100%;
 }
 
-#primary-menu ul li a {
+#primary-menu ul li > a {
     font-weight: bold;
     font-size: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-#primary-menu ul ul a {
+#primary-menu ul ul li > a {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0;
 }
 
-#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a {
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a {
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;

@@ -254,20 +254,24 @@ body:not(.device-touch) .tagcloud a {
 
 .widget-twitter-feed small a { color: #999; }
 
+.widget-twitter-feed .twitter-feed:not(.twitter-feed-avatar) a.twitter-avatar { display: none; }
 
-/* Small Post
------------------------------------------------------------------*/
+.widget-twitter-feed .twitter-feed.twitter-feed-avatar i.icon-twitter { display: none; }
 
-.widget-twitter-feed li { margin: 15px 0 0 0; }
+.widget-twitter-feed .twitter-feed-avatar { margin-left: 44px; }
 
-.widget-twitter-feed li:first-child { margin-top: 0; }
-
-.widget-twitter-feed small {
+.widget-twitter-feed .twitter-feed-avatar > li a.twitter-avatar {
 	display: block;
-	margin-top: 3px;
+	position: absolute;
+	left: -44px;
+	text-align: center;
+	top: 2px;
+	width: 32px;
+	height: 32px;
 }
 
-.widget-twitter-feed small a { color: #999; }
+.twitter-feed-avatar a.twitter-avatar img { border-radius: 50%; }
+
 
 /* Navigation Tree
 -----------------------------------------------------------------*/
