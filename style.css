@@ -3217,7 +3217,7 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	line-height: 1;
 	font-weight: 600;
 	letter-spacing: 1px;
-	color: #333;
+	color: #111;
 	font-size: 28px;
 	text-transform: uppercase;
 }
@@ -3226,7 +3226,7 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	display: block;
 	margin-top: 10px;
 	font-weight: normal;
-	color: #777;
+	color: #222;
 	font-size: 18px;
 }
 
@@ -3261,9 +3261,9 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	border-bottom: none;
 }
 
-#page-title.page-title-dark h1 { color: rgba(255,255,255,0.9) !important; }
+#page-title.page-title-dark h1 { color: rgba(255,255,255,1) !important; text-shadow: 2px 2px #333;}
 
-#page-title.page-title-dark span { color: rgba(255,255,255,0.7); }
+#page-title.page-title-dark span { color: rgba(255,255,255,1); text-shadow: 2px 2px #333;}
 
 #page-title.page-title-dark .breadcrumb > .active { color: rgba(255,255,255,0.6); }
 
@@ -3324,7 +3324,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	letter-spacing: 2px;
 }
 
-#page-title.page-title-parallax span { font-size: 22px; }
+#page-title.page-title-parallax span { font-size: 26px; }
 
 #page-title.page-title-parallax .breadcrumb { font-size: 13px; }
 
@@ -3392,7 +3392,9 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	background-color: #FFF;
 }
 
-#content p { line-height: 1.8; font-size: 16px;}
+#content p { line-height: 1.8;}
+
+.faqs #content p { line-height: 1.8; font-size: 16px;}
 
 .content-wrap {
 	position: relative;
