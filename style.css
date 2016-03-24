@@ -976,7 +976,7 @@ body.stretched #header.full-header .container {
 	border-right: 1px solid #EEE;
 }
 
-#header.transparent-header.full-header #logo { border-right-color: rgba(0,0,0,0.1); }
+#header.transparent-header.full-header #logo { border-right-style:none; }
 
 #logo a {
 	display: block;
@@ -1047,7 +1047,7 @@ body.stretched #header.full-header .container {
 	border-right: 1px solid #EEE;
 }
 
-#header.transparent-header.full-header #primary-menu > ul { border-right-color: rgba(0,0,0,0.1); }
+#header.transparent-header.full-header #primary-menu > ul { border-right-style: none; }
 
 #primary-menu-trigger,
 #page-submenu-trigger {
