@@ -54,7 +54,7 @@ dl, dt, dd, ol, ul, li {
 
 body {
 	line-height: 1.5;
-	color: #555;
+	color: #111;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -7375,7 +7375,8 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box p {
 	margin: 8px 0 0 0;
-	color: #999;
+	color: #111;
+	font-weight: bold
 }
 
 .feature-box .before-heading { font-size: 14px; }
@@ -13230,4 +13231,3 @@ body:not(.no-transition) #wrapper,
 	margin:0!important;
 	padding:0!important
 }
-
