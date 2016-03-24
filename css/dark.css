@@ -608,7 +608,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 .dark .feature-box h3 { color: #CCC; }
 
-.dark .feature-box p { color: #888; }
+.dark .feature-box p { color: #BBB; font-weight: normal; }
 
 .dark .feature-box.fbox-light.fbox-outline .fbox-icon { border-color: rgba(255,255,255,0.15); }
 
@@ -1727,4 +1727,3 @@ body #side-panel.dark #side-panel-trigger-close a {
 	.dark .pricing-box.pricing-extended .pricing-action-area { border-top-color: rgba(255,255,255,0.15); }
 
 }
-
