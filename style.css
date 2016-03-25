@@ -1189,7 +1189,22 @@ body.stretched #header.full-header .container {
 	background-position: right center;
 	background-repeat: no-repeat;
 }
-
+/*-----------------------------------------------------------------
+    MOBILE MENU
+-----------------------------------------------------------------*/
+.sf-js-enabled.show {
+	z-index: 6;
+	position: absolute;
+	width: 100%;
+}
+#header-wrap #primary-menu .sf-js-enabled.show li {
+	border-top-color: rgba(200,200,200,1) !important;
+}
+#primary-menu .sf-js-enabled.show li a {
+	background: white;
+	height: 40px;
+	line-height: 15px;
+}
 
 /* ----------------------------------------------------------------
 	Mega Menu

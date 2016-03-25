@@ -3303,14 +3303,26 @@ var SEMICOLON = SEMICOLON || {};
 				console.log('extras: Bootstrap Popover not defined.');
 			}
 
-			$('#primary-menu-trigger,#overlay-menu-close').click(function() {
-				if( $('#primary-menu').find('ul.mobile-primary-menu').length > 0 ) {
-					$( '#primary-menu > ul.mobile-primary-menu, #primary-menu > div > ul.mobile-primary-menu' ).toggleClass("show");
+			// $('#primary-menu-trigger,#overlay-menu-close').click(function() {
+			// 	if( $('#primary-menu').find('ul.mobile-primary-menu').length > 0 ) {
+			// 		$( '#primary-menu > ul.mobile-primary-menu, #primary-menu > div > ul.mobile-primary-menu' ).toggleClass("show");
+			// 	} else {
+			// 		$( '#primary-menu > ul, #primary-menu > div > ul' ).toggleClass("show");
+			// 	}
+			// 	return false;
+			// });
+
+			var mobileMenuVisible = false;
+			$('#primary-menu-trigger').on('click',function(){
+				if (mobileMenuVisible == false) {
+					mobileMenuVisible = true;
+					$('.sf-js-enabled').css({'display':'block'}).toggleClass('show');
 				} else {
-					$( '#primary-menu > ul, #primary-menu > div > ul' ).toggleClass("show");
+					mobileMenuVisible = true;
+					$('.sf-js-enabled').css({'display':'none'}).toggleClass('show');
 				}
-				return false;
-			});
+			})
+
 			$('#page-submenu-trigger').click(function() {
 				$body.toggleClass('top-search-open', false);
 				$pagemenu.toggleClass("pagemenu-active");
