@@ -14,7 +14,13 @@
     <div class="col_one_third last">
       <div id="q-contact" class="widget quick-contact-widget clearfix">
 
+    <script>
 
+      (function(){
+        fbq('track','ViewContent');
+      })();
+
+    </script>
         <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup">
     <form action="//learnersguild.us12.list-manage.com/subscribe/post?u=481a47142e2623453d4effb69&amp;id=f33874a364" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate quick-contact-form nobottommargin" target="_blank" novalidate>
@@ -34,7 +40,7 @@
       <div class="response alert infomsg" id="mce-success-response" style="display:none"></div>
     </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_481a47142e2623453d4effb69_f33874a364" tabindex="-1" value=""></div>
-      <div><input type="submit" value="Request Application" name="Request Application" id="mc-embedded-subscribe" class="button"></div>
+      <div><input type="submit" value="Request Application" name="Request Application" id="mc-embedded-subscribe" class="button" onclick="fbq('track', 'CompleteRegistration');"></div>
       </div>
     </form>
     </div>
