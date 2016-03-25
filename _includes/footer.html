@@ -199,7 +199,7 @@ function showMailingPopUp() {
     require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"481a47142e2623453d4effb69","lid":"f33874a364"}) })
     document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
 };
-document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+document.getElementById("open-popup").onclick="function() {showMailingPopUp()}";
 </script>
 
 
