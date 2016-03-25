@@ -904,6 +904,8 @@ html[xmlns] .slider-wrap {display: block;}
 	background: transparent;
 	border-bottom: none;
 	z-index: 199;
+	position: absolute;
+	width: 100%;
 }
 
 #header.semi-transparent { background-color: rgba(255,255,255,0.8); }
