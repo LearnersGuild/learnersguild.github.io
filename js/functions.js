@@ -3312,6 +3312,10 @@ var SEMICOLON = SEMICOLON || {};
 			// 	return false;
 			// });
 
+			if($(window).width() < 767) {
+				// $('#logo').addClass('mobile-logo-bar');
+			}
+
 			var mobileMenuVisible = false;
 			$('#primary-menu-trigger').on('click',function(){
 				if (mobileMenuVisible == false) {

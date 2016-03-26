@@ -1066,7 +1066,35 @@
 		width: 100%;
 		margin-bottom: 0 !important;
 	}
-
+	#primary-menu-trigger i {
+		color: black;
+	    font-size: 20px;
+	    position: relative;
+	    left: 10px;
+	}
+	#primary-menu {
+		border-top: 1px solid #000;
+	}
+	#logo {
+		background-color: rgba(255,255,255,0.9);
+		z-index: 1;
+		height: 75px;
+	}
+	#logo a {
+		position: absolute;
+		right: 30px;
+		top: 12px;
+	}
+	#logo img {
+		height: 60px;
+	}
+	#primary-menu-trigger {
+		z-index: 2;
+		top: 17px;
+	}
+	.dark #header-wrap:not(.not-dark) #primary-menu > ul > li > a {
+		color: #000;
+	}
 	.top-links,
 	.top-links > ul > li { float: none !important; }
 
