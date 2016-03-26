@@ -3248,6 +3248,27 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	color: #222;
 	font-size: 18px;
 }
+body.apply #page-title .down-image {
+	position: absolute;
+    bottom: 40px;
+    width: 100%;
+}
+body.index #page-title .down-image,body.faq #page-title .down-image,body.program #page-title .down-image {
+	bottom: 40px;
+	position: absolute;
+	width: 100%;
+}
+#page-title .down-image img {
+	width: 50px;
+	cursor: pointer;
+	-webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+#page-title .down-image img:hover {
+	transform: scale(1.1);
+}
 
 .breadcrumb {
 	position: absolute !important;
