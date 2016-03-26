@@ -1080,10 +1080,25 @@
 		z-index: 1;
 		height: 75px;
 	}
+	.hamburger-inner {
+		width: 32px;
+		height: 2px;
+		top: 0;
+		left: 8px;
+	}
+	.hamburger-inner:before {
+		width: 32px;
+		height: 2px;
+	}
+	.hamburger-inner:after {
+		width: 32px;
+		height: 2px;
+	}
 	#logo a {
-		position: absolute;
 		right: 30px;
-		top: 12px;
+		position: absolute;
+		top: 50%;
+	    transform: translateY(-50%);
 	}
 	#logo img {
 		height: 60px;

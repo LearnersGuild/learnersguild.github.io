@@ -3303,17 +3303,8 @@ var SEMICOLON = SEMICOLON || {};
 				console.log('extras: Bootstrap Popover not defined.');
 			}
 
-			// $('#primary-menu-trigger,#overlay-menu-close').click(function() {
-			// 	if( $('#primary-menu').find('ul.mobile-primary-menu').length > 0 ) {
-			// 		$( '#primary-menu > ul.mobile-primary-menu, #primary-menu > div > ul.mobile-primary-menu' ).toggleClass("show");
-			// 	} else {
-			// 		$( '#primary-menu > ul, #primary-menu > div > ul' ).toggleClass("show");
-			// 	}
-			// 	return false;
-			// });
-
 			if($(window).width() < 767) {
-				// $('#logo').addClass('mobile-logo-bar');
+				
 			}
 
 			var mobileMenuVisible = false;
@@ -3321,9 +3312,11 @@ var SEMICOLON = SEMICOLON || {};
 				if (mobileMenuVisible == false) {
 					mobileMenuVisible = true;
 					$('.sf-js-enabled').css({'display':'block'}).toggleClass('show');
+					$('.hamburger--emphatic').toggleClass('is-active');
 				} else {
 					mobileMenuVisible = true;
 					$('.sf-js-enabled').css({'display':'none'}).toggleClass('show');
+					$('.hamburger--emphatic').toggleClass('is-active');
 				}
 			})
 
