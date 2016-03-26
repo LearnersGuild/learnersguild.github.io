@@ -3303,9 +3303,9 @@ var SEMICOLON = SEMICOLON || {};
 				console.log('extras: Bootstrap Popover not defined.');
 			}
 
-			if($(window).width() < 767) {
-				
-			}
+			$('.down-image').find('img').on('click',function(){
+				$('#page-title').next().velocity('scroll');
+			});
 
 			var mobileMenuVisible = false;
 			$('#primary-menu-trigger').on('click',function(){

@@ -1211,7 +1211,7 @@
 		background-position: 50% 0 !important;
 	}
 	#section-services {
-		height: 1050px !important;
+		height: 1430px !important;
 	}
 	#section-contact .row.rightmargin-lg {
 		margin: 0 !important;
@@ -1233,7 +1233,7 @@
 		padding: 30px 0 0;
 	}
 	body.apply #content .content-wrap {
-		padding: 80px 0 0;
+		padding: 50px 0 0;
 	}
 	body.apply #page-title {
 		height: 820px;
@@ -1245,11 +1245,14 @@
 		background-color: #EFEFEF;
 		padding-bottom: 30px;
 	}
-	body.apply #enrollment h3 {
+	body.apply #enrollment h3,body.apply #enrollment h4 {
 		background-color: #EFEFEF;	
 	}
-	body.apply #enrollment h4 {
-		background-color: #EFEFEF;	
+	body.apply #enrollment .row.center {
+		margin-top: 50px !important;
+	}
+	body.apply #enrollment .row {
+		margin-top: 0 !important;
 	}
 	body.apply .fancy-title.title-border:before {
 		border-top: 1px solid #000;
