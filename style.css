@@ -3270,6 +3270,14 @@ body.index #page-title .down-image,body.faq #page-title .down-image,body.program
 	transform: scale(1.1);
 }
 
+body.program #content .section-head {
+	margin: 0;
+	padding: 30px 0;
+}
+body.program #section-apply .section {
+	margin: 0;
+}
+
 .breadcrumb {
 	position: absolute !important;
 	width: auto !important;
