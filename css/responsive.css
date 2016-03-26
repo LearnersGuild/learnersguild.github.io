@@ -1210,7 +1210,12 @@
 		background-size: auto !important;
 		background-position: 50% 0 !important;
 	}
-
+	#section-services {
+		height: 1050px !important;
+	}
+	#section-contact .row.rightmargin-lg {
+		margin: 0 !important;
+	}
 	#page-title #portfolio-navigation,
 	#portfolio-ajax-title #portfolio-navigation {
 		position: relative;
