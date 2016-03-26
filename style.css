@@ -3250,13 +3250,16 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 }
 body.apply #page-title .down-image {
 	position: absolute;
-    bottom: 40px;
+    bottom: -40px;
     width: 100%;
 }
 body.index #page-title .down-image,body.faq #page-title .down-image,body.program #page-title .down-image {
 	bottom: 40px;
 	position: absolute;
 	width: 100%;
+}
+body.team #page-title {
+	padding: 250px 0;
 }
 #page-title .down-image img {
 	width: 50px;
