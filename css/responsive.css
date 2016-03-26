@@ -1216,6 +1216,44 @@
 	#section-contact .row.rightmargin-lg {
 		margin: 0 !important;
 	}
+	body.program #page-title {
+		background-position: center center !important;
+	}
+	body.program #section-apply .section {
+		margin: 0;
+	}
+	body.program #content .section-head {
+		margin: 0;
+		padding-top: 30px;
+	}
+	body.team #page-title {
+		background-size: cover !important;
+	}
+	body.team #content .content-wrap {
+		padding: 30px 0 0;
+	}
+	body.apply #content .content-wrap {
+		padding: 80px 0 0;
+	}
+	body.apply #page-title {
+		height: 820px;
+	}
+	body.apply #section-eligibility .fancy-title h3 {
+		padding-left: 15px;
+	}
+	body.apply #enrollment {
+		background-color: #EFEFEF;
+		padding-bottom: 30px;
+	}
+	body.apply #enrollment h3 {
+		background-color: #EFEFEF;	
+	}
+	body.apply #enrollment h4 {
+		background-color: #EFEFEF;	
+	}
+	body.apply .fancy-title.title-border:before {
+		border-top: 1px solid #000;
+	}
 	#page-title #portfolio-navigation,
 	#portfolio-ajax-title #portfolio-navigation {
 		position: relative;
