@@ -1066,12 +1066,7 @@
 		width: 100%;
 		margin-bottom: 0 !important;
 	}
-	#primary-menu-trigger i {
-		color: black;
-	    font-size: 20px;
-	    position: relative;
-	    left: 10px;
-	}
+	/*====BEGIN MOBILE NAV/MENU STYLES========*/
 	#primary-menu {
 		border-top: 1px solid #000;
 	}
@@ -1110,6 +1105,9 @@
 	.dark #header-wrap:not(.not-dark) #primary-menu > ul > li > a {
 		color: #000;
 	}
+	/*======END MOBILE MENU/NAV STYLES========*/
+
+
 	.top-links,
 	.top-links > ul > li { float: none !important; }
 
@@ -1205,6 +1203,12 @@
 		left: 0 !important;
 		right: 0 !important;
 		margin: 15px 0 0 !important;
+	}
+	#page-title {
+		padding: 150px 0 !important;
+		height: auto;
+		background-size: auto !important;
+		background-position: 50% 0 !important;
 	}
 
 	#page-title #portfolio-navigation,
