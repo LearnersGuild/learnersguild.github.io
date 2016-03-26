@@ -3312,11 +3312,11 @@ var SEMICOLON = SEMICOLON || {};
 				if (mobileMenuVisible == false) {
 					mobileMenuVisible = true;
 					$('.sf-js-enabled').css({'display':'block'}).toggleClass('show');
-					$('.hamburger--emphatic').toggleClass('is-active');
+					$('.hamburger--stand').toggleClass('is-active');
 				} else {
 					mobileMenuVisible = true;
 					$('.sf-js-enabled').css({'display':'none'}).toggleClass('show');
-					$('.hamburger--emphatic').toggleClass('is-active');
+					$('.hamburger--stand').toggleClass('is-active');
 				}
 			})
 
