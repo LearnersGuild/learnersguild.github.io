@@ -1192,6 +1192,7 @@ body.stretched #header.full-header .container {
 /*-----------------------------------------------------------------
     MOBILE MENU
 -----------------------------------------------------------------*/
+
 .sf-js-enabled.show {
 	z-index: 6;
 	position: absolute;
@@ -1201,10 +1202,11 @@ body.stretched #header.full-header .container {
 	border-top-color: rgba(200,200,200,1) !important;
 }
 #primary-menu .sf-js-enabled.show li a {
-	background: white;
+	background: rgba(255,255,255,0.9);
 	height: 40px;
 	line-height: 15px;
 }
+
 
 /* ----------------------------------------------------------------
 	Mega Menu
