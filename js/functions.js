@@ -3304,7 +3304,7 @@ var SEMICOLON = SEMICOLON || {};
 			}
 
 			$('.down-image').find('img').on('click',function(){
-				$('#page-title').next().velocity('scroll');
+				$('#page-title').next().velocity('scroll',{offset:-60,duration:750});
 			});
 
 			var mobileMenuVisible = false;
