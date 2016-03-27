@@ -3253,6 +3253,9 @@ body.apply #page-title .down-image {
     bottom: -40px;
     width: 100%;
 }
+body.apply #mc-embedded-subscribe {
+	margin: 0;
+}
 body.index #page-title .down-image,body.faq #page-title .down-image,body.program #page-title .down-image,body.application #page-title .down-image {
 	bottom: 40px;
 	position: absolute;
@@ -3272,7 +3275,10 @@ body.team #page-title {
 #page-title .down-image img:hover {
 	transform: scale(1.1);
 }
-
+body.index .button-desc:hover {
+	color: #000 !important;
+	background-color: #fff;
+}
 body.program #content .section-head {
 	margin: 0;
 	padding: 30px 0;
@@ -3280,11 +3286,31 @@ body.program #content .section-head {
 body.program #section-apply .section {
 	margin: 0;
 }
+/*=====START APPLICATION PAGE=============*/
 body.application #application-content .section {
 	margin: 0;
 	padding: 50px 0;
 }
-
+body.application #application-form {
+	background-color: #F9F9F9;
+	padding-bottom: 50px;
+}
+body.application .smcx-embed {
+	max-width: 1400px;
+	border: none;
+	height: 1079px;
+}
+body.application .smcx-embed>.smcx-iframe-container {
+	max-width: 1400px;
+	height: 100%;
+}
+body.application a.smcx-branding {
+	display: none;
+}
+body.application .survey-page .survey-footer {
+	margin-bottom: 0;
+}
+/*=====END APPLICATION PAGE===============*/
 .breadcrumb {
 	position: absolute !important;
 	width: auto !important;
