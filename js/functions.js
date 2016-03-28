@@ -3304,7 +3304,11 @@ var SEMICOLON = SEMICOLON || {};
 			}
 
 			$('.down-image').find('img').on('click',function(){
-				$('#page-title').next().velocity('scroll',{offset:-60,duration:750});
+				if ($(window).width > 767){
+					$('#page-title').next().velocity('scroll',{offset:-60,duration:750});
+				} else {
+					$('#page-title').next().velocity('scroll',{duration:750});
+				}
 			});
 
 			var mobileMenuVisible = false;
