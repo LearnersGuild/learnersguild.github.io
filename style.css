@@ -3317,6 +3317,30 @@ body.application .survey-page .survey-footer {
 	margin-bottom: 0;
 }
 /*=====END APPLICATION PAGE===============*/
+
+/*============ABOUT US PAGE===============*/
+section#mission-vision {
+	background-color: #F9F9F9;
+	padding: 50px 0;
+}
+section#mission-vision p, section#mission-vision li {
+	font-size: 16px;
+}
+section#mission-vision blockquote {
+	margin-bottom: 0;
+}
+#mission-vision h3 {
+	padding-left: 15px;
+	background-color: #F9F9F9;
+}
+#our-team {
+	padding-top: 50px;
+}
+#our-team h3 {
+	padding-left: 15px;
+}
+/*=========END ABOUT US PAGE===============*/
+
 .breadcrumb {
 	position: absolute !important;
 	width: auto !important;
