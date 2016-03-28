@@ -3256,7 +3256,7 @@ body.apply #page-title .down-image {
 body.apply #mc-embedded-subscribe {
 	margin: 0;
 }
-body.index #page-title .down-image,body.faq #page-title .down-image,body.program #page-title .down-image,body.application #page-title .down-image {
+body.index #page-title .down-image,body.about #page-title .down-image, body.faq #page-title .down-image,body.program #page-title .down-image,body.application #page-title .down-image {
 	bottom: 40px;
 	position: absolute;
 	width: 100%;
