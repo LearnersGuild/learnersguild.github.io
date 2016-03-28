@@ -1102,6 +1102,9 @@
 	.dark #header-wrap:not(.not-dark) #primary-menu > ul > li > a {
 		color: #000;
 	}
+	#page-title .down-image img {
+		width: 30px;
+	}
 	/*======END MOBILE MENU/NAV STYLES========*/
 	
 	/*======BEGIN APPLICATION PAGE STYLES=====*/

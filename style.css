@@ -3256,12 +3256,12 @@ body.apply #page-title .down-image {
 body.apply #mc-embedded-subscribe {
 	margin: 0;
 }
-body.index #page-title .down-image,body.faq #page-title .down-image,body.program #page-title .down-image,body.application #page-title .down-image {
+body.index #page-title .down-image,body.about #page-title .down-image, body.faq #page-title .down-image,body.program #page-title .down-image,body.application #page-title .down-image {
 	bottom: 40px;
 	position: absolute;
 	width: 100%;
 }
-body.team #page-title {
+body.about #page-title {
 	padding: 250px 0;
 }
 #page-title .down-image img {
@@ -3326,8 +3326,11 @@ section#mission-vision {
 section#mission-vision p, section#mission-vision li {
 	font-size: 16px;
 }
-section#mission-vision blockquote {
+section#mission-vision p:last-of-type {
 	margin-bottom: 0;
+}
+section#mission-vision blockquote {
+	
 }
 #mission-vision h3 {
 	padding-left: 15px;
