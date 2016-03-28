@@ -1067,9 +1067,6 @@
 		margin-bottom: 0 !important;
 	}
 	/*====BEGIN MOBILE NAV/MENU STYLES========*/
-	#primary-menu {
-		border-top: 1px solid #000;
-	}
 	#logo {
 		background-color: rgba(255,255,255,0.9);
 		z-index: 1;
@@ -1106,7 +1103,18 @@
 		color: #000;
 	}
 	/*======END MOBILE MENU/NAV STYLES========*/
-
+	
+	/*======BEGIN APPLICATION PAGE STYLES=====*/
+	body.application #page-title {
+		background-position: center center !important;
+	}
+	body.application #application-content p.lead {
+	    font-size: 18px;
+	}
+	body.application #application-content ul {
+		padding-left: 20px;
+	}
+	/*======END APPLICATION PAGE STYLES=======*/
 
 	.top-links,
 	.top-links > ul > li { float: none !important; }
@@ -1216,6 +1224,7 @@
 	#section-contact .row.rightmargin-lg {
 		margin: 0 !important;
 	}
+	/*=========PROGRAM PAGE==========*/
 	body.program #page-title {
 		background-position: center center !important;
 	}
@@ -1226,12 +1235,18 @@
 		margin: 0;
 		padding-top: 30px;
 	}
+	/*=====END PROGRAM PAGE==========*/
+
+	/*======ABOUT/TEAM PAGE==========*/
 	body.team #page-title {
 		background-size: cover !important;
 	}
 	body.team #content .content-wrap {
 		padding: 30px 0 0;
 	}
+	/*=====END ABOUT?TEAM PAGE=======*/
+
+	/*========APPLY PAGE=============*/
 	body.apply #content .content-wrap {
 		padding: 50px 0 0;
 	}
@@ -1257,6 +1272,8 @@
 	body.apply .fancy-title.title-border:before {
 		border-top: 1px solid #000;
 	}
+	/*========END APPLY PAGE==========*/
+
 	#page-title #portfolio-navigation,
 	#portfolio-ajax-title #portfolio-navigation {
 		position: relative;
@@ -1637,6 +1654,8 @@
 	.container,
 	#header.full-header .container,
 	.container-fullwidth { width: 310px !important; }
+
+	body.application .container {width: 100% important!}
 
 	.container.vertical-middle { width: 100% !important; }
 

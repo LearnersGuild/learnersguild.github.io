@@ -3291,6 +3291,12 @@ body.application #application-content .section {
 	margin: 0;
 	padding: 50px 0;
 }
+body.application #application-content p,body.application #application-content li {
+	font-size: 16px;
+}
+body.application #application-content p.lead {
+	font-size: 20px;
+}
 body.application #application-form {
 	background-color: #F9F9F9;
 	padding-bottom: 50px;
