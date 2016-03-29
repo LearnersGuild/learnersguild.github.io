@@ -1,0 +1,57 @@
+module.exports = function(grunt) {
+	grunt.initConfig({
+		concat: {
+			js: {
+				src: [
+					'js/jquery.gmap.js',
+					'js/jquery.js',
+					'js/plugins.js',
+					'js/velocity.min.js',
+					'js/velocity.ui.min.js',
+					'js/functions.js'
+				],
+				dest: 'js/app.js'
+			},
+			css: {
+				src: [
+					'css/animate.css',
+					'css/bootstrap.css',
+					'css/colors.css',
+					'css/dark.css',
+					'css/hamburgers.min.css',
+					'css/magnific-popup.css',
+					'style-uncompressed.css',
+					'css/responsive.css'
+				],
+				dest: 'style.css'
+			},
+		},
+		uglify: {
+			app: {
+				files: {
+					'js/app.js': ['js/app.js']
+				}
+			}
+		},
+		cssmin: {
+			app: {
+				files: {
+					'style.css': ['style.css']
+				}
+			}
+		},
+		imagemin: {
+			core: {
+				expand: true,
+				src: ['images/*.{png,jpg,gif,jpeg}']
+			}
+		}
+	});
+
+	grunt.loadNpmTasks('grunt-contrib-concat');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-contrib-imagemin');
+	grunt.registerTask('build', ['concat', 'cssmin', 'uglify']);
+	grunt.registerTask('default', ['build']);
+};
