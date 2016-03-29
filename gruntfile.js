@@ -3,9 +3,9 @@ module.exports = function(grunt) {
 		concat: {
 			js: {
 				src: [
-					'js/jquery.gmap.js',
 					'js/jquery.js',
 					'js/plugins.js',
+					'js/jquery.gmap.js',
 					'js/velocity.min.js',
 					'js/velocity.ui.min.js',
 					'js/functions.js'
