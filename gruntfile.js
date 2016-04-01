@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 					'style.css',
 					'css/responsive.css'
 				],
-				dest: 'style.css'
+				dest: 'style.min.css'
 			},
 		},
 		uglify: {
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
 		cssmin: {
 			app: {
 				files: {
-					'style.min.css': ['style.css']
+					'style.min.css': ['style.min.css']
 				}
 			}
 		},
