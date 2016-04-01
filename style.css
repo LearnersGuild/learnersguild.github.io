@@ -32969,11 +32969,11 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 }
 
 /*HubSpot Form on Aply Page*/
-#hbspt-form-1459475009130 .hs-form-required{
+.hbspt-form .hs-form-required{
 	display: none !important;
 }
 .hs-form .actions {
-	padding: 0px 20px 18px 0px !important;
+	padding: 0px 20px 18px 21px !important;
 }
 .hs-error-msgs label {
 	margin-top: 10px !important;
