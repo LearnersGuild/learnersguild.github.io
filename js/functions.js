@@ -3311,6 +3311,18 @@ var SEMICOLON = SEMICOLON || {};
 				}
 			});
 
+			// make table columns even width
+			var $tds  = $('tbody tr:first').find('td');
+			var width = 0;
+
+			$tds.each(function(){
+				width += $(this).width();
+			});
+
+			$('tbody').find('td').each(function(){
+				$(this).css({'width':width / 3});
+			});
+
 			// show contact form in bottom right corner of site
 			var contactFormVisible = false;
 			$('.contact-head').on('click',function(){
