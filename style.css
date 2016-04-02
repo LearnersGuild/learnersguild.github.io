@@ -3753,6 +3753,9 @@ body.request p.lead {
 body.request .content-wrap {
     padding: 0;
 }
+body.request .meta p:last-of-type {
+    margin-bottom: 0;
+}
 #open-source .meta {
     padding-top: 120px;
 }
@@ -3770,6 +3773,13 @@ body.request .content-wrap {
 }
 #meet-team h2 {
     color: #fff;
+    margin-bottom: 50px;
+}
+#meet-team h4 {
+    margin-bottom: 10px;
+}
+#meet-team img {
+    margin-bottom: 20px;
 }
 
 /* Table 1 Style */

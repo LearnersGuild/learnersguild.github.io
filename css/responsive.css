@@ -20,6 +20,17 @@
 	.promo-uppercase > span,
 	.promo-uppercase > .container > span { font-size: 14px; }
 
+	/* Application request landing page */
+	#passion img {
+		padding-top: 25px;
+	}
+	#open-source .meta {
+	    padding-top: 70px;
+	}
+	#no-teachers .meta, #nothing-to-lose .meta {
+		padding-top: 0;
+	}
+
 }
 
 
@@ -1007,6 +1018,19 @@
 		bottom: 0;
 	}
 
+	/* Application Request landing Page */
+	#passion img {
+	    padding-top: 100px;
+	}
+	#open-source .meta {
+	    padding-top: 20px;
+	}
+	#no-teachers img {
+		padding-top: 60px;
+	}
+	#nothing-to-lose img {
+		padding-top: 65px;
+	}
 }
 
 
@@ -1077,6 +1101,36 @@
 	}
 	#application-form .survey-page .survey-page-button.done-button {
 	    padding: 7px;
+	}
+	#passion img {
+	    padding-top: 0;
+	    margin-top: 30px;
+	}
+	#open-source img {
+		margin-bottom: 30px;
+	}
+	#open-source .meta {
+	    padding-top: 0;
+	}
+	#no-teachers img {
+		padding-top: 0;
+		margin-top: 30px;
+	}
+	#nothing-to-lose img {
+		padding-top: 0;
+		margin-bottom: 30px;
+	}
+	#meet-team h2 {
+		margin-bottom: 30px;
+	}
+	.team-bio {
+		margin-bottom: 30px !important;
+	}
+	.team-bio:last-of-type {
+		margin-bottom: 0 !important;
+	}
+	.under-table {
+		margin-bottom: 0;
 	}
 	/*====BEGIN MOBILE NAV/MENU STYLES========*/
 	#logo {
