@@ -12805,6 +12805,50 @@ button.toast-close-button {
     background-color: #f89406
 }
 
+/*------------Form Widget stuck to bottom of page-----------*/
+
+#contact-form {
+    position: fixed;
+    z-index: 99999999;
+    bottom: 0;
+    right: 20px;
+    width: 300px;
+    height: 42px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+#contact-form .contact-head {
+    background-color: #14528F;
+    padding: 5px 0;
+}
+#contact-form .contact-body {
+    background-color: #F3F3F1;
+    padding: 20px;
+}
+#contact-form h4 {
+    color: #fff;
+    margin-bottom: 0;
+}
+#contact-form .contact-body h4 {
+    color: #000;
+}
+#contact-form i {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    float: right;
+    position: relative;
+    right: 80px;
+    top: 2px;
+}
+#contact-form textarea {
+    resize: none;
+}
+
+/*---------END Form Widget stuck to bottom of page----------*/
+
+
 @media all and (min-width:240px) and (max-width:479px) {
     #toast-container>div {
         padding: 8px;

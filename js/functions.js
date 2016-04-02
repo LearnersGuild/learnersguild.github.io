@@ -3311,6 +3311,57 @@ var SEMICOLON = SEMICOLON || {};
 				}
 			});
 
+			// show contact form in bottom right corner of site
+			var contactFormVisible = false;
+			$('.contact-head').on('click',function(){
+				if (contactFormVisible == false) {
+					contactFormVisible = true;
+					$( '#contact-form' ).velocity({
+					    height: "300px"
+					  }, 750, function() {
+					    // Animation complete.
+						$('#contact-form').find('.icon-arrow-up').css({'display':'none'});
+						$('#contact-form').find('.icon-arrow-down').css({'display':'block'});
+					  });
+				} else {
+					contactFormVisible = false;
+					$('#contact-form').velocity({
+						height: '42px'
+					},750,function(){
+						$('#contact-form').find('.icon-arrow-down').css({'display':'none'});
+						$('#contact-form').find('.icon-arrow-up').css({'display':'block'});
+					});
+				}
+			});
+
+			// AJAX form submission of contact form in bottom right of site
+			var $form = $('#contact-form').find('form');
+
+			$form.find('input[type=submit]').on('click',function(e){
+				e.preventDefault();
+				var email   = $form.find('#contact-email').val();
+				var name    = $form.find('#contact-name').val();
+				var message = $form.find('#contact-message').val();
+				var data = {name: name, email: email, message: message};
+
+				$.ajax({
+				    url: "https://formspree.io/nbeers22@gmail.com", 
+				    method: "POST",
+				    data: data,
+				    dataType: "json",
+				    success: function(data){
+				    	$form.css({'display':'none'});
+				    	$('.contact-body').css({'padding':'90px 20px'}).append('<h4>Your message has been sent. We will contact you as soon as possible.</h4>');
+				    },
+				    error: function(a,b,c){
+				    	console.log(a)
+				    	console.log(b)
+				    	console.log(c)
+				    }
+				});
+			});
+
+			// show the mobile menu
 			var mobileMenuVisible = false;
 			$('#primary-menu-trigger').on('click',function(){
 				if (mobileMenuVisible == false) {

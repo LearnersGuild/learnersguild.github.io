@@ -1118,6 +1118,13 @@
 		width: 30px;
 	}
 	/*======END MOBILE MENU/NAV STYLES========*/
+
+	/*=======BEGIN CONTACT US WIDGET==========*/
+	#contact-form {
+		width: 100%;
+		right: 0;
+	}
+	/*========END CONTACT US WIDGET===========*/
 	
 	/*======BEGIN APPLICATION PAGE STYLES=====*/
 	body.application #page-title {
