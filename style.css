@@ -3727,22 +3727,31 @@ body.program #section-apply .section {
 
 /*======Landing Page========*/
 
-.vertical-center {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-}
-
 #passion, #open-source, #no-teachers, #nothing-to-lose, #meet-team, #learners-vs-college, #new-life {
     padding: 50px 0;
 }
 .btn-orange {
     background-color: #fa6f09;
     color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.btn-orange:hover {
+    background-color: blue;
+    color: #fff
 }
 .request-app-btn a.btn {
     font-size: 1.2em;
+}
+body.request #page-title h2 {
+    margin-bottom: 30px;
+}
+body.request #page-title p {
+    font-size: 16px;
 }
 body.request #content p {
     line-height: 1.3em;
@@ -3780,6 +3789,9 @@ body.request .meta p:last-of-type {
 }
 #meet-team img {
     margin-bottom: 20px;
+}
+.under-table, .over-table {
+    font-size: 16px;
 }
 
 /* Table 1 Style */
