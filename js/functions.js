@@ -3345,7 +3345,7 @@ var SEMICOLON = SEMICOLON || {};
 				var data = {name: name, email: email, message: message};
 
 				$.ajax({
-				    url: "https://formspree.io/nbeers22@gmail.com", 
+				    url: "https://formspree.io/info@learnersguild.org", 
 				    method: "POST",
 				    data: data,
 				    dataType: "json",
