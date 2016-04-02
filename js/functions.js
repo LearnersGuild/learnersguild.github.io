@@ -3303,6 +3303,7 @@ var SEMICOLON = SEMICOLON || {};
 				console.log('extras: Bootstrap Popover not defined.');
 			}
 
+			//scroll down to next section from hero
 			$('.down-image').find('img').on('click',function(){
 				if ($(window).width > 767){
 					$('#page-title').next().velocity('scroll',{offset:-60,duration:750});
@@ -3311,7 +3312,7 @@ var SEMICOLON = SEMICOLON || {};
 				}
 			});
 
-			// make table columns even width
+			// make table columns even width on request-application page
 			var $tds  = $('tbody tr:first').find('td');
 			var width = 0;
 
@@ -3322,6 +3323,11 @@ var SEMICOLON = SEMICOLON || {};
 			$('tbody').find('td').each(function(){
 				$(this).css({'width':width / 3});
 			});
+
+			$('#passion').find('.col-sm-6').matchHeight();
+			$('#open-source').find('.col-sm-6').matchHeight();
+			$('#no-teachers').find('.col-sm-6').matchHeight();
+			$('#nothing-to-lose').find('.col-sm-6').matchHeight();
 
 			// show contact form in bottom right corner of site
 			var contactFormVisible = false;

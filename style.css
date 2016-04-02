@@ -3727,6 +3727,13 @@ body.program #section-apply .section {
 
 /*======Landing Page========*/
 
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
 #passion, #open-source, #no-teachers, #nothing-to-lose, #meet-team, #learners-vs-college, #new-life {
     padding: 50px 0;
 }
@@ -3737,14 +3744,32 @@ body.program #section-apply .section {
 .request-app-btn a.btn {
     font-size: 1.2em;
 }
+body.request #content p {
+    line-height: 1.3em;
+}
+body.request p.lead {
+    margin-bottom: 10px;
+}
 body.request .content-wrap {
     padding: 0;
+}
+#open-source .meta {
+    padding-top: 120px;
+}
+#no-teachers .meta {
+    padding-top: 40px;
 }
 #no-teachers, #passion {
     background-color: #fefcf9;
 }
+#nothing-to-lose .meta {
+    padding-top: 40px;
+}
 #meet-team {
     background-color: #fa6f09;
+}
+#meet-team h2 {
+    color: #fff;
 }
 
 /* Table 1 Style */

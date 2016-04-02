@@ -8,6 +8,7 @@ module.exports = function(grunt) {
 					'js/jquery.gmap.js',
 					'js/velocity.min.js',
 					'js/velocity.ui.min.js',
+					'js/jquery.matchHeight-min.js',
 					'js/functions.js'
 				],
 				dest: 'js/app.js'
