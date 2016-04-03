@@ -9,6 +9,8 @@ module.exports = function(grunt) {
 					'js/velocity.min.js',
 					'js/velocity.ui.min.js',
 					'js/jquery.matchHeight-min.js',
+					'js/owl.carousel.min.js',
+					'js/typed.js',
 					'js/functions.js'
 				],
 				dest: 'js/app.js'
@@ -21,6 +23,7 @@ module.exports = function(grunt) {
 					'css/dark.css',
 					'css/hamburgers.min.css',
 					'css/magnific-popup.css',
+					'css/owl.carousel.css',
 					'style.css',
 					'css/responsive.css'
 				],

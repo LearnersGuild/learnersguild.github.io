@@ -3303,6 +3303,21 @@ var SEMICOLON = SEMICOLON || {};
 				console.log('extras: Bootstrap Popover not defined.');
 			}
 
+			//blinking cursor typing on landing page
+			$(".element").typed({
+		        strings: ["Risk Free."],
+		        typeSpeed: 0
+		    });
+
+			// Call the owl carousel
+			$(".owl-carousel").owlCarousel({
+				loop: true,
+				items: 1,
+				autoplayHoverPause: true,
+				// autoplay: true,
+				autoplayTimeout: 5000
+			});
+
 			//scroll down to next section from hero
 			$('.down-image').find('img').on('click',function(){
 				if ($(window).width > 767){
