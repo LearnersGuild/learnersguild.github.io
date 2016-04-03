@@ -1129,9 +1129,6 @@
 	.team-bio:last-of-type {
 		margin-bottom: 0 !important;
 	}
-	.under-table {
-		margin-bottom: 0;
-	}
 	/*====BEGIN MOBILE NAV/MENU STYLES========*/
 	#logo {
 		background-color: rgba(255,255,255,0.9);

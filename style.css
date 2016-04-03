@@ -3799,6 +3799,9 @@ body.request .meta p:last-of-type {
 .under-table, .over-table {
     font-size: 16px;
 }
+.under-table {
+    margin-bottom: 0;
+}
 #new-life {
     padding: 100px 0;
 }
