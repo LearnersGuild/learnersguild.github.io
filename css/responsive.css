@@ -1126,8 +1126,23 @@
 	.team-bio {
 		margin-bottom: 30px !important;
 	}
-	.team-bio:last-of-type {
+	.last-bio {
 		margin-bottom: 0 !important;
+	}
+	body.request #page-title {
+		padding: 40px 0 !important;
+	}
+	body.request #page-title p {
+		font-size: 16px;
+	}
+	#new-life {
+	    padding: 50px 0;
+	    background: -webkit-linear-gradient(rgba(255, 255, 255, .50), rgba(255, 255, 255, .50)), url('images/screen.jpg') !important;
+	    background: -moz-linear-gradient(rgba(255, 255, 255, .50), rgba(255, 255, 255, .50)), url('images/screen.jpg') !important;
+	    background: -o-linear-gradient(rgba(255, 255, 255, .50), rgba(255, 255, 255, .50)), url('images/screen.jpg') !important;
+	    background: linear-gradient(rgba(255, 255, 255, .50), rgba(255, 255, 255, .50)), url('images/screen.jpg') !important;
+	    background-size: cover !important;
+	    background-repeat: no-repeat !important;
 	}
 	/*====BEGIN MOBILE NAV/MENU STYLES========*/
 	#logo {
