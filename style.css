@@ -3727,7 +3727,11 @@ body.program #section-apply .section {
 
 /*======Landing Page========*/
 
-#passion, #open-source, #no-teachers, #nothing-to-lose, #meet-team, #learners-vs-college, #new-life {
+body.request {
+    font-family: Raleway;
+}
+
+#passion, #open-source, #no-teachers, #nothing-to-lose, #meet-team, #learners-vs-college {
     padding: 50px 0;
 }
 .btn-orange {
@@ -3749,9 +3753,11 @@ body.program #section-apply .section {
 }
 body.request #page-title h2 {
     margin-bottom: 30px;
+    color: #000;
 }
 body.request #page-title p {
-    font-size: 16px;
+    font-size: 18px;
+    color: #000;
 }
 body.request #content p {
     line-height: 1.3em;
@@ -3793,10 +3799,19 @@ body.request .meta p:last-of-type {
 .under-table, .over-table {
     font-size: 16px;
 }
+#new-life {
+    padding: 100px 0;
+}
+#new-life h3 {
+    margin-bottom: 0;
+}
+#new-life p {
+    font-size: 16px;
+}
 
 /* Table 1 Style */
 table.table1{
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 16px;
     font-weight: bold;
     line-height: 1.4em;
