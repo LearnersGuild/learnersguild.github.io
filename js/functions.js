@@ -3317,7 +3317,7 @@ var SEMICOLON = SEMICOLON || {};
 				loop: true,
 				items: 1,
 				autoplayHoverPause: true,
-				// autoplay: true,
+				autoplay: true,
 				autoplayTimeout: 5000
 			});
 
