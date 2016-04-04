@@ -1208,12 +1208,16 @@
 	.htmltag {
 		max-width: 60px;
 		padding-top: 10px;
+		margin-bottom: 0;
 	}
 	.college-logo, .learners-logo {
 		max-width: 90px;
 	}
+	.college-logo {
+		margin-bottom: 2px;
+	}
 	.learners-logo {
-		padding-top: 6px;
+		padding-top: 11px;
 	}
 	/*====BEGIN MOBILE NAV/MENU STYLES========*/
 	#logo {
