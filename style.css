@@ -3855,6 +3855,9 @@ body.request .meta p:last-of-type {
 #no-teachers .meta{
     padding-top: 40px;
 }
+#life .meta {
+    padding-top: 120px;
+}
 #passion {
     background-color: #fefcf9;
 }
