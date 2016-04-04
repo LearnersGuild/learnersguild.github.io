@@ -25,7 +25,7 @@
 		padding-top: 25px;
 	}
 	#open-source .meta {
-	    padding-top: 70px;
+	    padding-top: 40px;
 	}
 	#no-teachers .meta, #nothing-to-lose .meta {
 		padding-top: 0;
@@ -1027,7 +1027,7 @@
 	    padding-top: 100px;
 	}
 	#open-source .meta {
-	    padding-top: 20px;
+	    padding-top: 0;
 	}
 	#no-teachers img {
 		padding-top: 60px;
@@ -1076,16 +1076,27 @@
     flex-flow: row wrap;
     justify-content: space-around;
   }
-  td,
   th {
     display: block;
     width: 33.333333333333% !important;
     font-size: 20px;
   }
+  td {
+	font-size: 13px;
+	display: block;
+	width: 33.333333333333% !important;
+  }
+  .dash,.check {
+  	font-size: 22px;
+  }
   th:first-child,
   td:first-child {
     background: #efefef;
     width: 100% !important;
+  }
+  td:first-child {
+  	color: #000;
+  	font-size: 16px;
   }
   th:first-child {
     display: none;
@@ -1137,6 +1148,12 @@
 	#application-form .survey-page .survey-page-button.done-button {
 	    padding: 7px;
 	}
+	section#learners-vs-college div.container {
+		width: 100% !important;
+	}
+	#learners-vs-college .htmltag {
+		width: 45px;
+	}
 	#passion img {
 	    padding-top: 0;
 	    margin-top: 30px;
@@ -1178,6 +1195,16 @@
 	    background: linear-gradient(rgba(255, 255, 255, .50), rgba(255, 255, 255, .50)), url('images/screen.jpg') !important;
 	    background-size: cover !important;
 	    background-repeat: no-repeat !important;
+	}
+	.htmltag {
+		max-width: 60px;
+		padding-top: 10px;
+	}
+	.college-logo, .learners-logo {
+		max-width: 90px;
+	}
+	.learners-logo {
+		padding-top: 6px;
 	}
 	/*====BEGIN MOBILE NAV/MENU STYLES========*/
 	#logo {

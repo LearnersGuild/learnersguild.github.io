@@ -3305,7 +3305,7 @@ var SEMICOLON = SEMICOLON || {};
 
 			//blinking cursor typing on landing page
 			$(".element").typed({
-		        strings: ["Risk Free."],
+		        strings: ["Risk Free.", "Pain Free.", "Debt Free."],
 		        typeSpeed: 0
 		    });
 

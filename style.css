@@ -3731,7 +3731,7 @@ body.request {
     font-family: Raleway;
 }
 
-#passion, #open-source, #no-teachers, #nothing-to-lose, #meet-team, #learners-vs-college, #countdown {
+#passion, #open-source, #no-teachers, #nothing-to-lose, #meet-team, #life, #learners-vs-college, #countdown {
     padding: 50px 0;
 }
 .btn-orange {
@@ -3841,7 +3841,10 @@ body.request .meta p:last-of-type {
     margin-bottom: 0;
 }
 #open-source .meta {
-    padding-top: 120px
+    padding-top: 100px
+}
+#open-source .books {
+    margin-bottom: 20px;
 }
 #no-teachers .meta, #nothing-to-lose .meta{
     padding-top: 40px;
@@ -3862,10 +3865,11 @@ body.request .meta p:last-of-type {
 #meet-team img {
     margin-bottom: 20px;
 }
-.under-table, .over-table {
+.over-table {
     font-size: 16px;
 }
 .under-table {
+    font-size: 20px;
     margin-bottom: 0;
 }
 #new-life {
@@ -3882,19 +3886,38 @@ body.request .meta p:last-of-type {
 table {
   width: 100%;
 }
-
+table .gray {
+    background-color: lightgray;
+}
+table .graybeige {
+    background-color: #f6ebca;
+}
+table .beige {
+    background-color: #f9e4a4;
+}
 td,
 th {
   text-align: center;
   border: solid 1px #ccc;
-  font-size: 22px;
+  font-size: 18px;
   padding: 6px;
   word-wrap: break-word;
 }
 
 td {
-  color: red;
+  color: #000;
   font-weight: bold;
+}
+.dash {
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+}
+.learners-logo {
+    max-width: 182px;
+}
+.college-logo {
+    max-width: 170px;
 }
 
 .check {
@@ -3909,9 +3932,10 @@ td:first-child {
 }
 td:first-child {
     background-color: #0099ff;
+    color: #fff;
 }
 .htmltag {
-    width: 135px;
+    max-width: 90px;
 }
 
 /*======END Landing Page========*/
