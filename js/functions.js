@@ -3305,8 +3305,11 @@ var SEMICOLON = SEMICOLON || {};
 
 			//blinking cursor typing on landing page
 			$(".element").typed({
-		        strings: ["Risk Free.", "Pain Free.", "Debt Free."],
-		        typeSpeed: 0
+		        strings: ["Risk Free.", "Worry Free.", "Debt Free."],
+		        typeSpeed: 100,
+		        backDelay: 1000,
+		        loop: true,
+		        loopCount: false
 		    });
 
 			// Call the owl carousel
