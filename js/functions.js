@@ -3313,13 +3313,13 @@ var SEMICOLON = SEMICOLON || {};
 		    });
 
 			// Call the owl carousel
-			$(".owl-carousel").owlCarousel({
-				loop: true,
-				items: 1,
-				autoplayHoverPause: true,
-				autoplay: true,
-				autoplayTimeout: 5000
-			});
+			// $(".owl-carousel").owlCarousel({
+			// 	loop: true,
+			// 	items: 1,
+			// 	autoplayHoverPause: true,
+			// 	autoplay: true,
+			// 	autoplayTimeout: 5000
+			// });
 
 			//scroll down to next section from hero
 			$('.down-image').find('img').on('click',function(){
