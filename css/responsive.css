@@ -1167,6 +1167,7 @@
 	}
 	body.request .line {
 		margin-bottom: 30px;
+		margin-top: 0;
 	}
 	/*====BEGIN MOBILE NAV/MENU STYLES========*/
 	#logo {
