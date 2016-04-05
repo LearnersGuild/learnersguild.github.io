@@ -3748,6 +3748,15 @@ body.request #section-home .heading-block {
     width: 75%;
     margin: 0 auto;
 }
+body.request #section-home .circle-wrap {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 1px solid #1ABC9C;
+    padding: 6px 13px;
+    margin-bottom: 10px;
+}
 body.request #section-home .owl-dot {
     display: inline-block;
     margin-top: 0;
@@ -3768,6 +3777,12 @@ body.request #animate-in p {
 body.request #animate-in .heading-block h2+span {
     font-size: 20px;
 }
+body.request #mc-embedded-subscribe {
+    background-color: teal;
+}
+body.request #mc-embedded-subscribe:hover {
+    background-color: blue;
+}
 #new-life .heading-block {
     margin-bottom: 0 !important;
 }
@@ -3780,17 +3795,9 @@ body.request #animate-in .heading-block h2+span {
 #new-life .button-border {
     margin-top: 0 !important;
 }
-
-
-
 .under-table {
     font-size: 20px;
     margin-bottom: 0;
-}
-
-.htmltag {
-    max-width: 90px;
-    margin-bottom: 10px;
 }
 
 /*======END Landing Page========*/

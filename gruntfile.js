@@ -11,6 +11,7 @@ module.exports = function(grunt) {
 					'js/jquery.matchHeight-min.js',
 					'js/owl.carousel.min.js',
 					'js/typed.js',
+					'js/remodal.min.js',
 					'js/functions.js'
 				],
 				dest: 'js/app.js'
@@ -24,6 +25,8 @@ module.exports = function(grunt) {
 					'css/hamburgers.min.css',
 					'css/magnific-popup.css',
 					'css/owl.carousel.css',
+					'css/remodal.css',
+					'css/remodal-default-theme.css',
 					'style.css',
 					'css/responsive.css'
 				],
