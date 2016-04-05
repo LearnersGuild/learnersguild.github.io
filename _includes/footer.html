@@ -114,6 +114,9 @@
           <div class="row">
             <div class="col-sm-12">
               <a href="https://learnersguild.workable.com" target="_blank" style="border-bottom: 1px dotted #CCC">We're Hiring. Apply for a career at Learners Guild.</a>
+              {% if page.url == '/request-application.html' %}
+                <p>All images by <a href="www.WOCintech.com">www.WOCintech.com</a>, used and modified under a Creative Commons license.</p>
+              {% endif %}
             </div>
           </div>
         </div>
@@ -206,7 +209,7 @@ ga('send', 'pageview');
     <h4>Contact Us <i class="icon-arrow-up"></i><i class="icon-arrow-down" style="display: none;"></i></h4>
   </div>
   <div class="contact-body">
-    <form action="https://formspree.io/info@learnersguild.org" method="POST">
+    <form action="https://formspree.io/enrollment@learnersguild.org" method="POST">
         <div class="form-group">
           <input id="contact-name" type="text" name="name" placeholder="Name" class="form-control" />
         </div>
