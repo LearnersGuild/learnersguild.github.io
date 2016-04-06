@@ -3312,15 +3312,6 @@ var SEMICOLON = SEMICOLON || {};
 		        loopCount: false
 		    });
 
-			// Call the owl carousel
-			// $(".owl-carousel").owlCarousel({
-			// 	loop: true,
-			// 	items: 1,
-			// 	autoplayHoverPause: true,
-			// 	autoplay: true,
-			// 	autoplayTimeout: 5000
-			// });
-
 			//scroll down to next section from hero
 			$('.down-image').find('img').on('click',function(){
 				if ($(window).width > 767){
@@ -3381,7 +3372,7 @@ var SEMICOLON = SEMICOLON || {};
 				var data = {name: name, email: email, message: message};
 
 				$.ajax({
-				    url: "https://formspree.io/info@learnersguild.org", 
+				    url: "https://formspree.io/enrollment@learnersguild.org", 
 				    method: "POST",
 				    data: data,
 				    dataType: "json",
