@@ -3689,6 +3689,19 @@ body.program #page-title .down-image {
     position: absolute;
     width: 100%
 }
+body.index #section-contact #mc-embedded-subscribe-form input {
+    border: 1px solid #ccc;
+}
+body.index #footer #mc-embedded-subscribe-form input {
+    height: 34px !important;
+}
+body.about #hiring .btn {
+    box-shadow: none;
+}
+body.apply input.hs-input {
+    background-color: #fff !important;
+    margin-bottom: 0 !important;
+}
 body.faq .collapsible {
     box-shadow: 10px 10px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
 }
@@ -3884,9 +3897,11 @@ body.application .smcx-embed>.smcx-iframe-container {
     max-width: 1400px;
     height: 100%
 }
-
+body.apply #start-dates .row, body.apply #start-dates p {
+    margin-bottom: 0;
+}
 section#mission-vision {
-    background-color: #F9F9F9;
+    background-color: #FFF;
     padding: 50px 0
 }
 
@@ -3898,7 +3913,7 @@ section#mission-vision p {
 
 #mission-vision h3 {
     padding-left: 15px;
-    background-color: #F9F9F9
+    background-color: #FFF
 }
 
 section#hiring {
