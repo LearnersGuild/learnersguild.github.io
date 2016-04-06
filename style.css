@@ -3733,6 +3733,7 @@ body.apply #start-dates {
 }
 body.apply #start-dates p {
     font-size: 16px;
+    font-family: Raleway;
 }
 body.apply #start-dates p, body.apply #start-dates h2 {
     color: #fff;
