@@ -3724,6 +3724,23 @@ body.program #content .section-head {
 body.program #section-apply .section {
     margin: 0
 }
+body.apply .content-wrap {
+    padding: 0;
+}
+body.apply #start-dates {
+    background-color: #53777A;
+    padding: 50px 0;
+}
+body.apply #start-dates p {
+    font-size: 16px;
+}
+body.apply #start-dates p, body.apply #start-dates h2 {
+    color: #fff;
+}
+body.apply #start-dates li {
+    color: #fff;
+    font-size: 16px;
+}
 
 /*======Landing Page========*/
 body.request h2, body.request h3 {

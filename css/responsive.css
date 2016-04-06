@@ -1370,11 +1370,7 @@
 		padding-left: 15px;
 	}
 	body.apply #enrollment {
-		background-color: #EFEFEF;
 		padding-bottom: 30px;
-	}
-	body.apply #enrollment h3,body.apply #enrollment h4 {
-		background-color: #EFEFEF;	
 	}
 	body.apply #enrollment .row.center {
 		margin-top: 50px !important;
