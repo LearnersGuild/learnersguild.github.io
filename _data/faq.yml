@@ -1,8 +1,120 @@
-- name: Eric Mill
-  github: konklone
+- question: What's the time commitment? What are the days/hours like?
+  icon: <i class="small material-icons">schedule</i>
+  answer: <p>It's a full time commitment. 8.30 AM to 6.30 PM. Monday through Friday.</p>
 
-- name: Parker Moore
-  github: parkr
+- question: Isn’t "Learning Collective" just a fancy word for "school" or "bootcamp"?
+  icon: <i class="medium material-icons">business</i>
+  answer: |
+          <p>Not to us. We're creating a dynamic learning environment, but we're not creating another school or coding bootcamp. The heart of our program is a cognitive apprenticeship model of learning, vetted by scientists and learning researchers, that is a truly powerful means of knowledge acquisition and skill development.</p>
+          <p>We know a lot about bootcamps. In fact, many of the folks on our team were pioneers of that industry. But we weren’t satisfied with the results. While bootcamps do a decent job at helping students enter the software industry, they don’t do enough to set people up for rapidly advancing careers and longer term success. We want you to have more than a job. We want you to have a dignified livelihood as a software developer.</p>
 
-- name: Liu Fengyun
-  github: liufengyun
+- question: Learners-only? Does that mean there are no teachers?
+  icon: <i class="large material-icons">supervisor_account</i>
+  answer: |
+          <p>Yes. While we certainly have people with in-depth industry experience, senior level engineers, and skilled facilitators, we don’t have teachers. A well-designed learning environment causes a rapid transfer of knowledge between experts and peers. You'll be collaborating every day with people ahead of you in the program, and people who started after you. As you learn, you'll share what you know. At Learners Guild, knowledge spreads like wildfire.</p>
+          <p>Because technology changes so quickly, knowing information isn’t enough. It doesn’t take long for today’s right answers to become obsolete. To prepare you, we focus not only on what you learn, but how you learn it, developing meta-learning and problem-solving skills. Your ability to continue growing and refining your craft will set you up for sustained success as a software developer. Learners Guild graduates are lifelong learners.</p>
+
+- question: What will I learn?
+  icon: <i class="medium material-icons">language</i>
+  answer: |
+          <p>We invest in you to learn as much as you need to attain and sustain a career as a software engineer. To support you, we hire expert practitioners to help you craft the best possible learning path towards your goal.</p>
+          <p>If you're looking for a set curriculum like the one you would find at a school or bootcamp, you won't find it here. We don't believe in a cookie-cutter approach to learning.</p>          
+          <p>Instead, we focus on two things: helping you learn how to learn, and providing a rich environment for you to practice and develop your craft with other motivated learners.</p>          
+          <p>We believe the best answer to "what should I learn?" is "whatever the most skilled people around you know." So if you are surrounded by concert pianists, you're better off studying piano than the violin.</p>          
+          <p>We hire skilled full-stack JavaScript web developers to serve as expert  practitioners and mentors from whom you can learn skills and receive invaluable guidance.</p>          
+          <p>So... will you learn languages like JavaScript? And databases like PostgreSQL and MongoDB? And HTML and CSS and React and git and... The answer is: yes, of course. You certainly will learn these things, and many many more.</p>          
+          <p>More importantly, though, you will learn the habits of mind of an engineer. You will learn how to build products with a team. You will learn how to evaluate your own skills and choose appropriate challenges to help you advance them. You will learn how to mentor other learners, not just because it's a Good Thing To Do, but also because the best way to test your knowledge is to teach it.</p>          
+          <p>Finally, you will learn how to learn. After all, is there any more important skill?</p> 
+
+- question: Do you have an online option?
+  icon: <i class="medium material-icons">offline_pin</i>
+  answer: <p>We don't. The power of our model is in the real-time, face-to-face interactions you'll have with people every day. Research shows that learning in a live, group context is accelerated. You learn more, you learn faster, and your conceptual understanding is deeper.</p>
+
+- question: What about during the holiday season? Do we get time off?
+  icon: <i class="medium material-icons">av_timer</i>
+  answer: <p>We'll take off one week for winter holiday season/new year's, and another week during the summer.</p>
+
+- question: Will we be graded?
+  icon: <i class="medium material-icons">thumbs_up_down</i>
+  answer: |
+          <p>Testing your understanding and skills? Definitely. But grades? No. Grading is a carrot-and-stick approach that assumes you need to be coerced to learn. We’re not here to coerce. We believe in your innate drive to learn and grow, and design our approach around it.</p>
+          <p>We don't care about grades. We care about what you understand and what you can do. We think reality is the ultimate test.</p>
+
+- question: A $1,500/mo living allowance? Really?
+  icon: <i class="medium material-icons">redeem</i>
+  answer: <p>Yes, really. The $1,500 monthly living allowance is intended to help defray your cost of living while you're at Learners Guild. As much as possible, we want you to focus on learning, not earning.<p>
+
+- question: Is the living allowance optional?
+  icon: <i class="medium material-icons">trending_up</i>
+  answer: <p>Yes it is. If you don't need it, you don't have to take it.<p>
+
+- question: What happens if I quit the process before graduating?
+  icon: <i class="medium material-icons">trending_down</i>
+  answer: |
+          <p>It’s in our best interest to see you thrive. If you don't succeed, we don't. We’re very careful to choose applicants who are committed to the process, and if you’re committed to learning, we’re determined to give you all the support you need to finish. In fact, that’s one reason we allow you to take extra time if necessary.</p>
+          <p>That said, if you opt out, you will still owe the full tuition, and any living allowance you’ve received. On a case-by-case basis, we may pause a learner's participation in the program, under extenuating circumstances.</p>
+
+- question: Will I end up with a portfolio?
+  icon: <i class="medium material-icons">perm_media</i>
+  answer: |
+          <p>Yes, you’ll have an excellent opportunity to work on projects that will add to your portfolio. Some projects will be smaller, while others will be larger.</p>
+          <p>We’ve designed our learning environment to focus on teamwork, so most of the projects are done in teams. However, there will be some opportunities to work on individual projects.</p>
+          <p>We hope by the end of your time at Learners Guild, you will be contributing to open source projects (and perhaps even to our own product codebase).</p>
+
+- question: Do I need previous programming experience to apply?
+  icon: <i class="medium material-icons">code</i>
+  answer: |
+          <p>Learners Guild requires that you have at least 50 hours of experience in programming. We do this to ensure that you understand enough about the craft to be committed to it. We expect our community members to be passionate about programming and know enough to want to have a meaningful career as a software developer.</p>
+          <p>If you have fewer than 50 hours of programming experience we recommend you check out these resources and come back to completing your application once you’ve accrued the hours:</p>
+          <ul style="padding-left:15px">
+            <li>Complete "Make a Website", "Make an Interactive Website", and "Learn the Command Line", "Learn SQL", and "JavaScript" tracks on Codecademy: <a href="https://www.codecademy.com/learn/all" target="_blank">https://www.codecademy.com/learn/all</a></li>
+            <li>Complete free Git courses on Code School: <a href="https://www.codeschool.com/learn" target="_blank">https://www.codeschool.com/learn</a></li>
+            <li>Go through the HTML &amp; CSS course on Shay Howe’s site <a href="http://learn.shayhowe.com/html-css/" target="_blank">http://learn.shayhowe.com/html-css/</a></li>
+            <li>Plus as many other projects and tutorials as you like! There are lots of other resources and ideas out there. Follow your interests.</li>
+          </ul>
+
+- question: What does this cost? How does the money work? If you’re investing in me, how do you get paid? 
+  icon: <i class="medium material-icons">done_all</i>
+  answer: |
+          <p>Good questions. The cost of attending Learners Guild is $28,000; however, there are no upfront costs. If a learner takes the maximum of the living allowance, that increases their cost of participation by an additional $15,000, bringing the total to $43,000.</p>
+          <p>Once a learner has transitioned out into the workforce with earnings over $50,000, they will be obligated to initiate the repayment of their tuition and living allowance.</p>
+          <p>Typical starting salaries are $70k to $95k a year. Learners have the option of paying back the loan in installments over a five year period.</p>
+
+- question: Do you help with job placement?
+  icon: <i class="medium material-icons">perm_phone_msg</i>
+  answer: |
+          <p><em>No.</em> We have specifically chosen to not provide job placement services. We made this decision because we want to ensure that <em>you</em> the learner remains our primary client. If we provided job placement services, our attention would be divided between satisfying businesses versus placing our complete focus on satisfying you.</p>
+          <p>We have designed our learning experience around real-life industry ready skills. After six months at Learners Guild, you will have developed a good portfolio of work. Our hope is at that point, you start interviewing for your full-time position.</p>
+          <p>For us, “gaining full-time employment as an engineer” is another skill that you will be developing at Learners Guild. Over your last few months in the program, you will get better and better at this, up to the point where <em>you</em> will be the one deciding where you'll go to further grow your skills.</p>
+
+- question: Do you have a shorter immersion course?
+  icon: <i class="medium material-icons">skip_next</i>
+  answer: <p>Currently, no. While it’s possible to cover the basics in a shorter course, our goal is to have you walk out with a much deeper skillset than “the basics.” If we find a way to streamline our approach and still produce stellar results, we’ll certainly consider it.</p>
+
+- question: Do I need my own computer?
+  icon: <i class="medium material-icons">power_settings_new</i>
+  answer: <p>Nope, we'll provide you with one.</p>
+
+- question: Can I visit your collective to check it out?
+  icon: <i class="medium material-icons">business</i>
+  answer: <p>Not currently. We’re protective of our learners. However, you can meet some of them and our team by showing up at one of our info sessions.</p>
+
+- question: Will I earn a certificate or degree?
+  icon: <i class="medium material-icons">receipt</i>
+  answer: |
+          <p>We're not in the business of giving out certificates or degrees. Our approach is strictly results oriented. There are a lot of people with degrees, but no job to match it. It’s a common mistake to confuse a symbol for learning with the learning itself.</p>
+          <p>Learners Guild turns that around: if you don’t end up in a high-paying job, we don’t get paid. Our focus is on getting you ready for the workforce by helping you develop your skills, which are demonstrated by your ability to create a portfolio of work.</p>
+
+- question: What are the requirements to attend?
+  icon: <i class="medium material-icons">settings_applications</i>
+  answer: <p>Please read the <a href="/program.html#section-eligibility">eligibility requirements</a> section.</p>
+
+- question: Who else is going? What kind of people will I meet?
+  icon: <i class="medium material-icons">perm_identity</i>
+  answer: <p>Other adults like yourself, from a wide range of backgrounds, who share your dedication, passion, and curiosity.</p>
+
+- question: Isn’t this too good to be true?
+  icon: <i class="medium material-icons">perm_scan_wifi</i>
+  answer: |
+          <p>You’ll probably never stop asking this question. (We wish this program existed when we started our careers.) In fact, it’s our goal that you ask this every day you show up and find yourself learning in ways you never thought possible.</p>
+          <p>We want you to ask this 40 weeks later, when you’ve landed a job you didn’t think you could have. And we want you to ask this 5, 10, and 20 years later… when you’re still in touch, and still getting support from the friends you made at Learners Guild.</p>

@@ -6,18 +6,19 @@ module.exports = function(grunt) {
 					'js/jquery.js',
 					'js/plugins.js',
 					'js/jquery.gmap.js',
-					'js/velocity.min.js',
-					'js/velocity.ui.min.js',
 					'js/jquery.matchHeight-min.js',
 					'js/owl.carousel.min.js',
 					'js/typed.js',
 					'js/remodal.min.js',
+					'js/materialize.min.js',
+					'js/velocity.ui.min.js',
 					'js/functions.js'
 				],
 				dest: 'js/app.js'
 			},
 			css: {
 				src: [
+					'css/materialize.min.css',
 					'css/animate.css',
 					'css/bootstrap.css',
 					'css/colors.css',

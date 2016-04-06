@@ -1145,6 +1145,9 @@
 	body.application .smcx-embed {
 	    height: 1900px;
 	}
+	body.faq #section-faqs .container {
+		width: 100% !important;
+	}
 	#application-form .page-subtitle span {
 		font-size: 14px !important;
 	}
