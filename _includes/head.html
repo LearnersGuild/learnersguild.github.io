@@ -50,7 +50,7 @@
   <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="https://brand.learnersguild.org/apple-touch-startup-image-320x460.png">
   <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="https://brand.learnersguild.org/apple-touch-startup-image-640x1096.png">
   <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="https://brand.learnersguild.org/apple-touch-startup-image-640x920.png">
-  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="https://brand.learnersguild.org/apple-touch-startup-image-768x1004.png"
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="https://brand.learnersguild.org/apple-touch-startup-image-768x1004.png">
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% if page.url == "/" %}
@@ -103,7 +103,19 @@ src="https://www.facebook.com/tr?id=769632966504023&ev=PageView&noscript=1"
 
   <!-- Document Title
   ============================================= -->
-  <title>Learners Guild</title>
+  <title>
+    {% if page.url == '/' %}
+      Learners Guild - The Alternative to College for Aspiring Software Developers
+    {% elsif page.url == 'faq.html' %}
+      Learners Guild - Frequently Asked Questions
+    {% elsif page.url == 'apply.html' %}
+      Learners Guild - How to Apply
+    {% elsif page.url == 'program.html' %}
+      Learners Guild - Program Details
+    {% elsif page.url == 'about.html' %}
+      Learners Guild - About Us
+      {% endif %}
+  </title>
 
 
 
