@@ -3303,14 +3303,159 @@ var SEMICOLON = SEMICOLON || {};
 				console.log('extras: Bootstrap Popover not defined.');
 			}
 
-			//blinking cursor typing on landing page
-			$(".element").typed({
-		        strings: ["Risk Free.", "Worry Free.", "Debt Free."],
-		        typeSpeed: 100,
-		        backDelay: 1000,
-		        loop: true,
-		        loopCount: false
-		    });
+			//chart
+			function graphData(){
+				var data1 = {
+				  // A labels array that can contain any sort of values
+				  labels: ['2016', '2017', '2018', '2019', '2020','2021','2022','2023'],
+				  // Our series array that contains series objects or in this case series data arrays
+				  series: [
+				    [1151320,1186220,1221120,1256020,1290920,1325820,1360720,1395620],
+				    [148500,103000,107000,112000,122000,135000,155000,185000],
+				    [0,0,0,0,0,0,0,200000]
+				  ]
+				};
+
+				var options = {
+					lineSmooth: false,
+					showArea:false,
+					axisY: {
+					    // Lets offset the chart a bit from the labels
+					    offset: 60,
+					    // The label interpolation function enables you to modify the values
+					    // used for the labels on each axis. Here we are converting the
+					    // values into million pound.
+
+					    labelInterpolationFnc: function(value) {
+					    	Number.prototype.format = function(n, x) {
+					    	    var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
+					    	    return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&.');
+					    	};
+					    }
+					}
+				};
+
+				// Create a new line chart object where as first parameter we pass in a selector
+				// that is resolving to our chart container element. The Second parameter
+				// is the actual data object.
+				var chart = new Chartist.Line('#chart1', data1,options);
+
+			// Let's put a sequence number aside so we can use it in the event callbacks
+				var seq = 0,
+				  delays = 80,
+				  durations = 500;
+
+				// Once the chart is fully created we reset the sequence
+				chart.on('created', function() {
+				  seq = 0;
+				});
+
+				// On each drawn element by Chartist we use the Chartist.Svg API to trigger SMIL animations
+				chart.on('draw', function(data) {
+				  seq++;
+
+				  if(data.type === 'line') {
+				    // If the drawn element is a line we do a simple opacity fade in. This could also be achieved using CSS3 animations.
+				    data.element.animate({
+				      opacity: {
+				        // The delay when we like to start the animation
+				        begin: seq * delays + 1000,
+				        // Duration of the animation
+				        dur: durations,
+				        // The value where the animation should start
+				        from: 0,
+				        // The value where it should end
+				        to: 1
+				      }
+				    });
+				  } else if(data.type === 'label' && data.axis === 'x') {
+				    data.element.animate({
+				      y: {
+				        begin: seq * delays,
+				        dur: durations,
+				        from: data.y + 100,
+				        to: data.y,
+				        // We can specify an easing function from Chartist.Svg.Easing
+				        easing: 'easeOutQuart'
+				      }
+				    });
+				  } else if(data.type === 'label' && data.axis === 'y') {
+				    data.element.animate({
+				      x: {
+				        begin: seq * delays,
+				        dur: durations,
+				        from: data.x - 100,
+				        to: data.x,
+				        easing: 'easeOutQuart'
+				      }
+				    });
+				  } else if(data.type === 'point') {
+				    data.element.animate({
+				      x1: {
+				        begin: seq * delays,
+				        dur: durations,
+				        from: data.x - 10,
+				        to: data.x,
+				        easing: 'easeOutQuart'
+				      },
+				      x2: {
+				        begin: seq * delays,
+				        dur: durations,
+				        from: data.x - 10,
+				        to: data.x,
+				        easing: 'easeOutQuart'
+				      },
+				      opacity: {
+				        begin: seq * delays,
+				        dur: durations,
+				        from: 0,
+				        to: 1,
+				        easing: 'easeOutQuart'
+				      }
+				    });
+				  } else if(data.type === 'grid') {
+				    // Using data.axis we get x or y which we can use to construct our animation definition objects
+				    var pos1Animation = {
+				      begin: seq * delays,
+				      dur: durations,
+				      from: data[data.axis.units.pos + '1'] - 30,
+				      to: data[data.axis.units.pos + '1'],
+				      easing: 'easeOutQuart'
+				    };
+
+				    var pos2Animation = {
+				      begin: seq * delays,
+				      dur: durations,
+				      from: data[data.axis.units.pos + '2'] - 100,
+				      to: data[data.axis.units.pos + '2'],
+				      easing: 'easeOutQuart'
+				    };
+
+				    var animations = {};
+				    animations[data.axis.units.pos + '1'] = pos1Animation;
+				    animations[data.axis.units.pos + '2'] = pos2Animation;
+				    animations['opacity'] = {
+				      begin: seq * delays,
+				      dur: durations,
+				      from: 0,
+				      to: 1,
+				      easing: 'easeOutQuart'
+				    };
+
+				    data.element.animate(animations);
+				  }
+			});
+
+				chart.on('created', function() {
+				  if(window.__exampleAnimateTimeout) {
+				    clearTimeout(window.__exampleAnimateTimeout);
+				    window.__exampleAnimateTimeout = null;
+				  }
+				  window.__exampleAnimateTimeout = setTimeout(chart.update.bind(chart), 12000);
+				});
+			}
+
+			graphData();
 
 			//scroll down to next section from hero
 			$('.down-image').find('img').on('click',function(){
