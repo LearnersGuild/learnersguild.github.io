@@ -3698,6 +3698,13 @@ body.index #footer #mc-embedded-subscribe-form input {
 body.about #hiring .btn {
     box-shadow: none;
 }
+body.about #hiring p {
+    font-family: Raleway;
+    font-size: 18px;
+}
+body.about #hiring a {
+    font-family: Raleway;
+}
 body.apply input.hs-input {
     background-color: #fff !important;
     margin-bottom: 0 !important;
