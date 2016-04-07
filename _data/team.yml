@@ -1,0 +1,53 @@
+- name: Carla Bagdonas
+  title: Partner
+  twitter:
+  linkedin: https://www.linkedin.com/in/carlabagdonas
+  image: images/team/Carla.jpg
+
+- name: Shereef Bishay
+  title: Founder / Partner
+  twitter: http://twitter.com/shereef
+  linkedin: http://www.linkedin.com/in/shereefbishay
+  image: images/team/Shereef.jpg
+
+- name: Karim Bishay
+  title: Partner
+  twitter:
+  linkedin: http://www.linkedin.com/in/karimbishay
+  image: images/team/Karim.jpg
+
+- name: David Guendelman
+  title: Partner
+  twitter:
+  linkedin: https://www.linkedin.com/in/david-guendelman-47b4653
+  image: images/team/David.jpg
+
+- name: Matthew Lee
+  title: Partner
+  twitter:
+  linkedin: https://www.linkedin.com/in/matthewlee1
+  image: images/team/Matthew.jpg
+
+- name: Omoju Miller
+  title: Partner
+  twitter:
+  linkedin: https://www.linkedin.com/in/omojumiller
+  image: images/team/omoju.jpg
+
+- name: Simon Moyes
+  title: Support Staff
+  twitter:
+  linkedin:
+  image: images/team/Simon.jpg
+
+- name: Tanner Welsh
+  title: Partner
+  twitter: https://www.twitter.com/tannerwelsh
+  linkedin: https://www.linkedin.com/in/tannerwelsh
+  image: images/team/Tanner.jpg
+
+- name: Jeffrey Wescott
+  title: Partner
+  twitter:
+  linkedin: https://www.linkedin.com/in/jeffreywescott
+  image: images/team/Jeffrey.jpg
