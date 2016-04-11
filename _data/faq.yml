@@ -76,9 +76,10 @@
 - question: What does this cost? How does the money work? If you’re investing in me, how do you get paid? 
   icon: <i class="medium material-icons">done_all</i>
   answer: |
-          <p>Good questions. The cost of attending Learners Guild is $28,000; however, there are no upfront costs. If a learner takes the maximum of the living allowance, that increases their cost of participation by an additional $15,000, bringing the total to $43,000.</p>
-          <p>Once a learner has transitioned out into the workforce with earnings over $50,000, they will be obligated to initiate the repayment of their tuition and living allowance.</p>
-          <p>Typical starting salaries are $70k to $95k a year. Learners have the option of paying back the loan in installments over a five year period.</p>
+          <p>Good questions. The cost of attending Learners Guild is $28,000; however, there are no upfront costs. If you take the maximum of the living allowance, that increases your cost of participation by an additional $15,000, bringing the total to $43,000.</p>
+          <p>You’ll pay for your Learners Guild tuition through an Income Sharing Agreement (ISA) for 12% to 25% of your first three years’ salary (depending on the amount of living allowance you take during the program). The typical starting salary for a junior software engineer is $75K to $95K.</p>
+          <p>This means we’re quite literally investing in you: we want you to get an awesome, high-paying job straight out of our program so we can get a reasonable percentage of your income. The better your earnings, the better our earnings.</p>
+          <p>And you’ll never get stuck with debt that you can’t repay. If you don’t earn at least $50,000 as a software engineer, we don’t make a dime. Our success as educators depends upon your success as a professional.</p>
 
 - question: Do you help with job placement?
   icon: <i class="medium material-icons">perm_phone_msg</i>
