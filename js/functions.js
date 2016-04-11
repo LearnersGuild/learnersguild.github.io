@@ -3489,7 +3489,7 @@ var SEMICOLON = SEMICOLON || {};
 				if (contactFormVisible == false) {
 					contactFormVisible = true;
 					$( '#contact-form' ).velocity({
-					    height: "370px"
+					    height: "300px"
 					  }, 750, function() {
 					    // Animation complete.
 						$('#contact-form').find('.icon-arrow-up').css({'display':'none'});
