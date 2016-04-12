@@ -1,3 +1,11 @@
+- question: What does this cost? How does the money work? If you’re investing in me, how do you get paid? 
+  icon: <i class="medium material-icons">done_all</i>
+  answer: |
+          <p>Good Questions. We know it's unusual, but there is no upfront tuition for Learners Guild. As a Public Benefit Corporation, we want to make education accessible to everyone, no matter their ability to pay.</p>
+          <p>You’ll pay for your Learners Guild tuition through an Income Sharing Agreement (ISA) for 12% to 20% of your first three years’ salary (depending on the amount of living allowance you take during the program). The typical starting salary for a junior software engineer is $75K to $95K.</p>
+          <p>This means we’re quite literally investing in you: we want you to get an awesome, high-paying job straight out of our program so we can get a reasonable percentage of your income. The better your earnings, the better our earnings.</p>
+          <p>And you’ll never get stuck with debt that you can’t repay. If you don’t earn at least $50,000 as a software engineer, we don’t make a dime. Our success as educators depends upon your success as a professional.</p>
+
 - question: What's the time commitment? What are the days/hours like?
   icon: <i class="small material-icons">schedule</i>
   answer: <p>It's a full time commitment. 8.30 AM to 6.30 PM. Monday through Friday.</p>
@@ -72,14 +80,6 @@
             <li>Go through the HTML &amp; CSS course on Shay Howe’s site <a href="http://learn.shayhowe.com/html-css/" target="_blank">http://learn.shayhowe.com/html-css/</a></li>
             <li>Plus as many other projects and tutorials as you like! There are lots of other resources and ideas out there. Follow your interests.</li>
           </ul>
-
-- question: What does this cost? How does the money work? If you’re investing in me, how do you get paid? 
-  icon: <i class="medium material-icons">done_all</i>
-  answer: |
-          <p>Good questions. The cost of attending Learners Guild is $28,000; however, there are no upfront costs. If you take the maximum of the living allowance, that increases your cost of participation by an additional $15,000, bringing the total to $43,000.</p>
-          <p>You’ll pay for your Learners Guild tuition through an Income Sharing Agreement (ISA) for 12% to 25% of your first three years’ salary (depending on the amount of living allowance you take during the program). The typical starting salary for a junior software engineer is $75K to $95K.</p>
-          <p>This means we’re quite literally investing in you: we want you to get an awesome, high-paying job straight out of our program so we can get a reasonable percentage of your income. The better your earnings, the better our earnings.</p>
-          <p>And you’ll never get stuck with debt that you can’t repay. If you don’t earn at least $50,000 as a software engineer, we don’t make a dime. Our success as educators depends upon your success as a professional.</p>
 
 - question: Do you help with job placement?
   icon: <i class="medium material-icons">perm_phone_msg</i>

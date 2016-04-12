@@ -3688,6 +3688,11 @@ body.program #page-title .down-image {
     bottom: 40px;
     position: absolute;
     width: 100%
+}body.index #education-risks .col-padding {
+    padding: 0 60px;
+}
+body.index #education-risks .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
 }
 body.index #section-contact #mc-embedded-subscribe-form input {
     border: 1px solid #ccc;
