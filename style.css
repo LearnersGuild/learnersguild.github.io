@@ -3806,7 +3806,9 @@ body.program #content .section-head {
 body.program .content-wrap {
     padding: 80px 0 0;
 }
-
+body.program #side-navigation .sidenav a {
+    cursor: pointer;
+}
 body.program #section-apply .section {
     margin: 0
 }

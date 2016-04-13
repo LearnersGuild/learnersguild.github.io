@@ -11,12 +11,12 @@
   <div class="col_one_third">
 
     <ul class="sidenav">
-      <li class="ui-tabs-active"><a href="#snav-content1"><i class="icon-users"></i>Collective Learning<i class="icon-chevron-right"></i></a></li>
-      <li><a href="#snav-content2"><i class="icon-money"></i>Risk-Free. No Upfront Cost.<i class="icon-chevron-right"></i></a></li>
-      <li><a href="#snav-content3"><i class="icon-adjust"></i>Accessible &amp Inclusive<i class="icon-chevron-right"></i></a></li>
-      <li><a href="#snav-content4"><i class="icon-tint"></i>Cognitive Apprenticeship<i class="icon-chevron-right"></i></a></li>
-      <li><a href="#snav-content5"><i class="icon-time"></i>Balanced Hours<i class="icon-chevron-right"></i></a></li>
-      <li><a href="#snav-content6"><i class="icon-magic"></i>Life Long Learning<i class="icon-chevron-right"></i></a></li>
+      <li class="ui-tabs-active"><a data="#snav-content1"><i class="icon-users"></i>Collective Learning<i class="icon-chevron-right"></i></a></li>
+      <li><a data="#snav-content2"><i class="icon-money"></i>Risk-Free. No Upfront Cost.<i class="icon-chevron-right"></i></a></li>
+      <li><a data="#snav-content3"><i class="icon-adjust"></i>Accessible &amp; Inclusive<i class="icon-chevron-right"></i></a></li>
+      <li><a data="#snav-content4"><i class="icon-tint"></i>Cognitive Apprenticeship<i class="icon-chevron-right"></i></a></li>
+      <li><a data="#snav-content5"><i class="icon-time"></i>Balanced Hours<i class="icon-chevron-right"></i></a></li>
+      <li><a data="#snav-content6"><i class="icon-magic"></i>Life Long Learning<i class="icon-chevron-right"></i></a></li>
     </ul>
 
   </div>
@@ -34,19 +34,19 @@
 
     </div>
 
-    <div id="snav-content2">
+    <div id="snav-content2" style="display:none;">
       <h3>No Upfront Cost. No Debt. No Risk</h3>
       <p class="lead">It's a simple proposition: if you don’t get a high-paying job, we don’t get paid. Period. Bring your dedication and passion, and we will invest in you.</p>
       <p class="lead">If you can’t imagine taking 10 months off of work, we offer an optional $1,500 monthly living allowance to bridge the gap. (We understand. It’s hard to focus on learning if you’re also struggling to cover the bills.) After the program, If you graduate and don’t earn at least a geographically-appropriate salary, you owe us nothing.</p>
     </div>
 
 
-    <div id="snav-content3">
-      <h3>Accessible &amp Inclusive</h3>
+    <div id="snav-content3" style="display:none;">
+      <h3>Accessible &amp; Inclusive</h3>
       <p class="lead">Everyone is welcome at Learners Guild. We especially encourage historically underrepresented groups in software engineering--people of color, women, LGBTQ individuals, persons with disabilities, and veterans--to consider joining us.</p>
     </div>
 
-    <div id="snav-content4">
+    <div id="snav-content4" style="display:none;">
       <h3>Cognitive Apprenticeship</h3>
           <p class="lead">We don't believe in one-size-fits-all learning.</p>
 					<p class="lead">If you're looking for a set curriculum like the one you would find at a school or bootcamp, you won't find it at Learners Guild</p>
@@ -54,13 +54,13 @@
 					<p class="lead">You'll be learning skills and receiving guidance from full-stack JavaScript web developers--some of whom are pioneers in the tech world. And within 10 weeks of the program, <strong>you'll act as a mentor to a newer cohort of learners</strong>, guiding them as they encounter concepts that you've recently mastered.</p>
     </div>
 
-    <div id="snav-content5">
+    <div id="snav-content5" style="display:none;">
       <h3>Balanced Hours. Have a life outside of learning.</h3>
       <p class="lead">We meet every weekday from 8:30am - 6:00pm.</p>
       <p class="lead">You shouldn’t have to sacrifice all of your free time or your family’s well-being while getting an immersive education. At Learners Guild, you’ll have time to spend with your family and friends so you can return the next day refreshed and ready to learn.</p>
     </div>
 
-    <div id="snav-content6">
+    <div id="snav-content6" style="display:none;">
       <h3>Life Long Learning</h3>
       <p class="lead">
         With the help of our expert learning facilitators you will learn not only how to be a great junior engineer but, more importantly, how to be a great learner. We believe a successful career is defined by an open mindset, well-honed collaboration skills, social and emotional intelligence, and an ability to adapt and learn. We know that technologies will keep advancing and changing, so learning how to learn is the most valuable skill for software engineers (and also for life).
@@ -74,9 +74,9 @@
 </div>
 
 <script>
-  $(function() {
-  $( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
-  });
+  // $(function() {
+  // $( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
+  // });
 </script>
 
 </div>

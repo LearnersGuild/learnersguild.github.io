@@ -3291,6 +3291,18 @@ var SEMICOLON = SEMICOLON || {};
 
 		extras: function(){
 
+			// $(function() {
+			// $( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
+			// });
+
+			$('#side-navigation').find('.sidenav').find('li').on('click',function(){
+				var id = $(this).find('a').attr('data');
+				$('#side-navigation').find('.sidenav').find('li').removeClass('ui-tabs-active');
+				$(this).addClass('ui-tabs-active');
+				$('#side-navigation').find('.col_last').find('div').css({'display':'none'});
+				$('#side-navigation').find(id).velocity('transition.fadeIn', {duration:400});
+			});
+
 			if( $().tooltip ) {
 				$('[data-toggle="tooltip"]').tooltip({container: 'body'});
 			} else {
