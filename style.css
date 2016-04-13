@@ -3720,6 +3720,12 @@ body.index .slider-bg {
 body.index #section-expectations {
     padding: 70px 0 50px;
 }
+body.index #our-team a.button:hover {
+    background-color: #232625;
+}
+body.index #our-team a.button:hover div {
+    color: #FFF;
+}
 body.index #section-contact #mc-embedded-subscribe-form input {
     border: 1px solid #ccc;
 }
