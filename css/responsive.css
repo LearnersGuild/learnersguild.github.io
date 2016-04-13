@@ -1148,9 +1148,6 @@
 	#footer .footer-widgets-wrap {
 	    padding: 70px 0 0;
 	}
-	body.index #section-services {
-		height: 1080px !important;
-	}
 	body.index #education-risks .col-padding {
 	    padding: 0 20px;
 	}
