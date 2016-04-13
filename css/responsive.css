@@ -264,6 +264,7 @@
 		margin: 0;
 		box-shadow: none;
 	}
+	.mb30-sm { margin-bottom: 30px !important; }
 
 	#header.full-header .container,
 	.container-fullwidth {
@@ -1134,6 +1135,8 @@
 
 	h4 { font-size: 16px; }
 
+	.mb30-xs { margin-bottom: 30px !important; }
+
 	.one-page-arrow { display: none !important; }
 
 	#top-bar { height: auto; }
@@ -1141,6 +1144,12 @@
 	#top-bar .col_half {
 		width: 100%;
 		margin-bottom: 0 !important;
+	}
+	#footer .footer-widgets-wrap {
+	    padding: 70px 0 0;
+	}
+	body.index #section-services {
+		height: 1080px !important;
 	}
 	body.index #education-risks .col-padding {
 	    padding: 0 20px;
@@ -1150,6 +1159,9 @@
 	}
 	body.index .slider-bg {
 	    height: 700px;
+	}
+	body.index #section-expectations {
+	    padding: 50px 0 0;
 	}
 	body.application .smcx-embed {
 	    height: 1900px;

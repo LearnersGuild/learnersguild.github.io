@@ -3717,6 +3717,9 @@ body.index #oc-slider .meta a {
 body.index .slider-bg {
     height: 600px;
 }
+body.index #section-expectations {
+    padding: 70px 0 50px;
+}
 body.index #section-contact #mc-embedded-subscribe-form input {
     border: 1px solid #ccc;
 }
