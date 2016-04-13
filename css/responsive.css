@@ -1148,6 +1148,9 @@
 	body.index #section-about .line {
 		margin-top: 0;
 	}
+	body.index .slider-bg {
+	    height: 700px;
+	}
 	body.application .smcx-embed {
 	    height: 1900px;
 	}

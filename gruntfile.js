@@ -25,6 +25,7 @@ module.exports = function(grunt) {
 					'css/bootstrap.css',
 					'css/colors.css',
 					'css/dark.css',
+					'css/swiper.css',
 					'css/hamburgers.min.css',
 					'css/magnific-popup.css',
 					'css/owl.carousel.css',

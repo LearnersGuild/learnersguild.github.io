@@ -3694,6 +3694,29 @@ body.program #page-title .down-image {
 body.index #education-risks .owl-theme .owl-dots .owl-dot {
     display: inline-block;
 }
+body.index #oc-slider img {
+    height: 600px;
+}
+body.index #oc-slider .meta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+body.index #oc-slider .meta h2, body.index #oc-slider .meta p {
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+body.index #oc-slider .meta a {
+    border-color: #fff;
+    color: #fff;
+    line-height: 0;
+}
+body.index .slider-bg {
+    height: 600px;
+}
 body.index #section-contact #mc-embedded-subscribe-form input {
     border: 1px solid #ccc;
 }
