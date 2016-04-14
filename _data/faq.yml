@@ -1,4 +1,4 @@
-- question: What does this cost? How does the money work? If you’re investing in me, how do you get paid? 
+- question: What does this cost? How does the money work? If you’re investing in me, how do you get paid?
   icon: <i class="medium material-icons">done_all</i>
   answer: |
           <p>Good Questions. We know it's unusual, but there is no upfront tuition for Learners Guild. As a Public Benefit Corporation, we want to make education accessible to everyone, no matter their ability to pay.</p>
@@ -9,6 +9,31 @@
 - question: What's the time commitment? What are the days/hours like?
   icon: <i class="small material-icons">schedule</i>
   answer: <p>It's a full time commitment. 8.30 AM to 6.30 PM. Monday through Friday.</p>
+
+- question: What's my commitment during the program?
+  icon: <i class="small material-icons">assignment</i>
+  answer: <p>By joining Learners Guild you're committing to spending 10 months, full time, working towards becoming a professional software developer. Showing up every day of the week, 8.30 to 6.30. You are also committed to supporting other people in your learning collective, and helping them succeed.</p>
+
+- question: What about during the holiday season? Do we get time off?
+  icon: <i class="medium material-icons">av_timer</i>
+  answer: <p>We'll take off one week for winter holiday season/new year's, and another week during the summer.</p>
+
+- question: What's my commitment after the program is over?
+  icon: <i class="small material-icons">timer</i>
+  answer: <p>Depending on how much stipend you chose, you're commitment is to pay Learners Guild 12% to 20% of your gross salary for 3 years.<br>We also ask you to dedicate 1 to 2 hours a week for a year to mentor learners that are still going through the program.</p>
+
+- question: What if I already have a degree? Is Learners Guild still for me?
+  icon: <i class="small material-icons">school</i>
+  answer: <p>Absolutely. We designed our program for degree holders and non-degree holders alike. Anyone who wants to be a professional software developer.</p>
+
+- question: Is the income share calculated from my gross or net pay (before or after taxes)?
+  icon: <i class="small material-icons">local_offer</i>
+  answer: <p>Gross pay. Before taxes.</p>
+
+- question: If my salary goes up, does the percentage of my income sharing stay the same?
+  icon: <i class="small material-icons">trending_up</i>
+  answer: <p>Yes. The percentage is fixed. The number of years is fixed (three). Regardless if your salary goes up or down.</p>
+
 
 - question: Isn’t "Learning Collective" just a fancy word for "school" or "bootcamp"?
   icon: <i class="medium material-icons">business</i>
@@ -26,21 +51,25 @@
   icon: <i class="medium material-icons">language</i>
   answer: |
           <p>We invest in you to learn as much as you need to attain and sustain a career as a software engineer. To support you, we hire expert practitioners to help you craft the best possible learning path towards your goal.</p>
-          <p>If you're looking for a set curriculum like the one you would find at a school or bootcamp, you won't find it here. We don't believe in a cookie-cutter approach to learning.</p>          
-          <p>Instead, we focus on two things: helping you learn how to learn, and providing a rich environment for you to practice and develop your craft with other motivated learners.</p>          
-          <p>We believe the best answer to "what should I learn?" is "whatever the most skilled people around you know." So if you are surrounded by concert pianists, you're better off studying piano than the violin.</p>          
-          <p>We hire skilled full-stack JavaScript web developers to serve as expert  practitioners and mentors from whom you can learn skills and receive invaluable guidance.</p>          
-          <p>So... will you learn languages like JavaScript? And databases like PostgreSQL and MongoDB? And HTML and CSS and React and git and... The answer is: yes, of course. You certainly will learn these things, and many many more.</p>          
-          <p>More importantly, though, you will learn the habits of mind of an engineer. You will learn how to build products with a team. You will learn how to evaluate your own skills and choose appropriate challenges to help you advance them. You will learn how to mentor other learners, not just because it's a Good Thing To Do, but also because the best way to test your knowledge is to teach it.</p>          
-          <p>Finally, you will learn how to learn. After all, is there any more important skill?</p> 
+          <p>If you're looking for a set curriculum like the one you would find at a school or bootcamp, you won't find it here. We don't believe in a cookie-cutter approach to learning.</p>
+          <p>Instead, we focus on two things: helping you learn how to learn, and providing a rich environment for you to practice and develop your craft with other motivated learners.</p>
+          <p>We believe the best answer to "what should I learn?" is "whatever the most skilled people around you know." So if you are surrounded by concert pianists, you're better off studying piano than the violin.</p>
+          <p>We hire skilled full-stack JavaScript web developers to serve as expert  practitioners and mentors from whom you can learn skills and receive invaluable guidance.</p>
+          <p>So... will you learn languages like JavaScript? And databases like PostgreSQL and MongoDB? And HTML and CSS and React and git and... The answer is: yes, of course. You certainly will learn these things, and many many more.</p>
+          <p>More importantly, though, you will learn the habits of mind of an engineer. You will learn how to build products with a team. You will learn how to evaluate your own skills and choose appropriate challenges to help you advance them. You will learn how to mentor other learners, not just because it's a Good Thing To Do, but also because the best way to test your knowledge is to teach it.</p>
+          <p>Finally, you will learn how to learn. After all, is there any more important skill?</p>
+
+- question: Where does Learners Guild meet?
+  icon: <i class="small material-icons">offline_pin</i>
+  answer: <p>We have a beautiful office in Old Oakland</p>
+
+- question: I am applying from out of town, can I join the enrollment game remotely?
+  icon: <i class="small material-icons">public</i>
+  answer: <p>No. You need to be in person for that part of the enrollment process.</p>
 
 - question: Do you have an online option?
-  icon: <i class="medium material-icons">offline_pin</i>
+  icon: <i class="medium material-icons">laptop</i>
   answer: <p>We don't. The power of our model is in the real-time, face-to-face interactions you'll have with people every day. Research shows that learning in a live, group context is accelerated. You learn more, you learn faster, and your conceptual understanding is deeper.</p>
-
-- question: What about during the holiday season? Do we get time off?
-  icon: <i class="medium material-icons">av_timer</i>
-  answer: <p>We'll take off one week for winter holiday season/new year's, and another week during the summer.</p>
 
 - question: Will we be graded?
   icon: <i class="medium material-icons">thumbs_up_down</i>
@@ -57,7 +86,7 @@
   answer: <p>Yes it is. If you don't need it, you don't have to take it.<p>
 
 - question: What happens if I quit the process before graduating?
-  icon: <i class="medium material-icons">trending_down</i>
+  icon: <i class="medium material-icons">power_settings_new</i>
   answer: |
           <p>It’s in our best interest to see you thrive. If you don't succeed, we don't. We’re very careful to choose applicants who are committed to the process, and if you’re committed to learning, we’re determined to give you all the support you need to finish. In fact, that’s one reason we allow you to take extra time if necessary.</p>
           <p>That said, if you opt out, you will still owe the full tuition, and any living allowance you’ve received. On a case-by-case basis, we may pause a learner's participation in the program, under extenuating circumstances.</p>
@@ -93,7 +122,7 @@
   answer: <p>Currently, no. While it’s possible to cover the basics in a shorter course, our goal is to have you walk out with a much deeper skillset than “the basics.” If we find a way to streamline our approach and still produce stellar results, we’ll certainly consider it.</p>
 
 - question: Do I need my own computer?
-  icon: <i class="medium material-icons">power_settings_new</i>
+  icon: <i class="medium material-icons">laptop</i>
   answer: <p>Nope, we'll provide you with one.</p>
 
 - question: Can I visit your collective to check it out?
