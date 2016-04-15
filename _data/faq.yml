@@ -47,17 +47,39 @@
           <p>Yes. While we certainly have people with in-depth industry experience, senior level engineers, and skilled facilitators, we don’t have teachers. A well-designed learning environment causes a rapid transfer of knowledge between experts and peers. You'll be collaborating every day with people ahead of you in the program, and people who started after you. As you learn, you'll share what you know. At Learners Guild, knowledge spreads like wildfire.</p>
           <p>Because technology changes so quickly, knowing information isn’t enough. It doesn’t take long for today’s right answers to become obsolete. To prepare you, we focus not only on what you learn, but how you learn it, developing meta-learning and problem-solving skills. Your ability to continue growing and refining your craft will set you up for sustained success as a software developer. Learners Guild graduates are lifelong learners.</p>
 
-- question: What will I learn?
+- question: What will I learn? What technical skills are covered?
   icon: <i class="medium material-icons">language</i>
   answer: |
           <p>We invest in you to learn as much as you need to attain and sustain a career as a software engineer. To support you, we hire expert practitioners to help you craft the best possible learning path towards your goal.</p>
           <p>If you're looking for a set curriculum like the one you would find at a school or bootcamp, you won't find it here. We don't believe in a cookie-cutter approach to learning.</p>
           <p>Instead, we focus on two things: helping you learn how to learn, and providing a rich environment for you to practice and develop your craft with other motivated learners.</p>
           <p>We believe the best answer to "what should I learn?" is "whatever the most skilled people around you know." So if you are surrounded by concert pianists, you're better off studying piano than the violin.</p>
-          <p>We hire skilled full-stack JavaScript web developers to serve as expert  practitioners and mentors from whom you can learn skills and receive invaluable guidance.</p>
+          <p>We hire skilled full-stack JavaScript web developers to serve as expert practitioners and mentors from whom you can learn skills and receive invaluable guidance.</p>
           <p>So... will you learn languages like JavaScript? And databases like PostgreSQL and MongoDB? And HTML and CSS and React and git and... The answer is: yes, of course. You certainly will learn these things, and many many more.</p>
           <p>More importantly, though, you will learn the habits of mind of an engineer. You will learn how to build products with a team. You will learn how to evaluate your own skills and choose appropriate challenges to help you advance them. You will learn how to mentor other learners, not just because it's a Good Thing To Do, but also because the best way to test your knowledge is to teach it.</p>
           <p>Finally, you will learn how to learn. After all, is there any more important skill?</p>
+
+- question: Why JavaScript?
+  icon: <i class="medium material-icons">laptop</i>
+  answer: |
+          <p>There are plenty of great languages out there, and while JavaScript isn't the greatest, it is a solid choice for people starting their careers in software.</p>
+          <p>Why? There are many reasons, the top three being: (1) it is ubiquitous on the web and expanding rapidly to other platforms, so demand for JS developers is unlikely to stop growing anytime soon; (2) the community is robust and there are nearly endless resources for learning; (3) and finally, it is (relatively) simple and straightforward.</p>
+          <p>At Learners Guild, we'll use JavaScript as a <em>lingua franca</em>, but it is by no means the only language that you'll encounter or learn. See the "What will I learn?" question for more.</p>
+
+- question: How will I learn? How will I choose projects or goals?
+  icon: <i class="medium material-icons">settings_applications</i>
+  answer: |
+          <p>As mentioned in the answer to "Learners-only? Does that mean there are no teachers?", there are no teachers telling you what to study. Instead, we've used the principles of <em>cognitive apprenticeship</em> to design a system for effective skills training. Nearly all learning takes place in team projects, much in the way that actual software applications are built.</p>
+          <p>The essence of it is that instead of many people learning only from one person, every learner is learning from other learners and, in turn, passing on their skills and knowledge. There will always be "experts" whom you can go to ask the most difficult questions, but in most cases you will be learning from other, more experienced learners.</p>
+          <p>Because a new cohort joins every 10 weeks, there is always a dynamic range of skills and experience in the room. We help you use this range to your advantage.</p>
+          <p>Our system will help you choose team projects and goals that are both <em>relevant</em> and <em>challenging</em>, so that you're always working with others on interesting problems that push you into your "Proximal Zone of Development". Each team is assigned a more-experienced team lead who guides and supports the project and the team's learning.</p>
+
+- question: What does the mentorship process look like?
+  icon: <i class="medium material-icons">supervisor_account</i>
+  answer: |
+          <p>As mentioned in the "How will I learn?" question, most of the time learners are working on team projects. Each team is assigned a team lead who acts as a guide, sharing and modeling their more advanced skills for the team members to learn from.</p>
+          <p>This process is crucial to our environment. Every learner will start as a team member, but before long they will be leading teams as well. In this way, all learners will not only learn by doing, but also by demonstrating and explaining their skills to others.</p>
+          <p>However, the team environment is not the only environment where mentorship takes place. We are a learning collective, which means that everyone involved is available for support and guidance when you need it. We believe in being generous with knowledge, and that an environment of shared curiosity and open information is the best place to learn.</p>
 
 - question: Where does Learners Guild meet?
   icon: <i class="small material-icons">offline_pin</i>
