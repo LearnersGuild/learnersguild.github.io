@@ -1042,6 +1042,47 @@
 	#nothing-to-lose img {
 		padding-top: 65px;
 	}
+
+	/*====BEGIN MOBILE NAV/MENU STYLES========*/
+	#logo {
+		background-color: rgba(255,255,255,0.9);
+		z-index: 1;
+		height: 75px;
+	}
+	.hamburger-inner {
+		width: 32px;
+		height: 2px;
+		top: 0;
+		left: 8px;
+	}
+	.hamburger-inner:before {
+		width: 32px;
+		height: 2px;
+	}
+	.hamburger-inner:after {
+		width: 32px;
+		height: 2px;
+	}
+	#logo a {
+		right: 30px;
+		position: absolute;
+		top: 50%;
+	    transform: translateY(-50%);
+	}
+	#logo img {
+		height: 60px;
+	}
+	#primary-menu-trigger {
+		z-index: 2;
+		top: 17px;
+	}
+	.dark #header-wrap:not(.not-dark) #primary-menu > ul > li > a {
+		color: #000;
+	}
+	#page-title .down-image img {
+		width: 30px;
+	}
+	/*======END MOBILE MENU/NAV STYLES========*/
 }
 
 
