@@ -3291,9 +3291,19 @@ var SEMICOLON = SEMICOLON || {};
 
 		extras: function(){
 
-			// $(function() {
-			// $( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
-			// });
+			$('#twitter-widget-0').css({
+				'width':'100%'
+			});
+			setTimeout(function(){
+				$('#twitter-widget-0').find('.timeline-Widget').css({
+					'background-color':'#333'
+				});
+
+				$('#twitter-widget-0').find('.timeline-Tweet-text').css({
+					'font-size':'16px'
+				});
+				console.log('waited 4000ms')
+			},4000)
 
 			$('#side-navigation').find('.sidenav').find('li').on('click',function(){
 				var id = $(this).find('a').attr('data');
