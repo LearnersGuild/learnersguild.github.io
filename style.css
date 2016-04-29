@@ -13147,7 +13147,7 @@ button.toast-close-button {
 
 #copyrights {
     padding: 40px 0;
-    background-color: #DDD;
+    background-color: rgba(0,0,0,.9);
     font-size: 14px;
     line-height: 1.8
 }
@@ -13159,12 +13159,20 @@ button.toast-close-button {
     text-align: center;
     margin-right: 3px
 }
-
+#copyrights .tright {
+    color: #444;
+}
+#copyrights .tright i {
+    color: #444;
+}
+.copyright-links {
+    color: #444;
+}
 .copyright-links a {
     display: inline-block;
     margin: 0 3px;
-    color: #333;
-    border-bottom: 1px dotted #444
+    color: #444;
+    border-bottom: 1px dotted #444;
 }
 
 .copyright-links a:hover {
