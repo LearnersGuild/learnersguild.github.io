@@ -3944,7 +3944,7 @@ body.application #application-form {
 body.application .smcx-embed {
     max-width: 1400px;
     border: none;
-    height: 4000px;
+    height: 1500px;
 }
 
 body.application .smcx-embed>.smcx-iframe-container {
