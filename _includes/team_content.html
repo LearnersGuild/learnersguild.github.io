@@ -10,6 +10,11 @@
       <div class="container clearfix">
 
         <div class="clear"></div>
+        <div class="row" style="margin-bottom: 40px">
+          <div class="col-sm-6 col-sm-offset-3">
+            <p class="text-center" style="font-size: 22px;"><em>&ldquo;To find out what one is fitted to do, and to secure an opportunity to do it, is the key to happiness.&rdquo; <br/>~ John Dewey</em></p>
+          </div>
+        </div>
 
         {% include about_videos.html %}
 
@@ -20,9 +25,17 @@
           <article id="mission" class="col-sm-10 col-sm-offset-1">
             <p>The mission of Learners Guild is to provide the opportunity for anyone who has the will and capacity to become a professional software developer to be able to do so.</p>
             <ul style="padding-left:30px;">
-              <li>Today, millions of Americans are unemployed or severely underemployed. At the same time, there are hundreds of thousands of unfilled software engineering jobs, and that number grows every year.</li>
-              <li>The higher education system is failing to address this economic challenge, with rising tuition, poor results, and mounting student debt.</li>
-              <li>The technology industry has a diversity problem: women are largely underrepresented, and blacks and latinos are almost invisible. As a result the future is being built by people who represent a fraction of it.</li>
+              <li class="text-center" style="font-size: 19px">
+                <em>Today, millions of Americans are unemployed or severely underemployed. At the same time, there are hundreds of thousands of unfilled software engineering jobs, and that number grows every year.</em>
+              </li>
+              <p style="margin-bottom: 20px;">&nbsp;</p>
+              <li class="text-center" style="font-size: 19px">
+                <em>The higher education system is failing to address this economic challenge, with rising tuition, poor results, and mounting student debt.</em>
+              </li>
+              <p style="margin-bottom: 20px;">&nbsp;</p>
+              <li class="text-center" style="font-size: 19px">
+                <em>The technology industry has a diversity problem: women are largely underrepresented, and blacks and latinos are almost invisible. As a result the future is being built by people who represent a fraction of it.</em>
+              </li>
             </ul>
             <p>We fulfill our purpose by building a learning community of beginner software developers that is self-organizing, highly scaleable and accessible. Our aim is to support everyone who has the will and capacity to obtain valued employment to do so.</p>
             <p>We build systems that support a thriving learning culture: inclusive, safe, and effective. We invest financial, curricular, and mentoring support in our learning communities. We believe learning is a collective and personal transformation: we provide social and emotional intelligence curricula to facilitate the journey.</p>
@@ -88,13 +101,10 @@
           {% endfor %}
 
         </div> <!-- End Row -->
-
-        <div class="col-sm-6 col-sm-offset-3">
-          <blockquote>&ldquo;To find out what one is fitted to do, and to secure an opportunity to do it, is the key to happiness.&rdquo; ~ John Dewey</blockquote>
-        </div>
-
       </div> <!-- close container -->
     </section>
+
+    {% include apply_faq.html%}
 
   </div>
 
