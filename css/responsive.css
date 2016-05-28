@@ -1829,6 +1829,10 @@
 	#header.full-header .container,
 	.container-fullwidth { width: 310px !important; }
 
+	body.application .container {
+		width: 100% !important;
+	}
+
 	body.application .container {width: 100% important!}
 
 	.container.vertical-middle { width: 100% !important; }
