@@ -1,8 +1,8 @@
 - question: What does this cost? How does the money work? If you’re investing in me, how do you get paid?
   icon: <i class="medium material-icons">done_all</i>
   answer: |
-          <p>Good Questions. We know it's unusual, but there is no upfront tuition for Learners Guild. As a Public Benefit Corporation, we want to make education accessible to everyone, no matter their ability to pay.</p>
-          <p>You’ll pay for your Learners Guild tuition through an Income Sharing Agreement (ISA) for 12% to 20% of your first three years’ salary (depending on the amount of living allowance you take during the program). The typical starting salary for a junior software engineer is $75K to $95K.</p>
+          <p>Good Questions. We know it's unusual, but there is no upfront program fees for Learners Guild. As a Public Benefit Corporation, we want to make education accessible to everyone, no matter their ability to pay.</p>
+          <p>You’ll pay for your Learners Guild program fees through an Income Sharing Agreement (ISA) for 12% to 20% of your first three years’ salary (depending on the amount of living allowance you take during the program). The typical starting salary for a junior software engineer is $75K to $95K.</p>
           <p>This means we’re quite literally investing in you: we want you to get an awesome, high-paying job straight out of our program so we can get a reasonable percentage of your income. The better your earnings, the better our earnings.</p>
           <p>And you’ll never get stuck with debt that you can’t repay. If you don’t earn at least $50,000 as a software engineer, we don’t make a dime. Our success as educators depends upon your success as a professional.</p>
 
@@ -111,7 +111,7 @@
   icon: <i class="medium material-icons">power_settings_new</i>
   answer: |
           <p>It’s in our best interest to see you thrive. If you don't succeed, we don't. We’re very careful to choose applicants who are committed to the process, and if you’re committed to learning, we’re determined to give you all the support you need to finish. In fact, that’s one reason we allow you to take extra time if necessary.</p>
-          <p>That said, if you opt out, you will still owe the full tuition, and any living allowance you’ve received. On a case-by-case basis, we may pause a learner's participation in the program, under extenuating circumstances.</p>
+          <p>That said, if you opt out, you will still owe the full program fees, and any living allowance you’ve received. On a case-by-case basis, we may pause a learner's participation in the program, under extenuating circumstances.</p>
 
 - question: Will I end up with a portfolio?
   icon: <i class="medium material-icons">perm_media</i>
