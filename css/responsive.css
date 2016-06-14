@@ -1167,6 +1167,10 @@
 		margin: 0 auto;
 		padding: 0 15px !important;
 	}
+	body.thankyou h1 {
+	    line-height: 1.1 !important;
+	    font-size: 30px !important;
+	}
 
 	h1 { font-size: 28px; }
 
