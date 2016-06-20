@@ -6,6 +6,14 @@
           <p>This means we’re quite literally investing in you: we want you to get an awesome, high-paying job straight out of our program so we can get a reasonable percentage of your income. The better your earnings, the better our earnings.</p>
           <p>And you’ll never get stuck with debt that you can’t repay. If you don’t earn at least $50,000 as a software engineer, we don’t make a dime. Our success as educators depends upon your success as a professional.</p>
 
+- question: How will I learn? How will I choose projects or goals?
+  icon: <i class="medium material-icons">settings_applications</i>
+  answer: |
+          <p>As mentioned in the answer to "Learners-only? Does that mean there are no teachers?", there are no teachers telling you what to study. Instead, we've used the principles of <em>cognitive apprenticeship</em> to design a system for effective skills training. Nearly all learning takes place in team projects, much in the way that actual software applications are built.</p>
+          <p>The essence of it is that instead of many people learning only from one person, every learner is learning from other learners and, in turn, passing on their skills and knowledge. There will always be "experts" whom you can go to ask the most difficult questions, but in most cases you will be learning from other, more experienced learners.</p>
+          <p>Because a new cohort joins every 10 weeks, there is always a dynamic range of skills and experience in the room. We help you use this range to your advantage.</p>
+          <p>Our system will help you choose team projects and goals that are both <em>relevant</em> and <em>challenging</em>, so that you're always working with others on interesting problems that push you into your "Proximal Zone of Development". Each team is assigned a more-experienced team lead who guides and supports the project and the team's learning.</p>
+
 - question: What's the time commitment? What are the days/hours like?
   icon: <i class="small material-icons">schedule</i>
   answer: <p>It's a full time commitment. 8.30 AM to 6.30 PM. Monday through Friday.</p>
@@ -65,14 +73,6 @@
           <p>There are plenty of great languages out there, and while JavaScript isn't the greatest, it is a solid choice for people starting their careers in software.</p>
           <p>Why? There are many reasons, the top three being: (1) it is ubiquitous on the web and expanding rapidly to other platforms, so demand for JS developers is unlikely to stop growing anytime soon; (2) the community is robust and there are nearly endless resources for learning; (3) and finally, it is (relatively) simple and straightforward.</p>
           <p>At Learners Guild, we'll use JavaScript as a <em>lingua franca</em>, but it is by no means the only language that you'll encounter or learn. See the "What will I learn?" question for more.</p>
-
-- question: How will I learn? How will I choose projects or goals?
-  icon: <i class="medium material-icons">settings_applications</i>
-  answer: |
-          <p>As mentioned in the answer to "Learners-only? Does that mean there are no teachers?", there are no teachers telling you what to study. Instead, we've used the principles of <em>cognitive apprenticeship</em> to design a system for effective skills training. Nearly all learning takes place in team projects, much in the way that actual software applications are built.</p>
-          <p>The essence of it is that instead of many people learning only from one person, every learner is learning from other learners and, in turn, passing on their skills and knowledge. There will always be "experts" whom you can go to ask the most difficult questions, but in most cases you will be learning from other, more experienced learners.</p>
-          <p>Because a new cohort joins every 10 weeks, there is always a dynamic range of skills and experience in the room. We help you use this range to your advantage.</p>
-          <p>Our system will help you choose team projects and goals that are both <em>relevant</em> and <em>challenging</em>, so that you're always working with others on interesting problems that push you into your "Proximal Zone of Development". Each team is assigned a more-experienced team lead who guides and supports the project and the team's learning.</p>
 
 - question: What does the mentorship process look like?
   icon: <i class="medium material-icons">supervisor_account</i>
@@ -170,3 +170,97 @@
   answer: |
           <p>You’ll probably never stop asking this question. (We wish this program existed when we started our careers.) In fact, it’s our goal that you ask this every day you show up and find yourself learning in ways you never thought possible.</p>
           <p>We want you to ask this 40 weeks later, when you’ve landed a job you didn’t think you could have. And we want you to ask this 5, 10, and 20 years later… when you’re still in touch, and still getting support from the friends you made at Learners Guild.</p>
+
+- question: What is an ISA?
+  icon: <i class="medium material-icons">done_all</i>
+  answer: |
+          <p>In general terms, an Income Share Agreement (ISA) is a contractual agreement in which a learner receives program funding in exchange for an agreed upon percentage of post-program income over a defined number of years.</p>
+
+- question: Why is Learners Guild offering ISAs to students?
+  icon: <i class="medium material-icons">settings_applications</i>
+  answer: |
+          <p>Learners Guild is offering ISAs to provide another choice of funding options for learners that could reduce debt and financial risk. For the program fees, this also means that learners can choose to not pay the fees upfront.</p>
+          <p>Learners Guild is focused on administering the ISAs with transparency and openness.</p>
+
+- question: Is the ISA meant to replace student loans?
+  icon: <i class="medium material-icons">schedule</i>
+  answer: <p>The program offers learners an option to pay for the program without incurring debt, so it is explicitly meant to replace student loans with respect to the stipend ISAs. The program fees ISAs offers the learners the choice between paying the $29,750 in program fees upfront, or potentially paying more or less than the $29,750 program fees amount after their participation in the program ends.</p>
+
+- question: What are the benefits to learners?
+  icon: <i class="medium material-icons">assignment</i>
+  answer: <p>The Learners Guild ISAs offer learners an alternative to debt, whether to take on debt for living expenses, or debt to pay the $29,750 program fee.  Debt creates substantial risks to learners if they cannot afford their payments during and after the program, whereas ISA payments adjust according to levels of income. In addition, the ISA payments are subject to a minimum income threshold of $50,000, and a maximum payment cap equal to two (2) times the amount funded, so students who use the program will not pay if they do not meet the minimum income threshold, while those who earn a substantial amount of income will not pay above the maximum amount.</p>
+
+- question: Am I required to fully pay the money that was given to me under the ISA?
+  icon: <i class="medium material-icons">av_timer</i>
+  answer: <p>An ISA recipient is simply required to pay the agreed upon percentage of post-program income for the prescribed term of the contract.  After making successful payments over that term, no additional payments are required even if they have paid less than the amount of funding they received.</p>            
+
+- question: Will the amount I am responsible to repay grow through interest expense until I begin making payments or by my occasional underpayment?
+  icon: <i class="medium material-icons">timer</i>
+  answer: <p>No.  The ISA possesses no interest rate.  The amount you are required to pay (Income Share multiplied by your earned income) will only grow due to the growth rate of the amount of the income you earn, but the income share level percentage will not change during the term of the ISA.</p>
+
+- question: What are the risks to learners?
+  icon: <i class="medium material-icons">school</i>
+  answer: <p>The amount of payment is based on income, so if a learner commits to an ISA and earns a high income after graduation they may pay more than they would have if they had paid for the $29,750 in program fees upfront, had obtained the living allowance amounts from another source, or had obtained conventional debt for either the program fees or the living allowance.  However, the ISAs cap the total amount to be paid, so no student will ever pay more than that amount.</p>
+
+- question: How much funding is available for individual learners?
+  icon: <i class="medium material-icons">local_offer</i>
+  answer: <p>Individual funding amounts will vary depending whether a learner elects to enter into an ISA for the program fees, and/or an ISA for the living allowance.</p>
+
+- question: How will learners know if an ISA is a good option for them?
+  icon: <i class="medium material-icons">trending_up</i>
+  answer: <p>ISAs are among many options that are available for funding, including whether to pay the program fees upfront. Learners should research which options work best for their individual situations.</p>
+
+- question: What types of payment terms will be offered for learners?
+  icon: <i class="medium material-icons">business</i>
+  answer: <p>The term length and percentage are set to be competitive with current consumer finance options.  Depending on the learner’s post-program income, the amount paid back on the ISA may be either lower or higher than the funding amount for the student.</p>
+
+- question: Following the end of a learner’s participation in the program, when does the ISA payment plan take effect?
+  icon: <i class="medium material-icons">supervisor_account</i>
+  answer: <p>Students are afforded a three-month grace period after their withdrawal from or completion of participation in the Learners Guild program before payments are required.</p>
+
+- question: Will learners be required or steered toward certain types of employment?
+  icon: <i class="medium material-icons">language</i>
+  answer: <p>There are no requirements stipulating the nature or type of employment that learners choose after the program.</p>  
+
+- question: Will learners be required or steered toward certain types of employment?
+  icon: <i class="medium material-icons">laptop</i>
+  answer: |
+          <p>Which learners will be eligible to apply for an ISA?</p>
+          <p>Other eligibility requirements include:</p>
+          <ul>
+          <li>US citizen or Permanent Resident</li>
+          <li>Age of majority (18yrs+) at time of contract execution</li>
+          <li>Current and anticipated financial obligations at a reasonable threshold</li>
+          </ul>
+
+- question: What factors should learners consider when deciding whether to accept the stipend and/or pay the program fees upfront, or to apply for the ISAs or other financing options?
+  icon: <i class="medium material-icons">supervisor_account</i>
+  answer: <p>A learner's decision about whether to accept the living allowance, whether to pay the program fees upfront, or to financing all or a part of their living expenses or the program fees should include an assessment of all of the options available based on their individual financial situation.  Learners Guild encourages all learners to consult with trusted advisors and consider how an ISA compares to other financing options. </p>
+
+- question: How can Learners Guild learners apply for an ISA or get more information?
+  icon: <i class="medium material-icons">offline_pin</i>
+  answer: <p>It is recommended that interested learners discuss ISAs with a financial aid advisor, parents and/or guardians before deciding if an ISA is a possible funding solution for them.  The application process for Learners Guild is on a rolling basis and new programs start every 10 weeks.  If you have questions about the application process, please contact enrollment@learnersguild.org.</p>
+
+- question: What happens if I transfer or go to grad school?
+  icon: <i class="medium material-icons">public</i>
+  answer: <p>If you elect to attend school after your time in the Learners Guild program in lieu of working, your ISA will toll or be paused (similar to in-school deferment) and not be in a payment status for up to an additional seven (7) years.  Your ISA payment term will be extended by the amount of time you are in school.</p>
+
+- question: Does the ISA cover the entire program?
+  icon: <i class="medium material-icons">redeem</i>
+  answer: <p>You can elect to have your ISAs cover the program fees, your living allowance, or both.  In all cases, it will cover what you select for the entire duration of the program.</p>
+
+- question: How much funding is available for the living allowance?
+  icon: <i class="medium material-icons">receipt</i>
+  answer: <p>Learners are able to elect to enter into an ISA for up to $1,500/month in living allowance.  This $1,500/month equates to $346.15/week, so over the 40-week period of the program a learner can receive up to $13.846. Payments for the living allowance are made every 2 weeks, in advance, starting on the second Friday of the program.</p>
+
+- question: What if I take time off to travel or start a family?
+  icon: <i class="medium material-icons">perm_phone_msg</i>
+  answer: <p>If you voluntarily leave the work-force, your ISA will be paused and not be in payment status for up to an additional seven (7) years.  Your ISA payment term will be extended by the amount of time you take off.  However, your income share percentage and the maximum amount of your payment will not change because of this pause.</p>
+
+- question: What happens if I leave the Learners Guild program shortly after I start?
+  icon: <i class="medium material-icons">perm_scan_wifi</i>
+  answer: <p>If you leave the program during the first 21 days, the ISAs for the stipend and/or the program fees will be cancelled and you will not owe any amounts under the ISAs. If you leave the program after the first 21 days your ISAs will be pro-rated according to our refund policy set forth in the learners guild enrollment agreement.</p>
+
+- question: What documents do I have to sign for the ISAs?
+  icon: <i class="medium material-icons">perm_identity</i>
+  answer: <p>You will execute an ISA or ISAs with a subsidiary of Learners Guild. Also, you should be aware that another company, Vemo (www.vemo.com), will be responsible administering the ISAs and collecting payments. Vemo is a pioneer in ISAs, and has worked extensively with Learners Guild to make them available to learners.</p>
