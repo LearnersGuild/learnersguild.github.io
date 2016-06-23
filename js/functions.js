@@ -3295,7 +3295,7 @@ var SEMICOLON = SEMICOLON || {};
 				$('a.button').on("click",function(){
 					setTimeout(function(){
 						$('input.hs-button').on('click',function(){
-							fbq('track', "RequestApplication");
+							fbq('trackCustom', "RequestApplication");
 							console.log('pixel fired');
 						});
 					},1000)
