@@ -3301,22 +3301,22 @@ var SEMICOLON = SEMICOLON || {};
 					},1000)
 				});
 			}
-			
 
 
 			$('#twitter-widget-0').css({
 				'width':'100%'
 			});
 			setTimeout(function(){
-				$('#twitter-widget-0').find('.timeline-Widget').css({
-					'background-color':'#333'
-				});
-
-				$('#twitter-widget-0').find('.timeline-Tweet-text').css({
-					'font-size':'16px'
-				});
+				if($('body').hasClass('apply')){
+					$('input.hs-button').on('click',function(){
+						fbq('trackCustom', "RequestApplication");
+						console.log('pixel fired');
+					});
+					console.log('hello');
+				}
+				console.log('hello outside of if statement')
 				console.log('waited 4000ms')
-			},4000)
+			},1000)
 
 			$('.btn-apply').on('click',function(e){
 				e.preventDefault();
