@@ -3312,10 +3312,7 @@ var SEMICOLON = SEMICOLON || {};
 						fbq('trackCustom', "RequestApplication");
 						console.log('pixel fired');
 					});
-					console.log('hello');
 				}
-				console.log('hello outside of if statement')
-				console.log('waited 4000ms')
 			},1000)
 
 			$('.btn-apply').on('click',function(e){
