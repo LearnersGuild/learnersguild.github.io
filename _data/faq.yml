@@ -18,6 +18,10 @@
   icon: <i class="small material-icons">schedule</i>
   answer: <p>It's a full time commitment. 8.30 AM to 6.30 PM. Monday through Friday.</p>
 
+- question: Will you introduce me to employers after the program ends?
+  icon: <i class="small material-icons">trending_up</i>
+  answer: <p>Learners Guild partners with <a href="https://www.launchcode.org/">LaunchCode</a>, a non-profit organization that creates pathways to economic opportunity and upward mobility through apprenticeships and job placement in technology. LaunchCode has developed relationships with hundreds of employers ranging from Fortune 500 companies to small tech startups.  After 28 weeks in our program, we encourage you to <a href="https://www.launchcode.org/apply">apply</a> to LaunchCode as you begin your pathway to employment. Launchcode has an online evaluation tool to assess your readiness for their program which places qualified candidates either directly in permanent positions, or in paid apprenticeships with its partner companies. These paid apprenticeships last an average of 3 months, and 90% of LaunchCode apprentices are hired as full time employees. Begin the application process <a href="https://www.launchcode.org/apply">here</a>.</p>
+
 - question: What's my commitment during the program?
   icon: <i class="small material-icons">assignment</i>
   answer: <p>By joining Learners Guild you're committing to spending 40 weeks, full time, working towards becoming a professional software developer. Showing up every day of the week, 8.30 to 6.30. You are also committed to supporting other people in your learning collective, and helping them succeed.</p>
