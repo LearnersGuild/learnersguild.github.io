@@ -149,7 +149,8 @@
 
 - question: Do I need my own computer?
   icon: <i class="medium material-icons">laptop</i>
-  answer: <p>Nope, we'll provide you with one.</p>
+  answer: <p>No. If you need a computer for the program, you'll have the option to request a modified living stipend so that you can receive additional funds to purchase one in the first month of the program. <strong>Note that this choice will increase the repayment percentage for your living stipend ISA.</strong></p>
+          <p>That said, you're welcome to use your own laptop, as long as it's a Mac. Everyone at Learners Guild uses a Mac computer, so it will be easier for you to collaborate with your team if you are all using the same platform.</p>
 
 - question: Can I visit your collective to check it out?
   icon: <i class="medium material-icons">business</i>
