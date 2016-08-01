@@ -3291,15 +3291,22 @@ var SEMICOLON = SEMICOLON || {};
 
 		extras: function(){
 
+
 			if($('body').hasClass('request')){
 				$('a.button').on("click",function(){
 					setTimeout(function(){
 						$('input.hs-button').on('click',function(){
 							fbq('trackCustom', "RequestApplication");
 							console.log('pixel fired');
+							$('form.hs-form').on('submit',function(){
+								goog_report_conversion();
+								console.log('google pixel fired');
+							});
 						});
 					},1000)
 				});
+
+
 			}
 
 
