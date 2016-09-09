@@ -1198,6 +1198,9 @@
 	.request-video-slider .emphasis-title h1 {
 		font-size: 30px !important;
 	}
+	body.request #quote p.mb0 {
+		font-size: 16px !important;
+	}
 
 	#section-home .container {
 		width: 100% !important;

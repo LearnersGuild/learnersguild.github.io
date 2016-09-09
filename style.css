@@ -3874,11 +3874,26 @@ body.apply #start-dates li {
 }
 
 /*======Landing Page========*/
+.mb0 {
+    margin-bottom: 0 !important;
+}
 body.request h2, body.request h3 {
     line-height: 1.2;
 }
 body.request .content-wrap {
     padding: 0;
+}
+body.request .quote-container {
+    border: 1px solid #CCC;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #CCC;
+}
+body.request #quote {
+    padding-bottom: 80px;
+}
+body.request #quote a {
+    color: #444;
 }
 body.request .emphasis-title {
     margin: 0 0 20px;
