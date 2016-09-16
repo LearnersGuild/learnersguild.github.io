@@ -155,8 +155,6 @@
     
     {% for member in site.data.team %}
 
-      {% if member.name != "Simon Moyes" %}
-
         <div class="col-md-3 col-sm-6 bottommargin">
           <div class="team">
             <div class="team-image">
@@ -165,7 +163,6 @@
             <div class="team-desc">
               <div class="team-title">
                 <h4>{{member.name}} </h4><span>{{member.title}}</span></div>
-                <p class="bio" style="margin-bottom: 10px;">{{member.bio}}</p>
 
                 {% if member.twitter %}
                   <a href="{{member.twitter}}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
@@ -183,13 +180,11 @@
           </div>
         </div>
         
-        {% if forloop.index == 9 %}
+        {% if forloop.index == 11 %}
           </div>
         {% elsif forloop.index == 4 %}
           </div><div class="row">
         {% endif %}
-
-      {% endif %}
 
     {% endfor %}
 

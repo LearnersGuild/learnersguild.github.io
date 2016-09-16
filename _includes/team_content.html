@@ -73,30 +73,36 @@
 
           {% for member in site.data.team %}
 
-          <div class="col-md-4 col-sm-6 bottommargin">
-            <div class="team">
-              <div class="team-image">
-                <img src="{{member.image}}" alt="{{member.name}}">
-              </div>
-              <div class="team-desc">
-                <div class="team-title">
-                  <h4>{{member.name}} </h4><span>{{member.title}}</span></div>
+              <div class="col-md-3 col-sm-6 bottommargin">
+                <div class="team">
+                  <div class="team-image">
+                    <img src="{{member.image}}" alt="{{member.name}}">
+                  </div>
+                  <div class="team-desc">
+                    <div class="team-title">
+                      <h4>{{member.name}} </h4><span>{{member.title}}</span></div>
 
-                  {% if member.twitter %}
-                    <a href="{{member.twitter}}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                      <i class="icon-twitter"></i>
-                      <i class="icon-twitter"></i>
-                    </a>
-                  {% endif %}
-                  {% if member.linkedin %}
-                    <a href="{{member.linkedin}}" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-                      <i class="icon-linkedin"></i>
-                      <i class="icon-linkedin"></i>
-                    </a>
-                  {% endif %}
+                      {% if member.twitter %}
+                        <a href="{{member.twitter}}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+                          <i class="icon-twitter"></i>
+                          <i class="icon-twitter"></i>
+                        </a>
+                      {% endif %}
+                      {% if member.linkedin %}
+                        <a href="{{member.linkedin}}" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+                          <i class="icon-linkedin"></i>
+                          <i class="icon-linkedin"></i>
+                        </a>
+                      {% endif %}
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+              
+              {% if forloop.index == 11 %}
+                </div>
+              {% elsif forloop.index == 4 %}
+                </div><div class="row">
+              {% endif %}
 
           {% endfor %}
 

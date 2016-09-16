@@ -3748,6 +3748,9 @@ body.index #footer #mc-embedded-subscribe-form input {
 body.about #hiring .btn {
     box-shadow: none;
 }
+body.about #our-team .col-md-4 {
+    height: 331px;
+}
 body.about #hiring p {
     font-family: Raleway;
     font-size: 18px;

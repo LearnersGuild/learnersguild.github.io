@@ -1,55 +1,75 @@
 - name: Carla Bagdonas
-  title: Partner
+  title: Learning Facilitator
   twitter:
   linkedin: https://www.linkedin.com/in/carlabagdonas
-  image: images/team/Carla.jpg
+  image: images/team/carla.jpg
   bio: Learning facilitator and curriculum developer with Interchange Institute.
 
 - name: Shereef Bishay
-  title: Founder / Partner
+  title: Founder
   twitter: http://twitter.com/shereef
   linkedin: http://www.linkedin.com/in/shereefbishay
-  image: images/team/Shereef.jpg
+  image: images/team/shereef.jpg
   bio: Founding Partner; Founder of Dev Bootcamp, Former Senior Software Developer - Microsoft
 
 - name: Karim Bishay
-  title: Partner
+  title: Head of Enrollment & GTD Coach
   twitter:
   linkedin: http://www.linkedin.com/in/karimbishay
-  image: images/team/Karim.jpg
+  image: images/team/karim.jpg
   bio: Holacracy evangelist and teaching facilitator at Dev Bootcamp
 
 - name: David Guendelman
-  title: Partner
+  title: CFO
   twitter:
   linkedin: https://www.linkedin.com/in/david-guendelman-47b4653
-  image: images/team/David.jpg
+  image: images/team/david.jpg
   bio: CFO for several social entrepreneurship ventures.
 
-- name: Omoju Miller
-  title: Partner
+- name: NeEddra James
+  title: Learning Facilitator
   twitter:
-  linkedin: https://www.linkedin.com/in/omojumiller
-  image: images/team/omoju.jpg
-  bio: Former tech portfolio manager at Google; PhD in Computer Sciences from UC Berkeley
+  linkedin: https://www.linkedin.com/in/njamesobc
+  image: images/team/needdra.jpg
 
-- name: Simon Moyes
-  title: Support Staff
+- name: Trevor Little
+  title: Software Engineer
   twitter:
-  linkedin:
-  image: images/team/Simon.jpg
+  linkedin: https://www.linkedin.com/in/trevorlittle
+  image: images/team/trevor.jpg
+  bio:
+
+- name: Sabra Pratt
+  title: Software Engineer
+  twitter:
+  linkedin: https://www.linkedin.com/in/sabrapratt
+  image: images/team/Sabra.jpg
   bio: 
 
+- name: John Roberts
+  title: Professional Player
+  twitter:
+  linkedin: https://www.linkedin.com/in/jrob8577
+  image: images/team/john.jpg
+  bio:
+
+- name: Jared Grippe
+  title: Professional Player
+  twitter:
+  linkedin: https://www.linkedin.com/in/deadlyicon
+  image: images/team/jared.jpg
+  bio:
+
 - name: Tanner Welsh
-  title: Partner
+  title: Software Engineer
   twitter: https://www.twitter.com/tannerwelsh
   linkedin: https://www.linkedin.com/in/tannerwelsh
-  image: images/team/Tanner.jpg
+  image: images/team/tanner.jpg
   bio: Co-founder of Dev Bootcamp NYC &amp; student of the School of Life
 
 - name: Jeffrey Wescott
-  title: Partner
+  title: CTO
   twitter:
   linkedin: https://www.linkedin.com/in/jeffreywescott
-  image: images/team/Jeffrey.jpg
+  image: images/team/jeffrey.jpg
   bio: Serial Entrepreneur, Former VP of Product &amp; Engineering- change.org
