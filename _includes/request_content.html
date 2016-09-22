@@ -198,87 +198,51 @@
 			</div>
 		</section>
 
-		<section id="meet-team">
-			<div class="container clearfix">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="fancy-title title-border title-center">
-							<h3>Meet Your Learning Team</h3>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-4" style="margin-bottom:20px;">
-						<div class="team">
-							<div class="team-image">
-								<img src="images/team/Shereef.jpg" alt="Shereef Bishay">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Shereef Bishay</h4><span>Founding Partner</span></div>
-								<div class="team-bio">Founding Partner; Founder of Dev Bootcamp, Former Senior Software Developer - Microsoft</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4" style="margin-bottom:20px;">
-						<div class="team">
-							<div class="team-image">
-								<img src="images/team/Carla.jpg" alt="Carla Bagdonas">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Carla Bagdonas</h4><span>Partner</span></div>
-								<div class="team-bio">Learning facilitator and curriculum developer with Interchange Institute.</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4" style="margin-bottom:20px;">
-						<div class="team">
-							<div class="team-image">
-								<img src="images/team/Karim.jpg" alt="Karim Bishay">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Karim Bishay</h4><span>Partner</span></div>
-								<div class="team-bio">Holacracy evangelist and teaching facilitator at Dev Bootcamp</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-4" style="margin-bottom:20px;">
-						<div class="team">
-							<div class="team-image">
-								<img src="images/team/David.jpg" alt="David Guendelman">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>David Guendelman</h4><span>Partner</span></div>
-								<div class="team-bio">CFO for several social entrepreneurship ventures.</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4" style="margin-bottom:20px;">
-						<div class="team">
-							<div class="team-image">
-								<img src="images/team/Tanner.jpg" alt="Tanner Welsh">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Tanner Welsh</h4><span>Partner</span></div>
-								<div class="team-bio">Co-founder of Dev Bootcamp NYC &amp; student of the School of Life</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4" style="margin-bottom:20px;">
-						<div class="team">
-							<div class="team-image">
-								<img src="images/team/Jeffrey.jpg" alt="Jeffrey Wescott">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Jeffrey Wescott</h4><span>Partner</span></div>
-								<div class="team-bio">Serial Entrepreneur, Former VP of Product &amp; Engineering- change.org</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="line"></div>
-			</div>
+		<section id="our-team">
+		  <div class="container clearfix">
+		    <div class="row">
+
+		      <div class="fancy-title title-border text-center">
+		        <h3>MEET THE TEAM</h3>
+		      </div>
+
+		      {% for member in site.data.team %}
+
+		          <div class="col-md-3 col-sm-6 bottommargin">
+		            <div class="team">
+		              <div class="team-image">
+		                <img src="{{member.image}}" alt="{{member.name}}">
+		              </div>
+		              <div class="team-desc">
+		                <div class="team-title">
+		                  <h4>{{member.name}} </h4><span>{{member.title}}</span></div>
+
+		                  {% if member.twitter %}
+		                    <a href="{{member.twitter}}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+		                      <i class="icon-twitter"></i>
+		                      <i class="icon-twitter"></i>
+		                    </a>
+		                  {% endif %}
+		                  {% if member.linkedin %}
+		                    <a href="{{member.linkedin}}" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+		                      <i class="icon-linkedin"></i>
+		                      <i class="icon-linkedin"></i>
+		                    </a>
+		                  {% endif %}
+		              </div>
+		            </div>
+		          </div>
+		          
+		          {% if forloop.index == 11 %}
+		            </div>
+		          {% elsif forloop.index == 4 %}
+		            </div><div class="row">
+		          {% endif %}
+
+		      {% endfor %}
+
+		    </div> <!-- End Row -->
+		  </div> <!-- close container -->
 		</section>
 
 		{% include college-comp.html %}
