@@ -1331,8 +1331,11 @@
 
 	/*=======BEGIN CONTACT US WIDGET==========*/
 	#contact-form {
-		width: 100%;
-		right: 0;
+		width: 75%;
+		left: 0;
+	}
+	#contact-form i {
+		top: -1px;
 	}
 	/*========END CONTACT US WIDGET===========*/
 	

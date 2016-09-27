@@ -13125,7 +13125,7 @@ button.toast-close-button {
     position: fixed;
     z-index: 99999999;
     bottom: 0;
-    right: 20px;
+    left: 20px;
     width: 300px;
     height: 42px;
     padding: 5px;
