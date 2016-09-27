@@ -1333,6 +1333,7 @@
 	#contact-form {
 		width: 75%;
 		left: 0;
+		display: none;
 	}
 	#contact-form i {
 		top: -1px;
