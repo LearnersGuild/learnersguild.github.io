@@ -1181,6 +1181,9 @@
 	body { padding: 0 !important; }
 
 	#wrapper { width: 100% !important; }
+	body.request .learner-logo {
+		margin-bottom: 30px;
+	}
 
 	.container-fullwidth {
 		margin: 0 auto;
@@ -1891,6 +1894,10 @@
 	.container-fullwidth { width: 310px !important; }
 
 	body.application .container {
+		width: 100% !important;
+	}
+
+	body.request #slider .container {
 		width: 100% !important;
 	}
 
