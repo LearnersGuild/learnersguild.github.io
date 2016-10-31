@@ -227,10 +227,9 @@
   icon: <i class="medium material-icons">language</i>
   answer: <p>There are no requirements stipulating the nature or type of employment that learners choose after the program.</p>  
 
-- question: Will learners be required or steered toward certain types of employment?
+- question: Which learners will be eligible to apply for an ISA?
   icon: <i class="medium material-icons">laptop</i>
   answer: |
-          <p>Which learners will be eligible to apply for an ISA?</p>
           <p>Other eligibility requirements include:</p>
           <ul>
           <li>US citizen or Permanent Resident</li>
