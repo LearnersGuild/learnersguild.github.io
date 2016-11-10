@@ -8,7 +8,6 @@ module.exports = function(grunt) {
 					'js/jquery.gmap.js',
 					'js/jquery.matchHeight-min.js',
 					'js/owl.carousel.min.js',
-					'js/chartist.min.js',
 					'js/typed.js',
 					'js/remodal.min.js',
 					'js/materialize.min.js',
@@ -20,7 +19,6 @@ module.exports = function(grunt) {
 			css: {
 				src: [
 					'css/materialize.min.css',
-					'css/chartist.min.css',
 					'css/animate.css',
 					'css/bootstrap.css',
 					'css/colors.css',

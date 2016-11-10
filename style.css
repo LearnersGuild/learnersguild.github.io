@@ -3692,6 +3692,14 @@ body.privacy li, body.terms li {
     list-style-type: circle;
 }
 
+body.self_assessment1 .owl-carousel1 {
+    padding-top: 50px;
+    background-color: #eee;
+}
+body.self_assessment1 .owl-dots {
+    display: none !important;
+}
+
 body.about #page-title .down-image,
 body.request #page-title .down-image,
 body.application #page-title .down-image,

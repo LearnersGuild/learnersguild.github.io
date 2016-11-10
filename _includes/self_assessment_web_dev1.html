@@ -1,0 +1,299 @@
+<style>
+  .owl-theme .owl-controls .owl-nav  {
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+  }
+  .owl-carousel1 .owl-controls .owl-prev {
+    width: 230px !important;
+    margin-left: 30%;
+    display: block !important;
+    bottom: 144px;
+    position: static !important;
+    padding: 0 !important;
+    float: left;
+    border-radius: 0 !important;
+  }
+  .owl-carousel1 .owl-controls .owl-next {
+    width: 230px !important;
+    border-radius: 0 !important;
+    float: right;
+    position: static !important;
+    margin-right: 30%;
+    padding: 0 !important;
+  }
+</style>
+
+<section class="content">
+  <div id="web-development-exercise" class="container clearfix">
+    <div class="row clearfix">
+      <div class="col-sm-12">
+        <h3 class="nobottommargin text-center">Exercise 1: Web Development</h3>
+      </div>
+    </div>
+
+    <div id="side-navigation" class="row clearfix">
+      <div class="col_one_third">
+        <ul class="sidenav">
+          <li class="ui-tabs-active"><a data="#snav-content1">Intro: make a color picker<i class="icon-chevron-right"></i></a></li>
+          <li><a data="#snav-content2">Step 1: more buttons!<i class="icon-chevron-right"></i></a></li>
+          <li><a data="#snav-content3">Step 2: change text color<i class="icon-chevron-right"></i></a></li>
+          <li><a data="#snav-content4">Step 3: choose a harmonious palette<i class="icon-chevron-right"></i></a></li>
+          <li><a data="#snav-content5">Wrap up: how'd you do?<i class="icon-chevron-right"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="col_two_third col_last">
+        <div id="snav-content1">
+          <!-- <h3>Exercise intro</h3> -->
+          <p class="lead">A color picker is a simple UI (User Interface) tool that allows a user to choose from a list of colors. It is used in lots of software where users can select different colors.</p>
+          <p class="lead">For example, say you are designing a blog editor. You will likely want to let users choose the colors of things like their blog header, background, and text. A color picker is a user-friendly way to edit things like this.</p>
+          <p class="lead">In this exercise, you'll build a web page with a color picker that, when clicked, changes the background color of the page. <strong>Use the editor below to complete the steps of this exercise.</strong></p>
+        </div>
+
+        <div id="snav-content2" style="display:none;">
+          <!-- <h3>Step 1: more buttons!</h3> -->
+          <p class="lead">3 colors are nice, but not quite enough. It'd be better to have more colors available.</p>
+          <ul>
+            <li class="lead"><i class="icon-check"></i> Create a button for each color of the rainbow</li>
+            <li class="lead"><i class="icon-check"></i> Make each button change the background color of the page to the corresponding color</li>
+          </ul>
+          <p class="lead"><em>Hint: you can find a list of the CSS color keywords in the <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">Mozilla Developer Network documentation for CSS</a>.</em></p>
+        </div>
+
+        <div id="snav-content3" style="display:none;">
+          <!-- <h3>Step 2: change text color</h3> -->
+          <p class="lead">Usually, more than just the background can be changed.</p>
+          <p class="lead">To make this page a bit more interesting, let's allow users to change the color of the text on the page as well.</p>
+          <ul>
+            <li class="lead"><i class="icon-check"></i> Add at least one text element to the page with some sample text (e.g. <code>&lt;h1&gt;My Page&lt;/h1&gt;</code>)</li>
+            <li class="lead"><i class="icon-check"></i> Create a new color palette to manage the color of the text</li>
+            <li class="lead"><i class="icon-check"></i> Make each button in the text color palette change the color of the text on the page to the corresponding color</li>
+          </ul>
+          <p class="lead"><em>Hint: to change the color of text, use the <code>color</code> attribute in CSS.</em></p>
+        </div>
+
+        <div id="snav-content4" style="display:none;">
+          <!-- <h3>Step 3: choose a harmonious palette</h3> -->
+          <p class="lead">The rainbow is a nice range of colors, but it isn't very unique.</p>
+          <p class="lead">It'd be nicer if the colors in the palette were more complimentary - they should look good together, so the text looks nicer on the background.</p>
+          <ul>
+            <li class="lead"><i class="icon-check"></i> Create a new color palette with a set of complimentary colors (there are lots of free options online - just search "color palette generator")</li>
+            <li class="lead"><i class="icon-check"></i> Replace each button from the old palette with a new button using the complimentary palette</li>
+          </ul>
+          <p class="lead"><em>Hint: you'll likely need to use the hex value of these colors. Learn more about how to use colors in HTML and CSS with <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Color">the MDN guide on color</a>.</em></p>
+        </div>
+
+        <div id="snav-content5" style="display:none;">
+          <p class="lead">Congratulations, you finished. High five!</p>
+          <p class="lead">So, how'd you do? Was it difficult?</p>
+          <p class="lead">If you were able to complete all the steps of this exercise in less than 45 minutes with no outside help (except for Google, of course), you’re <strong>very likely skilled enough</strong> in web developement to start Learners Guild.</p>
+          <p class="lead">If you were <em>not</em> able to complete the exercise, or if you found it exceedingly difficult, then you are probably not quite ready to join Learners Guild. Use some of the resources listed above to strenthen your web development skills.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row clearfix">
+      <div class="col-sm-12">
+        <p data-height="300" data-theme-id="dark" data-slug-hash="dpzzmZ" data-default-tab="js,result" data-user="learnersguild" data-embed-version="2" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/learnersguild/pen/dpzzmZ/">Color Picker</a> by Learners Guild (<a href="http://codepen.io/learnersguild">@learnersguild</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="owl-carousel1">
+    <div class="item">
+      <div class="container clearfix">
+        <div class="row clearfix">
+          <div class="col-sm-12">
+            <h3 class="text-center">Puzzle 1: Encoding, decoding, and pattern recognition</h3>
+          </div>
+          <div class="col_two_third">
+            <p class="lead">The code for the word &quot;BIRD&quot; is <code>CJSE</code>.
+              <br>The code for the word &quot;COUNTRY&quot; is <code>DPVOUSZ</code>.
+              <br>The code for the word &quot;HOT&quot; is <code>IPU</code>.</p>
+            <p class="lead"><em>What is the code for &quot;SAMBA&quot;?</em></p>
+            <ol>
+              <li class="lead"><code>TZLBZ</code></li>
+              <li class="lead"><code>TBNCB</code></li>
+              <li class="lead"><code>FNZON</code></li>
+              <li class="lead"><code>TBMCD</code></li>
+              <li class="lead"><code>RZLAZ</code></li>
+            </ol>
+            <p class="lead"><em>What word does the code <code>BXFTPNF</code> represent?</em></p>
+            <p class="lead">Write down your answer so you can review later.</p>
+
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container clearfix">
+        <div class="row clearfix">
+          <div class="col-sm-12">
+            <h3 class="text-center">Puzzle 2: Sequence evaluation</h3>
+          </div>
+          <div class="col_two_third">
+            <p class="lead">You control the triangle in the grid graph pictured here. Your objective is to collect all of the gold stars by moving the triangle over them.</p>
+            <p class="lead">You can send it 3 kinds of commands: MOVE will make it more forward one square, TURNL will make it turn left, and TURNR will make it turn right.</p>
+            <p class="lead"><em>Which of the following sequences of commands will make the triangle cross over <strong>every</strong> gold star?</em></p>
+            <ol>
+              <li class="lead">TURNR, 4x MOVE, TURNL, 3x MOVE, TURNL, 7x MOVE, TURNR, 4x MOVE</li>
+              <li class="lead">7x MOVE, TURNL, 2x MOVE, TURNL, 3x MOVE, TURNL, 6x MOVE, TURNR, 3x MOVE</li>
+              <li class="lead">3x MOVE, TURNL, 2x MOVE, TURNR, 4x MOVE, TURNR, 5x MOVE, TURNR, 6x MOVE, TURNL, 1x MOVE</li>
+              <li class="lead">7x MOVE, TURNL, 2x MOVE, TURNL, 4x MOVE, TURNL, 6x MOVE, TURNR, 2x MOVE</li>
+            </ol>
+        
+            <hr>
+          </div>
+          <div class="col_one_third col_last">
+            <img src="images/grid-exercise.png" alt="Grid for sequence evaluation exercise" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container clearfix">
+        <div class="row clearfix">
+          <div class="col-sm-12">
+            <h3 class="text-center">Puzzle 3: Conditionals and logical reasoning</h3>
+          </div>
+          <div class="col_two_third">
+            <p class="lead">A grocery store uses stickers to categorize and label their goods according to the rules listed here.</p>
+            <p class="lead">Read the rules and then answer the questions.</p>
+            <p class="lead"><em>What would the sticker look like for an imported organic banana that can be purchased with food stamps, but is not on sale?</em></p>
+            <ol>
+              <li class="lead">Green square with <code>#i</code> on the label</li>
+              <li class="lead">Green circle with <code>#i</code> on the label</li>
+              <li class="lead">Blue circle with <code>#L</code> on the label</li>
+              <li class="lead">Green circle with <code>I</code> on the label</li>
+            </ol>
+            <p class="lead"><em>What kind of sticker would you use for conventional salmon raised locally that are on sale and available for purchase with food stamps?</em></p>
+            <p class="lead">Write down your answer so you can review later.</p>
+        
+            <hr>
+          </div>
+        
+          <div class="col_one_third col_last">
+            <ul class="list-group">
+              <li class="list-group-item"><strong>Rules for labeling grocery items:</strong></li>
+              <li class="list-group-item">For fresh produce (fruits and vegetables), the stickers are circular. For meat, fish, and poultry, the stickers are square. For all other products, the stickers are diamond-shaped.</li>
+              <li class="list-group-item">The stickers for organic food are green; for conventional food they are blue.</li>
+              <li class="list-group-item">Items that are available for purchase with food stamps have a <code>#</code> printed on their stickers.</li>
+              <li class="list-group-item">If the food was produced locally, the sticker will have an <code>l</code>. If it was produced in another state in the US, it will have the letter <code>u</code>. Imported items are demarcated by an <code>i</code> on the sticker.</li>
+              <li class="list-group-item">If the item is on sale, all letters on the sticker will be printed in uppercase.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container clearfix">
+        <div class="row clearfix">
+          <div class="col-sm-12">
+            <h3 class="text-center">Puzzle 4: Keeping track of and manipulating values</h3>
+          </div>
+          <div class="col_two_third">
+            <p class="lead">Use the table to solve the following problem.</p>
+            <p class="lead">Follow these instructions:</p>
+            <ul>
+              <li class="lead">Add B2 to D3. Put the result in E1.</li>
+              <li class="lead">Multiply A4 by C3. Put the result in E2.</li>
+              <li class="lead">Subtract D2 from E1. Replace E1 with the result.</li>
+            </ul>
+            <p class="lead"><em>What is the sum of E1 and E2?</em></p>
+            <ol>
+              <li class="lead">20</li>
+              <li class="lead">17</li>
+              <li class="lead">4</li>
+              <li class="lead">24</li>
+            </ol>
+          </div>
+        
+          <div class="col_one_third col_last">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th style="text-align:center"></th>
+                  <th style="text-align:center">A</th>
+                  <th style="text-align:center">B</th>
+                  <th style="text-align:center">C</th>
+                  <th style="text-align:center">D</th>
+                  <th style="text-align:center">E</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><strong>1</strong></td>
+                  <td style="text-align:center">5</td>
+                  <td style="text-align:center">9</td>
+                  <td style="text-align:center">2</td>
+                  <td style="text-align:center">7</td>
+                  <td style="text-align:center"></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center"><strong>2</strong></td>
+                  <td style="text-align:center">2</td>
+                  <td style="text-align:center">3</td>
+                  <td style="text-align:center">4</td>
+                  <td style="text-align:center">1</td>
+                  <td style="text-align:center"></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center"><strong>3</strong></td>
+                  <td style="text-align:center">3</td>
+                  <td style="text-align:center">7</td>
+                  <td style="text-align:center">2</td>
+                  <td style="text-align:center">6</td>
+                  <td style="text-align:center">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align:center"><strong>4</strong></td>
+                  <td style="text-align:center">6</td>
+                  <td style="text-align:center">1</td>
+                  <td style="text-align:center">5</td>
+                  <td style="text-align:center">6</td>
+                  <td style="text-align:center">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container clearfix">
+        <div class="row clearfix">
+          <div class="col-sm-12 center">
+            <p class="lead">
+              You're all done! Use the answer key below to determine your computational thinking score.
+            </p>
+            <p class="lead">
+              If you are ready for Learners Guild, use the button below to submit an application.
+            </p>
+            <a href="https://www.surveymonkey.com/r/learners-guild-application" target="_blank" class="button button-desc button-border button-rounded">
+              <div>
+                Go to Application
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="row clearfix">
+          <hr>
+          <div class="col-sm-12">
+            <h4>Answer Key</h4>
+            <p>Puzzle 1 (Encoding and decoding): 2, &quot;AWESOME&quot;
+              <br>Puzzle 2 (Sequence evaluation): 3 or 4
+              <br>Puzzle 3 (Conditionals and logical reasoning): 2, &quot;blue square with <code>#L</code>&quot;
+              <br>Puzzle 4 (Manipulating and storing values): 1
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+

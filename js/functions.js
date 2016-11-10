@@ -3305,9 +3305,22 @@ var SEMICOLON = SEMICOLON || {};
 						});
 					},1000)
 				});
-
-
 			}
+
+			$('.owl-carousel1').owlCarousel({
+			    loop:false,
+			    margin:10,
+			    nav:true,
+			    items:1,
+			    navText: [
+		          "<i class='icon-chevron-left icon-white'></i> &nbsp;&nbsp;Previous Exercise",
+		          "Next Exercise &nbsp;&nbsp;<i class='icon-chevron-right icon-white'></i>"
+		        ]
+			});
+
+			$('.owl-carousel1').find('.owl-prev,.owl-next').on('click',function(){
+				$('.owl-carousel1').velocity('scroll',{offset:-25});
+			});
 
 
 			$('#twitter-widget-0').css({
