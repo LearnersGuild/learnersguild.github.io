@@ -3313,10 +3313,28 @@ var SEMICOLON = SEMICOLON || {};
 			    nav:true,
 			    items:1,
 			    navText: [
-		          "<i class='icon-chevron-left icon-white'></i> &nbsp;&nbsp;Previous Exercise",
-		          "Next Exercise &nbsp;&nbsp;<i class='icon-chevron-right icon-white'></i>"
+		          "<i class='icon-chevron-left icon-white'></i> &nbsp;&nbsp;Previous",
+		          "Next &nbsp;&nbsp;<i class='icon-chevron-right icon-white'></i>"
 		        ]
 			});
+			
+			function disablePrevious(){
+				var itemArray = $('.owl-carousel1').find('.owl-item');
+				if(itemArray.first().hasClass('active')){
+					$('.owl-prev').addClass('disabled')
+				} else {
+					$('.owl-prev').removeClass('disabled');
+				}
+				if(itemArray.last().hasClass('active')){
+					$('.owl-next').addClass('disabled')
+				} else {
+					$('.owl-next').removeClass('disabled')
+				}
+			}
+			disablePrevious();
+			$('.owl-carousel1').on('translated.owl.carousel', function (event) { 
+             	disablePrevious(); 
+            });
 
 			$('.owl-carousel1').find('.owl-prev,.owl-next').on('click',function(){
 				$('.owl-carousel1').velocity('scroll',{offset:-25});

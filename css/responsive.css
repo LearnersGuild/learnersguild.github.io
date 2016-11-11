@@ -36,6 +36,9 @@
 	#life .meta {
 	    padding-top: 90px;
 	}
+	.owl-theme .owl-controls .owl-nav [class*=owl-] {
+	  width: 195px !important;
+	}
 }
 
 @media(max-width: 1025px){
@@ -1093,6 +1096,9 @@
 		width: 30px;
 	}
 	/*======END MOBILE MENU/NAV STYLES========*/
+	.owl-theme .owl-controls .owl-nav [class*=owl-] {
+      width: 175px !important;
+    }
 }
 
 
@@ -1740,6 +1746,19 @@
 	#copyrights .footer-logo {
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.owl-carousel1 {
+	  padding-bottom: 100px;
+	}
+	.owl-carousel1 .owl-controls .owl-prev {
+	  margin-left: 10%;
+	}
+	.owl-theme .owl-controls .owl-nav [class*=owl-] {
+	  width: 130px !important;
+	}
+	body.self_assessment .ready-btn {
+	  padding: 10px;
+	  font-size: 16px;
 	}
 
 }

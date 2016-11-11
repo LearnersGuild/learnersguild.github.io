@@ -14843,3 +14843,59 @@ body:not(.no-transition) #wrapper {
     margin: 0!important;
     padding: 0!important
 }
+#self-assessment {
+  padding-bottom: 0;
+}
+.owl-theme .owl-controls .owl-nav  {
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+}
+.owl-carousel1 .owl-controls .owl-prev {
+  margin-left: 30%;
+  display: block !important;
+  bottom: 144px;
+  float: left;
+}
+.owl-carousel1 .owl-controls .owl-next {
+  border-radius: 0 !important;
+  float: right;
+  position: static !important;
+  margin-right: 30%;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-] {
+  background-color: transparent;
+  background-color: transparent;
+  color: #333;
+  line-height: 36px;
+  font-weight: 500;
+  transition: all 0.25s ease-in-out;
+  padding: 7px 0 45px !important;
+  border: 2px solid #444;
+  border-radius: 0 !important;
+  position: static;
+  width: 230px !important;;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+  background-color: #444 !important;
+  color: #FFF !important;
+}
+.owl-carousel1 .owl-nav i {
+  font-size: 14px;
+}
+body.self_assessment .modal-dialog{
+  margin: 0;
+  width: 100%;
+}
+body.self_assessment .ready-btn {
+  background-color: transparent;
+  border: 3px solid #444;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-bottom: 50px;
+  color: #444;
+}
+body.self_assessment .ready-btn:hover {
+  color: #fff;
+  background-color: #444
+}
