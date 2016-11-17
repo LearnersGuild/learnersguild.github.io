@@ -3,6 +3,11 @@ layout: landing_page
 blah: request request2
 ---
 
+<script type="text/javascript">
+  // Redirect to new landing page, passing along the query string
+  window.location = 'http://enroll.learnersguild.org' + window.location.search + window.location.hash;
+</script>
+
 {% include request_title.html %}
 
 

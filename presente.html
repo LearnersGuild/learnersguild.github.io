@@ -3,6 +3,11 @@ layout: landing_page
 blah: request request2
 ---
 
+<script type="text/javascript">
+  // Redirect to new landing page, passing along the query string
+  window.location = 'http://enroll.learnersguild.org/presente' + window.location.search + window.location.hash;
+</script>
+
 {% include presente_title.html %}
 
 
@@ -11,7 +16,7 @@ blah: request request2
 <section id="content">
     <div class="content-wrap">
 
-        {% include presente_content.html %}        
+        {% include presente_content.html %}
 
     </div>
 </section><!-- #content end -->
