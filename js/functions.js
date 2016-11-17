@@ -3322,11 +3322,6 @@ var SEMICOLON = SEMICOLON || {};
 				}
 			},1000)
 
-			$('.btn-apply').on('click',function(e){
-				e.preventDefault();
-				$('#page-title').velocity('scroll');
-			});
-
 			$('#side-navigation').find('.sidenav').find('li').on('click',function(){
 				var id = $(this).find('a').attr('data');
 				$('#side-navigation').find('.sidenav').find('li').removeClass('ui-tabs-active');
