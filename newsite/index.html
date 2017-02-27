@@ -196,10 +196,23 @@ top:0px;
 		body{
 		margin-top:48px;
 		}
+		
+		.mbutton1:active .menu1, .mbutton1:hover .menu1, .menu1:hover .menu1{
+		display:inline !important;
+		}
+	
 	</style>
 	
-	<div class="newheader"> <img src="newres/headerleft.png" style="text-align:left;"/><img src="newres/headerbg1.png" style="text-align:center;"/>
+	<div class="newheader"> <img class="mbutton1" src="newres/headerleft.png" style="text-align:left;"/><img src="newres/headerbg1.png" style="text-align:center;"/>
 		<div style="text-align:right; font-family:'Proxima'; border-radius:20px;border:2px solid #ee255b;">APPLY NOW</div>
+		<div class="menu1" style="display:none; position:fixed;top:48px;left:0px;">
+			<p>HOME</p>
+			<p>THE GUILD</p>
+			<p>COMMUNITY</p>
+			<p>OUTCOMES</p>
+			<p>ABOUT</p>
+		</div>
+	
 	</div>
 	
 	
