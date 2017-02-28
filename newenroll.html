@@ -1,859 +1,121 @@
-<!DOCTYPE html>
-<html style="" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths no-retina no-android no-amazonsilk no-mac no-webkit no-opera no-msie no-msie11 no-winphone8 no-safari no-safari5 no-isboxversion isdesktop no-istablet no-isphone firefox csspositionsticky no-screenshot-mode wf-vcsm-n4-active wf-vcsm-n7-active wf-vcsm-n3-active wf-vcsm-n8-active wf-active page-loaded"><head>
-	
-	<style>
-		@media (max-width: 800px) {
-			*{width:100% !important;}	
-			
-		}
-		
-	</style>
-	
-	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+<head>
 
-	<meta name="viewport" id="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=10.0,minimal-ui">
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<!--<meta name="apple-mobile-web-app-status-bar-style" content="black">-->
-	<meta name="apple-mobile-web-app-title" content="Learners Guild Landing Page">
+<link href="https://fonts.googleapis.com/css?family=Bevan|Raleway" rel="stylesheet">
 
-	
 
-	
-<script src="Learners%20Guild%20Landing%20Page_files/nr-998.js"></script><script async="" src="Learners%20Guild%20Landing%20Page_files/prum.js"></script><script async="" src="Learners%20Guild%20Landing%20Page_files/fbds.js"></script><script type="text/javascript" id="www-widgetapi-script" src="Learners%20Guild%20Landing%20Page_files/www-widgetapi.js" async=""></script><script type="text/javascript">
-window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);
-;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"059a74c0d6",applicationID:"39278274",sa:1}
-</script>
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+@font-face {
+    font-family: Stag;
+    src: url("newres/Stag-Black.otf") format("opentype");
+}
+@font-face {
+    font-family: StagLight;
+    src: url("newres/Stag-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: Proxima;
+    src: url("newres/proxima.otf") format("opentype");
+}
 
 	
-		
-		 <link rel="next" href="http://learnersguild.store-y.com/2/" class=""> 
-		<link rel="canonical" href="http://learnersguild.store-y.com/" class="">
+	.block1, .block3{
+background-image:url('newres/aboutbg1.png');
+background-size:100% auto;
+color:white;
+min-height:600px;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
 	
-
-
-	 <meta content="955357184504374" property="fb:app_id">
-	 <meta content="website" property="og:type">
-	 <meta content="http://learnersguild.store-y.com/" property="og:url">
-	 <meta content="summary_large_image" name="twitter:card">
-	 <meta content="!" name="fragment">
-	 <meta content="Learners Guild Landing Page" property="og:site_name">
-	 <meta content="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/screenshot-8c000a30-e3fe-11e6-aaa4-2d2f48e69e7d_readyscr_1024.jpg" property="og:image">
-	 <meta content="Learners Guild Landing Page" property="og:title">
 	
-
+	.b1{
+background:#ee255b;
+border-radius:40px;
+width:140px;
+padding:10px;
+margin:40px;
+color:white;
+text-align:center;
+margin:auto;
+}
 	
-		<link href="https://plus.google.com/105502199532525442597" rel="publisher" class="">
 	
-
-	<title>Learners Guild Landing Page</title>
-
-
-
-
-	
-
-
-	<script type="text/javascript">
-		window.isdesktop = true;
-		window.istablet = false;
-		window.isphone = false;
-
-		window.isboxversion = false;
-
-		
-
-		if (document.domain) document.domain = document.domain;
-		window.ServerData = {"mags":{"mag":{"_id":"588a4f67d0c4226fd7daa632","num_id":650314,"typekit_url":"https:\x2F\x2Fuse.typekit.net\x2Fik\x2FWjkPKRA2q0n7qTbPN4ueV3XJszF_r1swyL-iAPsCybJfe0Cgf4aebgJ5wQMuFD9hFmvhFQMDwQb-c3BCZABkdcmkShiu-AUqO1FXda48OWq0jhNlOeuoO148jAsodAB1OcFzdPUkZABqpAuyZkoRdhXCScmyZY8ljAS0deNRjA3CiaiaOcU8jW40ZW4DZamTdeb0SaszSc9lpPoRdhXCiaiaOcuoO148jAsodAB1OcFzdPUaiaS0ScmyZY8ljAS0jhNlOYiaikokZABqpAuyZkoCdhFydfJIicFDdPG4fHvgIMMjgfMgH6qJK3IbMg6YJMI7fbRKHyMMeMw6MPG4fHqgIMMjffMgqMYc171Igb.js","pages_count":6,"edit_params":{"_id":"58b1d0a23acdec5b7a7ab36d","link_styles":[{"hover-u-offset":"inherit","hover-u-size":"inherit","hover-u-opacity":"inherit","hover-u-color":"inherit","hover-u-style":"none","hover-opacity":"inherit","hover-color":"inherit","u-offset":0,"u-size":1,"u-opacity":100,"u-color":"0078ff","u-style":"solid","opacity":100,"color":"0078ff","_sort":0,"_name":"link-1","_caption":"Default\x20Link\x20Style"}],"paragraph_styles":[{"padding-left":0,"padding-bottom":0,"padding-right":0,"padding-top":0,"vertical-align":"baseline","text-transform":"none","text-decoration":"none","text-align":"start","line-height":60,"letter-spacing":0,"font-weight":700,"font-style":"normal","font-size":48,"font-family":"Nobel","opacity":100,"color":"222222","_sort":0,"_name":"paragraph-1","_caption":"H1"},{"padding-left":0,"padding-bottom":0,"padding-right":0,"padding-top":0,"vertical-align":"baseline","text-transform":"none","text-decoration":"none","text-align":"start","line-height":30,"letter-spacing":0,"font-weight":400,"font-style":"normal","font-size":24,"font-family":"Georgia","opacity":100,"color":"222222","_sort":1,"_name":"paragraph-2","_caption":"H2"},{"padding-left":0,"padding-bottom":0,"padding-right":0,"padding-top":0,"vertical-align":"baseline","text-transform":"none","text-decoration":"none","text-align":"start","line-height":23,"letter-spacing":0,"font-weight":400,"font-style":"normal","font-size":18,"font-family":"Georgia","opacity":100,"color":"222222","_sort":2,"_name":"paragraph-3","_caption":"Text"},{"padding-left":0,"padding-bottom":0,"padding-right":0,"padding-top":0,"vertical-align":"baseline","text-transform":"none","text-decoration":"none","text-align":"start","line-height":18,"letter-spacing":0,"font-weight":400,"font-style":"italic","font-size":14,"font-family":"Georgia","opacity":50,"color":"222222","_sort":3,"_name":"paragraph-4","_caption":"Caption"}],"fonts":[{"variations":["n4","i4","n7","i7"],"name":"Arial","css_name":"Arial","provider":"system"},{"variations":["n4","i4","n7","i7"],"name":"Courier\x20New","css_name":"Courier\x20New","provider":"system"},{"variations":["n4","i4","n7","i7"],"name":"Georgia","css_name":"Georgia","provider":"system"},{"variations":["n4","i4","n7","i7"],"name":"Times\x20New\x20Roman","css_name":"Times\x20New\x20Roman","provider":"system"},{"variations":["n4","i4","n7","i7"],"name":"Trebuchet\x20MS","css_name":"Trebuchet\x20MS","provider":"system"},{"variations":["n4","i4","n7","i7"],"name":"Verdana","css_name":"Verdana","provider":"system"},{"variations":["n4","n7"],"name":"Tahoma","css_name":"Tahoma","provider":"system"},{"variations":["n2","i2","n3","i3","n4","i4","n6","i6","n7","i7","n9","i9"],"name":"Source\x20Sans\x20Pro","css_name":"Source\x20Sans\x20Pro","provider":"google"},{"hidden":false,"variations":["n1","i1","n3","i3","n4","i4","n5","i5","n7","i7","n9","i9"],"name":"Roboto","css_name":"Roboto","provider":"google"},{"variations":["n1","i1","n3","i3","n4","i4","n5","i5","n6","i6","n7","i7","n8","i8","n9","i9"],"name":"Proxima\x20Nova","css_name":"vcsm","provider":"typekit"},{"variations":["n4"],"name":"Chunk","css_name":"klcb","provider":"typekit"},{"variations":["n4","i4"],"name":"Aurea\x20Ultra","css_name":"hmcs","provider":"typekit"},{"name":"Stag","css_name":"custom_1727","css_url":"\x2Fapi\x2Ffonts\x2F5834b035a6eb8300653e156d\x2Fcss\x3Fdomain\x3Dlearnersguild.store-y.com\x26md5\x3DX57OxKtPBl7_Yj14KMc0zg","variations":["n3","n4","n7","n9"],"provider":"custom","is_personal":true,"_id":"5834b035a6eb8300653e156d","external_css":false,"hidden":true}],"fonts_tab":"all","fav_fonts":[],"fav_colors":[],"swatches":[],"snap":true,"grid":false,"guides":false},"tags":[],"categories":[],"is_published":true,"changelog":[],"is_private":false,"creation_date":"2016-11-21T18:33:06.339Z","used_custom_fonts":["custom_1727"],"folder":"57c43c81608a053a49209dc3","last_checked_domain":"learnersguild.store-y.com","updated":"2017-01-26T19:35:02.999Z","published":"2016-11-23T22:17:06.064Z","major_update":"2016-11-23T22:17:06.064Z","title":"Learners\x20Guild\x20Landing\x20Page","description":"","changed":false,"coverPid":"58333de274a97b00799b6d4b","last_changed":"2017-01-26T19:34:51.809Z","user":{"_id":"55a5b979cc51ef6d1b282884","name":"Nick\x20Pattison","num_id":46361109,"uri":"u46361109","mags_count":136},"uri":"650314","used_typekit_fonts":[{"id":"vcsm","variations":["n4","n7","n3","n8"],"subset":"all","css_name":"vcsm"}],"opts":{"hidden":true,"allowindex":false,"projectinfo":true,"slidein":false,"viewertype":"horizontal","endpagetype":"join","endpage":false,"pagecounter":false,"sharebutton":false,"menubutton":false,"arrows":true},"pass_last_changed":"2016-11-02T14:41:54.505Z","likers":[],"cover":"https:\x2F\x2Frm-content.s3.amazonaws.com\x2F55a5b979cc51ef6d1b282884\x2F650314\x2Fscreenshot-8c000a30-e3fe-11e6-aaa4-2d2f48e69e7d_readyscr.jpg","recentMags":[]}},"stripe_live":true,"fonts":{"webtype":"\x2Fapi\x2Ffonts\x2Fwebtype\x2Fcss\x3Fdomain\x3Dlearnersguild.store-y.com\x26md5\x3DjqYZIbPHQInj-2GekTbe7g","typetoday":"\x2Fapi\x2Ffonts\x2Ftypetoday\x2Fcss\x3Fdomain\x3Dlearnersguild.store-y.com\x26md5\x3DIdLrs_eNXMufIUrgUL7BAA"},"config":{"stripe_live":true,"STRIPE_TEST_PUBLIC_KEY":"pk_test_jUUcZjJTPacN2s7Bs6j2F0Va","STRIPE_LIVE_PUBLIC_KEY":"pk_live_4WmkUqmpy589CuOX7zOhAnU3","embed_script_host":"","fontslist_short":"\x2F\x2Fd1id5eheivyv24.cloudfront.net\x2Ffonts\x2Ffontslist_short.json","fontslist":"\x2F\x2Fd1id5eheivyv24.cloudfront.net\x2Ffonts\x2Ffontslist.json","fontsimgs":"\x2F\x2Fd1id5eheivyv24.cloudfront.net\x2Ffonts\x2F","action_begin":"2014-08-18T20:00:00Z","action_end":"2014-08-27T07:00:00Z","favicon":{"default":"\x2Fimg\x2Ffavicon.ico","touch":"\x2Fimg\x2Fapple-touch-icon-precomposed.png","touch_144":"\x2Fimg\x2Fapple-touch-icon-144x144-precomposed.png","touch_114":"\x2Fimg\x2Fapple-touch-icon-114x114-precomposed.png","touch_72":"\x2Fimg\x2Fapple-touch-icon-72x72-precomposed.png"},"GA_ID":"UA-33458420-1","FACEBOOK_APP_ID":"955357184504374","GOOGLE_API":"AIzaSyCKhzDj2szWSOHNYEdBH1obPUBkOC4op5g","YOUTUBE_API":"AIzaSyAbaqsyjEzi9kQVfdC8NK4qdl7CbxmA3JU","SOUNDCLOUD_API":"73d56f812402c7229878245f61a366fb","TYPEKIT_ID":"rm","TYPEKIT_TOKEN":"3bb2a6e53c9684ffdc9a99f4125b2a62feb024cf1a83fd2619b27014091e9d9dd9dec1d5d94c24ace6c645bbbcd4a16329d802df6e31a707e226d4e5fc49b837d131bc940117891228784d5dee8538bed9544b581bdaf57e0dc7ab9b5f7e316bc8efa22d7ff8caa28133e3986f4b7afe9c354ffff7eec9b0d8e5c160eb5e8936da76e0b37a964407ae231f6b6432b0a7f3ee7ae5dc05fe30cd7e1a05e920af9e1c728a4bb01d4d1ba694183e778c9c90f9f9bc91cbc3528ac7d6395973ec6d559ccd254df729ec3ea23a13bfb3f6c5d433ba9875c268acf548fea9b1817f39a9eee90bdb7a6f9644c98882fd8472ebced24f76010aee15c68f7c00125c7f625a1f7cc07cee9a66637ca636014f736631fec4c8793b7d0cd941f236a2ea2d66956123f0b404249dbfc797e70508e4c8511e1238be74722e5386b8475f6a0ae0ca4c39288206c38e57","PINGDOM_ID_AUTH":"57ebf19d254226f0c0df7f98","PINGDOM_ID_VIEWER":"585a8854e629a5eb9048a348","FB_PIXEL":"803902209707210","CURRENT_TERMS_VERSION":"2","SUPPORT_MAIL":"support\x40readymag.com","HELLO_MAIL":"hello\x40readymag.com","EDU_MAIL":"edu\x40readymag.com","readymag_host":"https:\x2F\x2Freadymag.com","readymag_auth_host":"https:\x2F\x2Fmy.readymag.com","readymag_embed_host":"https:\x2F\x2Fembed.readymag.com","BOX_VERSION":false}};
-
-
-		window.magJsonCallback = function(json) {
-			if (window.ServerData.mags.mag.pages_count) window.ServerData.mags.mag.pages = json && json.pages
-		};
-
-	</script>
-
-	
-		<script type="text/javascript" src="Learners%20Guild%20Landing%20Page_files/650314"></script>
-	
-
-	<!-- Should be first and no be build -->
-	<script type="text/javascript" src="Learners%20Guild%20Landing%20Page_files/soundcloud.asc" async=""></script>
-	<!-- --> <script type="text/javascript" src="Learners%20Guild%20Landing%20Page_files/viewer_vendor.js"></script>
-<script type="text/javascript" src="Learners%20Guild%20Landing%20Page_files/viewer_app.js"></script> <!-- -->
-	<script type="text/javascript" src="Learners%20Guild%20Landing%20Page_files/iframe_api.js" async=""></script>
-
-	<!-- fonts -->
-
-	
-
-		<script>
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	window._gaUserCallbacks={};window._gaUserCallbacks.add=function(a,b){this[a]=this[a]||[];this[a].push(b);return this;};
-
-	
-
-	
-		ga('create', 'UA-33458420-1', 'auto', {name: 'readymag'});
-	
-
-</script>
-<script async="" src="Learners%20Guild%20Landing%20Page_files/analytics.js"></script>
-
-
-	
-
-	
-
-	<script type="text/javascript">
-		$(function(){
-
-			
-
-			RM.common.isDomainViewer = true;
-			RM.common.customDomainProfile = window.ServerData.mags.domainForUser
-
-			RM.common.isDownloadedSource = false
-
-			RM.common.embedMode = RM.utils.queryUrlGetParam('embedMode') == 'true';
-			RM.common.embedDomainName = RM.utils.queryUrlGetParam('embedDomainName') || '';
-			RM.common.embedDomainType = RM.utils.queryUrlGetParam('embedDomainType') || '';
-
-			RM.viewerRouter = new RM.classes.ViewerRouter;
-			// RM.analytics = new RM.classes.Analytics;
-			// RM.viewerRouter.analytics = RM.analytics;
-
-			Backbone.history.universalStart({
-				pushState: !RM.constants.IS_FILE_PROTOCOL && ((RM.config && RM.config.pushState !== undefined)? RM.config.pushState : true),
-				root: (RM.config && RM.config.root || "/")
-			});
-			$(window).on('load', function() {
-				$('html').addClass('page-loaded')
-			 });
-
-			if (!Modernizr.isdesktop) {
-				window.FastClick.attach(document.body);
-			}
-		});
-	</script>
-
-
-	<style type="text/css" class="">
-		/* Prevent page to flash white background on load */
-		body.black {
-			background-color: black;
-		}
-	</style>
-
-
-
-
-	<!-- --><!-- -->
-
-	<!-- --><!-- -->
-
-	<!-- {{{desktop -->
-	
-		<link rel="stylesheet" type="text/css" href="Learners%20Guild%20Landing%20Page_files/viewer_desktop.css" class="">
-	
-	<!-- desktop}}} -->
-
-
-
-	
-
-
-
-<style class="">
-	@font-face{
-		font-family:"Avenir Next";
-		src:url("/fonts/avenir/e8b9c8fa-dbfb-4576-9394-ae85e87cb003.woff2?domain=learnersguild.store-y.com&md5=0-vXNNNHKm4ZoSavI11nHA") format("woff2"),
-			url("/fonts/avenir/fb555151-cbda-4728-b28d-6e5f085c2d55.woff?domain=learnersguild.store-y.com&md5=HDOwsrtFEsYdvc4_449QUQ") format("woff");
-	    font-style: normal;
-	    font-weight: 400;
-	}
-
-	@font-face{
-		font-family:"Avenir Next";
-		src:url("/fonts/avenir/1704d161-44ab-4854-a066-fe47d583a3a6.woff2?domain=learnersguild.store-y.com&md5=93VIJ0JEtyBoUWr1nonmtQ") format("woff2"),
-			url("/fonts/avenir/95aa7ca1-de33-40d9-ae40-ff045fcada66.woff?domain=learnersguild.store-y.com&md5=4nWZhoxvxEk0BfzauI5pYw") format("woff");
-	    font-style: normal;
-	    font-weight: 500;
-	}
-
-	@font-face{
-		font-family:"Avenir Next";
-		src:url("/fonts/avenir/c4ec49e5-4817-4f05-9bee-cec6f46f9d61.woff2?domain=learnersguild.store-y.com&md5=UyFTIWvw-BuRmyQVwH5oNg") format("woff2"),
-			url("/fonts/avenir/8e0e32b3-034a-41e8-bd15-c22974ebcdb5.woff?domain=learnersguild.store-y.com&md5=GsmyduiOwgBz3HyHs2tbSQ") format("woff");
-	    font-style: normal;
-	    font-weight: 600;
-	}
 </style>
-
-<script type="text/javascript">
-	var MTIProjectId='6bd05b8f-ee86-40b9-8cde-7fe2883d9621';
-	 (function() {
-	        var mtiTracking = document.createElement('script');
-	        mtiTracking.type='text/javascript';
-	        mtiTracking.async='true';
-	        mtiTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/t/trackingCode.js';
-	        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
-	   })();
-</script><script type="text/javascript" async="" src="Learners%20Guild%20Landing%20Page_files/trackingCode.js"></script>
-
-
-
-	
-
-	
-
-
-
-<style type="text/css" id="text_styles_paragraph_viewer" class="text_styles">.used-fonts-test p.paragraph-1,
-.rmwidget.text div p.paragraph-1 {
-	font-family: Nobel;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 48px;
-	letter-spacing: 0px;
-	line-height: 60px;
-	text-align: start;
-	text-decoration: none;
-	text-transform: none;
-	color: rgb(34,34,34);
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-
-.used-fonts-test p.paragraph-2,
-.rmwidget.text div p.paragraph-2 {
-	font-family: Georgia;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	letter-spacing: 0px;
-	line-height: 30px;
-	text-align: start;
-	text-decoration: none;
-	text-transform: none;
-	color: rgb(34,34,34);
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-
-.used-fonts-test p.paragraph-3,
-.rmwidget.text div p.paragraph-3 {
-	font-family: Georgia;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	letter-spacing: 0px;
-	line-height: 23px;
-	text-align: start;
-	text-decoration: none;
-	text-transform: none;
-	color: rgb(34,34,34);
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-
-.used-fonts-test p.paragraph-4,
-.rmwidget.text div p.paragraph-4 {
-	font-family: Georgia;
-	font-style: italic;
-	font-weight: 400;
-	font-size: 14px;
-	letter-spacing: 0px;
-	line-height: 18px;
-	text-align: start;
-	text-decoration: none;
-	text-transform: none;
-	color: rgba(34,34,34, 0.5);
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-
-</style><style type="text/css" id="text_styles_link_viewer" class="text_styles">.rmwidget.text div a.link-1 {
-	text-decoration: none;
-	color: rgb(0,120,255);
-	padding-bottom: 1px;
-	background: linear-gradient(to right, rgb(0,120,255) 0%, rgb(0,120,255) 100%);
-	background-size: 1px 1px;
-	background-position: 0 100%;
-	background-repeat: repeat-x;
-}
-
-.rmwidget.text div a.hovered.link-1 {
-	text-decoration: none;
-	color: rgb(0,120,255);
-	background: none;
-}
-
-.rmwidget.text div a.link-1 * {
-	color: inherit !important;
-	text-decoration: none !important;
-}
-
-</style><link type="text/css" rel="stylesheet" href="Learners%20Guild%20Landing%20Page_files/css.css" class="fonts" data-id="3528e03d-d442-4da8-b010-cf11c854d2a2" data-provider="google" data-fonts-and-variations="Source Sans Pro|n2||Source Sans Pro|i2||Source Sans Pro|n3||Source Sans Pro|i3||Source Sans Pro|n4||Source Sans Pro|i4||Source Sans Pro|n6||Source Sans Pro|i6||Source Sans Pro|n7||Source Sans Pro|i7||Source Sans Pro|n9||Source Sans Pro|i9||Roboto|n1||Roboto|i1||Roboto|n3||Roboto|i3||Roboto|n4||Roboto|i4||Roboto|n5||Roboto|i5||Roboto|n7||Roboto|i7||Roboto|n9||Roboto|i9"><style type="text/css" class="fonts" data-id="285aa052-8c4f-48be-92d3-e568ba9a4228" data-provider="custom" data-fonts-and-variations="custom_1727|n3||custom_1727|n4||custom_1727|n7||custom_1727|n9">
-@font-face {
-	font-family: 'custom_1727';
-	font-style:  normal;
-	font-weight: 300;
-	src: url("/api/fonts/5834b035a6eb8300653e156d/n3/woff?domain=learnersguild.store-y.com&md5=agqW0XJmTkrOEDuoWSIszA") format('woff')
-}
-
-@font-face {
-	font-family: 'custom_1727';
-	font-style:  normal;
-	font-weight: 400;
-	src: url("/api/fonts/5834b035a6eb8300653e156d/n4/woff?domain=learnersguild.store-y.com&md5=FaCRWt9IeVJ8O7w9zUfXAg") format('woff')
-}
-
-@font-face {
-	font-family: 'custom_1727';
-	font-style:  normal;
-	font-weight: 700;
-	src: url("/api/fonts/5834b035a6eb8300653e156d/n7/woff?domain=learnersguild.store-y.com&md5=2Jxe-gasLjGyG0RQ_yB1Ig") format('woff')
-}
-
-@font-face {
-	font-family: 'custom_1727';
-	font-style:  normal;
-	font-weight: 900;
-	src: url("/api/fonts/5834b035a6eb8300653e156d/n9/woff?domain=learnersguild.store-y.com&md5=qXz_5_-PrW1C0qhV_dOqxg") format('woff')
-}
-</style><style type="text/css" id="individual_button_style_5834b12d684e81005f60ff36_viewer" class="button_styles">.rmwidget.widget-button .common-button[data-id="5834b12d684e81005f60ff36"] {
-	background-color: rgb(255,255,255);
-	border-radius: 37px;
-	border-width: 2px;
-	border-color: rgb(237,63,96);
-	font-family: vcsm;
-	font-weight: 700;
-	font-style: normal;
-	color: rgb(0,0,0);
-	font-size: 14px;
-	letter-spacing: 0px;
-}
-
-.rmwidget.widget-button .common-button[data-id="5834b12d684e81005f60ff36"].hovered {
-	background-color: rgb(237,63,96);
-	border-radius: 37px;
-	border-width: 0px;
-	border-color: rgb(237,63,96);
-	font-family: vcsm;
-	font-weight: 700;
-	font-style: normal;
-	color: rgb(255,255,255);
-	font-size: 14px;
-	letter-spacing: 0px;
-}
-
-</style><style type="text/css" id="individual_button_style_5835f5f36f55ab5beb44dd08_viewer" class="button_styles">.rmwidget.widget-button .common-button[data-id="5835f5f36f55ab5beb44dd08"] {
-	background-color: rgb(237,63,96);
-	border-radius: 37px;
-	border-width: 0px;
-	border-color: rgb(237,63,96);
-	font-family: vcsm;
-	font-weight: 800;
-	font-style: normal;
-	color: rgb(255,255,255);
-	font-size: 12px;
-	letter-spacing: 1.2px;
-}
-
-.rmwidget.widget-button .common-button[data-id="5835f5f36f55ab5beb44dd08"].hovered {
-	background-color: rgba(237,63,96, 0);
-	border-radius: 37px;
-	border-width: 3px;
-	border-color: rgb(237,63,96);
-	font-family: vcsm;
-	font-weight: 800;
-	font-style: normal;
-	color: rgb(255,255,255);
-	font-size: 12px;
-	letter-spacing: 1.2px;
-}
-
-</style><style type="text/css" id="individual_button_style_584b5e1893079b37b71b5cb8_viewer" class="button_styles">.rmwidget.widget-button .common-button[data-id="584b5e1893079b37b71b5cb8"] {
-	background-color: rgb(237,63,96);
-	border-radius: 37px;
-	border-width: 0px;
-	border-color: rgb(237,63,96);
-	font-family: vcsm;
-	font-weight: 800;
-	font-style: normal;
-	color: rgb(255,255,255);
-	font-size: 15px;
-	letter-spacing: 1.2px;
-}
-
-.rmwidget.widget-button .common-button[data-id="584b5e1893079b37b71b5cb8"].hovered {
-	background-color: rgba(237,63,96, 0);
-	border-radius: 37px;
-	border-width: 3px;
-	border-color: rgb(237,63,96);
-	font-family: vcsm;
-	font-weight: 800;
-	font-style: normal;
-	color: rgb(237,63,96);
-	font-size: 15px;
-	letter-spacing: 1.2px;
-}
-
-</style><style type="text/css" id="individual_button_style_584b5e82e81bcb26e426d019_viewer" class="button_styles">.rmwidget.widget-button .common-button[data-id="584b5e82e81bcb26e426d019"] {
-	background-color: rgb(237,63,96);
-	border-radius: 37px;
-	border-width: 0px;
-	border-color: rgb(237,63,96);
-	font-family: vcsm;
-	font-weight: 800;
-	font-style: normal;
-	color: rgb(255,255,255);
-	font-size: 15px;
-	letter-spacing: 1.2px;
-}
-
-.rmwidget.widget-button .common-button[data-id="584b5e82e81bcb26e426d019"].hovered {
-	background-color: rgba(237,63,96, 0);
-	border-radius: 37px;
-	border-width: 3px;
-	border-color: rgb(237,63,96);
-	font-family: vcsm;
-	font-weight: 800;
-	font-style: normal;
-	color: rgb(237,63,96);
-	font-size: 15px;
-	letter-spacing: 1.2px;
-}
-
-</style><style type="text/css" class="typekit-kit fonts" data-id="02ca397d-8971-4669-8f6a-90290a5bb82b" data-provider="typekit" data-fonts-and-variations="custom_1727|n3||custom_1727|n4||custom_1727|n7||custom_1727|n9">@font-face{font-family:vcsm;src:url(https://use.typekit.net/af/936fa1/00000000000000003b9aefc0/27/l?subset_id=1&fvd=n4&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("woff2"),url(https://use.typekit.net/af/936fa1/00000000000000003b9aefc0/27/d?subset_id=1&fvd=n4&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("woff"),url(https://use.typekit.net/af/936fa1/00000000000000003b9aefc0/27/a?subset_id=1&fvd=n4&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:vcsm;src:url(https://use.typekit.net/af/6d80a1/00000000000000003b9aefb8/27/l?subset_id=1&fvd=n7&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("woff2"),url(https://use.typekit.net/af/6d80a1/00000000000000003b9aefb8/27/d?subset_id=1&fvd=n7&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("woff"),url(https://use.typekit.net/af/6d80a1/00000000000000003b9aefb8/27/a?subset_id=1&fvd=n7&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:vcsm;src:url(https://use.typekit.net/af/8a67b6/00000000000000003b9aefbc/27/l?subset_id=1&fvd=n3&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("woff2"),url(https://use.typekit.net/af/8a67b6/00000000000000003b9aefbc/27/d?subset_id=1&fvd=n3&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("woff"),url(https://use.typekit.net/af/8a67b6/00000000000000003b9aefbc/27/a?subset_id=1&fvd=n3&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:vcsm;src:url(https://use.typekit.net/af/9a8b9b/00000000000000003b9aefba/27/l?subset_id=1&fvd=n8&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("woff2"),url(https://use.typekit.net/af/9a8b9b/00000000000000003b9aefba/27/d?subset_id=1&fvd=n8&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("woff"),url(https://use.typekit.net/af/9a8b9b/00000000000000003b9aefba/27/a?subset_id=1&fvd=n8&token=nbS7emc8pslLbbXFGNF4HOT1wgeY5zpWZwlxJ1U%2BdIcOoIZLkxkuLW1s4259gSabLeGjN%2BNSaHwSAFColpoZ1YdJy8RzzUjqwGmVslB2BNCw%2BD7kmStHVzhHfw%2Fo9ofk3LrrEE5baj95t9uM%2BwYXf5JIcV0bw2p6PKghXq0URGz1ia0bwazUQ6DXOhtuskzpfaKXBnVCSmH2wV9p0cJ7Ng%3D%3D) format("opentype");font-weight:800;font-style:normal;}</style><link type="text/css" rel="stylesheet" href="Learners%20Guild%20Landing%20Page_files/1.css"></head>
-
-
-
+</head>
 <body>
+
+<script src="newres/jquery-latest.js"></script>
+
+<script src="newres/bootstrap.min.js"> </script>
+<center>
 	
-
-
 	
+<div class="block1">
+<div>
+<div style="font-family:'Proxima'; background:#f2b317; padding:15px; width:120px;">ABOUT US</div>
+<h2 style="font-size:72px; padding-top:40px; letter-spacing:2px;">We're building this for you.</h2>
 
+
+</div>
+    
+</div>
 	
-	<script>(function() {
-		var _fbq = window._fbq || (window._fbq = []);
-		if (!_fbq.loaded) {
-		var fbds = document.createElement('script');
-		fbds.async = true;
-		fbds.src = '//connect.facebook.net/en_US/fbds.js';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(fbds, s);
-		_fbq.loaded = true;
-		}
-		_fbq.push(['addPixelId', '803902209707210']);
-		})();
-		window._fbq = window._fbq || [];
-		window._fbq.push(['track', 'PixelInitialized', {}]);
-	</script>
+	
+	
+	
+	<div class="block2 sw1" style="margin:80px 0px;">
 
+<h1>Why Learners Guild?</h1>
 
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=803902209707210&amp;ev=PixelInitialized" /></noscript>
-
-	<div id="mags"><div class="mag viewer-type-horizontal pages-pos-normal navigation-white-arrows">
-		<div class="mag-pages-container">
-			<div class="container disable-transitions">
-
-				<div class="blackout"></div>
-			<div class="page center-page neighbour page-with-fixeds-desktop">
-		<div class="page-fixed-bg-container" style="background-color: rgb(0, 0, 0);"><div class="rmwidget widget-background" style="background-color: #000000">
-
-        
-
-        
-            <div class="video-background" style="opacity: 0.67;">
-                <div class="video-container"><img class="poster" style="opacity: 1; left: -5px; top: -246.25px; width: 1930px; height: 1447.5px;" src="Learners%20Guild%20Landing%20Page_files/hqdefault.jpg"><iframe id="video_video_298" src="Learners%20Guild%20Landing%20Page_files/Q0DFM9XJRlE.html" allowfullscreen="" style="left: -5px; top: -246.25px; width: 1930px; height: 1447.5px;" width="640" height="320" frameborder="0"></iframe></div>
-                <div class="overlay"></div>
+<div class="container-fluid block2" style="margin:40px 0px;">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<img src="newres/i1.png" />
+                    <h2>We'll pay you...<br/>Seriously!</h2>
+					<p>From the founders of Dev Boot-
+camp, our new, well-funded
+venture pays you a stipend (up
+to $1,500/mo) and money to
+purchase a laptop so you have
+the resources to succeed.
+</p>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<img src="newres/i2.png" />
+                    <h2>We learn<br/>together.</h2>
+					<p>All the support you need
+from professionals and advanced
+learners to become ready for a
+career in web development. Build
+world-class technical skills and
+make new friends for life
+</p>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<img src="newres/i3.png" />
+                  <h2>You win,<br/>we win.</h2>
+				  <p>If you don’t get a job over $50,000,
+we don’t get paid. Period. We be-
+lieve in investing in people who are
+committed to advancing their
+career. Bring your dedication and
+passion, and we'll invest in you.
+</p>
+                </div>
             </div>
-        
-	</div></div>
-		<div class="fixed-position-container-top"></div>
-		<div class="fixed-position-container"><div class="rmwidget widget-shape full-width" style="left: 0px; top: -46px; width: 1907px; height: 116px; z-index: 139;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1907px" height="116px"><defs><mask id="mask_5834b13a10ce9a241eb298e6_viewer"><path d="M1907 0 L0 0 L0 116 L1907 116  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5834b13a10ce9a241eb298e6_viewer"><path d="M1907 0 L0 0 L0 116 L1907 116  Z "></path></clipPath></defs><path mask="url(#mask_5834b13a10ce9a241eb298e6_viewer)" d="M1907 0 L0 0 L0 116 L1907 116  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5834b13a10ce9a241eb298e6_viewer)" d="M1907 0 L0 0 L0 116 L1907 116  Z " style="fill:none; stroke:rgb(216,216,216); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-button" style="left: 50%; top: 14px; width: 123px; height: 38px; margin-left: 386px; z-index: 141; border-radius: 37px;"><div class="common-button" data-id="5834b12d684e81005f60ff36" style="">
-
-        <div class="icon" style="display: none; margin-right: 0px; margin-left: 0px;"></div>
-
-    <input class="text" value="APPLY NOW" disabled="disabled" readonly="readonly" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" role="button" name="APPLY NOW" style="display: inline-block; width: 92px; padding-left: 0px; text-indent: 0px; height: 20px; line-height: 20px;" type="text"></div></div><div class="rmwidget widget-picture" style="left: 50%; top: -9px; width: 264.5px; height: 69px; margin-left: -524.5px; z-index: 140;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png"></div></div>
-		<div class="content-scroll-wrapper has-vertical-scroll accelerated-scroll">
-			<div class="content-bounds" style="width: 1920px; height: 2470px;">
-				<div class="page-content-container" tabindex="-1" style="width: 1024px; height: 2470px; top: 0px; left: 448px;"><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 111.5px; top: 232px; width: 792px; height: 198px; z-index: 107;"><style>@keyframes animation_1 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 792px; height: 198px; z-index: 107; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p data-style-phone_portrait="line-height: 49px; font-size: 39px; text-align: center;" data-anchor-link-pos-phone_portrait="empty" style="line-height: 105px; font-size: 67px; text-align: center;"><span data-anchor-link-pos-phone_portrait="empty" style="font-family: custom_1727; font-weight: bold; font-style: normal; color: #ffffff; letter-spacing: 0.6px;">Learn to code.</span></p>
-<p data-style-phone_portrait="line-height: 49px; font-size: 39px; text-align: center;" data-anchor-link-pos-phone_portrait="empty" style="line-height: 105px; font-size: 67px; text-align: center;"><span data-anchor-link-pos-phone_portrait="empty" style="font-family: custom_1727; font-weight: bold; font-style: normal; color: #ffffff; letter-spacing: 0.6px;">Get paid while you do it.</span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 156px; top: 461px; width: 700px; height: 59px; z-index: 108;"><style>@keyframes animation_2 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 700px; height: 59px; z-index: 108; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p data-style-phone_portrait="text-align: center; line-height: 21px; font-size: 17px;" data-anchor-link-pos-phone_portrait="empty" style="text-align: center; line-height: 31px; font-size: 25px;"><span data-style-phone_portrait="color: #ffffff; font-family: vcsm; font-weight: bold; font-style: normal;" data-anchor-link-pos-phone_portrait="empty" style="color: #ffffff; font-family: vcsm; font-weight: 400; font-style: normal;">Pay us only when you get a high-paying job.<br></span></p>
-<p data-style-phone_portrait="text-align: center; line-height: 21px; font-size: 17px;" data-anchor-link-pos-phone_portrait="empty" style="text-align: center; line-height: 28px; font-size: 22px;"><span data-style-phone_portrait="font-weight: bold; font-style: normal; font-family: vcsm;" data-anchor-link-pos-phone_portrait="empty" style="font-weight: 400; font-style: normal; font-family: vcsm;">&nbsp;</span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 492.25px; top: 753.71px; width: 29.5px; height: 16px; z-index: 109; animation-name: animation_3; animation-duration: 1.2s; animation-iteration-count: infinite; animation-direction: alternate; animation-fill-mode: both;"><style>@keyframes animation_3 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; animation-timing-function: ease-in-out}
-	100% {transform: matrix3d(0.68,0,0,0,0,0.68,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget widget-picture" style="left: 0px; top: 0px; width: 29.5px; height: 16px; z-index: 109;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-92c764f0-b1ca-11e6-941c-bb739a4a236a.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-92c764f0-b1ca-11e6-941c-bb739a4a236a.png"></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 209.5px; top: 1993.57px; width: 598.5px; height: 50px; z-index: 111;"><style>@keyframes animation_4 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 598.5px; height: 50px; z-index: 111; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 58px; font-size: 17px; text-align: center;" data-style-phone_portrait="line-height: 58px; font-size: 11px; text-align: center;" data-anchor-link-pos-phone_portrait="empty"><span style="color: #ffffff; font-family: vcsm; font-weight: bold; letter-spacing: 2px; font-style: normal;" data-anchor-link-pos-phone_portrait="empty">WATCH THE VIDEO</span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 391.5px; top: 1200.5px; width: 231px; height: 96px; z-index: 114;"><style>@keyframes animation_5 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 231px; height: 96px; z-index: 114; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 37px; font-size: 30px; text-align: center;" data-style-phone_portrait="line-height: 26px; font-size: 23px; text-align: center;" data-anchor-link-pos-phone_portrait="empty"><span style="color: #000000; font-weight: bold; font-style: normal; letter-spacing: 1px;" data-anchor-link-pos-phone_portrait="empty"><span style="font-family: custom_1727;" data-anchor-link-pos-phone_portrait="empty">We learn<br></span><span style="font-family: custom_1727;" data-anchor-link-pos-phone_portrait="empty">together.</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 693px; top: 1200.5px; width: 346px; height: 130px; z-index: 118;"><style>@keyframes animation_6 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 346px; height: 130px; z-index: 118; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 38px; font-size: 30px; text-align: center;" data-style-phone_portrait="line-height: 26px; font-size: 23px; text-align: center;" data-anchor-link-pos-phone_portrait="empty"><span style="color: #000000; font-weight: bold; font-style: normal; letter-spacing: 0.6px;" data-anchor-link-pos-phone_portrait="empty"><span style="font-family: custom_1727;" data-anchor-link-pos-phone_portrait="empty">You win,<br></span></span><span style="color: #000000; font-weight: bold; font-style: normal; letter-spacing: 0.6px;" data-anchor-link-pos-phone_portrait="empty"><span style="font-family: custom_1727;" data-anchor-link-pos-phone_portrait="empty">we win.</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: -44.5px; top: 1199px; width: 385px; height: 97.5px; z-index: 120;"><style>@keyframes animation_7 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 385px; height: 97.5px; z-index: 120; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p data-style-phone_portrait="line-height: 36px; font-size: 23px; text-align: center;" data-anchor-link-pos-phone_portrait="empty" style="line-height: 38px; font-size: 30px; text-align: center;"><span data-anchor-link-pos-phone_portrait="empty" style="font-family: custom_1727; font-weight: bold; font-style: normal; color: #000000; letter-spacing: 1px;">We'll pay you...</span></p>
-<p data-style-phone_portrait="line-height: 36px; font-size: 23px; text-align: center;" data-anchor-link-pos-phone_portrait="empty" style="line-height: 38px; font-size: 30px; text-align: center;"><span data-anchor-link-pos-phone_portrait="empty" style="font-family: custom_1727; font-weight: bold; font-style: normal; color: #000000; letter-spacing: 1px;">Seriously!</span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 408.5px; top: 545px; width: 195px; height: 64px; z-index: 122;"><style>@keyframes animation_8 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget widget-button" style="left: 0px; top: 0px; width: 195px; height: 64px; z-index: 122; border-radius: 37px;"><div class="common-button transition" data-id="5835f5f36f55ab5beb44dd08" style="">
-
-        <div class="icon" style="display: none; margin-right: 0px; margin-left: 0px;"></div>
-
-    <a href="./enroll_start">SEE IF I QUALIFY<input style="color:white;" class="text" value="SEE IF I QUALIFY" disabled="disabled" readonly="readonly" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" role="button" name="SEE IF I QUALIFY" style="display: inline-block; width: 128px; padding-left: 1.2px; text-indent: 0px; height: 16px; line-height: 16px;" type="text"></a></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 207.75px; top: 2267.43px; width: 641px; height: 162px; z-index: 124;"><style>@keyframes animation_9 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 641px; height: 162px; z-index: 124; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p data-style-phone_portrait="line-height: 58px; font-size: 21px; text-align: left;" data-anchor-link-pos-phone_portrait="empty" style="line-height: 58px; font-size: 49px; text-align: left;"><span data-anchor-link-pos-phone_portrait="empty" style="font-family: custom_1727; font-weight: bold; font-style: normal;">
-					
-				
-					
-					
-					<span data-anchor-link-pos-phone_portrait="empty" style="letter-spacing: 0.4px;">Sound good? Apply now.</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 207.75px; top: 2051.57px; width: 598.5px; height: 60px; z-index: 126;"><style>@keyframes animation_10 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 598.5px; height: 60px; z-index: 126; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p data-style-phone_portrait="line-height: 23px; font-size: 21px; text-align: center;" data-anchor-link-pos-phone_portrait="empty" style="line-height: 70px; font-size: 32px; text-align: left;"><span data-anchor-link-pos-phone_portrait="empty" style="color: #ffffff; font-family: custom_1727; font-weight: bold; letter-spacing: 0.8px; font-style: normal;">Learners Guild vs other code schools</span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 407px; top: 1533px; width: 195px; height: 64px; z-index: 132;"><style>@keyframes animation_11 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget widget-button" style="left: 0px; top: 0px; width: 195px; height: 64px; z-index: 132; border-radius: 37px;"><div class="common-button transition" data-id="584b5e1893079b37b71b5cb8" style="">
-
-        <div class="icon" style="display: none; margin-right: 0px; margin-left: 0px;"></div>
-
-   <a href="./enroll_start"> SEE IF I QUALIFY<input class="text" style="color:white;"  value="SEE IF I QUALIFY" disabled="disabled" readonly="readonly" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" role="button" name="SEE IF I QUALIFY" style="display: inline-block; width: 152px; padding-left: 1.2px; text-indent: 0px; height: 22px; line-height: 22px;" type="text"></a></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 409.5px; top: 2365.43px; width: 195px; height: 64px; z-index: 133;"><style>@keyframes animation_12 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget widget-button" style="left: 0px; top: 0px; width: 195px; height: 64px; z-index: 133; border-radius: 37px;"><div class="common-button transition" data-id="584b5e82e81bcb26e426d019" style="">
-
-        <div class="icon" style="display: none; margin-right: 0px; margin-left: 0px;"></div>
-
-   <a href="./enroll_start">  SEE IF I QUALIFY<input class="text" style="color:white;" value="SEE IF I QUALIFY" disabled="disabled" readonly="readonly" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" role="button" name="SEE IF I QUALIFY" style="display: inline-block; width: 152px; padding-left: 1.2px; text-indent: 0px; height: 22px; line-height: 22px;" type="text"></a></div></div></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 251.5px; top: 241px; width: 509px; height: 93px; z-index: 103; background-color: rgb(0, 163, 223); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 100.5px; top: 345px; width: 811px; height: 93px; z-index: 104; background-color: rgb(0, 163, 223); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget widget-shape" style="left: 470px; top: 727.71px; width: 74px; height: 72px; z-index: 106;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="74px" height="72px"><defs><clipPath id="clip_5835e5ff56abb774c938a162_viewer"><ellipse cx="37" cy="36" rx="37" ry="36"></ellipse></clipPath></defs><ellipse mask="url(#mask_5835e5ff56abb774c938a162_viewer)" cx="37" cy="36" rx="37" ry="36" style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape full-width div-instead-of-svg" style="left: -448px; top: 760.71px; width: 1920px; height: 893.86px; z-index: 102; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget text" style="left: 29px; top: 817px; width: 949.5px; height: 178px; z-index: 119; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 69px; font-size: 47px; text-align: center;" data-style-phone_portrait="line-height: 29px; font-size: 26px; text-align: center;" data-anchor-link-pos-phone_portrait="empty"><span style="font-family: custom_1727; font-weight: bold; font-style: normal;" data-anchor-link-pos-phone_portrait="empty"><span style="letter-spacing: 0.4px;" data-anchor-link-pos-phone_portrait="empty">Why&nbsp;Learners Guild?</span></span></p></div></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 353px; top: 913px; width: 298px; height: 508px; z-index: 112; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 717px; top: 913px; width: 298px; height: 509px; z-index: 116; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: -1px; top: 913.5px; width: 298px; height: 507px; z-index: 113; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget widget-shape" style="left: 811.75px; top: 1280.5px; width: 108.5px; height: 24px; z-index: 135;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="109px" height="24px"><path d="M0 12 L109 12" style="fill:none; stroke:rgb(247,190,34);stroke-width:6"></path></svg></div><div class="rmwidget widget-shape" style="left: 444.5px; top: 1280.5px; width: 125px; height: 24px; z-index: 136;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="125px" height="24px"><path d="M0 12 L125 12" style="fill:none; stroke:rgb(0,163,223);stroke-width:6"></path></svg></div><div class="rmwidget widget-shape" style="left: 87px; top: 1280.5px; width: 122px; height: 24px; z-index: 137;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="122px" height="24px"><path d="M0 12 L122 12" style="fill:none; stroke:rgb(151,201,61);stroke-width:6"></path></svg></div><div class="rmwidget text" style="left: 45px; top: 1318.5px; width: 207.5px; height: 216px; z-index: 115; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="text-align: center; line-height: 24px; font-size: 17px;" data-style-phone_portrait="text-align: center; line-height: 18px; font-size: 14px;" data-anchor-link-pos-phone_portrait="empty"><span style="color: #000000; font-family: vcsm;" data-anchor-link-pos-phone_portrait="empty"><span data-anchor-link-pos-phone_portrait="empty"><span style="color: #272b2b; letter-spacing: 0px;" data-anchor-link-pos-phone_portrait="empty"><span>From
- the founders of Dev Bootcamp, our new, well-funded venture pays you a 
-stipend (up to $1,500/mo) and money to purchase a laptop so you have the
- resources to succeed. <br></span></span><br></span></span></p></div></div><div class="rmwidget text" style="left: 393px; top: 1318.5px; width: 226.5px; height: 240.5px; z-index: 117; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="text-align: center; line-height: 24px; font-size: 17px;" data-style-phone_portrait="text-align: center; line-height: 18px; font-size: 14px;" data-anchor-link-pos-phone_portrait="empty"><span style="color: #272b2b; font-family: vcsm;" data-anchor-link-pos-phone_portrait="empty"><span>All the support you need<br>from professionals and advanced learners to<br>become ready for a career<br>in web development. Build world-class technical skills and make new friends for life.<br></span><br></span></p>
-<p style="text-align: center; line-height: 24px; font-size: 17px;" data-style-phone_portrait="text-align: center; line-height: 18px; font-size: 14px;" data-anchor-link-pos-phone_portrait="empty"><span style="color: #000000; font-family: vcsm;" data-anchor-link-pos-phone_portrait="empty"><span data-anchor-link-pos-phone_portrait="empty"><span style="color: #686868;" data-anchor-link-pos-phone_portrait="empty"><span data-anchor-link-pos-phone_portrait="empty">&nbsp;</span></span></span></span></p>
-<p style="text-align: center; line-height: 24px; font-size: 17px;" data-style-phone_portrait="text-align: center; line-height: 18px; font-size: 14px;" data-anchor-link-pos-phone_portrait="empty">&nbsp;</p></div></div><div class="rmwidget text" style="left: 750px; top: 1318.5px; width: 232px; height: 219.5px; z-index: 121; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="text-align: center; line-height: 24px; font-size: 17px;" data-style-phone_portrait="text-align: center; line-height: 18px; font-size: 14px;" data-anchor-link-pos-phone_portrait="empty"><span style="color: #000000; font-family: vcsm;" data-anchor-link-pos-phone_portrait="empty"><span data-anchor-link-pos-phone_portrait="empty"><span style="color: #272b2b;" data-anchor-link-pos-phone_portrait="empty"><span>If
- you don’t get a job over $50,000, we don’t get paid. Period. We believe
- in investing in people who are committed to advancing their career. 
-Bring your dedication and passion, and we'll invest in you. <br></span></span><br></span></span></p></div></div><div class="rmwidget widget-shape full-width div-instead-of-svg" style="left: -448px; top: 1654.57px; width: 1920px; height: 567px; z-index: 110; background-color: rgba(53, 35, 4, 0.33); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget widget-shape" style="left: 411.5px; top: 2027.57px; width: 192px; height: 24px; z-index: 127;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="192px" height="24px"><path d="M0 12 L192 12" style="fill:none; stroke:rgb(247,190,34);stroke-width:6"></path></svg></div><div class="rmwidget widget-shape full-width div-instead-of-svg" style="left: -448px; top: 2219.57px; width: 1920px; height: 1029.86px; z-index: 100; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget widget-shape full-width div-instead-of-svg" style="left: -448px; top: 3042.14px; width: 1920px; height: 67.29px; z-index: 123; background-color: rgb(18, 20, 22); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget widget-picture" style="left: 730px; top: 914px; width: 272px; height: 280px; z-index: 134;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-73cdaf50-be8b-11e6-a9f3-7bbc4194facd.jpg" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-73cdaf50-be8b-11e6-a9f3-7bbc4194facd.jpg"></div><div class="rmwidget widget-picture" style="left: 381.5px; top: 929px; width: 251px; height: 251px; z-index: 131;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-abc4e230-be8a-11e6-97eb-550de41a6fa6.jpg" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-abc4e230-be8a-11e6-97eb-550de41a6fa6.jpg"></div><div class="rmwidget widget-picture" style="left: 25px; top: 933px; width: 246px; height: 246px; z-index: 130;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-a1166ae0-be79-11e6-91ce-b9fbe07dd5e6.jpg" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-a1166ae0-be79-11e6-91ce-b9fbe07dd5e6.jpg"></div><div class="rmwidget widget-picture" style="left: 840.75px; top: 956px; width: 51px; height: 39px; z-index: 138;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-7efdd6b0-ba9f-11e6-87c9-5f7fdfec4fd6.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-7efdd6b0-ba9f-11e6-87c9-5f7fdfec4fd6.png"></div><div class="rmwidget widget-picture full-width" style="left: -448px; top: 1654.57px; width: 1920px; height: 567px; z-index: 105;"><div style="background-image: url(&quot;https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-b19fd280-c2fb-11e6-be92-49b45306dc86.jpg&quot;); background-position: 50% 43%; box-shadow: none; border-radius: 0px; opacity: 1;" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-b19fd280-c2fb-11e6-be92-49b45306dc86.jpg"></div><img class="saveable" style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-b19fd280-c2fb-11e6-be92-49b45306dc86.jpg" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-b19fd280-c2fb-11e6-be92-49b45306dc86.jpg"></div><div class="rmwidget widget-picture" style="left: 369.5px; top: 1780.57px; width: 276.5px; height: 224px; z-index: 128;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-6f84e210-be8b-11e6-a9f3-7bbc4194facd.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-6f84e210-be8b-11e6-a9f3-7bbc4194facd.png"></div><div class="rmwidget widget-picture" style="left: 368.5px; top: 1780.57px; width: 276.5px; height: 224px; z-index: 129;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-6f84e210-be8b-11e6-a9f3-7bbc4194facd.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-6f84e210-be8b-11e6-a9f3-7bbc4194facd.png"></div><div class="rmwidget widget-picture" style="left: 996.5px; top: 2221.57px; width: 545px; height: 420px; z-index: 125;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-930673e1-be7a-11e6-b8e1-abc4038c4751.jpg" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-930673e1-be7a-11e6-b8e1-abc4038c4751.jpg"></div><div class="rmwidget widget-picture full-width" style="left: -448px; top: 2221.57px; width: 1920px; height: 906px; z-index: 101;"><div style="background-image: url(&quot;https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-ca69a5c0-c2fb-11e6-be92-49b45306dc86.png&quot;); background-position: 50% 50%; box-shadow: none; border-radius: 0px; opacity: 1;" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-ca69a5c0-c2fb-11e6-be92-49b45306dc86.png"></div><img class="saveable" style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-ca69a5c0-c2fb-11e6-be92-49b45306dc86.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-ca69a5c0-c2fb-11e6-be92-49b45306dc86.png"></div></div>
-			</div>
-		</div>
-	</div><div class="page next-page neighbour page-with-fixeds-desktop">
-		<div class="page-fixed-bg-container" style="background-color: rgb(151, 201, 61);"><div class="rmwidget widget-background" style="background-color: #97c93d">
-
-        
-
-        
-	</div></div>
-		<div class="fixed-position-container-top"></div>
-		<div class="fixed-position-container"><div class="rmwidget widget-shape full-width" style="left: 0px; top: -46px; width: 1920px; height: 116px; z-index: 115;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920px" height="116px"><defs><mask id="mask_5872dcf5e927806977dd1957_viewer"><path d="M1920 0 L0 0 L0 116 L1920 116  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872dcf5e927806977dd1957_viewer"><path d="M1920 0 L0 0 L0 116 L1920 116  Z "></path></clipPath></defs><path mask="url(#mask_5872dcf5e927806977dd1957_viewer)" d="M1920 0 L0 0 L0 116 L1920 116  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872dcf5e927806977dd1957_viewer)" d="M1920 0 L0 0 L0 116 L1920 116  Z " style="fill:none; stroke:rgb(216,216,216); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-picture" style="left: 50%; top: -9px; width: 264.5px; height: 69px; margin-left: -524.5px; z-index: 116;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png"></div></div>
-		<div class="content-scroll-wrapper has-vertical-scroll">
-			<div class="content-bounds" style="width: 1920px; height: 955px;">
-				<div class="page-content-container" tabindex="-1" style="width: 1024px; height: 672px; top: 141.5px; left: 448px;"><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 219px; top: 194px; width: 583px; height: 52px; z-index: 103;"><style>@keyframes animation_13 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 583px; height: 52px; z-index: 103; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 66px; font-size: 33px; text-align: center;"><span style="color: #000000; font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">Make your move.</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 553.25px; top: 567.75px; width: 16px; height: 30px; z-index: 105;"><style>@keyframes animation_14 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; animation-timing-function: ease-in-out}
-	100% {transform: matrix3d(0.68,0,0,0,0,0.68,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget widget-picture" style="left: -7px; top: 7px; width: 30px; height: 16px; z-index: 105; transform: rotateX(0deg) rotateY(0deg) rotateZ(270deg) scaleX(-1);"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-92c764f0-b1ca-11e6-941c-bb739a4a236a.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-92c764f0-b1ca-11e6-941c-bb739a4a236a.png"></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 448px; top: 550px; width: 125px; height: 52px; z-index: 106;"><style>@keyframes animation_15 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 125px; height: 52px; z-index: 106; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 66px; font-size: 19px; text-align: center;"><span style="color: #000000; font-family: vcsm; letter-spacing: 2.6px; font-weight: 800; font-style: normal;">NEXT</span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 374px; top: 77px; width: 51px; height: 38px; z-index: 111;"><style>@keyframes animation_16 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 111; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: #000000; font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">1</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 454px; top: 76px; width: 51px; height: 38px; z-index: 112;"><style>@keyframes animation_17 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 112; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.407843); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">2</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 536px; top: 77px; width: 51px; height: 38px; z-index: 113;"><style>@keyframes animation_18 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 113; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.380392); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">3</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 617px; top: 76px; width: 51px; height: 38px; z-index: 114;"><style>@keyframes animation_19 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 114; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.380392); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">4</span></span></p></div></div></div><div class="rmwidget widget-shape" style="left: 378px; top: 78px; width: 42px; height: 42px; z-index: 107;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e950a4c689a533f82f4b0_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e950a4c689a533f82f4b0_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 458px; top: 78px; width: 42px; height: 42px; z-index: 108;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e9527cb00d23e686ade9e_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e9527cb00d23e686ade9e_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(170,219,81); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 540px; top: 78px; width: 42px; height: 42px; z-index: 109;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e953ce4dc42735686c9f5_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e953ce4dc42735686c9f5_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(170,219,81); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 622px; top: 78px; width: 42px; height: 42px; z-index: 110;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e953e8dda6a565c9b727d_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e953e8dda6a565c9b727d_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(170,219,81); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 378px; top: 87px; width: 264px; height: 24px; z-index: 100;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="264px" height="24px"><path d="M0 12.5 L264 12.5" style="fill:none; stroke:rgb(255,255,255);stroke-width:1"></path></svg></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 271px; top: 170px; width: 500px; height: 462px; z-index: 101; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget widget-form" style="left: 331px; top: 279px; width: 380px; height: 319px; z-index: 102;"><div class="form-wrapper common-form" data-layout="vertical" data-style="colored"><div class="input-wrapper js-input-wrapper" style="height: 48px; width: 380px; margin-bottom: 20px; background-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: 0px 0px 0px 1px rgb(211, 211, 211) inset;"><input class="js-input" autocapitalize="on" autocomplete="off" autocorrect="off" name="First name" placeholder="First name" spellcheck="false" data-sort="0" style="font-family: vcsm; font-style: normal; font-weight: 400; color: rgb(0, 0, 0); font-size: 18px; letter-spacing: 0px; margin-bottom: 0px;" type="text"><div class="overlay"></div></div><div class="input-wrapper js-input-wrapper" style="height: 48px; width: 380px; margin-bottom: 20px; background-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: 0px 0px 0px 1px rgb(211, 211, 211) inset;"><input class="js-input" autocapitalize="on" autocomplete="off" autocorrect="off" name="Last name" placeholder="Last name" spellcheck="false" data-sort="1" style="font-family: vcsm; font-style: normal; font-weight: 400; color: rgb(0, 0, 0); font-size: 18px; letter-spacing: 0px; margin-bottom: 0px;" type="text"><div class="overlay"></div></div><div class="input-wrapper js-input-wrapper" style="height: 48px; width: 380px; margin-bottom: 20px; background-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: 0px 0px 0px 1px rgb(211, 211, 211) inset;"><input class="js-input" autocapitalize="off" autocomplete="off" autocorrect="off" name="Email" placeholder="Email" spellcheck="false" data-sort="2" inputmode="email" style="font-family: vcsm; font-style: normal; font-weight: 400; color: rgb(0, 0, 0); font-size: 18px; letter-spacing: 0px; margin-bottom: 0px;" type="text"><div class="overlay"></div></div><div class="input-wrapper js-input-wrapper" style="height: 48px; width: 380px; margin-bottom: 20px; background-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: 0px 0px 0px 1px rgb(211, 211, 211) inset;"><input class="js-input" autocapitalize="off" autocomplete="off" autocorrect="off" name="Phone number" placeholder="Phone number" spellcheck="false" data-sort="3" inputmode="tel" style="font-family: vcsm; font-style: normal; font-weight: 400; color: rgb(0, 0, 0); font-size: 18px; letter-spacing: 0px; margin-bottom: 0px;" type="text"><div class="overlay"></div></div><div class="button" style="height: 47px; width: 380px; line-height: 47px; background-color: rgb(0, 163, 223); border-radius: 0px; box-shadow: 0px 0px 0px 0px rgb(0, 0, 0) inset; font-family: vcsm; font-style: normal; font-weight: 700; color: rgb(255, 255, 255); font-size: 18px; letter-spacing: 0px; text-indent: 0px;" data-default="height: 47px; width: 380px; line-height: 47px; background-color: rgb(0, 163, 223); border-radius: 0px; box-shadow: 0px 0px 0px 0px rgb(0, 0, 0) inset; font-family: vcsm; font-style: normal; font-weight: 700; color: rgb(255, 255, 255); font-size: 18px; letter-spacing: 0px; text-indent: 0px;" data-hover="height: 47px; width: 380px; line-height: 47px; background-color: rgba(0, 163, 223, 0.9); border-radius: 0px; box-shadow: 0px 0px 0px 0px rgb(0, 0, 0) inset; font-family: vcsm; font-style: normal; font-weight: 700; color: rgb(255, 255, 255); font-size: 18px; letter-spacing: 0px; text-indent: 0px;">
-		<div class="caption">Next</div>
-		<svg class="error" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 26" style="fill: rgb(255, 255, 255);"><path d="M17 19.8c-1.4 0-2.6 1.1-2.6 2.6s1.1 2.6 2.6 2.6c1.4 0 2.6-1.1 2.6-2.6S18.4 19.8 17 19.8zM19 0.4h-4L15 17.4h4L19 0.4z"></path></svg>
-		<svg class="submitted" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 26" style="fill: rgb(255, 255, 255);"><path d="M31.4 3C30.6 2.3 29.4 2.3 28.6 3l0 0L13.1 18.6l-7.8-7.8 0 0c-0.8-0.7-2-0.7-2.7 0 -0.8 0.8-0.8 2 0 2.7l0 0L13.1 24.1l0.4-0.4h0L31.4 5.8l0 0C32.1 5 32.1 3.8 31.4 3z"></path></svg>
-	</div></div></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 321px; top: 537px; width: 401px; height: 78px; z-index: 104; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div></div>
-			</div>
-		</div>
-	</div><div class="page next-page page-with-fixeds-desktop">
-		<div class="page-fixed-bg-container" style="background-color: rgb(0, 163, 223);"><div class="rmwidget widget-background" style="background-color: #00a3df">
-
-        
-
-        
-	</div></div>
-		<div class="fixed-position-container-top"></div>
-		<div class="fixed-position-container"><div class="rmwidget widget-shape full-width" style="left: 0px; top: -46px; width: 1920px; height: 116px; z-index: 119;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920px" height="116px"><defs><mask id="mask_5872dec245f8c1580816f064_viewer"><path d="M1920 0 L0 0 L0 116 L1920 116  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872dec245f8c1580816f064_viewer"><path d="M1920 0 L0 0 L0 116 L1920 116  Z "></path></clipPath></defs><path mask="url(#mask_5872dec245f8c1580816f064_viewer)" d="M1920 0 L0 0 L0 116 L1920 116  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872dec245f8c1580816f064_viewer)" d="M1920 0 L0 0 L0 116 L1920 116  Z " style="fill:none; stroke:rgb(216,216,216); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-picture" style="left: 50%; top: -9px; width: 264.5px; height: 69px; margin-left: -524.5px; z-index: 120;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png"></div></div>
-		<div class="content-scroll-wrapper has-vertical-scroll">
-			<div class="content-bounds" style="width: 1920px; height: 955px;">
-				<div class="page-content-container" tabindex="-1" style="width: 1024px; height: 737px; top: 109px; left: 448px;"><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 219px; top: 226px; width: 583px; height: 63px; z-index: 107;"><style>@keyframes animation_20 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 583px; height: 63px; z-index: 107; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 66px; font-size: 33px; text-align: center;"><span style="color: #000000; font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">Confirm your eligibility:</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 553.25px; top: 603.75px; width: 16px; height: 30px; z-index: 108;"><style>@keyframes animation_21 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; animation-timing-function: ease-in-out}
-	100% {transform: matrix3d(0.68,0,0,0,0,0.68,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget widget-picture" style="left: -7px; top: 7px; width: 30px; height: 16px; z-index: 108; transform: rotateX(0deg) rotateY(0deg) rotateZ(270deg) scaleX(-1);"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-92c764f0-b1ca-11e6-941c-bb739a4a236a.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-92c764f0-b1ca-11e6-941c-bb739a4a236a.png"></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 448px; top: 586px; width: 125px; height: 52px; z-index: 109;"><style>@keyframes animation_22 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 125px; height: 52px; z-index: 109; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 66px; font-size: 19px; text-align: center;"><span style="color: #000000; font-family: vcsm; letter-spacing: 2.6px; font-weight: 800; font-style: normal;">NEXT</span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 374px; top: 110px; width: 51px; height: 38px; z-index: 115;"><style>@keyframes animation_23 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 115; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.34902); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">1</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 454px; top: 109px; width: 51px; height: 38px; z-index: 116;"><style>@keyframes animation_24 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 116; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: #000000; font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">2</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 536px; top: 110px; width: 51px; height: 38px; z-index: 117;"><style>@keyframes animation_25 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 117; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.380392); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">3</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 617px; top: 109px; width: 51px; height: 38px; z-index: 118;"><style>@keyframes animation_26 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 118; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.380392); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">4</span></span></p></div></div></div><div class="rmwidget widget-shape" style="left: 378px; top: 111px; width: 42px; height: 42px; z-index: 111;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e95ed05895d10500d13b3_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e95ed05895d10500d13b3_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(73,193,237); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 458px; top: 111px; width: 42px; height: 42px; z-index: 112;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e95edc0be1c31e1fa2c2c_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e95edc0be1c31e1fa2c2c_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 540px; top: 111px; width: 42px; height: 42px; z-index: 113;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e95ed8dda6a565c9b730c_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e95ed8dda6a565c9b730c_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(73,193,237); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 622px; top: 111px; width: 42px; height: 42px; z-index: 114;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e95ed4c689a533f82f58b_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e95ed4c689a533f82f58b_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(73,193,237); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 378px; top: 120px; width: 264px; height: 24px; z-index: 110;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="264px" height="24px"><path d="M0 12.5 L264 12.5" style="fill:none; stroke:rgb(255,255,255);stroke-width:1"></path></svg></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 271px; top: 202px; width: 500px; height: 462px; z-index: 100; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget text" style="left: 382px; top: 328px; width: 329px; height: 84px; z-index: 102; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 21px; font-size: 15px;"><span><span style="font-family: vcsm; font-weight: 400; font-style: normal; color: #000000;">I acknowledge that I am at least 21 years of age, or will be 21 within the next year.*</span><br></span></p></div></div><div class="rmwidget text" style="left: 382px; top: 404px; width: 328px; height: 104px; z-index: 103; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 21px; font-size: 15px;"><span><span style="font-family: vcsm; font-weight: 400; font-style: normal; color: #000000;">I
- acknowledge that I am available and committed to attending this 
-10-month program full-time (Monday - Friday, 8:30am - 6:00pm), 
-in-person, in Oakland for 40 weeks.*<br></span><br></span></p></div></div><div class="rmwidget text" style="left: 380px; top: 508px; width: 313px; height: 78px; z-index: 104; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 21px; font-size: 15px;"><span style="font-weight: 400; font-style: normal; color: #000000;"><span style="font-family: vcsm;">I acknowledge that I am United States Citizen or Permanent Resident*<br></span><br></span></p>
-<p style="line-height: 21px; font-size: 15px;"><span style="font-weight: 400; font-style: normal; color: #000000;"><span style="font-family: vcsm;">&nbsp;</span></span></p>
-<p style="line-height: 21px; font-size: 15px;"><span style="font-weight: 400; font-style: normal; color: #000000;"><span style="font-family: vcsm;">&nbsp;</span></span></p>
-<p style="line-height: 21px; font-size: 15px;"><span style="font-weight: 400; font-style: normal; color: #000000;">&nbsp;</span></p></div></div><div class="rmwidget widget-picture" style="left: 331px; top: 328px; width: 30px; height: 32px; z-index: 101;"><div style="background-image: url(&quot;https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png&quot;); background-position: 50% 50%; box-shadow: 0px 0px 0px 1px rgb(155, 155, 155) inset; border-radius: 0px; opacity: 1;" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png"></div><img class="saveable" style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png"></div><div class="rmwidget widget-picture" style="left: 331px; top: 404px; width: 30px; height: 32px; z-index: 105;"><div style="background-image: url(&quot;https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png&quot;); background-position: 50% 50%; box-shadow: 0px 0px 0px 1px rgb(155, 155, 155) inset; border-radius: 0px; opacity: 1;" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png"></div><img class="saveable" style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png"></div><div class="rmwidget widget-picture" style="left: 331px; top: 508px; width: 30px; height: 32px; z-index: 106;"><div style="background-image: url(&quot;https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png&quot;); background-position: 50% 50%; box-shadow: 0px 0px 0px 1px rgb(155, 155, 155) inset; border-radius: 0px; opacity: 1;" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png"></div><img class="saveable" style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-35857ea0-bb14-11e6-9c8e-2d3d3e90aa4f.png"></div></div>
-			</div>
-		</div>
-	</div><div class="page next-page page-with-fixeds-desktop">
-		<div class="page-fixed-bg-container" style="background-color: rgb(237, 63, 96);"><div class="rmwidget widget-background" style="background-color: #ed3f60">
-
-        
-
-        
-	</div></div>
-		<div class="fixed-position-container-top"></div>
-		<div class="fixed-position-container"><div class="rmwidget widget-shape full-width" style="left: 0px; top: -46px; width: 1907px; height: 116px; z-index: 122;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1907px" height="116px"><defs><mask id="mask_5872df201bbe4b3fd6fd2b1d_viewer"><path d="M1907 0 L0 0 L0 116 L1907 116  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872df201bbe4b3fd6fd2b1d_viewer"><path d="M1907 0 L0 0 L0 116 L1907 116  Z "></path></clipPath></defs><path mask="url(#mask_5872df201bbe4b3fd6fd2b1d_viewer)" d="M1907 0 L0 0 L0 116 L1907 116  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872df201bbe4b3fd6fd2b1d_viewer)" d="M1907 0 L0 0 L0 116 L1907 116  Z " style="fill:none; stroke:rgb(216,216,216); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-picture" style="left: 50%; top: -9px; width: 264.5px; height: 69px; margin-left: -524.5px; z-index: 123;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png"></div></div>
-		<div class="content-scroll-wrapper has-vertical-scroll">
-			<div class="content-bounds" style="width: 1920px; height: 1167px;">
-				<div class="page-content-container" tabindex="-1" style="width: 1024px; height: 1167px; top: 0px; left: 448px;"><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 224px; top: 245px; width: 583px; height: 52px; z-index: 103;"><style>@keyframes animation_27 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 583px; height: 52px; z-index: 103; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 66px; font-size: 33px; text-align: center;"><span style="color: #000000; font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">Tell us a bit about you</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 553.25px; top: 841.75px; width: 16px; height: 30px; z-index: 107;"><style>@keyframes animation_28 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; animation-timing-function: ease-in-out}
-	100% {transform: matrix3d(0.68,0,0,0,0,0.68,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget widget-picture" style="left: -7px; top: 7px; width: 30px; height: 16px; z-index: 107; transform: rotateX(0deg) rotateY(0deg) rotateZ(270deg) scaleX(-1);"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-92c764f0-b1ca-11e6-941c-bb739a4a236a.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-92c764f0-b1ca-11e6-941c-bb739a4a236a.png"></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 448px; top: 824px; width: 125px; height: 52px; z-index: 108;"><style>@keyframes animation_29 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 125px; height: 52px; z-index: 108; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 66px; font-size: 19px; text-align: center;"><span style="color: #000000; font-family: vcsm; letter-spacing: 2.6px; font-weight: 800; font-style: normal;">NEXT</span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 454px; top: 130px; width: 51px; height: 38px; z-index: 119;"><style>@keyframes animation_30 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 119; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.407843); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">2</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 536px; top: 131px; width: 51px; height: 38px; z-index: 120;"><style>@keyframes animation_31 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 120; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: #000000; font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">3</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 617px; top: 130px; width: 51px; height: 38px; z-index: 121;"><style>@keyframes animation_32 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 121; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.380392); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">4</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 374px; top: 131px; width: 51px; height: 38px; z-index: 116;"><style>@keyframes animation_33 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 116; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.34902); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">1</span></span></p></div></div></div><div class="rmwidget widget-shape" style="left: 458px; top: 132px; width: 42px; height: 42px; z-index: 115;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e965f4c689a533f82f5cc_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e965f4c689a533f82f5cc_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(239,136,157); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 540px; top: 132px; width: 42px; height: 42px; z-index: 117;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e9660f124014a09b0ae14_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e9660f124014a09b0ae14_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 622px; top: 132px; width: 42px; height: 42px; z-index: 118;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e96607b6ca320ceb8d1b0_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e96607b6ca320ceb8d1b0_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(239,136,157); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 378px; top: 133px; width: 42px; height: 42px; z-index: 114;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e965fbb4d2d5162a67c0e_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e965fbb4d2d5162a67c0e_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(239,136,157); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 378px; top: 141px; width: 264px; height: 24px; z-index: 113;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="264px" height="24px"><path d="M0 12.5 L264 12.5" style="fill:none; stroke:rgb(255,255,255);stroke-width:1"></path></svg></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 271px; top: 222px; width: 500px; height: 699.6px; z-index: 100; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget text" style="left: 306px; top: 336.3px; width: 576px; height: 69px; z-index: 101; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm; font-weight: 400; font-style: normal; color: #000000;">When was the last time you coded?&nbsp;What were you working on?*<br></span><br></span></p></div></div><div class="rmwidget widget-shape" style="left: 306px; top: 369.3px; width: 430px; height: 105px; z-index: 104;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="430px" height="105px"><defs><mask id="mask_5872e2d0501efd1e19c07ea4_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 102 A3 3 0 0 0 3 105 L427 105 A3 3 0 0 0 430 102 L430 3 A3 3 0 0 0 427 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872e2d0501efd1e19c07ea4_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 102 A3 3 0 0 0 3 105 L427 105 A3 3 0 0 0 430 102 L430 3 A3 3 0 0 0 427 0  Z "></path></clipPath></defs><path mask="url(#mask_5872e2d0501efd1e19c07ea4_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 102 A3 3 0 0 0 3 105 L427 105 A3 3 0 0 0 430 102 L430 3 A3 3 0 0 0 427 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872e2d0501efd1e19c07ea4_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 102 A3 3 0 0 0 3 105 L427 105 A3 3 0 0 0 430 102 L430 3 A3 3 0 0 0 427 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget text" style="left: 324px; top: 381.3px; width: 394px; height: 65px; z-index: 105; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 15px; font-size: 12px;"><span style="color: #afafaf;"><span style="font-family: vcsm;"><span>A few sentences is fine - we're just curious what you've been working on!<br></span></span></span></p></div></div><div class="rmwidget text" style="left: 306px; top: 519.3px; width: 450px; height: 73px; z-index: 102; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm; font-weight: 400; font-style: normal; color: #000000;">Where can we find you online? Add up to three links (e.g. GitHub, LinkedIn, your portfolio, etc.)*<br></span><br></span></p></div></div><div class="rmwidget widget-shape" style="left: 306px; top: 571.3px; width: 430px; height: 105px; z-index: 106;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="430px" height="105px"><defs><mask id="mask_5872e7aceab17564594aa644_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 102 A3 3 0 0 0 3 105 L427 105 A3 3 0 0 0 430 102 L430 3 A3 3 0 0 0 427 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872e7aceab17564594aa644_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 102 A3 3 0 0 0 3 105 L427 105 A3 3 0 0 0 430 102 L430 3 A3 3 0 0 0 427 0  Z "></path></clipPath></defs><path mask="url(#mask_5872e7aceab17564594aa644_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 102 A3 3 0 0 0 3 105 L427 105 A3 3 0 0 0 430 102 L430 3 A3 3 0 0 0 427 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872e7aceab17564594aa644_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 102 A3 3 0 0 0 3 105 L427 105 A3 3 0 0 0 430 102 L430 3 A3 3 0 0 0 427 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget text" style="left: 306px; top: 728.01px; width: 450px; height: 29px; z-index: 110; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm;">Highest degree earned:</span></span></p></div></div><div class="rmwidget widget-shape" style="left: 305px; top: 757.01px; width: 432px; height: 44px; z-index: 109;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="432px" height="44px"><defs><mask id="mask_5872ee36c5a04022b4cdb06a_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872ee36c5a04022b4cdb06a_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z "></path></clipPath></defs><path mask="url(#mask_5872ee36c5a04022b4cdb06a_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872ee36c5a04022b4cdb06a_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget text" style="left: 318px; top: 770px; width: 394px; height: 65px; z-index: 111; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 20px; font-size: 16px;"><span style="color: #afafaf;"><span style="font-family: vcsm;"><span>Select</span></span></span></p></div></div><div class="rmwidget widget-picture" style="left: 698px; top: 773px; width: 24px; height: 15px; z-index: 112;"><img style="opacity: 0.28;" src="Learners%20Guild%20Landing%20Page_files/upload-db796eb0-d613-11e6-a671-850ad3cd26b3.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-db796eb0-d613-11e6-a671-850ad3cd26b3.png"></div></div>
-			</div>
-		</div>
-	</div><div class="page next-page page-with-fixeds-desktop">
-		<div class="page-fixed-bg-container" style="background-color: rgb(247, 190, 34);"><div class="rmwidget widget-background" style="background-color: #f7be22">
-
-        
-
-        
-	</div></div>
-		<div class="fixed-position-container-top"></div>
-		<div class="fixed-position-container"><div class="rmwidget widget-shape full-width" style="left: 0px; top: -46px; width: 1907px; height: 116px; z-index: 152;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1907px" height="116px"><defs><mask id="mask_5872ed77c5a04022b4cdafee_viewer"><path d="M1907 0 L0 0 L0 116 L1907 116  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872ed77c5a04022b4cdafee_viewer"><path d="M1907 0 L0 0 L0 116 L1907 116  Z "></path></clipPath></defs><path mask="url(#mask_5872ed77c5a04022b4cdafee_viewer)" d="M1907 0 L0 0 L0 116 L1907 116  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872ed77c5a04022b4cdafee_viewer)" d="M1907 0 L0 0 L0 116 L1907 116  Z " style="fill:none; stroke:rgb(216,216,216); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-picture" style="left: 50%; top: -9px; width: 264.5px; height: 69px; margin-left: -524.5px; z-index: 153;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png"></div></div>
-		<div class="content-scroll-wrapper has-vertical-scroll">
-			<div class="content-bounds" style="width: 1920px; height: 1721px;">
-				<div class="page-content-container" tabindex="-1" style="width: 1024px; height: 1721px; top: 0px; left: 448px;"><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 230px; top: 243px; width: 583px; height: 52px; z-index: 102;"><style>@keyframes animation_34 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 583px; height: 52px; z-index: 102; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 66px; font-size: 33px; text-align: center;"><span style="color: #000000; font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">Some final info</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; left: 577.25px; top: 1499.32px; width: 16px; height: 30px; z-index: 105;"><style>@keyframes animation_35 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; animation-timing-function: ease-in-out}
-	100% {transform: matrix3d(0.68,0,0,0,0,0.68,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget widget-picture" style="left: -7px; top: 7px; width: 30px; height: 16px; z-index: 105; transform: rotateX(0deg) rotateY(0deg) rotateZ(270deg) scaleX(-1);"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-92c764f0-b1ca-11e6-941c-bb739a4a236a.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-92c764f0-b1ca-11e6-941c-bb739a4a236a.png"></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 477px; top: 1481.57px; width: 95px; height: 52px; z-index: 106;"><style>@keyframes animation_36 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 95px; height: 52px; z-index: 106; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 66px; font-size: 19px; text-align: center;"><span style="color: #000000; font-family: vcsm; letter-spacing: 2.6px; font-weight: 800; font-style: normal;">SUBMIT</span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 374px; top: 133px; width: 51px; height: 38px; z-index: 148;"><style>@keyframes animation_37 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 148; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.34902); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">1</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 454px; top: 132px; width: 51px; height: 38px; z-index: 149;"><style>@keyframes animation_38 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 149; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.407843); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">2</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 536px; top: 133px; width: 51px; height: 38px; z-index: 150;"><style>@keyframes animation_39 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 150; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.309804); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">3</span></span></p></div></div></div><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 617px; top: 132px; width: 51px; height: 38px; z-index: 151;"><style>@keyframes animation_40 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 51px; height: 38px; z-index: 151; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 46px; font-size: 20px; text-align: center;"><span style="color: rgba(0, 0, 0, 0.380392); font-family: custom_1727; font-weight: 400; font-style: normal;"><span style="letter-spacing: 0.4px;">4</span></span></p></div></div></div><div class="rmwidget widget-shape" style="left: 378px; top: 134px; width: 42px; height: 42px; z-index: 144;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e96e505895d10500d145a_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e96e505895d10500d145a_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(244,210,122); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 458px; top: 134px; width: 42px; height: 42px; z-index: 145;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e96e69cca5a493ad0f6f0_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e96e69cca5a493ad0f6f0_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(244,210,122); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 540px; top: 134px; width: 42px; height: 42px; z-index: 146;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e96e6c0be1c31e1fa2cd9_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e96e6c0be1c31e1fa2cd9_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(244,210,122); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 622px; top: 134px; width: 42px; height: 42px; z-index: 147;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42px" height="42px"><defs><clipPath id="clip_587e96e6e3a8940290de3d35_viewer"><ellipse cx="21" cy="21" rx="21" ry="21"></ellipse></clipPath></defs><ellipse mask="url(#mask_587e96e6e3a8940290de3d35_viewer)" cx="21" cy="21" rx="21" ry="21" style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></ellipse></svg></div><div class="rmwidget widget-shape" style="left: 378px; top: 143px; width: 264px; height: 24px; z-index: 143;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="264px" height="24px"><path d="M0 12.5 L264 12.5" style="fill:none; stroke:rgb(255,255,255);stroke-width:1"></path></svg></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 271px; top: 222px; width: 500px; height: 699.6px; z-index: 100; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 271px; top: 271px; width: 500px; height: 1307px; z-index: 101; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget text" style="left: 306px; top: 342px; width: 450px; height: 29px; z-index: 104; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm;">Current employment status</span></span></p></div></div><div class="rmwidget widget-shape" style="left: 305px; top: 371px; width: 432px; height: 44px; z-index: 103;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="432px" height="44px"><defs><mask id="mask_5872ed77c5a04022b4cdaff5_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872ed77c5a04022b4cdaff5_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z "></path></clipPath></defs><path mask="url(#mask_5872ed77c5a04022b4cdaff5_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872ed77c5a04022b4cdaff5_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget text" style="left: 318px; top: 383.99px; width: 394px; height: 65px; z-index: 107; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 20px; font-size: 16px;"><span style="color: #afafaf;"><span style="font-family: vcsm;"><span>Select</span></span></span></p></div></div><div class="rmwidget text" style="left: 307px; top: 444px; width: 450px; height: 29px; z-index: 110; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm;">Yearly household income</span></span></p></div></div><div class="rmwidget widget-shape" style="left: 306px; top: 473px; width: 432px; height: 44px; z-index: 109;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="432px" height="44px"><defs><mask id="mask_5872ee765b66473f3c6e2515_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872ee765b66473f3c6e2515_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z "></path></clipPath></defs><path mask="url(#mask_5872ee765b66473f3c6e2515_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872ee765b66473f3c6e2515_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget text" style="left: 319px; top: 485.99px; width: 394px; height: 65px; z-index: 111; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 20px; font-size: 16px;"><span style="color: #afafaf;"><span style="font-family: vcsm;"><span>Select</span></span></span></p></div></div><div class="rmwidget text" style="left: 307px; top: 543px; width: 450px; height: 29px; z-index: 114; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm;">What gender do you identify as?</span></span></p></div></div><div class="rmwidget widget-shape" style="left: 306px; top: 572px; width: 432px; height: 44px; z-index: 113;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="432px" height="44px"><defs><mask id="mask_5872ee7d5b66473f3c6e2517_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872ee7d5b66473f3c6e2517_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z "></path></clipPath></defs><path mask="url(#mask_5872ee7d5b66473f3c6e2517_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872ee7d5b66473f3c6e2517_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget text" style="left: 319px; top: 584.99px; width: 394px; height: 65px; z-index: 115; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 20px; font-size: 16px;"><span style="color: #afafaf;"><span style="font-family: vcsm;"><span>Select</span></span></span></p></div></div><div class="rmwidget text" style="left: 310px; top: 660.98px; width: 450px; height: 29px; z-index: 117; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm;"><span>What race or ethnicity do you identify as? (Mark all that apply)*<br></span></span></span></p></div></div><div class="rmwidget text" style="left: 334px; top: 697.98px; width: 356px; height: 210px; z-index: 118; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 23px; font-size: 13px;"><span><span style="font-family: vcsm;"><span><span>Black, Afro-Caribbean, or African American<br>Native American or Alaskan Native<br>Non-Hispanic White or Euro-American<br>Latino or Hispanic American<br>East Asian or Asian American<br>South Asian or Indian American<br>Middle Eastern or Arab American<br>Other<br></span><br></span></span></span></p></div></div><div class="rmwidget widget-shape" style="left: 310px; top: 698.98px; width: 15px; height: 16px; z-index: 119;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872efef35ce095189b244e0_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872efef35ce095189b244e0_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872efef35ce095189b244e0_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872efef35ce095189b244e0_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 722.98px; width: 15px; height: 16px; z-index: 120;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f018e9cc09504a6791ba_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f018e9cc09504a6791ba_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f018e9cc09504a6791ba_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f018e9cc09504a6791ba_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 746.98px; width: 15px; height: 16px; z-index: 121;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f0213f74a4365e017718_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f0213f74a4365e017718_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f0213f74a4365e017718_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f0213f74a4365e017718_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 770.98px; width: 15px; height: 16px; z-index: 122;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f02118eb89688d2391cc_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f02118eb89688d2391cc_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f02118eb89688d2391cc_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f02118eb89688d2391cc_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 793px; width: 15px; height: 16px; z-index: 123;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f029fc492f1aea7a4822_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f029fc492f1aea7a4822_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f029fc492f1aea7a4822_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f029fc492f1aea7a4822_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 817px; width: 15px; height: 16px; z-index: 124;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f029d1f6af13d7b66b20_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f029d1f6af13d7b66b20_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f029d1f6af13d7b66b20_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f029d1f6af13d7b66b20_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 841px; width: 15px; height: 16px; z-index: 125;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f02918eb89688d2391d2_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f02918eb89688d2391d2_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f02918eb89688d2391d2_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f02918eb89688d2391d2_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 865px; width: 15px; height: 16px; z-index: 126;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f029fe36a630a747888c_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f029fe36a630a747888c_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f029fe36a630a747888c_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f029fe36a630a747888c_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget text" style="left: 310px; top: 919.98px; width: 450px; height: 29px; z-index: 127; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm;"><span><span>Which dates are you willing to start on? (Check all that apply)*<br></span><br></span></span></span></p></div></div><div class="rmwidget text" style="left: 334px; top: 958.98px; width: 356px; height: 89px; z-index: 128; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 23px; font-size: 13px;"><span><span style="font-family: vcsm;"><span><span><span>2016-11-28<br>2017-02-13<br>2017-04-24<br>Any of the above<br></span></span><br></span></span></span></p></div></div><div class="rmwidget widget-shape" style="left: 310px; top: 959.98px; width: 15px; height: 16px; z-index: 129;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f0539554242c1548ccec_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f0539554242c1548ccec_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f0539554242c1548ccec_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f0539554242c1548ccec_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 983.98px; width: 15px; height: 16px; z-index: 130;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f054d4d35170ba357fcf_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f054d4d35170ba357fcf_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f054d4d35170ba357fcf_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f054d4d35170ba357fcf_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 1007.98px; width: 15px; height: 16px; z-index: 131;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f055d1f6af13d7b66b3a_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f055d1f6af13d7b66b3a_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f055d1f6af13d7b66b3a_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f055d1f6af13d7b66b3a_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 1031.98px; width: 15px; height: 16px; z-index: 132;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f055eab17564594aab6a_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f055eab17564594aab6a_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f055eab17564594aab6a_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f055eab17564594aab6a_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget text" style="left: 311px; top: 1100.99px; width: 448px; height: 57px; z-index: 134; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm;"><span>[Optional] Were you referred to Learners Guild by one of these programs? If so, please let us know how you heard about us.<br></span></span></span></p></div></div><div class="rmwidget widget-shape" style="left: 310px; top: 1157.99px; width: 432px; height: 44px; z-index: 133;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="432px" height="44px"><defs><mask id="mask_5872f0793f74a4365e017743_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f0793f74a4365e017743_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f0793f74a4365e017743_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f0793f74a4365e017743_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget text" style="left: 323px; top: 1170.99px; width: 394px; height: 65px; z-index: 135; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 20px; font-size: 16px;"><span style="color: #afafaf;"><span style="font-family: vcsm;"><span>Select</span></span></span></p></div></div><div class="rmwidget text" style="left: 310px; top: 1235.99px; width: 450px; height: 56px; z-index: 137; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm;"><span><span><span>[Optional] Were your referred to this program by one of our current learners?<br></span></span><br></span></span></span></p></div></div><div class="rmwidget text" style="left: 334px; top: 1293px; width: 356px; height: 89px; z-index: 138; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 23px; font-size: 13px;"><span><span style="font-family: vcsm;"><span>Yes</span></span></span></p>
-<p style="line-height: 23px; font-size: 13px;"><span><span style="font-family: vcsm;"><span>No</span></span></span></p></div></div><div class="rmwidget widget-shape" style="left: 310px; top: 1294px; width: 15px; height: 16px; z-index: 139;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f0bee9cc09504a679215_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f0bee9cc09504a679215_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f0bee9cc09504a679215_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f0bee9cc09504a679215_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-shape" style="left: 310px; top: 1318px; width: 15px; height: 16px; z-index: 140;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15px" height="16px"><defs><mask id="mask_5872f0be35ce095189b2454a_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f0be35ce095189b2454a_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f0be35ce095189b2454a_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f0be35ce095189b2454a_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 13 A3 3 0 0 0 3 16 L12 16 A3 3 0 0 0 15 13 L15 3 A3 3 0 0 0 12 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget text" style="left: 311px; top: 1382px; width: 448px; height: 57px; z-index: 142; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 19px; font-size: 15px;"><span><span style="font-family: vcsm;"><span>If so, please give us their name:<br></span></span></span></p></div></div><div class="rmwidget widget-shape" style="left: 310px; top: 1413px; width: 432px; height: 44px; z-index: 141;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="432px" height="44px"><defs><mask id="mask_5872f44f1bbe4b3fd6fd3bad_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f44f1bbe4b3fd6fd3bad_viewer"><path d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z "></path></clipPath></defs><path mask="url(#mask_5872f44f1bbe4b3fd6fd3bad_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f44f1bbe4b3fd6fd3bad_viewer)" d="M3 0 A3 3 0 0 0 0 3 L0 41 A3 3 0 0 0 3 44 L429 44 A3 3 0 0 0 432 41 L432 3 A3 3 0 0 0 429 0  Z " style="fill:none; stroke:rgb(206,206,206); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-picture" style="left: 698px; top: 386.99px; width: 24px; height: 15px; z-index: 108;"><img style="opacity: 0.28;" src="Learners%20Guild%20Landing%20Page_files/upload-db796eb0-d613-11e6-a671-850ad3cd26b3.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-db796eb0-d613-11e6-a671-850ad3cd26b3.png"></div><div class="rmwidget widget-picture" style="left: 699px; top: 488.99px; width: 24px; height: 15px; z-index: 112;"><img style="opacity: 0.28;" src="Learners%20Guild%20Landing%20Page_files/upload-db796eb0-d613-11e6-a671-850ad3cd26b3.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-db796eb0-d613-11e6-a671-850ad3cd26b3.png"></div><div class="rmwidget widget-picture" style="left: 699px; top: 587.99px; width: 24px; height: 15px; z-index: 116;"><img style="opacity: 0.28;" src="Learners%20Guild%20Landing%20Page_files/upload-db796eb0-d613-11e6-a671-850ad3cd26b3.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-db796eb0-d613-11e6-a671-850ad3cd26b3.png"></div><div class="rmwidget widget-picture" style="left: 703px; top: 1173.99px; width: 24px; height: 15px; z-index: 136;"><img style="opacity: 0.28;" src="Learners%20Guild%20Landing%20Page_files/upload-db796eb0-d613-11e6-a671-850ad3cd26b3.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-db796eb0-d613-11e6-a671-850ad3cd26b3.png"></div></div>
-			</div>
-		</div>
-	</div><div class="page last next-page page-with-fixeds-desktop">
-		<div class="page-fixed-bg-container" style="background-color: rgb(0, 0, 0);"><div class="rmwidget widget-background" style="background-color: #000000">
-
-        
-            <div class="picture-background" style="opacity: 0.55; background-image: url(&quot;https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-0ce6a170-d614-11e6-a671-850ad3cd26b3.jpg&quot;);"></div>
-        
-
-        
-	</div></div>
-		<div class="fixed-position-container-top"></div>
-		<div class="fixed-position-container"><div class="rmwidget widget-shape full-width" style="left: 0px; top: -46px; width: 1920px; height: 116px; z-index: 103;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920px" height="116px"><defs><mask id="mask_5872f53bd1f6af13d7b66daa_viewer"><path d="M1920 0 L0 0 L0 116 L1920 116  Z " style="fill:white; stroke:black; stroke-width:1"></path></mask><clipPath id="clip_5872f53bd1f6af13d7b66daa_viewer"><path d="M1920 0 L0 0 L0 116 L1920 116  Z "></path></clipPath></defs><path mask="url(#mask_5872f53bd1f6af13d7b66daa_viewer)" d="M1920 0 L0 0 L0 116 L1920 116  Z " style="fill:rgb(255,255,255); stroke:none; stroke-width:0; pointer-events: visiblePainted;"></path><path clip-path="url(#clip_5872f53bd1f6af13d7b66daa_viewer)" d="M1920 0 L0 0 L0 116 L1920 116  Z " style="fill:none; stroke:rgb(216,216,216); stroke-width:2; pointer-events: visiblePainted;"></path></svg></div><div class="rmwidget widget-picture" style="left: 50%; top: -9px; width: 264.5px; height: 69px; margin-left: -524.5px; z-index: 104;"><img style="opacity: 1;" src="Learners%20Guild%20Landing%20Page_files/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png" url="https://rm-content.s3.amazonaws.com/55a5b979cc51ef6d1b282884/650314/upload-90f6a6b0-be7a-11e6-b8e1-abc4038c4751.png"></div></div>
-		<div class="content-scroll-wrapper has-vertical-scroll">
-			<div class="content-bounds" style="width: 1920px; height: 955px;">
-				<div class="page-content-container" tabindex="-1" style="width: 1024px; height: 672px; top: 141.5px; left: 448px;"><div class="animation-container force3d" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; left: 156px; top: 385px; width: 700px; height: 59px; z-index: 101;"><style>@keyframes animation_41 {
-	0% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 0; animation-timing-function: ease-out}
-	100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
-}
-</style><div class="rmwidget text" style="left: 0px; top: 0px; width: 700px; height: 59px; z-index: 101; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="text-align: center; line-height: 31px; font-size: 25px;" data-style-phone_portrait="text-align: center; line-height: 21px; font-size: 17px;" data-anchor-link-pos-phone_portrait="empty"><span style="color: #ffffff; font-family: vcsm; font-weight: 400; font-style: normal;" data-style-phone_portrait="color: #ffffff; font-family: vcsm; font-weight: bold; font-style: normal;" data-anchor-link-pos-phone_portrait="empty"><span>We have received your application. <br>We will be in touch with you soon.<br></span></span></p>
-<p style="text-align: center; line-height: 28px; font-size: 22px;" data-style-phone_portrait="text-align: center; line-height: 21px; font-size: 17px;" data-anchor-link-pos-phone_portrait="empty"><span style="font-weight: 400; font-style: normal; font-family: vcsm;" data-style-phone_portrait="font-weight: bold; font-style: normal; font-family: vcsm;" data-anchor-link-pos-phone_portrait="empty">&nbsp;</span></p></div></div></div><div class="rmwidget widget-shape div-instead-of-svg" style="left: 286px; top: 269px; width: 441px; height: 93px; z-index: 100; background-color: rgb(0, 163, 223); border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box;"></div><div class="rmwidget text" style="left: 304px; top: 269px; width: 423px; height: 92px; z-index: 102; visibility: inherit;"><div style=" -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; column-count:auto;-webkit-column-count:auto !important;-moz-column-count:auto;column-gap:16px;-webkit-column-gap:16px !important;-moz-column-gap:16px;background:rgba(255,255,255, 0)" class="v2"><p style="line-height: 91px; font-size: 73px;"><span style="font-family: custom_1727; font-weight: bold; font-style: normal; color: #ffffff;">Thank you!</span></p></div></div></div>
-			</div>
-		</div>
-	</div></div>
-		</div>
-
+        </div>
 		
-
-
 		
-	<style id="page-position-style" type="text/css" class="">					.mag .mag-pages-container .container {
-						left: 0px;
-						width: 1920px;
-					}
-					.mag .mag-pages-container .container .page {
-						left: 0px;
-						width: 1920px;
-					}
-					.mag .mag-pages-container .container .final-page {
-						left: 0px;
-						width: 1920px;
-					}
-						.mag .mag-pages-container .container .final-page.offscreen {
-							-webkit-transform: translateX(1920px) ;
-							transform: translateX(1920px) ;
-						}
-						.mag .mag-pages-container .container .page.prev-page {
-							-webkit-transform: translateX(-1920px) ;
-							transform: translateX(-1920px) ;
-						}
-						.mag .mag-pages-container .container .page.center-page {
-							-webkit-transform: translateX(0) ;
-							transform: translateX(0) ;
-						}
-						.mag .mag-pages-container .container .page.next-page {
-							-webkit-transform: translateX(1920px) ;
-							transform: translateX(1920px) ;
-						}</style><style id="page-transition-style" type="text/css" class="">					.mag .mag-pages-container .container .page {
-						-webkit-transition:	all 550ms cubic-bezier(0.40, 0.24, 0.40, 1);						transition: all 550ms cubic-bezier(0.40, 0.24, 0.40, 1);					}
-					.mag .mag-pages-container .container .page.center-page {
-						-webkit-transition:	all 545ms cubic-bezier(0.40, 0.24, 0.40, 1);						transition: all 545ms cubic-bezier(0.40, 0.24, 0.40, 1);					}
-					.mag .mag-pages-container .container .final-page {
-						-webkit-transition:	all 550ms cubic-bezier(0.40, 0.24, 0.40, 1);						transition: all 550ms cubic-bezier(0.40, 0.24, 0.40, 1);					}
-					</style><div class="navigation">
-		<div class="navigation-arrow left hidden"><div class="icon sprite"></div></div>
-		<div class="navigation-arrow right"><div class="icon sprite"></div></div>
-		<div class="navigation-arrow bottom"><div class="icon sprite"></div></div>
-	</div><div class="toolbar for-viewer">
-
+		<div class="b1" style="margin:40px;">SEE IF I QUALIFY</div>
 		
-
-		
-
-		
-
-		
-
-		
-
-	</div></div></div>
-	<div id="service-pages"></div>
-	<div class="popups"></div>
-
+</div>
 	
-<script>
-	
-		var _prum = [['id', '585a8854e629a5eb9048a348'],
-		             ['mark', 'firstbyte', (new Date()).getTime()]];
-		(function() {
-		    var s = document.getElementsByTagName('script')[0]
-		      , p = document.createElement('script');
-		    p.async = 'async';
-		    p.src = '//rum-static.pingdom.net/prum.min.js';
-		    s.parentNode.insertBefore(p, s);
-		})();
-	
-</script>
-
-
-	<div id="fake" style="position: fixed; opacity: 1.0"></div>
-
 	
 
-
-
-
-
-
-<div class="used-fonts-test v2" style="position: absolute; left: -9999px; width: 999px;"><p style="text-align: center; line-height: 21px; font-size: 17px;" data-style-phone_portrait="text-align: center; line-height: 21px; font-size: 17px;" data-anchor-link-pos-phone_portrait="empty"><span style="color: #ffffff; font-family: vcsm; font-weight: bold; font-style: normal;" data-style-phone_portrait="color: #ffffff; font-family: vcsm; font-weight: bold; font-style: normal;" data-anchor-link-pos-phone_portrait="empty"><span>We have received your application. <br>We will be in touch with you soon.<br></span></span></p>
-<p style="text-align: center; line-height: 21px; font-size: 17px;" data-style-phone_portrait="text-align: center; line-height: 21px; font-size: 17px;" data-anchor-link-pos-phone_portrait="empty"><span style="font-weight: bold; font-style: normal; font-family: vcsm;" data-style-phone_portrait="font-weight: bold; font-style: normal; font-family: vcsm;" data-anchor-link-pos-phone_portrait="empty">&nbsp;</span></p></div></body></html>
+</center>
+</body>
+</html>
