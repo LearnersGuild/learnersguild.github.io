@@ -66,6 +66,77 @@ margin:auto;
 <script src="newres/jquery-latest.js"></script>
 
 <script src="newres/bootstrap.min.js"> </script>
+
+	
+	<style>
+		.newheader{
+		width:100%;
+			z-index:999;
+			position:fixed;
+			top:0px;
+			left:0px;
+			min-height:48px;
+			background:white;
+			box-shadow:3px 0px 3px black;
+		}
+		body{
+		margin-top:48px;
+		}
+		
+		.mheadmenu1 p{font-size:20px; margin-top:20px;}
+		.mheadmenu1 a*, .mheadmenu1 a, .mheadmenu1 p*{color:#22212b !important;}
+		
+		
+		.mbutton1:active .newheader .menu1, .mbutton1:hover .newheader .menu1, .menu1:hover .neweheader .menu1{
+		display:inline !important;
+		}
+		
+		
+@media (max-width: 600px) {
+	.hlogo1{margin:0px;}
+		}
+		
+		.ab1:hover{
+		background:red;
+			color:white;
+		}
+		
+		
+		.dropdown .dropdown-menu {    -webkit-transition: all 0.3s;    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;    -o-transition: all 0.3s;    transition: all 0.3s;
+    max-height: 0;
+    display: none;
+    overflow: hidden;
+    
+}
+
+.dropdown.open .dropdown-menu {
+    max-height: 300px;
+	display:block;
+}
+	
+	</style>
+	
+	<div class="newheader"> 
+		
+		
+				<div class="dropdown" style="float:left;">
+  <button class="btn btn-primary dropdown-toggle" style="background:none; background-image:none; background-color:none; padding:0px; border:0px;" type="button" data-toggle="dropdown"><img src="newres/headerleft.png">
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu mheadmenu1" style="background:#f7f8f8; padding:20px 40px 20px 20px">
+	  <p><a href="/">HOME</a></p>
+	  <p><a href="howitworks">THE GUILD</a></p>
+	  <p><a href="community">COMMUNITY</a></p>
+	  <p><a href="impact">IMPACT</a></p>
+	  <p><a href="about">ABOUT</a></p>
+  </ul>
+</div> 
+		
+		
+		<img src="newres/headbg1.png" class="hlogo1" style="text-align:center; width:245px; display:block; margin:auto; height:49px;"/>
+		<div class="ab1" style="text-align:right; font-family:'Proxima'; border-radius:20px;border:2px solid #ee255b; width:140px; float:right; padding:8px; position:fixed; right:8px; top:8px; padding-right:30px;"><a href="https://www.learnersguild.org/enroll_start.html">APPLY NOW</a></div>
+		
+	</div>
 <center style="background:#e9e9e9;">
 
 
