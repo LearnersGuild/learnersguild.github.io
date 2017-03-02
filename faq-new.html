@@ -213,12 +213,12 @@ p, h3{font-family:"Proxima";}
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 			<div class="leftq">
 
-			<button data-toggle="collapse" data-target="#q1" data-parent="#mg1">What's a guild?</button>
-			<button data-toggle="collapse" data-target="#q2" data-parent="#mg1">How the Money Works</button>
-			<button data-toggle="collapse" data-target="#q3" data-parent="#mg1">Your Commitment</button>
-			<button data-toggle="collapse" data-target="#q4" data-parent="#mg1">Learning Model</button>
-			<button data-toggle="collapse" data-target="#q5" data-parent="#mg1">Application Process</button>
-			<button data-toggle="collapse" data-target="#q6" data-parent="#mg1">Post-Program Matters</button>
+			<button id="b1" data-toggle="collapse" data-target="#q1" data-parent="#mg1">What's a guild?</button>
+			<button id="b2" data-toggle="collapse" data-target="#q2" data-parent="#mg1">How the Money Works</button>
+			<button id="b3" data-toggle="collapse" data-target="#q3" data-parent="#mg1">Your Commitment</button>
+			<button id="b4" data-toggle="collapse" data-target="#q4" data-parent="#mg1">Learning Model</button>
+			<button id="b5" data-toggle="collapse" data-target="#q5" data-parent="#mg1">Application Process</button>
+			<button id="b6" data-toggle="collapse" data-target="#q6" data-parent="#mg1">Post-Program Matters</button>
 
 			
 			</div>
@@ -819,6 +819,14 @@ We hope by the end of your time at Learners Guild, you will be contributing to o
 </div>	
 	 <div class="footer2" style="background:#0f0f16; padding:20px;"><p>Copyrights &copy 2016 All Rights Reserved by Learners Guild Ltd. Public Benefit Corporation.  Privacy Policy | Terms of Service</p></div>
 	
+	
+	
+	<script>
+	$("#b1").click(function(){
+	    $("#q2").hide();
+	});	
+		
+	</script>
 
 
 
