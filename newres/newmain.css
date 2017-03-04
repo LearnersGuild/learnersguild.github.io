@@ -15,5 +15,14 @@ color:white !important;
     max-width:95%;
   }
   
+  .hlogo1{
+  text-align: center;
+width: 175px;
+display: block;
+margin: 0;
+height: 39px;
+margin-top: 8px;
+  }
+  
   
 }
