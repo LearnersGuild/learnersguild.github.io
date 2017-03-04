@@ -17,11 +17,11 @@ color:white !important;
   
   .hlogo1{
   text-align: center;
-width: 175px;
-display: block;
-margin: 0;
-height: 39px;
-margin-top: 8px;
+width: 175px !important;
+display: block !important;
+margin: 0 !important;
+height: 39px !important;
+margin-top: 8px !important;
   }
   
   
