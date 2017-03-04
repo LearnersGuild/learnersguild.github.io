@@ -1,1 +1,15 @@
 //blank
+
+.ab1:hover *, .ab1:hover{
+  color:white !important;
+}
+
+@media (max-width: 800px) {
+  
+  P{
+   font-size:18px !important; 
+    max-width:95%;
+  }
+  
+  
+}
