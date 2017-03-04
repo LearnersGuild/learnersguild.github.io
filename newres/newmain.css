@@ -1,6 +1,6 @@
 //blank
 
-.ab1:hover *, .ab1:hover{
+.ab1:hover *, .ab1:hover, .ab1:hover a, .ab1:hover a*{
   color:white !important;
 }
 
