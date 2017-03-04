@@ -4,6 +4,10 @@
   color:white !important;
 }
 
+.b1, .b1 *, .b1:hover, .b1:hover *{
+color:white !important;
+}
+
 @media (max-width: 800px) {
   
   P{
