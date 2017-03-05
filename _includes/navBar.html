@@ -1,11 +1,46 @@
 <header id="header" class="transparent-header dark full-header" data-sticky-class="not-dark">
-  <div id="header-wrap">
-    <div class="container clearfix hidden-xs hidden-sm">
-
-      <div id="nav-logo">
-        <a href="/" class="standard-logo" data-dark-logo="/images/theLogo.png"><img src="/images/theLogo.png" alt="Learner's Guild Logo"></a>
+  <div class="bs-example">
+    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-LG">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-LG">
+          <ul class="nav navbar-nav">
+            <li><a href="/"><div>Home</div></a></li>
+            <li><a href="program.html"><div>Program</div></a></li>
+            <li><a href="faq.html"><div>FAQ</div></a></li>
+            <li><a href="about.html"><div>About</div></a></li>
+            <li><a href="apply.html"><div>Apply</div></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
       </div>
-      {% include navDropdown.html %}
+    </nav>
+</div>
+  <nav>
+    <div class="large-nav clearfix hidden-xs hidden-sm">
+      <div class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">dropdown</a>
+        <ul id="dropdown-menu">
+
+        </ul>
+      <div>
+      <div id="nav-logo">
+        <a href="/" class="standard-logo" data-dark-logo="/images/theLogo.png">
+          <img src="/images/theLogo.png" alt="Learner's Guild Logo">
+        </a>
+      </div>
+      <a href="#">
+        <div class="nav-apply-pill">APPLY NOW</div>
+      </a>
     </div>
 
     <div class="clearfix visible-xs visible-sm">
@@ -20,5 +55,5 @@
       </div>
       {% include navDropdown.html %}
     </div>
-  </div>
+  </nav>
 </header>

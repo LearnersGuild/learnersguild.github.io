@@ -1,1 +1,13 @@
-.
+.large-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dropdownNav-toggle {
+  min-height: 40px;
+  max-height: 40px;
+  min-width: 40px;
+  max-width: 40px;
+  background-color: #ccc;
+}
