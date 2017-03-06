@@ -18,6 +18,7 @@ body {
 
 .navbar-header {
   float: none;
+  background-color: white;
 }
 
 .navbar-toggle {
@@ -25,11 +26,11 @@ body {
 }
 
 .navbar-collapse.collapse {
-  display: none;
+  display: none!important;
 }
 
 .navbar-nav {
-  float: none;
+  float: none!important;
 }
 
 .navbar-nav>li {
@@ -43,6 +44,7 @@ body {
   min-width: 200px;
   background-color: white;
 }
+
 .navbar-collapse.collapsing {
   position: absolute;
   background-color: white;
@@ -71,4 +73,12 @@ body {
 .nav-apply-pill:hover {
   background-color: #ED3F60;
   color: #fff;
+}
+
+.LG-logo {
+  max-width: 90%;
+  position: absolute;
+  left: 50%;
+  margin-left: -123px !important;  /* 50% of your logo width */
+  display: block;
 }
