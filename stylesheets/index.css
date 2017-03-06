@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  padding: 0px;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a {
+  width: 100% !important;
+  height: auto;
+  position: relative;
+  z-index: -999;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.carousel-caption {
+  margin: 200px 0;
+}
+
+.carousel-indicators li {
+  outline: none;
+}
+
+.carousel-caption > h3 {
+  font-family: "Bevan";
+  font-size: 48px;
+}
+
+.carousel-caption > p, .carousel-caption > a {
+  font-family: "Raleway";
+  font-size: 24px;
+}
