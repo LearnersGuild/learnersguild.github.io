@@ -11,7 +11,7 @@ and (max-device-width : 568px) {
     width: 100% !important;
     height: 300px !important;
     position: relative;
-    margin: 0 auto;
+    margin: 10 auto;
     top: 0px;
     z-index: -1000px;
   }
@@ -75,12 +75,25 @@ and (max-device-width : 568px) {
     font-size: 12px;
   }
 
-  .home-page_block2-image img{
-    width: 10px;
+  .container.block2 {
+    display: none;
   }
 
-  .home-page_block2 > p {
-
+  .container-mobile.block2 {
+    display: block;
   }
+
+  img.home-page_block2-image{
+    width: 250px;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  .home-page_block2 p {
+    font-size: 16px;
+  }
+
 
 }

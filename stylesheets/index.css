@@ -19,14 +19,11 @@
   z-index: -1000px;
 }
 
-.carousel-inner > .item > img {
-  opacity: .75;
-}
-
 .carousel-caption {
   top: 50%;
   bottom: 50%;
   transform: translateY(-50%);
+  font-size: 20px;
 }
 
 #playit {
@@ -95,6 +92,9 @@
   margin: 0 !important;
 }
 
+.container-mobile.block2 {
+  display: none;
+}
 
 .home-page_block2 > h2, .home-page_block2 > h1 {
   font-family: "Bevan";
