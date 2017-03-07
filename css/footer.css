@@ -29,6 +29,11 @@ footer {
 
 .footer-containers .fa {
   color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-containers .fa:hover {
+  color: #F2BB1A;
 }
 
 .footer-containers h5 {
