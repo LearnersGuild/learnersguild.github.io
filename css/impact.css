@@ -1,0 +1,81 @@
+/*@font-face {
+  font-family: Stag;
+  src: url("newres/Stag-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: StagLight;
+  src: url("newres/Stag-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Proxima;
+  src: url("newres/proxima.otf") format("opentype");
+}*/
+
+.impact-section-one {
+  background-image: url(/images/newres/differentbg1.png);
+  min-height: 50vh;
+  max-height: 380px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  padding-top: 5%;
+}
+
+.impact-section-one div {
+  background: #F2B317; 
+  padding: 15px; 
+  width: 220px; 
+  color: white;
+  font-family: 'Lato';
+  text-align: center;
+  line-height: 13px;
+  margin: 10px;
+}
+
+.impact-section-one h2 {
+  font-size: 4em; 
+  padding-top: 40px; 
+  letter-spacing: 2px; 
+  color: white; 
+  margin: 0px 40px;
+}
+
+.impact-guild-tracker {
+  background-image: url('/images/newres/impactbg5.png'); 
+  min-height: 50vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.impact-guild-tracker img {
+  padding-bottom: 40px;
+}
+
+.impact-guild-tracker h2 {
+  font-size: 60px; 
+  padding-top: 40px; 
+  letter-spacing: 2px; 
+  color: white; 
+  margin: 0px 40px; 
+  border-bottom: 8px solid #f2b317; 
+  padding-bottom: 12px; 
+  width: 500px; 
+  margin-bottom: 40px;
+}
+
+.impact-guild-tracker p {
+  color: white; 
+  font-size: 18px;
+}
+
+.impact-guild-tracker p span {
+  color:#0099da;
+}
+
+.impact-income-increase {
+  background-image: url('images/newres/impactbg10.png'); 
+  background-repeat: repeat;
+}

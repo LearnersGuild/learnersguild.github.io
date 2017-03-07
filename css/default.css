@@ -2,9 +2,13 @@ html, body {
   height: 100%;
   margin: 0;
 }
+body {
+  padding-top: 33px;
+}
 
 .wrapper {
   min-height: 100%;
+  padding-top: 33px;
 }
 
 .wrapper:after {
