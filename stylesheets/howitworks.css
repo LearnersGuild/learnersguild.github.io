@@ -1,0 +1,33 @@
+.howitworks-section-one {
+  background-image:url('../images/newres/worksbg1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.howitworks-section-one__sub-header {
+  font-family:'Lato';
+  text-align: center;
+  background:#00A3DF;
+  padding:8px;
+  width:180px;
+}
+
+.howitworks-section-one__sub-header-text {
+  line-height: 13px;
+  margin: 10px;
+}
+
+.howitworks-section-one__header {
+  font-family: 'Bevan', cursive;
+  text-shadow: 1px 1px 1px #000;
+  font-size:60px;
+  padding-top:40px;
+  letter-spacing:2px;
+}
