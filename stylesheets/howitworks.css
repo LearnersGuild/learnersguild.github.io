@@ -4,9 +4,12 @@
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  height: auto;
+
   color: white;
   min-height: 400px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -15,8 +18,13 @@
   font-family:'Lato';
   text-align: center;
   background:#00A3DF;
-  padding:8px;
   width:180px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5em;
+  font-size: 1em;
 }
 
 .howitworks-section-one__sub-header-text {
@@ -26,8 +34,28 @@
 
 .howitworks-section-one__header {
   font-family: 'Bevan', cursive;
+  text-align: center;
   text-shadow: 1px 1px 1px #000;
   font-size:60px;
   padding-top:40px;
   letter-spacing:2px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.2em;
+  font-size: 4em;
+}
+
+
+
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  background-color: orange;
+  padding: 1.2em;
+  font-size: .5em;
 }
