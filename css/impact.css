@@ -42,6 +42,34 @@
   margin: 0px 40px;
 }
 
+.impact-section-two {
+  background: #f8f8f8;
+}
+
+.impact-section-two p {
+  font-size: 18px; 
+  padding: 20px;
+}
+
+.impact-section-two:first-child {
+  max-width: 800px; 
+  font-size: 14px; 
+  padding: 40px 0px;
+}
+
+.impact-section-two h3 {
+  font-size: 60px; 
+  padding: 40px 0px;
+}
+
+.impact-3-col-seek-to {
+  max-width:1200px;
+}
+
+.impact-down-arrow {
+  padding: 40px;
+}
+
 .impact-guild-tracker {
   background-image: url('/images/newres/impactbg5.png'); 
   min-height: 50vh;
@@ -78,4 +106,9 @@
 .impact-income-increase {
   background-image: url('images/newres/impactbg10.png'); 
   background-repeat: repeat;
+}
+
+.impact-income-increase p {
+  padding: 20px; 
+  background: white;
 }
