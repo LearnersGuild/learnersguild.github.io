@@ -160,3 +160,24 @@ div.home-page_block4-video {
   height: 100%;
   width: 100%;
 }
+
+.home-page_block5 {
+  margin: 100px auto;
+}
+
+.home-page_block5-header {
+  font-family: "Bevan";
+}
+
+h1, h2, h3 {
+  font-family: "Bevan";
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none !important;
+}
+
+.home-page_block5-text {
+  font-family: "Raleway";
+  font-size: 14px;
+}

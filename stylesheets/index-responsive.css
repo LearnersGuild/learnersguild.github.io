@@ -99,8 +99,9 @@ and (max-device-width : 568px) {
     background-image: url('../images/newres/hp5.png');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 120px;
     padding: 10px;
-    height: 250px;
+    height: 220px;
     width: 100%;
   }
 
@@ -114,17 +115,14 @@ and (max-device-width : 568px) {
     margin-bottom: 2px;
   }
 
-  /*h2.home-page_block4-text {
-    font-family: "Bevan";
-    font-size: 10px;
-    color: white;
-    letter-spacing: 2px;
-  }*/
-
   h2.home-page_block4-text {
-    margin: 80px auto;
+    margin: 50px 0;
     color: black !important;
-    font-size: 18px !important;
+    font-size: 14px !important;
+  }
+
+  img.home-page_block5-image {
+    width: 120px;
   }
 
   div.home-page_block4-video {
@@ -155,6 +153,29 @@ and (max-device-width : 568px) {
   img#myplay1 {
     width: 150px;
   }
+
+  .home-page_block5 {
+    margin: 50px auto;
+  }
+
+  .home-page_block5-header {
+    font-family: "Bevan";
+  }
+
+  .home-page_block5-text {
+    margin-top: 50px;
+    font-family: "Raleway";
+    font-size: 12px;
+  }
+
+  h3.home-page_block5-header {
+    font-size: 16px;
+  }
+
+
+  /*.text-left {
+    text-align: center !important;
+  }*/
 
 
 
