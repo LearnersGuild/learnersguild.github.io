@@ -1,0 +1,42 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .community-page_block1 {
+    background-size: cover;
+  }
+
+  .btn.round {
+    padding: 10px 30px;
+  }
+
+  .community-page_block3-subtext-white {
+    width: 85%;
+    margin-bottom: 15%;
+  }
+
+  div#community-page_block3 {
+    display: none;
+  }
+
+  .container-mobile.block {
+    display: block;
+    text-align: center;
+  }
+
+  .image2 {
+    width: 85% !important;
+  }
+
+  .community-page_block2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .community-page_block3 {
+    text-align: center;
+    padding: 10% !important;
+    width: 85%;
+  }
+
+  h5#subtitle1, h5#subtitle2 {
+    font-size: 18px !important;
+  }
+}
