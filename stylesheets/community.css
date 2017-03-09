@@ -22,6 +22,12 @@
   display: none;
 }
 
+div.wistia_embed.wistia_async_8m601o0qqk {
+  height: 349px;
+  width: 500px;
+}
+
+
 ul.community-page_block1-nav {
   margin: 10px;
   font-size: 14px;
@@ -188,7 +194,7 @@ a.community-page_block3-link:hover{
   color: #ec3555;
   border-bottom: 4px solid #009cdc;
   padding-bottom: 8px;
-  width: 120px;
+  width: 160px;
 }
 
 .community-page-individual_block2 {
@@ -196,7 +202,7 @@ a.community-page_block3-link:hover{
   position: relative;
   top: -50px;
   width: 500px;
-  padding: 40px;
+  padding: 30px;
   z-index: 10;
 }
 
@@ -211,23 +217,27 @@ h2.community-page-individual_block1-text {
 
 .community-page-individual_block3 {
   background: #e9e9e9;
+  height: 150px;
 }
 
-.community-page-individual_block3-text {
+div.community-page-individual_block3-text {
   padding: 5% 25%;
   background: #e9e9e9;
-  font-family: "Proxima";
-}
-
-.community-page-individual_block3-text {
+  width: 100%;
   font-size: 16px;
   font-family: "Proxima";
   text-align: left;
   line-height: 28px;
+  margin: 0 !important;
+}
+
+.community-page-individual_block3-text > p, .wistia_embed.wistia_async_8m601o0qqk {
+  width: 85%;
+  margin: 20px auto;
 }
 
 .community-page-individual_block1b {
-  background-image: url('../images/newres/community-ana-bg.png');
+  background-image: url('../images/newres/hp2.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 550px;
@@ -240,4 +250,8 @@ h2.community-page-individual_block1-text {
 
 .curly-brace {
   font-size: 30px;
+}
+
+#blue-title {
+  color: #009cdc !important;
 }
