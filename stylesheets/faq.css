@@ -1,21 +1,18 @@
 .block3 {
-  background-size:100% auto;
-  color:white;
-  min-height:400px;
+  background-size: 100% auto;
+  color: white;
+  min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-h2, h1{font-family:"Stag"; color:#201d1d;}
-p, h3{font-family:"Proxima";}
-  
-  .righta p{
+.righta p {
   font-size:18px;
   color:#626366;
-  }
+}
   
-  .righta h3{
+.righta h3{
   font-size:32px;
     padding:20px 0px;
   }
