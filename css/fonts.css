@@ -1,18 +1,18 @@
 @font-face {
   font-family: stag;
   font-weight: bold;
-  src: url("fonts/Stag-Bold.otf") format("opentype");
+  src: url("/fonts/Stag-Bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: stag;
-  font-weight: regular;
-  src: url("fonts/Stag-Regular.otf") format("opentype");
+  font-weight: 400;
+  src: url("/fonts/Stag-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: proxima;
-  font-weight: regular;
-  src: url("fonts/ProximaNova-Regular.otf") format("opentype");
+  font-weight: 400;
+  src: url("/fonts/ProximaNova-Regular.otf") format("opentype");
 }
 
