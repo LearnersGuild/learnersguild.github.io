@@ -1,0 +1,237 @@
+.container {
+  width: 100% !important;
+  padding: 0px !important;
+  margin: 0 !important;
+}
+@font-face {
+  font-family: StagLight;
+  src: url("/images/newres/Stag-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: Stag;
+  src: url("/images/newres/Stag-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: Proxima;
+  src: url("/images/newres/proxima.otf") format("opentype");
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a {
+  width: 100% !important;
+  height: auto !important;
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  z-index: -1000px;
+}
+.carousel-inner>img {
+  min-height: 750px !important;
+  padding: 5px;
+  z-index: -1000px;
+}
+.carousel-caption {
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+#playit {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: none;
+}
+.home-page_block3 {
+  background-image: url('../images/newres/hp2.png')
+}
+.carousel-caption>h3 {
+  font-family: Stag;
+  font-size: 60px;
+}
+.button {
+  border-radius: 25px;
+}
+.btn.round {
+  background-color: #ee255b;
+  color: white;
+  border-radius: 20px;
+}
+.btn.round:hover {
+  color: white;
+  text-decoration: underline;
+}
+.home-page_block1 {
+  background-color: #20202b;
+  padding: 30px;
+  font-size: 18px;
+  line-height: 1.42857143;
+  font-family: Proxima;
+  color: white;
+}
+.home-page_block1-link {
+  color: #ee255b;
+}
+.home-page_block1-link:hover {
+  color: white;
+}
+.home-page_block1 a {
+  text-decoration: underline;
+}
+.home-page_block2 {
+  margin: 50px 0;
+  font-family: Proxima;
+}
+.home-page_block2 p {
+  width: 75%;
+  font-size: 18px;
+  margin: 0 !important;
+}
+.home-page_block2-text {
+  color: #97c93d;
+}
+.container-mobile.block2 {
+  display: none;
+}
+.home-page_block2>h2, .home-page_block2>h1 {
+  font-family: Stag;
+  font-weight: lighter;
+  margin: 20px 0;
+}
+.home-page_block2-image {
+  padding: 10px;
+}
+.home-page_block4 {
+  background-image: url('../images/newres/hp2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  height: 575px;
+  width: 100%;
+}
+p.home-page_block4-text {
+  font-family: Proxima;
+  font-size: 22px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  color: white;
+  border-bottom: 12px solid #f2ba19;
+  width: 13%;
+  padding-bottom: 6px;
+}
+h2.home-page_block4-text {
+  font-family: Stag;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 2px;
+}
+div.home-page_block4-video {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: none;
+}
+.wistia_responsive_padding {
+  padding: 56.25% 0 28px 0;
+  position: relative;
+}
+.wistia_responsive_wrapper {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.wistia_embed.wistia_async_vpld4j6fjs {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.home-page_block5 {
+  margin: 100px auto;
+}
+.row.block5 {
+  height: 400px !important;
+}
+.row.block5>p {
+  font-size: 24px;
+}
+.home-page_block5-header {
+  font-family: Stag;
+  font-size: 36px;
+}
+h1, h2, h3 {
+  font-family: Stag;
+}
+.home-page_block6-text3 {
+  font-family: Proxima;
+}
+.carousel-control.right, .carousel-control.left {
+  background-image: none !important;
+}
+.carousel-indicators.carousel2 li {
+  background-color: grey !important;
+}
+#myCarousel2 .carousel-indicators .active {
+  background-color: #ec3656 !important;
+}
+.home-page_block5-text {
+  font-family: Proxima;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+}
+.container-fluid .block6 {
+  margin: 120px 0px;
+}
+.home-page_block6-image {
+  text-align: right;
+}
+.home-page_block6-triangle {
+  position: absolute;
+  right: 15px;
+  top: 140px;
+}
+.home-page_block6-text {
+  background-color: #222230;
+  color: white;
+  font-size: 32px;
+  padding: 18px;
+  font-family: "StagLight";
+  margin: 40px;
+  padding: 60px;
+  text-align: left;
+}
+.home-page_block6-text2 {
+  color: #96c83c;
+  font-family: "Stag";
+  letter-spacing: 1.3px;
+}
+.home-page_block6-text3 {
+  padding: 20px 0px;
+}
+#block6image {
+  width: 100%;
+}
+#block6 {
+  background-image: url('/images/newres/b4bg.png');
+  background-repeat: repeat;
+}
+.home-page_block7 {
+  margin: 80px 0px;
+}
+.home-page_block7-header {
+  margin: 80px 0px;
+}
+.home-page_block7-button {
+  margin: 40px;
+  width: 200px;
+}
+h1.home-page_block7-header {
+  font-family: Stag;
+  color: #222230;
+}

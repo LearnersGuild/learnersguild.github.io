@@ -12,6 +12,10 @@
   background-color: #ccc;
 }
 
+body {
+  padding-top:70px;
+}
+
 .navbar-header {
   float: none;
   background-color: white;
@@ -39,6 +43,7 @@
   max-width: 200px;
   min-width: 200px;
   background-color: white;
+  z-index: 10;
 }
 
 .navbar-collapse.collapsing {
@@ -46,6 +51,7 @@
   background-color: white;
   max-width: 200px;
   min-width: 200px;
+  z-index: 10;
 }
 
 .navbar-default .navbar-toggle {
