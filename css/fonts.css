@@ -16,3 +16,14 @@
   src: url("/fonts/ProximaNova-Regular.otf") format("opentype");
 }
 
+@font-face {
+  font-family: proxima;
+  font-weight: 500;
+  src: url("/fonts/ProximaNova-Semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: proxima;
+  font-weight: 600;
+  src: url("/fonts/ProximaNova-Bold.otf") format("opentype");
+}

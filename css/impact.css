@@ -36,9 +36,11 @@
 
 .impact-section-two p {
   font-size: 18px; 
-  padding: 20px;
+  padding: 10px;
   font-family: proxima;
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 30px 0 5px 0;
 }
 
 .impact-section-two:first-child {
@@ -48,17 +50,42 @@
 }
 
 .impact-section-two h3 {
-  font-size: 60px; 
   padding: 40px 0px;
+  font-size: 2.8em;
 }
 
 .impact-3-col-seek-to {
   max-width: 1200px;
 }
 
+
 .impact-3-img {
   background-color: #fff;
   padding: 0px;
+}
+
+.impact-3-img h5 {
+  font-size: 1.2em;
+  font-family: stag;
+  font-weight: 400;
+  line-height: 1.4em;
+  max-width: 80%;
+}
+
+.impact-3-img:nth-child(1) h5 span {
+  color: #00A3DF;
+}
+
+.impact-3-img:nth-child(3) h5 span {
+  color: #ED3F60;
+}
+
+.impact-3-img:nth-child(5) h5 {
+  margin: 20px 0 22px 0;
+}
+
+.impact-3-img:nth-child(5) h5 span {
+  color: #97C93D;
 }
 
 .impact-3-img img {
@@ -70,7 +97,7 @@
 }
 
 .impact-down-arrow {
-  padding: 40px;
+  padding-bottom: 40px;
 }
 
 .impact-guild-tracker {
@@ -86,14 +113,13 @@
 }
 
 .impact-guild-tracker h2 {
-  font-size: 60px; 
+  font-size: 40px; 
   padding-top: 40px; 
   letter-spacing: 2px; 
   color: white; 
   margin: 0px 40px; 
   border-bottom: 8px solid #f2b317; 
-  padding-bottom: 12px; 
-  width: 500px; 
+  width: 295px; 
   margin-bottom: 40px;
 }
 
@@ -117,13 +143,28 @@
   font-size: 1.3em;
 }
 
+.impact-imgs {
+  margin-bottom: 60px;
+}
+
 .impact-line {
   width: 80%;
   border: .5px solid rgba(0,0,0,.3);
-  margin:60px 0px;
+  margin-bottom: 60px;
 }
 
 .impact-income-increase {
   background-image: url("/images/impact_bgDots.png"); 
   background-repeat: repeat;
+  padding: 60px 0;
+}
+
+.impact-income-increase p {
+  font-size: 1.2em;
+  max-width: 700px;
+  margin-bottom: 60px;
+}
+
+.impact-btm-headlines {
+  margin-bottom: 40px;
 }
