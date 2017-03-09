@@ -1,3 +1,7 @@
+body {
+  padding-top: 50px;
+}
+
 .large-nav {
   display: flex;
   flex-direction: row;
@@ -10,10 +14,6 @@
   min-width: 40px;
   max-width: 40px;
   background-color: #ccc;
-}
-
-body {
-  padding-top:70px;
 }
 
 .navbar-header {
@@ -60,6 +60,7 @@ body {
   margin: 0px;
   padding: 18px;
   background-color: #ddd;
+  max-width: 60px;
 }
 
 .nav-apply-pill {
