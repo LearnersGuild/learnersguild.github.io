@@ -4,10 +4,6 @@
     background-position: center;
   }
 
-  .btn.round {
-    width: 75% !important;
-  }
-
   .community-page_block3-subtext-white {
     width: 85%;
     margin-bottom: 15%;
@@ -78,7 +74,7 @@
     width: 300% !important;
   }
 
-  .community-page-individual_block1b {
+  .community-page-individual_block1b, .community-page-individual_block1c  {
     height: 250px;
   }
 

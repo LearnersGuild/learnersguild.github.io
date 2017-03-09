@@ -99,7 +99,7 @@ h3.community-page_block-text {
   color: white;
   border-radius: 20px;
   font-size: 14px;
-  width: 20%;
+  margin: 0 auto;
 }
 
 .community-page_block-header {
@@ -271,4 +271,17 @@ div.community-page-individual_block3-text {
 
 .icons > a, i {
   margin: 5px;
+}
+
+.community-page-individual_block1c {
+  height: 500px;
+  text-align: center;
+  background-image: url('https://static1.squarespace.com/static/53fe73e3e4b051bac9406675/t/5435f82ae4b02f08a78b9405/1412823091359/Fast-Company-logo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+#yellow-title {
+  color: #f2b317;
 }
