@@ -6,6 +6,7 @@
 
   .btn.round {
     padding: 10px 30px;
+    width: 75% !important;
   }
 
   .community-page_block3-subtext-white {
