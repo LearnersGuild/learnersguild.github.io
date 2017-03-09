@@ -228,3 +228,11 @@ h2.community-page-individual_block1-text {
   text-align: left;
   line-height: 28px;
 }
+
+.community-page-individual_block1b {
+  background-image: url('../images/newres/community-ana-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
