@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
 }
+
 body {
   padding-top: 33px;
 }
@@ -14,4 +15,15 @@ body {
 .wrapper:after {
   content: "";
   display: block;
+}
+
+p {
+  font-family: proxima;
+  font-weight: regular;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: stag;
+  font-weight: bold;
+  letter-spacing: 2px;
 }

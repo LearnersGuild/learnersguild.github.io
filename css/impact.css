@@ -1,18 +1,3 @@
-/*@font-face {
-  font-family: Stag;
-  src: url("newres/Stag-Black.otf") format("opentype");
-}
-
-@font-face {
-  font-family: StagLight;
-  src: url("newres/Stag-Light.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Proxima;
-  src: url("newres/proxima.otf") format("opentype");
-}*/
-
 .impact-section-one {
   background-image: url(/images/newres/differentbg1.png);
   min-height: 50vh;
@@ -35,6 +20,8 @@
 }
 
 .impact-section-one h2 {
+  font-family: stag;
+  font-weight: semibold;
   font-size: 4em; 
   padding-top: 40px; 
   letter-spacing: 2px; 
@@ -44,6 +31,7 @@
 
 .impact-section-two {
   background: #f8f8f8;
+  padding: 0 5%;
 }
 
 .impact-section-two p {
@@ -63,7 +51,7 @@
 }
 
 .impact-3-col-seek-to {
-  max-width:1200px;
+  max-width: 1200px;
 }
 
 .impact-3-img {
@@ -76,7 +64,7 @@
 }
 
 .impact-3-col-symbols {
-  padding-top: 7%;
+  padding: 5% 0;
 }
 
 .impact-down-arrow {
