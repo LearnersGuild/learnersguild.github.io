@@ -66,6 +66,19 @@
   max-width:1200px;
 }
 
+.impact-3-img {
+  background-color: #fff;
+  padding: 0px;
+}
+
+.impact-3-img img {
+  max-width: 100%;
+}
+
+.impact-3-col-symbols {
+  padding-top: 7%;
+}
+
 .impact-down-arrow {
   padding: 40px;
 }
@@ -103,12 +116,26 @@
   color:#0099da;
 }
 
-.impact-income-increase {
-  background-image: url('images/newres/impactbg10.png'); 
-  background-repeat: repeat;
-}
-
 .impact-income-increase p {
   padding: 20px; 
   background: white;
+}
+
+.we-bet-on {
+  padding: 5% 0 3% 0;
+  max-width: 60%;
+  font-size: 1.3em;
+}
+
+.impact-line {
+  width: 80%;
+  border: .5px solid rgba(0,0,0,.3);
+  margin:60px 0px;
+}
+
+.impact-income-increase {
+  background-image: url("images/impact_bgDots.png"); 
+  background-repeat: repeat;
+  border: 5px solid red;
+  background-color: rgba(0,0,0,.5);
 }
