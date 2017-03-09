@@ -82,14 +82,14 @@ p, h3{font-family:"Proxima";}
   }
   
   .righta button{
-  background-image: url('newres/faqarrowdown.png');
+  background-image: url('/images/newres/faqarrowdown.png');
 background-repeat: no-repeat;
 
 background-position: right; 
   }
   
   .righta .collapsed{
-    background-image: url('newres/faqarrowup.png') !important;  
+    background-image: url('/images/newres/faqarrowup.png') !important;  
   }
 
   newheader{
