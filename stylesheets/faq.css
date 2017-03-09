@@ -1,0 +1,140 @@
+.block3 {
+  background-size:100% auto;
+  color:white;
+  min-height:400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2, h1{font-family:"Stag"; color:#201d1d;}
+p, h3{font-family:"Proxima";}
+  
+  .righta p{
+  font-size:18px;
+  color:#626366;
+  }
+  
+  .righta h3{
+  font-size:32px;
+    padding:20px 0px;
+  }
+  
+  .righta *{
+  max-width:800px;
+  }
+
+  
+  .leftq{
+    
+  font-size:24px; 
+    max-width:300px;
+    margin:auto;
+  }
+  
+  .leftq p{
+  text-align:left;  
+  }
+  
+  
+  button{
+    background:none;
+    border:none;
+    font-family:"Proxima";
+    text-align:left;
+  }
+  
+  
+  .leftq button{
+    font-size:24px;
+  }
+  
+  .righta button{
+    font-size:24px;
+    border-top: 1px solid gray;
+    font-weight:bold;
+  }
+  
+  
+  
+  
+  button{
+  width:100%;
+    font-family:"Proxima";
+    font-size:12px;
+  }
+  
+  
+    @media (max-width: 800px) {
+  .col-xs-6, .col-xs-4, .col-sm-4, .col-lg-6, .col-xs-8 {
+    width:100% !important;  
+    margin-bottom:130px;
+      
+    
+  }
+      
+      .block3{
+      background-size:400% auto;
+        min-height:400px;
+      }
+      
+      
+  }
+  
+  .righta button{
+  background-image: url('newres/faqarrowdown.png');
+background-repeat: no-repeat;
+
+background-position: right; 
+  }
+  
+  .righta .collapsed{
+    background-image: url('newres/faqarrowup.png') !important;  
+  }
+
+  newheader{
+    width:100%;
+      z-index:999;
+      position:fixed;
+      top:0px;
+      left:0px;
+      min-height:48px;
+      background:white;
+      box-shadow:3px 0px 3px black;
+    }
+    body{
+    margin-top:48px;
+    }
+    
+    .mheadmenu1 p{font-size:20px; margin-top:20px;}
+    .mheadmenu1 a*, .mheadmenu1 a, .mheadmenu1 p*{color:#22212b !important;}
+    
+    
+    .mbutton1:active .newheader .menu1, .mbutton1:hover .newheader .menu1, .menu1:hover .neweheader .menu1{
+    display:inline !important;
+    }
+    
+    
+@media (max-width: 600px) {
+  .hlogo1{margin:0px;}
+    }
+    
+    .ab1:hover{
+    background:red;
+      color:white;
+    }
+    
+    
+    .dropdown .dropdown-menu {    -webkit-transition: all 0.3s;    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;    -o-transition: all 0.3s;    transition: all 0.3s;
+    max-height: 0;
+    display: none;
+    overflow: hidden;
+    
+}
+
+.dropdown.open .dropdown-menu {
+    max-height: 500px;
+  display:block;
+}
+  
