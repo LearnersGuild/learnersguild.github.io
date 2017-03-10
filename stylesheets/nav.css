@@ -1,19 +1,5 @@
-body {
-  padding-top: 50px;
-}
+.navbar {
 
-.large-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.dropdownNav-toggle {
-  min-height: 40px;
-  max-height: 40px;
-  min-width: 40px;
-  max-width: 40px;
-  background-color: #ccc;
 }
 
 .navbar-header {
@@ -84,4 +70,10 @@ body {
   left: 50%;
   margin-left: -123px !important;  /* 50% of your logo width */
   display: block;
+}
+
+.circle-logo {
+  visibility: hidden;
+  max-height: 40px;
+  margin: 5px;
 }

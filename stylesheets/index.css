@@ -216,7 +216,7 @@ h1, h2, h3 {
   padding: 20px 0px;
 }
 #block6image {
-  width: 100%;
+  max-width: 100%;
 }
 #block6 {
   background-image: url('/images/newres/b4bg.png');
