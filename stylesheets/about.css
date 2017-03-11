@@ -121,7 +121,7 @@ h3.about-page_block-text {
 }
 
 .teamblock .col-xs-4 * {
-background: #fff;
+  background: #fff;
 }
 
 .about-page_block4-text {
@@ -171,19 +171,22 @@ background: #fff;
 .about-page_block3 {
   min-height: 600px;
   display: flex;
-  margin: 50px 0;
+  margin-top: 50px;
   color: white;
   flex-direction: column;
+  width: 100%;
 }
 
 .picture1 {
   background-image: url('../images/newres/aboutbg3.png');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 2000px;
 }
 
 .picture2, .picture3, .picture4, .picture5 {
   background-color: black;
+  width: 2000px;
 }
 
 .about-page_block3 h2 {
@@ -229,38 +232,50 @@ background: #fff;
 
 }
 
-
-/*
-@media (max-width: 1000px) {
-  .about-page_block3,
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .about-splash {
-    background-size: auto 100%;
+    max-height: 200px !important;
   }
-}
-
-@media (max-width: 800px) {
-  .col-xs-6,
-  .col-xs-4,
-  .col-sm-4,
-  .col-lg-6,
-  .col-xs-4,
-  .col-sm-4 {
-    width: 100% !important;
-    margin-bottom: 130px;
+  .item .container-fluid {
+    margin: 0 !important;
   }
-
-  .about-page_block3,
-  .about-splash {
-    background-size: 400% auto;
-    background-position: 8% 0px;
+  .about-page_block2 {
+    margin: 10px 0 !important;
+  }
+  #aboutCarousel {
+    height: 30vh !important;
+  }
+  .about-page_block3 p{
+    width: 90%;
+  }
+  .about-page_block3 h2 {
+    width: 50%;
   }
 
-  .about-page_block3 p {
-    max-width: 90%;
-    font-size: 20px;
+  .picture1, .picture2, .picture3, .picture4, .picture5 {
+    width: 100%;
+    height: 300px;
   }
 
-  .cf1 {
-    height: 100vh !important;
+  p.carousel-text-2 {
+    font-size: 14px !important;
   }
-}*/
+
+  .about-part-of-our-story {
+    min-height: 200px;
+  }
+
+  .carousel-inner {
+    margin: 0px !important;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-carousel-jusleft p {
+    font-size: 10px !important;
+  }
+
+  .row {
+    margin-bottom: 20px;
+  }
+
