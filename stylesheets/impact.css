@@ -23,10 +23,10 @@
   font-family: stag;
   font-weight: semibold;
   font-size: 4em; 
-  padding-top: 40px; 
+  padding-top: 30px; 
   letter-spacing: 2px; 
   color: white; 
-  margin: 0px 40px;
+  max-width: 200;
 }
 
 .impact-section-two {
@@ -143,8 +143,13 @@
   font-size: 1.3em;
 }
 
-.impact-imgs {
+.impact-stat-imgs {
   margin-bottom: 60px;
+  max-width: 100%;
+}
+
+.impact-image {
+  max-width: 100%;
 }
 
 .impact-line {
