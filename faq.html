@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<center>
+  <div class="faq-splash">
+    <h2>FAQ</h2>
+  </div>
+  <div id="faq-main" class="panel-group">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="left-questions-panel">
+            <button id="b1" data-parent="#faq-main">What's a guild?</button>
+            <button id="b2"  data-parent="#faq-main">How the Money Works</button>
+            <button id="b3"  data-parent="#faq-main">Your Commitment</button>
+            <button id="b4"  data-parent="#faq-main">Learning Model</button>
+            <button id="b5" data-parent="#faq-main">Application Process</button>
+            <button id="b6"  data-parent="#faq-main">Post-Program Matters</button>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 right-answers-panel panel">
+          {% include faq-whatsAGuild.html %}
+          {% include faq-money.html %}
+          {% include faq-commitment.html %}
+          {% include faq-learningModel.html %}
+          {% include faq-applying.html %}
+          {% include faq-after.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    $("#b1").click(function(){$("#q1").show(); $("#q2").hide(); $("#q3").hide(); $("#q4").hide(); $("#q5").hide(); $("#q6").hide();});  
+    $("#b2").click(function(){$("#q2").show(); $("#q1").hide(); $("#q3").hide(); $("#q4").hide(); $("#q5").hide(); $("#q6").hide();});
+    $("#b3").click(function(){$("#q3").show(); $("#q1").hide(); $("#q2").hide(); $("#q4").hide(); $("#q5").hide(); $("#q6").hide();});
+    $("#b4").click(function(){$("#q4").show(); $("#q1").hide(); $("#q2").hide(); $("#q3").hide(); $("#q5").hide(); $("#q6").hide();});
+    $("#b5").click(function(){$("#q5").show(); $("#q1").hide(); $("#q2").hide(); $("#q3").hide(); $("#q4").hide(); $("#q6").hide();});
+    $("#b6").click(function(){$("#q6").show(); $("#q1").hide(); $("#q2").hide(); $("#q3").hide(); $("#q4").hide(); $("#q5").hide();});
+  </script>
+</center>

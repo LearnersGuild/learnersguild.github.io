@@ -2,10 +2,10 @@
 <html dir="ltr" lang="en-US">
   {% include head.html %}
   <body class="stretched no-transition {{page.blah}}">
+    {% include navBar.html %}
     <div id="wrapper" class="clearfix">
-      {% include header.html %}
       {{ content }}
-      {% include footer.html %}
     </div>
+    {% include footer.html %}
   </body>
 </html>
