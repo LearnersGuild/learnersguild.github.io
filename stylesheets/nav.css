@@ -1,5 +1,6 @@
 .navbar {
-
+  background-color: #99ccff; 
+  border: 0;
 }
 
 .navbar-header {
@@ -26,18 +27,23 @@
 .navbar-collapse.collapse.in {
   display: block !important;
   position: absolute;
+  margin-top: 0;
   max-width: 200px;
   min-width: 200px;
   background-color: white;
   z-index: 10;
+  border: 0;
 }
 
 .navbar-collapse.collapsing {
   position: absolute;
+  top: 10;
+  margin-top: 0;
   background-color: white;
   max-width: 200px;
   min-width: 200px;
   z-index: 10;
+  border: 0;
 }
 
 .navbar-default .navbar-toggle {
