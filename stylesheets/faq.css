@@ -13,8 +13,9 @@
 .faq-splash h2 {
   font-size: 32px; 
   letter-spacing: 2px; 
-  font-size: 48px; 
+  font-size: 3em; 
   color: #fff;
+  margin-top: 15vh;
 }
 
 #faq-main:first-child {
@@ -79,18 +80,14 @@ button {
   font-size: 12px;
 }
 
-/*@media (max-width: 800px) {
-  .col-xs-6, 
-  .col-xs-4, 
-  .col-sm-4, 
-  .col-lg-6, 
-  .col-xs-8 {
-    width:100% !important;  
-    margin-bottom:130px;
-  }
-      
-  .block3 {
-    background-size:400% auto;
-    min-height:400px;
-  }
-}*/
+.faq-image{
+  max-width: 100%;
+}
+
+.collapse {
+  margin-top: 10px;
+}
+
+.collapsing {
+  margin-top: 10px;
+}
