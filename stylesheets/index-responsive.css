@@ -23,7 +23,7 @@
     transform: translateY(-50%);
   }
   .carousel-caption>p, .carousel-caption>a {
-    font-family: "Raleway";
+    font-family: "Proxima";
     font-size: 14px;
   }
   button {
@@ -53,11 +53,11 @@
     color: white;
   }
   .carousel-caption>h3 {
-    font-family: "Bevan";
+    font-family: "Stag";
     font-size: 20px;
   }
   .carousel-caption>p, .carousel-caption>a {
-    font-family: "Raleway";
+    font-family: "Proxima";
     font-size: 12px;
   }
   .container.block2 {
@@ -85,7 +85,7 @@
     width: 100%;
   }
   p.home-page_block4-text {
-    font-family: "Raleway";
+    font-family: "Proxima";
     font-size: 12px;
     color: white;
     border-bottom: 7px solid #f2ba19;
@@ -133,11 +133,11 @@
     height: none;
   }
   .home-page_block5-header {
-    font-family: "Bevan";
+    font-family: "Stag";
   }
   .home-page_block5-text {
     margin-top: 50px;
-    font-family: "Raleway";
+    font-family: "Proxima";
     font-size: 12px;
   }
   h3.home-page_block5-header {

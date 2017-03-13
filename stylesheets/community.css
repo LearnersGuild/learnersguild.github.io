@@ -6,6 +6,10 @@
   font-family: 'StagLight';
   src: url("../fonts/Stag-Light.otf") format("opentype");
 }
+@font-face {
+  font-family: 'Stag';
+  src: url("../fonts/Stag-Medium.otf") format("opentype");
+}
 .community-page_block1 {
   padding: 50px;
 }
@@ -80,7 +84,8 @@ h3.community-page_block-text {
   background-color: #ee255b;
   color: white;
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 20px;
+  padding: 5px;
   margin: 0 auto;
 }
 .community-page_block-header {
