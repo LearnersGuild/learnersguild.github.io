@@ -184,8 +184,31 @@ h3.about-page_block-text {
   width: 2000px;
 }
 
-.picture2, .picture3, .picture4, .picture5 {
-  background-color: black;
+.picture2 {
+  background-image: url('../images/about2/layer_59_720.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2000px;
+}
+
+.picture3 {
+  background-image: url('../images/about2/layer_60_720.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2000px;
+}
+
+.picture4 {
+  background-image: url('../images/about2/layer_61_720.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2000px;
+}
+
+.picture5 {
+  background-image: url('../images/about2/layer_62_720.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 2000px;
 }
 
@@ -278,4 +301,3 @@ h3.about-page_block-text {
   .row {
     margin-bottom: 20px;
   }
-
