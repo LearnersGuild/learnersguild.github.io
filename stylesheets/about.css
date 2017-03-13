@@ -298,6 +298,10 @@ h3.about-page_block-text {
     font-size: 10px !important;
   }
 
+  .carousel.slide.cf1 img {
+    height: 250px;
+  }
+
   .row {
     margin-bottom: 20px;
   }
