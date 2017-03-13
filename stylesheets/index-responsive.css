@@ -6,7 +6,6 @@
   }
   .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a {
     width: 100% !important;
-    height: 400px !important;
     position: relative;
     margin: 10 auto;
     top: 0px;
@@ -18,9 +17,6 @@
   }
   .carousel-caption {
     padding-top: 0 !important;
-    top: 50%;
-    bottom: 50%;
-    transform: translateY(-50%);
   }
   .carousel-caption>p, .carousel-caption>a {
     font-family: "Proxima";
