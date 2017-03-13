@@ -17,6 +17,15 @@
   .image2 {
     width: 85% !important;
   }
+  .btn.round {
+    width: none;
+  }
+  img.carousel.slide {
+    height: none !important;
+  }
+  .btn.round {
+    width: 100% !important;
+  }
   .community-page_block2 {
     width: 100%;
     margin: 0 auto;
