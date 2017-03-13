@@ -164,7 +164,7 @@ h3.about-page_block-text {
   max-height: 500px !important;
 }
 
-.carousel-inner {
+.carousel-inner.about-page {
   margin: 20px;
 }
 

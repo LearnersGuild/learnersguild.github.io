@@ -218,6 +218,6 @@
   height: 800px;
 }
 
-.carousel-inner {
+.carousel-inner.how-it-works {
   width: 1000px !important;
 }

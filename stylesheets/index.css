@@ -21,11 +21,11 @@
   position: relative;
   margin: 0 auto;
   top: 0px;
-  z-index: -1000px;
 }
 .carousel-inner>img {
   min-height: 750px !important;
   padding: 5px;
+  width: 2000px;
   z-index: -1000px;
 }
 .carousel-caption {
@@ -34,6 +34,11 @@
   transform: translateY(-50%);
   font-size: 20px;
 }
+
+#home-splash-carousel > img {
+  width: 2000px !important;
+}
+
 #playit {
   position: fixed;
   top: 0px;
@@ -62,10 +67,14 @@
   color: white;
   text-decoration: underline;
 }
+#homepagebutton {
+  width: 380px;
+  padding: 10px;
+}
 .home-page_block1 {
   background-color: #20202b;
   padding: 30px;
-  font-size: 18px;
+  font-size: 26px;
   line-height: 1.42857143;
   font-family: Proxima;
   color: white;
@@ -85,7 +94,7 @@
 }
 .home-page_block2 p {
   width: 75%;
-  font-size: 18px;
+  font-size: 22px;
   margin: 0 !important;
 }
 .home-page_block2-text {
@@ -175,16 +184,30 @@ h1, h2, h3 {
   background-image: none !important;
 }
 .carousel-indicators.carousel2 li {
+  margin-top: 25px;
   background-color: grey !important;
 }
 #myCarousel2 .carousel-indicators .active {
   background-color: #ec3656 !important;
 }
+
+img.home-page_block5-image {
+  width: 300px !important;
+  height: auto !important;
+}
+
+.btn .home-page_button .btn-round-lg .btn-lg .round {
+  width: 25%;
+}
 .home-page_block5-text {
   font-family: Proxima;
   font-size: 18px;
-  display: flex;
-  flex-direction: row;
+  text-align: left;
+}
+.home-page_block5-header-text {
+  position: absolute;
+  font-size: 24px;
+  right: 38%;
 }
 .container-fluid .block6 {
   margin: 120px 0px;
