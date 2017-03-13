@@ -6,7 +6,7 @@
   }
   .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a {
     width: 100% !important;
-    height: 300px !important;
+    height: 400px !important;
     position: relative;
     margin: 10 auto;
     top: 0px;
@@ -24,6 +24,10 @@
   }
   .carousel-caption>p, .carousel-caption>a {
     font-family: "Proxima";
+    font-size: 14px;
+  }
+  #homepagebutton {
+    width: 200px;
     font-size: 14px;
   }
   button {
@@ -49,7 +53,7 @@
     padding: 10px;
     font-size: 14px;
     line-height: 1.42857143;
-    font-family: "Raleway";
+    font-family: "Proxima";
     color: white;
   }
   .carousel-caption>h3 {
@@ -99,7 +103,7 @@
     font-size: 14px !important;
   }
   img.home-page_block5-image {
-    width: 120px;
+    width: 120px !important;
     margin-top: 50px;
   }
   div.home-page_block4-video {
@@ -130,7 +134,7 @@
     margin: 50px auto;
   }
   .row.block5 {
-    height: none;
+    height: 200px !important;
   }
   .home-page_block5-header {
     font-family: "Stag";
