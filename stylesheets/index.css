@@ -19,7 +19,8 @@
   width: 100% !important;
   height: auto !important;
   position: relative;
-  margin: 0 auto;
+  text-indent: 75%;
+  margin: -250px 0;
   top: 0px;
 }
 .carousel-inner>img {
@@ -27,6 +28,7 @@
   padding: 5px;
   width: 2000px;
   z-index: -1000px;
+ margin: -75px 0 0 -100px;
 }
 .carousel-caption {
   top: 50%;
@@ -107,6 +109,7 @@
 .home-page_block2>h2, .home-page_block2>h1 {
   font-family: Stag;
   font-weight: lighter;
+  font-size: 50px;
   margin: 20px 0;
 }
 .home-page_block2-image {
@@ -201,13 +204,12 @@ img.home-page_block5-image {
 }
 .home-page_block5-text {
   font-family: Proxima;
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
 }
 .home-page_block5-header-text {
-  position: absolute;
   font-size: 24px;
-  right: 38%;
+  text-align: center;
 }
 .container-fluid .block6 {
   margin: 120px 0px;
