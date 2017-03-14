@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .about-splash {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/newres/aboutbg1.png');
   flex-direction: column;
@@ -15,11 +14,9 @@
   background-size: cover;
   min-height: 400px;
 }
-
 .text-yellow {
   color: #f2ba19;
 }
-
 h3.about-page_block-text {
   font-family: "Proxima";
 }
@@ -28,11 +25,9 @@ h2.about-page_block-header {
   font-size: 600%;
   text-shadow: 1px 1px 1px #000;
 }
-
 .curly-brace {
   font-size: 200%;
 }
-
 #aboutCarousel .carousel-indicators li {
   background-color: grey !important;
 }
