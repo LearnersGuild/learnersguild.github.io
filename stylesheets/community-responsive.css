@@ -2,17 +2,27 @@
   .community-page_block1 {
     background-size: cover;
     background-position: center;
+    height: 320px;
   }
   .community-page_block3-subtext-white {
+    margin: 20px;
+    text-align: center;
     width: 85%;
     margin-bottom: 15%;
   }
-  div#community-page_block3 {
-    display: none;
+  h3.community-page_block-text {
+    padding-top: 5px;
+    font-size: 70%;
   }
-  .container-mobile.block {
+  .community-page_block3-text {
+    margin: 20px 5px;
+  }
+  .container-mobile.block, .community-page_block2 {
     display: block;
     text-align: center;
+  }
+  .community-page_block3 {
+    display: none;
   }
   .image2 {
     width: 85% !important;
@@ -32,6 +42,7 @@
   }
   .community-page_block3 {
     text-align: center;
+    height: 600px;
     padding: 10% 5% !important;
   }
   h5#subtitle1, h5#subtitle2 {
@@ -54,13 +65,18 @@
   .community-page-individual_block2 {
     background: white;
     position: relative;
+    width: 80% !important;
     top: -50px;
-    width: 300px;
     padding: 10px;
     z-index: 10;
   }
-  .community-page-individual_block3-text {
-    padding: 5% 15%;
+  div.community-page-individual_block3-text {
+    padding: 5% 25% !important;
+    margin-top: 500px;
+    font-size: 12px !important;
+  }
+  p.community-page-individual_block1-subtext {
+    font-size: 12px;
   }
   .community-page-individual_block3-text {
     font-size: 18px;
@@ -77,6 +93,7 @@
     height: 250px !important;
   }
   .community-page-individual_block3-text>p, .wistia_embed.wistia_async_8m601o0qqk {
-    width: 100% !important;
+    margin: 120px 0 0 0 !important;
+    font-size: 16px !important;
   }
 }
