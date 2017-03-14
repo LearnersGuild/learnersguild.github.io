@@ -266,61 +266,10 @@ h2.about-page_block4-text {
   margin: 30px;
 }
 
+div.mobile {
+  display: none;
+}
+
 .about-part-of-our-story div a {
   color: #fff;
 }
-
-.teamblock {
-
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .about-splash {
-    max-height: 200px !important;
-  }
-  .item .container-fluid {
-    margin: 0 !important;
-  }
-  .about-page_block2 {
-    margin: 10px 0 !important;
-  }
-  #aboutCarousel {
-    height: 30vh !important;
-  }
-  .about-page_block3 p{
-    width: 90%;
-  }
-  .about-page_block3 h2 {
-    width: 50%;
-  }
-
-  .picture1, .picture2, .picture3, .picture4, .picture5 {
-    width: 100%;
-    height: 300px;
-  }
-
-  p.carousel-text-2 {
-    font-size: 14px !important;
-  }
-
-  .about-part-of-our-story {
-    min-height: 200px;
-  }
-
-  .carousel-inner {
-    margin: 0px !important;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .about-carousel-jusleft p {
-    font-size: 10px !important;
-  }
-
-  .carousel.slide.cf1 img {
-    height: 250px;
-  }
-
-  .row {
-    margin-bottom: 20px;
-  }

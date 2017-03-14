@@ -16,6 +16,9 @@
   font-family: Proxima;
   src: url("/images/newres/proxima.otf") format("opentype");
 }
+.carousel.slide.homepage-responsive {
+  display: none;
+}
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a {
   width: 100% !important;
   height: auto !important;
@@ -250,6 +253,7 @@ img.home-page_block5-image {
   margin: 0 !important;
 }
 .home-page_block7 {
+  text-align: center;
   margin: 50px 0px;
 }
 .home-page_block7-header {
