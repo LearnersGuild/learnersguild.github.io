@@ -1,0 +1,26 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .about-splash {
+    height: 200px !important;
+  }
+  .about-page_block2 {
+    margin: 10px 0 !important;
+  }
+  #aboutCarousel {
+    height: 30vh !important;
+  }
+
+  .carousel-inner {
+    margin: 0px !important;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-carousel-jusleft p {
+    font-size: 10px !important;
+  }
+
+  .row {
+    margin-bottom: 20px;
+  }
+
+}
