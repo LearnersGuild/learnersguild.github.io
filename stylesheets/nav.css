@@ -23,6 +23,18 @@
 .navbar-nav>li {
   float: none;
 }
+.navbar-default .navbar-nav>li>a {
+  font-family: proxima;
+  font-weight: 500;
+  padding-left: 25px;
+  padding-top: 19px;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #F2BB1A;
+}
 
 .navbar-collapse.collapse.in {
   display: block !important;
@@ -56,11 +68,12 @@
 }
 
 .nav-apply-pill {
+  font-family: proxima;
+  font-weight: 500;
   margin: 6px 15px;
   padding: 8px 18px;
   border: 2px solid #ED3F60;
   border-radius: 30px;
-  font-size: .85em;
   color: #000;
   transition: all 0.3s ease-in-out;
 }
