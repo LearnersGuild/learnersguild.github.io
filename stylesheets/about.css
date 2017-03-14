@@ -26,7 +26,7 @@ h3.about-page_block-text {
   background-color: grey !important;
 }
 
-#myCarousel .carousel-indicators .active {
+.carousel-indicators .active .about-carousel {
   background-color: #ec3656 !important;
 }
 
