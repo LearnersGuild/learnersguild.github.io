@@ -1,5 +1,4 @@
 .navbar {
-  background-color: #99ccff; 
   border: 0;
 }
 
@@ -70,7 +69,7 @@
 .nav-apply-pill {
   font-family: proxima;
   font-weight: 500;
-  margin: 6px 15px;
+  margin: 5px 15px;
   padding: 8px 18px;
   border: 2px solid #ED3F60;
   border-radius: 30px;
@@ -96,4 +95,3 @@
   max-height: 40px;
   margin: 5px;
 }
-
