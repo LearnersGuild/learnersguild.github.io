@@ -3,17 +3,19 @@
     width: 100% !important;
     padding: 0px !important;
     margin: 0 !important;
+    height: 350px;
   }
   .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a {
     width: 100% !important;
     position: relative;
     margin: 10 auto;
     top: 0px;
+    height: 300px !important;
     margin: -10px 0;
     z-index: -1000px;
   }
   .carousel-inner>img {
-    height: 500px !important;
+    height: 700px !important;
     padding: 5px;
   }
   .carousel-caption {
@@ -26,6 +28,23 @@
   #homepagebutton {
     width: 100%;
     font-size: 10px;
+  }
+  .home-page_block5-header-text {
+    font-size: 170%;
+  }
+  .carousel.slide.homepage-responsive {
+    display: block;
+  }
+  .carousel.slide.homepage2 {
+    display: none;
+  }
+
+  .home-page_block5-text {
+    width: 90%;
+    text-align: center;
+  }
+  p.home-page_block5-text {
+    font-size: 80%;
   }
   button {
     width: 90%;
@@ -57,15 +76,17 @@
     height: 100px !important;
   }
   div#block6 {
-    height: 200px !important;
     width: 350px;
+  }
+  #block6 {
+    max-width: none;
   }
   .carousel-caption>h3 {
     font-family: "Stag";
     font-size: 22px;
   }
   .carousel-caption {
-    top: 15% !important;
+    top: 25%;
   }
   .carousel-caption>p, .carousel-caption>a {
     font-family: "Proxima";
@@ -148,7 +169,6 @@
     font-family: "Stag";
   }
   .home-page_block5-text {
-    margin-top: 50px;
     font-family: "Proxima";
     font-size: 12px;
   }
