@@ -1,0 +1,186 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .container {
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0 !important;
+  }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a {
+    width: 100% !important;
+    position: relative;
+    margin: 10 auto;
+    top: 0px;
+    margin: -10px 0;
+    z-index: -1000px;
+  }
+  .carousel-inner>img {
+    height: 500px !important;
+    padding: 5px;
+  }
+  .carousel-caption {
+    padding-top: 0 !important;
+  }
+  .carousel-caption>p, .carousel-caption>a {
+    font-family: "Proxima";
+    font-size: 14px;
+  }
+  #homepagebutton {
+    width: 100%;
+    font-size: 10px;
+  }
+  button {
+    width: 90%;
+    margin: 20px;
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 20px !important;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .btn:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .home-page_block1 {
+    background-color: #20202b;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    font-family: "Proxima";
+    color: white;
+  }
+  .carousel1 img {
+    height: 300px !important;
+  }
+  .carousel.slide.homepage.second-carousel img {
+    height: 100px !important;
+  }
+  div#block6 {
+    height: 200px !important;
+    width: 350px;
+  }
+  .carousel-caption>h3 {
+    font-family: "Stag";
+    font-size: 22px;
+  }
+  .carousel-caption {
+    top: 15% !important;
+  }
+  .carousel-caption>p, .carousel-caption>a {
+    font-family: "Proxima";
+    font-size: 12px;
+  }
+  .container.block2 {
+    display: none;
+  }
+  .container-mobile.block2 {
+    display: block;
+  }
+  img.home-page_block2-image {
+    width: 250px;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  .home-page_block2 p {
+    font-size: 16px;
+  }
+  .home-page_block4 {
+    background-image: url('../images/newres/hp5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+    padding: 10px;
+    height: 220px;
+    width: 100%;
+  }
+  p.home-page_block4-text {
+    font-family: "Proxima";
+    font-size: 12px;
+    color: white;
+    border-bottom: 7px solid #f2ba19;
+    width: 13%;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+  }
+  h2.home-page_block4-text {
+    margin: 50px 0;
+    color: black !important;
+    font-size: 14px !important;
+  }
+  img.home-page_block5-image {
+    width: 100px !important;
+    height: 70px;
+    margin-top: 50px;
+  }
+  div.home-page_block4-video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+  }
+  .wistia_responsive_padding {
+    padding: 56.25% 0 28px 0;
+    position: relative;
+  }
+  .wistia_responsive_wrapper {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .wistia_embed.wistia_async_vpld4j6fjs {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
+  img#myplay1 {
+    width: 150px;
+  }
+  .home-page_block5 {
+    margin: 50px auto;
+  }
+  .row.block5 {
+    height: 200px !important;
+  }
+  .home-page_block5-header {
+    font-family: "Stag";
+  }
+  .home-page_block5-text {
+    margin-top: 50px;
+    font-family: "Proxima";
+    font-size: 12px;
+  }
+  h3.home-page_block5-header {
+    font-size: 16px;
+  }
+  .home-page_block6-text {
+    margin: 10px;
+    padding: 10px;
+  }
+  .home-page_block6-text {
+    font-size: 14px;
+  }
+  .home-page_block6-triangle {
+    position: absolute;
+    right: 50px;
+    top: 180px;
+    transform: rotate(90deg);
+    width: 30px;
+    z-index: 1000;
+  }
+  #block6image {
+    width: 250px;
+    margin: 10px;
+  }
+  .home-page_block6-text3 {
+    padding: 0 !important;
+  }
+  .home-page_block7-header {
+    margin: 15px !important;
+  }
+  .home-page_block7 {
+    margin: 20px;
+  }
+}

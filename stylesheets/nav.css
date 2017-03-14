@@ -1,0 +1,99 @@
+.navbar {
+  background-color: #99ccff; 
+  border: 0;
+}
+
+.navbar-header {
+  float: none;
+  background-color: white;
+}
+
+.navbar-toggle {
+  display: block;
+}
+
+.navbar-collapse.collapse {
+  display: none!important;
+}
+
+.navbar-nav {
+  float: none!important;
+}
+
+.navbar-nav>li {
+  float: none;
+}
+.navbar-default .navbar-nav>li>a {
+  font-family: proxima;
+  font-weight: 500;
+  padding-left: 25px;
+  padding-top: 19px;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #F2BB1A;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+  position: absolute;
+  margin-top: 0;
+  max-width: 200px;
+  min-width: 200px;
+  background-color: white;
+  z-index: 10;
+  border: 0;
+}
+
+.navbar-collapse.collapsing {
+  position: absolute;
+  top: 10;
+  margin-top: 0;
+  background-color: white;
+  max-width: 200px;
+  min-width: 200px;
+  z-index: 10;
+  border: 0;
+}
+
+.navbar-default .navbar-toggle {
+  border: 0px;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 18px;
+  background-color: #ddd;
+  max-width: 60px;
+}
+
+.nav-apply-pill {
+  font-family: proxima;
+  font-weight: 500;
+  margin: 6px 15px;
+  padding: 8px 18px;
+  border: 2px solid #ED3F60;
+  border-radius: 30px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-apply-pill:hover {
+  background-color: #ED3F60;
+  color: #fff;
+}
+
+.LG-logo {
+  max-width: 90%;
+  position: absolute;
+  left: 50%;
+  margin-left: -123px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+.circle-logo {
+  visibility: hidden;
+  max-height: 40px;
+  margin: 5px;
+}
+
