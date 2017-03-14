@@ -2,24 +2,35 @@
 .about-page_block3 {
   background-size: 100% auto;
   color: #fff;
+  height: 775px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .about-splash {
-  background-image: url('/images/newres/aboutbg1.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/newres/aboutbg1.png');
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 400px;
+}
+
+.text-yellow {
+  color: #f2ba19;
 }
 
 h3.about-page_block-text {
   font-family: "Proxima";
-  font-size: 16px;
+}
+
+h2.about-page_block-header {
+  font-size: 600%;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .curly-brace {
-  font-size: 30px;
+  font-size: 200%;
 }
 
 #aboutCarousel .carousel-indicators li {
@@ -110,24 +121,43 @@ h3.about-page_block-text {
   padding:80px 0px;
 }
 
-.teamblock .td1,
-.teamblock .td2 {
+.teamblock .td1 {
+  font-size: 150%;
   padding: 2px;
   background: #fff;
   text-align: left;
   line-height: 10px;
-  margin: 0px;
+  margin-bottom: 10px;
   padding: 13px;
 }
 
+p.td1 {
+  font-size: 150%;
+  margin-bottom: 2%;
+}
+#aboutCarousel .glyphicon-chevron-right:before, #aboutCarousel .glyphicon-chevron-left:before {
+  color: #0099da;
+}
 .teamblock .col-xs-4 * {
   background: #fff;
 }
-
+.about-page_block4 {
+  padding: 2% 5%;
+  background-color: #e9e9e9;
+}
+div#aboutCarousel2.carousel.slide {
+  margin-right: 0px !important;
+}
 .about-page_block4-text {
   font-size:60px;
   text-align: center;
 }
+
+h2.about-page_block4-text {
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
 
 .teamblock .container-fluid {
   margin-top: 40px;
@@ -154,10 +184,6 @@ h3.about-page_block-text {
   width: 100%;
 }
 
-.cf1 img {
-  max-height: 50vh;
-}
-
 .cwidth1,
 .teamblock .container-fluid {
   max-width: 1000px;
@@ -165,7 +191,7 @@ h3.about-page_block-text {
 }
 
 .carousel-inner.about-page {
-  margin: 20px;
+  padding: 20px 0;
 }
 
 .about-page_block3 {
@@ -177,55 +203,53 @@ h3.about-page_block-text {
   width: 100%;
 }
 
+
 .picture1 {
   background-image: url('../images/newres/aboutbg3.png');
+}
+.carousel-header {
+  font-size: 42px;
+  border-bottom: 12px solid #f2ba19;
+}
+.picture1, .picture2, .picture3, .picture4, .picture5 {
+  display: flex;
+  justify-content: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  width: 2000px;
+  height: 600px;
 }
 
 .picture2 {
   background-image: url('../images/about2/layer_59_720.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 2000px;
 }
 
 .picture3 {
   background-image: url('../images/about2/layer_60_720.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 2000px;
 }
 
 .picture4 {
   background-image: url('../images/about2/layer_61_720.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 2000px;
 }
 
 .picture5 {
   background-image: url('../images/about2/layer_62_720.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 2000px;
 }
 
-.about-page_block3 h2 {
-  font-size: 40px;
-  letter-spacing: 6px;
-  border-bottom: solid 10px #f2b317;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
-  width: 250px;
+.row.block5.about {
+  padding: 30px;
 }
 
-.about-page_block3 p {
-  max-width: 700px;
-  font-size: 26px;
+#aboutCarousel2 {
+  color: white;
+  text-align: center;
 }
-
+#aboutCarousel2 p {
+  padding: 10% 25%;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 30px;
+  line-height: 60px;
+}
 .about-part-of-our-story {
   min-height: 400px;
   padding: 10%;
