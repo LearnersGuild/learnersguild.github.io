@@ -55,8 +55,11 @@ button {
 
 .left-questions-panel button {
   font-size: 24px;
+  transition: all 0.3s ease-in-out;
 }
-
+.left-questions-panel button:hover {
+  background-color: #F2BB1A;
+}
 .right-answers-panel {
   text-align:left;
 }
