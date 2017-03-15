@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Proxima';
+  src: url("../images/newres/proxima.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url("../fonts/newres/ProximaNova-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: 'StagLight';
+  src: url("../fonts/Stag-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Stag';
+  src: url("../fonts/Stag-Medium.otf") format("opentype");
+}
+
 .howitworks-section-one {
   background-image:url('../images/newres/worksbg1.png');
   background-repeat: no-repeat;
@@ -15,10 +33,13 @@
 .howitworks-section-one__sub-header {
   font-family:'Lato';
   text-align: center;
-  background:#00A3DF;
-  width:180px;
+  color: #F2BB1A;
   padding: 0.5em;
   font-size: 1em;
+}
+
+.curly-brace {
+  font-size: 200%;
 }
 
 .howitworks-section-one__sub-header__text {
@@ -37,7 +58,7 @@
 
 
 .howitworks-section-one__header {
-  font-family: 'Bevan', cursive;
+  font-family: 'Stag';
   text-align: center;
   text-shadow: 1px 1px 1px #000;
   font-size:60px;
@@ -59,7 +80,7 @@
 
 .howitworks-section-two__sub-header h1 {
   font-size: 40px;
-  font-family: 'Bevan', cursive;
+  font-family: 'Stag';
 }
 
 .howitworks-section-two__icon-row {
@@ -78,12 +99,12 @@
 }
 
 .howitworks-section-two__icon-row___description h2 {
-  font-family: 'Bevan', cursive;
+  font-family: 'Stag';
   width: 335px;
 }
 
 .howitworks-section-two__icon-row___description p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Proxima';
   font-size: 20px;
   font-weight: 300;
 }
@@ -163,10 +184,6 @@
   padding: 25px 40px;
 }
 
-.howitworks-section-three__image01 {
-  padding: 25px 40px 25px 0px;
-}
-
 
 .howitworks-section-four__panel-two__description,
 .howitworks-section-four__panel-one__description {
@@ -185,6 +202,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: left;
 }
 
 .howitworks-section-three__description h2,
@@ -193,7 +211,7 @@
 .howitworks-section-four__panel-two__description h2,
 .howitworks-section-four__panel-three__description h2,
 .howitworks-section-five h2 {
-  font-family: 'Bevan', cursive;
+  font-family: 'Stag';
   font-size:48px;
   margin:20px 0px;
 }
@@ -201,7 +219,7 @@
 .howitworks-section-three__description__sub-header,
 .howitworks-section-four__header___text,
 .howitworks-section-five__sub-header {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Proxima';
   font-size: 25px;
   font-weight: 300;
 }
@@ -210,7 +228,7 @@
 .howitworks-section-four__panel-one__text,
 .howitworks-section-four__panel-two__text,
 .howitworks-section-four__panel-three__text {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Proxima';
   font-size: 22px;
 }
 
@@ -221,6 +239,14 @@
 
 .carousel.slide img {
   height:500px;
+}
+.howitworks-section-three__image01 {
+  padding: 25px 0px 25px 0px;
+}
+
+.howitworks-section-three__image01 img {
+  position: relative;
+  right: 10%;
 }
 
 .item.active {
@@ -237,38 +263,7 @@
 
 .howitworks-section-five__sub-header {
   padding-top: 50px;
-  font-size: 50px;
-}
-
-.block2 {
-  max-width:900px;
-  padding: 80px 0px;
-}
-
-.block2 h2 {
-  font-family: 'Bevan', cursive;
-}
-
-.c1d, .c3d {
-  margin-top: 80px;
-}
-
-.c1d, .c2d, .c3d {
-  background: white;
-  width: 28%;
-}
-
-
-.c1d li, .c2d li, .c3d li {
-    border-bottom: 1px solid black;
-    text-align: center;
-    padding: 10px 0px;
-    font-size: 18px;
-    list-style-type: none;
-}
-
-.c1d li {
-  border-bottom-color: #f390a1;
+  font-size: 180%;
 }
 
 .diffrent-section-two__cards {
@@ -314,7 +309,7 @@
 .different-section-two__card-three___text {
   border-bottom: 1px solid;
   margin: 10px 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Proxima';
   font-size: 18px;
   font-weight: 300;
 }
@@ -349,7 +344,7 @@
 
 .different-section-two__card-three h3,
 .different-section-two__card-one h3 {
-  font-family: 'Bevan', cursive;
+  font-family: 'Stag';
 }
 
 .different-section-two__card-one h3 {
@@ -406,7 +401,7 @@
 }
 
 .different-section-five__side___header {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Proxima';
   font-size: 25px;
   font-weight: 300;
 }
@@ -420,10 +415,11 @@
 .different-section-five__side {
   padding: 10px 55px 0px 55px;
   width: 40%;
+  text-align: left;
 }
 
 .different-section-five__side__content-text {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Proxima';
   font-size: 18px;
   color: #5c5d60;
 }
@@ -446,7 +442,7 @@
 
 .different-section-six__header h1,
 .different-section-seven__header h1 {
-  font-family: 'Bevan', cursive;
+  font-family: 'Stag';
   padding-bottom: 30px;
   font-size: 50px;
 }
@@ -462,7 +458,7 @@
 }
 
 .different-section-seven__header h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Proxima';
   font-size: 25px;
   font-weight: 300;
 }
@@ -508,7 +504,7 @@
   text-align: center;
   padding-left: 22px;
   padding-right: 80px;
-  font-family: 'Bevan', cursive;
+  font-family: 'Stag';
   text-shadow: 1px 1px 1px #000;
 }
 
@@ -560,7 +556,7 @@
   background-color: #ED3F60;
 }
 
-@media (max-width: 2900px) {
+@media (max-width: 1800px) {
   .different-section-seven__graph--arrow {
     transform: translate(232px,180px) rotate(-16deg) scale(1,0.9) skew(6deg);
   }
@@ -579,6 +575,6 @@
   }
 
   .howitworks-section-four__header___text {
-    left: 526%;
+    left: 530%;
   }
 }
