@@ -195,7 +195,7 @@ a.community-page_block3-link:hover {
   width: 40%;
   height: 200%;
   z-index: 10;
-  font-size: 24px;
+  font-size: 3vh;
 }
 
 h2.community-page-individual_block1-text {
@@ -255,11 +255,14 @@ img#wistia_48.thumbnail_img {
   background-color: black;
 }
 p.community-block-quote {
+  border-top: #e9e9e9 4px solid;
+  border-bottom: #e9e9e9 4px solid;
+  padding: 10px 0;
   font-family: "Stag";
-  text-align: center;
-  font-style: italic;
+  text-align: left;
+  font-style: bold;
   margin: 2% 0;
-  font-size: 200%;
+  font-size: 4vh;
   line-height: 201%;
 }
 span.quotes {
