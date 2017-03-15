@@ -556,7 +556,7 @@
   background-color: #ED3F60;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1200px) {
   .different-section-seven__graph--arrow {
     transform: translate(232px,180px) rotate(-16deg) scale(1,0.9) skew(6deg);
   }
