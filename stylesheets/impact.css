@@ -68,7 +68,7 @@
   font-family: stag;
   font-weight: 400;
   line-height: 1.4em;
-  max-width: 80%;
+  /*max-width: 80%;*/
 }
 
 .impact-3-img:nth-child(1) h5 span {
