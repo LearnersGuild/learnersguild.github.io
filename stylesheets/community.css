@@ -66,8 +66,9 @@ img.community-page_block3-image {
   height: 100%;
   width: 100%;
 }
+
 h3.community-page_block-text {
-  font-family: 'Proxima';
+  font-family: 'Proxima'!important;
   width: 70%;
   padding-top: 5%;
   color: white;
