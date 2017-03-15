@@ -11,16 +11,13 @@ This is a [Jekyll][jekyll] site. **Be sure you understand how to work with Jekyl
 
 1. Clone the repository.
 2. Run the setup tasks:
-
-        $ bundle install
+        `$ bundle install`
 
 4. Run the server:
-
-        $ jekyll serve
+        `$ jekyll serve`
 
 5. Visit the server in your browser:
-
-        $ open http://localhost:4000
+        `$ open http://localhost:4000`
 
 
 

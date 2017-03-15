@@ -1,611 +1,264 @@
-<html>
-<head>
-	<title>About Learners Guild</title>
-<link href="https://fonts.googleapis.com/css?family=Bevan|Raleway" rel="stylesheet">
-
-
-<link rel="stylesheet" href="newres/newmain.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<style>
-
-@font-face {
-    font-family: Stag;
-    src: url("newres/Stag-Black.otf") format("opentype");
-}
-
-@font-face {
-    font-family: StagLight;
-    src: url("newres/Stag-Light.otf") format("opentype");
-}
-
-@font-face {
-    font-family: Proxima;
-    src: url("newres/proxima.otf") format("opentype");
-}
-
-
-.block1, .block3{
-background-image:url('newres/aboutbg1.png');
-background-size:100% auto;
-color:white;
-min-height:400px;
- display: flex;
-  align-items: center;
-  justify-content: center;
-}
-	
-	.b3 *{
-	color:white;	
-	}
-	
-	.block3{
-		background-image:url('newres/aboutbg3.png');
-	}
-	
-	.cboth{
- display: flex;
-  align-items: center;
-  justify-content: center;
-}
-	
-	.jusleft{
-	text-align:left;	
-	}
-	
-	p{font-family:"Proxima";}
-	
-	.carousel-indicators li{
-	background:gray;	
-	}
-	
-	.carousel-indicators .active{
-	background:#ec3656;	
-	}
-	
-    
-    h2,h1,h3{font-family:"Stag"; letter-spacing:2.2px;}
-
-	.teamblock{
-	background:#f4f4f4;	
-		
-	}
-	
-	.teamblock .td1, .teamblock .td2{
-		padding:2px;
-		background:white;
-		text-align:left;
-		line-height:10px;
-		margin:0px;
-		padding:13px;
-		
-	}
-	
-	.teamblock .col-xs-4 *{
-	background:white;	
-	}
-	
-	.teamblock .container-fluid{
-	margin-top:40px;	
-	}
-	
-	.td1{
-		padding-top:20px;
-	color:#20202b;
-		text-transform:uppercase;
-		font-weight:bold;
-	}
-	
-	.td2{
-	color:#626366;
-	}
-	
-	.tdd{
-	float:right;	
-		padding:20px;
-		display:none;
-	}
-	
-	.pic1{
-	width:100%;
-	padding-bottom:20px;	
-	}
-	
-	.cf1 img{
-	max-height:50vh;	
-	}
-	
-	.cwidth1, .teamblock .container-fluid{
-	max-width:1000px;
-	}
-	
-	
-	
-	@media (max-width: 1000px) {
-		.block3, .block1{
-		background-size:auto 100%;
-		}
-		
-	}
-	
-	
-	@media (max-width: 800px) {
-  .col-xs-6, .col-xs-4, .col-sm-4, .col-lg-6, .col-xs-4, .col-sm-4 {
-    width:100% !important;	margin-bottom:130px;
-	    
-	  
-  }
-		.block3, .block1{
-			background-size:400% auto;
-			background-position: 8% 0px;
-		}
-		
-		.block3 p{
-		max-width:90%;
-			font-size:20px;
-		}
-		
-		.cf1{
-		height:100vh !important;	
-		}
-		
-		
-	}
-	
-	
-	
-</style>
-</head>
-<body>
-
-<script src="newres/jquery-latest.js"></script>
-
-<script src="newres/bootstrap.min.js"> </script>
-	
-	
-	
-	<style>
-		.newheader{
-		width:100%;
-			z-index:999;
-			position:fixed;
-			top:0px;
-			left:0px;
-			min-height:48px;
-			background:white;
-			box-shadow:3px 0px 3px black;
-		}
-		body{
-		margin-top:48px;
-		}
-		
-		.mheadmenu1 p{font-size:20px; margin-top:20px;}
-		.mheadmenu1 a*, .mheadmenu1 a, .mheadmenu1 p*{color:#22212b !important;}
-		
-		
-		.mbutton1:active .newheader .menu1, .mbutton1:hover .newheader .menu1, .menu1:hover .neweheader .menu1{
-		display:inline !important;
-		}
-		
-		
-@media (max-width: 600px) {
-	.hlogo1{margin:0px;}
-		}
-		
-		.ab1:hover{
-		background:red;
-			color:white;
-		}
-		
-		
-		.dropdown .dropdown-menu {    -webkit-transition: all 0.3s;    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;    -o-transition: all 0.3s;    transition: all 0.3s;
-    max-height: 0;
-    display: none;
-    overflow: hidden;
-    
-}
-
-.dropdown.open .dropdown-menu {
-    max-height: 500px;
-	display:block;
-}
-	
-	</style>
-	
-	<div class="newheader"> 
-		
-		
-				<div class="dropdown" style="float:left;">
-  <button class="btn btn-primary dropdown-toggle" style="background:none; background-image:none; background-color:none; padding:0px; border:0px;" type="button" data-toggle="dropdown"><img src="newres/headerleft.png">
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu mheadmenu1" style="background:#f7f8f8; padding:20px 40px 20px 20px">
-	  <p><a href="/">HOME</a></p>
-	  <p><a href="howitworks">THE GUILD</a></p>
-	  <p><a href="community">COMMUNITY</a></p>
-	  <p><a href="impact">IMPACT</a></p>
-	   <p><a href="faq">FAQ</a></p>
-	  <p><a href="about">ABOUT</a></p>
-  </ul>
-</div> 
-		
-		
-		<img src="newres/headbg1.png" class="hlogo1" style="text-align:center; width:245px; display:block; margin:auto; height:49px;"/>
-		<div class="ab1" style="text-align:right; font-family:'Proxima'; border-radius:20px;border:2px solid #ee255b; width:140px; float:right; padding:8px; position:fixed; right:8px; top:8px; padding-right:30px;"><a href="https://www.learnersguild.org/enroll_start.html">APPLY NOW</a></div>
-		
-	</div>
-	
+---
+layout: default
+---
 <center>
-
-<div class="block1">
-<div>
-<div style="font-family:'Proxima'; background:#f2b317; padding:15px; width:120px;">ABOUT US</div>
-<h2 style="font-size:60px; padding-top:40px; letter-spacing:2px;">We're building this for you.</h2>
-
-
-</div>
-    
-    </div>
-    
-	<div class="block2" style="margin:80px 0px;">
-    <h2 style="color:#20202b;font-size:56px;">We believe:</h2>
-    
-    
-    
-		
-		
-		
-		
-		
-		
-		
-		
-	 <div id="myCarousel" class="carousel slide cf1" data-ride="carousel" style="max-height:60vh;" >
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
+  <div class="about-splash">
+    <h3 class="about-page_block-text text-yellow"><span class="curly-brace">{</span> ABOUT US <span class="curly-brace">}</span></h3>
+    <h2 class="about-page_block-header">We're building this for you.</h2>
+  </div>
+  <div class="about-page_block2 full-screen">
+    <h2>We believe:</h2>
+    <div id="aboutCarousel" class="carousel slide cf1" data-ride="carousel">
+    <div class="carousel-inner about-page" role="listbox">
         <div class="item active">
-         
-
-    <div class="container-fluid " style="margin:80px 0px; max-width:1000px;" >
-            <div class="row ">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
-				<img src="newres/aboutbg2.png" style="width:100%; padding:20px;" />
-                   
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                <img class="about-carousel-img" src="images/newres/aboutbg2.png" />
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  cboth">
+                <div class="about-carousel-jusleft">
+                  <h2>It's time for <span class="text-green">pioneers.</span></h2>
+                  <p>There's a well-worn path that leads to great careers in tech.  The problem is that it's closed to all but a privileged few.  We're blazing an entirely new path, clearing obstacles and inviting trailblazers of all kinds come with us.</p>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  cboth">
-				
-               <div class="jusleft">
-                    <h2 style="font-size:48px; margin:20px 0px;">It's time for <span style="color:#8dc235;">pioneers.</span></h2>
-
-<p style="font-size:22px;">There's a well-worn path that leads to great careers in tech.  The problem is that it's closed to all but a privileged few.  We're blazing an entirely new path, clearing obstacles and inviting trailblazers of all kinds come with us.</p>
-			</div>
+              </div>
             </div>
-        </div>
-
-
-
-</div>
-
-        </div>
-        <div class="item"> 
-         
-
-
-    <div class="container-fluid " style="margin:80px 0px; max-width:1000px;" >
-            <div class="row ">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
-				<img src="newres/about_new_bg2.png" style="width:100%; padding:20px;" />
-                   
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  cboth">
-				
-               <div class="jusleft">
-                    <h2 style="font-size:48px; margin:20px 0px;">Education should be<br/> <span style="color:#f0b219;">a partnership.</span></h2>
-
-<p style="font-size:22px;">Traditionally learning's been a one way street.  Schools get paid whether you meet your goals or not; all the risk's on you.  We think learning should be a collaboration:  a community investing in learners and only making money when they win.  That's what drives our program to be 100% focused on giving Learners skills that will lead directly to their success.</p>
-			</div>
-            </div>
-        </div>
-
-
-
-</div>
-
-         
+          </div>
         </div>
         <div class="item">
-     
-
-
-    <div class="container-fluid " style="margin:80px 0px; max-width:1000px;" >
-            <div class="row ">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
-				<img src="newres/about_new_bg3.png" style="width:100%; padding:20px;" />
-                   
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                <img class="about-carousel-img" src="images/newres/about_new_bg2.png" />
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  cboth">
+                <div class="about-carousel-jusleft">
+                  <h2>Education should be<br/><span class="text-green">a partnership.</span></h2>
+                  <p>Traditionally learning's been a one way street.  Schools get paid whether you meet your goals or not; all the risk's on you.  We think learning should be a collaboration:  a community investing in learners and only making money when they win.  That's what drives our program to be 100% focused on giving Learners skills that will lead directly to their success.</p>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  cboth">
-				
-               <div class="jusleft">
-                    <h2 style="font-size:48px; margin:20px 0px;">Everyone deserves  <span style="color:#eb3755;"><br/>an opportunity.</span></h2>
-
-<p style="font-size:22px;">Tech offers high challenge, high reward 21st century careers.  But for too many, the on-ramps don't exist.  We think commitment, not privilege should determine success.  That's why we're building a new on-ram, a supportive and safe environment where everyone can thrive.</p>
-			</div>
+              </div>
             </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                <img class="about-carousel-img" src="images/newres/about_new_bg3.png" />
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  cboth">
+                <div class="about-carousel-jusleft">
+                  <h2>Everyone deserves<span class="text-green"><br/>an opportunity.</span></h2>
+                  <p>Tech offers high challenge, high reward 21st century careers.  But for too many, the on-ramps don't exist.  We think commitment, not privilege should determine success.  That's why we're building a new on-ram, a supportive and safe environment where everyone can thrive.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators carousel1">
+          <li class="active" data-slide-to="0" data-target="#aboutCarousel"></li>
+          <li class="" data-slide-to="1" data-target="#aboutCarousel"></li>
+          <li class="" data-slide-to="2" data-target="#aboutCarousel"></li>
+        </ol>
+        <a class="left carousel-control" data-slide="prev" href="#aboutCarousel" role="button">
+          <span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" data-slide="next" href="#aboutCarousel" role="button">
+          <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="about-page_block2 mobile">
+    <h2>We believe:</h2>
+    <div id="aboutCarousel" class="carousel slide cf1" data-ride="carousel">
+    <div class="carousel-inner about-page" role="listbox">
+        <div class="item active">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                <img class="about-carousel-img" src="images/newres/aboutbg2.png" />
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  cboth">
+                <div class="about-carousel-jusleft">
+                  <h2>It's time for <span class="text-green">pioneers.</span></h2>
+                  <p>There's a well-worn path that leads to great careers in tech.  The problem is that it's closed to all but a privileged few.  We're blazing an entirely new path, clearing obstacles and inviting trailblazers of all kinds come with us.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                <img class="about-carousel-img" src="images/newres/about_new_bg2.png" />
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  cboth">
+                <div class="about-carousel-jusleft">
+                  <h2>Education should be<br/><span class="text-green">a partnership.</span></h2>
+                  <p>Traditionally learning's been a one way street.  Schools get paid whether you meet your goals or not; all the risk's on you.  We think learning should be a collaboration:  a community investing in learners and only making money when they win.  That's what drives our program to be 100% focused on giving Learners skills that will lead directly to their success.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                <img class="about-carousel-img" src="images/newres/about_new_bg3.png" />
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  cboth">
+                <div class="about-carousel-jusleft">
+                  <h2>Everyone deserves<span class="text-green"><br/>an opportunity.</span></h2>
+                  <p>Tech offers high challenge, high reward 21st century careers.  But for too many, the on-ramps don't exist.  We think commitment, not privilege should determine success.  That's why we're building a new on-ram, a supportive and safe environment where everyone can thrive.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators carousel1">
+          <li class="active" data-slide-to="0" data-target="#aboutCarousel"></li>
+          <li class="" data-slide-to="1" data-target="#aboutCarousel"></li>
+          <li class="" data-slide-to="2" data-target="#aboutCarousel"></li>
+        </ol>
+        <a class="left carousel-control" data-slide="prev" href="#aboutCarousel" role="button">
+          <span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" data-slide="next" href="#aboutCarousel" role="button">
+          <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+    <div class="carousel slide" data-interval="false" data-ride="carousel" id="aboutCarousel2">
+      <ol class="carousel-indicators carousel2">
+        <li class="active carousel2" data-slide-to="0" data-target="#aboutCarousel2"></li>
+        <li class="carousel2" data-slide-to="1" data-target="#aboutCarousel2"></li>
+        <li class="carousel2" data-slide-to="2" data-target="#aboutCarousel2"></li>
+        <li class="carousel2" data-slide-to="3" data-target="#aboutCarousel2"></li>
+        <li class="carousel2" data-slide-to="4" data-target="#aboutCarousel2"></li>
+      </ol>
+      <div class="carousel-inner about-page" role="listbox">
+        <div class="item active picture1">
+          <p class="carousel-text-2">
+            <span class="carousel-header"> OUR STORY </span> <br>
+            It began in 2012 when Shereef Bishay, a programmer and entrepreneur, realized there had to be a better way for his friends to learn to code.  At the time they were facing four years in college, hundreds of thousands of dollars in debt and spent little time working on real world projects.
+          </p>
+        </div>
+        <div class="item picture2">
+          <p class="carousel-text-2">Shereef conceived of a very different experience and invited a few of his friends to join. Called Dev Bootcamp, it was a 10-week immersive program to teach people the skills they need to enter the booming tech sector at a fraction of the cost. It worked, his friends got jobs, and the idea caught on. In fact, within a few years, bootcamps trained tens of thousands of aspiring engineers and gave tech companies a new pipeline for talent.</p>
+        </div>
+        <div class="item picture3">
+          <p class="carousel-text-2">But Shereef wasn't satisfied. He understood that even though bootcamps are far cheaper than college, they still aren't accessible to most; millions can't afford to take on any debt at all. In fact, millions can't spend time in school not earning an income. Not to mention people of color and women are still greatly under-represented int he tech industry - a problem bootcamps aren't built to solve.</p>
+        </div>
+        <div class="item picture4">
+          <p class="carousel-text-2">So in 2015, Shereef and some of the best and brightest in the field decided to start something even more radical: a learning community that is both more inclusive and more intensive. Designed for people who have the drive but just need a real opportunity.</p>
+        </div>
+        <div class="item picture5">
+          <p class="carousel-text-2">Learners Guild pushes aside all assumptions about education and starts from the scratch. We do away with tuition, grades, and competition. In its place, we build in support, hands-on real-world challenges and a learning environment that's safe and collaborative. In the process, Learners Guild doesn't just widen the circle of opportunity - we're creating a radically accessible on-ramp for people just like you.</p>
+        </div>
+      </div><a class="left carousel-control" data-slide="prev" href="#aboutCarousel2" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span></a> <a class="right carousel-control" data-slide="next" href="#aboutCarousel2" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
+    </div>
+
+  <div class="about-page_block4">
+    <h2 class="about-page_block4-text">Meet our team</h2>
+
+    <div class="container-fluid block2">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/carla.jpg" />
+          <p class="td1">Carla Bagdonas, Learning Facilitator</p>
         </div>
 
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/shereef.jpg" />
+          <p class="td1">Shereef Bishay, Founder</p>
+        </div>
 
-
-</div>
-
-
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/karim.jpg" />
+          <p class="td1">Karim Bishay, GTD and Holacracy Coach</p>
         </div>
       </div>
-    
-</div><!-- /.carousel -->	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-</div>
-    
-    
-	
-	
-	<div class="block3">
-<div>
-	<h2 style="font-size:56px; border-bottom:solid 10px #f2b317; padding-bottom:6px; width:280px;">Our Story</h2>
-<p style="max-width:800px; font-size:26px;">It began in 2012 when Shereef Bishay, a programmer and entrepreneur, realized there had to be a better way for his friends to learn to code.  At the time they were facing four years in college, hundreds of thousands of dollars in debt and spent little time working on real world projects.</p>
-
-</div>
-    
     </div>
-	
-	
-	
-	
-	
-	<div class="teamblock" style="padding:80px 0px;">
-		
-		<h2 style="font-size:60px;">Meet our team</h2>
-	
-<div class="container-fluid block2">
-            <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<img class="pic1" src="newres/teamcarla.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Carla Bagdonas
-</p>
-			<p class="td2">Learning Facilitator</p>			
-			
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<img class="pic1" src="newres/teamshereef.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Shereef Bishay
-</p>
-			<p class="td2">Founder</p>	
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-						<img class="pic1" src="newres/teamkarim.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Karim Bishay
-</p>
-			<p class="td2">GTD and Holacracy Coach</p>	
-                </div>
-            </div>
+
+    <div class="container-fluid block2" >
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/david.jpg" />
+          <p class="td1">David Guendelman, CFO</p>
         </div>
-		
 
-	
-	
-	<div class="container-fluid block2" >
-            <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<img class="pic1" src="newres/teamdavid.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">David Guendelman
-</p>
-			<p class="td2">CFO</p>			
-			
-                </div>
-		    
-		    
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<img class="pic1" src="newres/teamian.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Ian Inaba
-</p>
-			<p class="td2">President</p>	
-                </div>
-		    
-		    
-		    
-		       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<img class="pic1" src="newres/teamneeddra.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Needdra James
-</p>
-			<p class="td2">Learning Facilitator</p>	
-                </div>
-               
-            </div>
-</div>
-		
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/ian.jpg" />
+          <p class="td1">Ian Inaba, President</p>
+        </div>
 
-	
-    
-	<div class="container-fluid block2" >
-            <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<img class="pic1" src="newres/teamsabra.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Sabra Pratt
-</p>
-			<p class="td2">Software Engineer</p>			
-			
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<img class="pic1" src="newres/teamjohn.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">John Roberts
-</p>
-			<p class="td2">Professional Player</p>	
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-						<img class="pic1" src="newres/teamjared.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Jared Grippe
-</p>
-			<p class="td2">Professional Player</p>	
-                </div>
-            </div>
-</div>
-		
-		
-		
-		
-			<div class="container-fluid block2" >
-            <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<img class="pic1" src="newres/teamtanner.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Tanner Welsh
-</p>
-			<p class="td2">Software Engineer</p>			
-			
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<img class="pic1" src="newres/teamjeffery.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Jeffery Wescott
-</p>
-			<p class="td2">CTO</p>	
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-						<img class="pic1" src="newres/teamdeonna.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Deonna Hodges
-</p>
-			<p class="td2">Professional Player</p>	
-                </div>
-            </div>
-</div>
-		
-		
-		
-		
-			
-			<div class="container-fluid block2" >
-            <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-			
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-			
-			 <div class="">
-						<img class="pic1" src="newres/teamtrevor.png" />
-                   <img class="tdd" src="newres/teamdropdown.png">
-<p class="td1">Trevor Little
-</p>
-			<p class="td2">Software Engineer</p>	
-                </div>
-			
-			
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-						
-                </div>
-            </div>
-</div>
-		
-		
-		
-		
-		
-		
-		</div>
-	
-	
-		<div class="block3" style="min-height:400px; background-image:url('newres/aboutbg5.png'); background-repeat:repeat; background-size:141px 39px;">
-<div>
-	<h2 style="font-size:56px; ">You're the next part of the story.</h2>
-	<div style="background:#ec3555; padding:14px; border-radius:30px; width:180px; margin:30px;" class="b3"><a href="https://www.learnersguild.org/enroll_start.html">SEE IF YOU QUALIFY</a></div>
-
-</div>
-    
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/needdra.jpg" />
+          <p class="td1">Needdra James, Learning Facilitator</p>
+        </div>
+      </div>
     </div>
-		 <style>
-		 
-		 
-		 .footer1 *{
-		 color:white;	 
-		 }
-		 .footer1 .col-xs-4{
-		 text-align:left;
-			
-		 }
-		 .fhead1{
-			 border-bottom:4px solid #f2b317;
-			 margin-bottom:14px;
-			 padding-bottom:6px;
-		 }
-		 
-		 .simg1 img{
-			 height:20px;
-			 width:auto;
-		 }
-	 </style>
-<div style="background:#20202b; min-height:200px; padding:20px 0px;" class="footer1">
 
-<div class="container-fluid" style="margin:40px 0px;">
-            <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<img src="newres/lgfootlogo.png">
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-			<div class="fhead1" style="width:120px;">CONTACT US</div>
-			<p>general inquiries:  <a href="mailto:info@learnersguild.org">info@learnersguild.org</a></p>
-			<p>applicants:  <a href="mailto:enrollment@learnersguild.org">enrollment@learnersguild.org</a></p>
-			<p>partnerships:  <a href="mailto:info@learnersguild.org">info@learnersguild.org</a></p>
-
-<p>&nbsp;</p>
-
-<p>492 Ninth Street (Garden Level)</p>
-<p>Oakland, CA 94607</p>
-
-
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-			<div class="fhead1 simg1" style="width:140px;">FOLLOW US</div>
-			<p>@LearnersGuildUS <a href="https://www.facebook.com/LearnersGuild/"><img src="newres/lgfootfb.png"></a><a href="https://twitter.com/learnersguildus?lang=en"><img src="newres/lgfoottwit.png"></a><a href="https://www.linkedin.com/school/10403232"><img src="newres/lgfootlinked.png"></a></p>
-			
-                </div>
-            </div>
+    <div class="container-fluid block2" >
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/Sabra.jpg" />
+          <p class="td1">Sabra Pratt, Software Engineer</p>
         </div>
-	
-		
-</div>	
-	 <div class="footer2" style="background:#0f0f16; padding:20px;"><p>Copyrights &copy 2016 All Rights Reserved by Learners Guild Ltd. Public Benefit Corporation.  Privacy Policy | Terms of Service</p></div>
-	
-	
-	
 
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/john.jpg" />
+          <p class="td1">John Roberts, Software Engineering Practitioner</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/jared.jpg" />
+          <p class="td1">Jared Grippe, Software Engineering Practitioner</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid block2" >
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/tanner.jpg" />
+          <p class="td1">Tanner Welsh, Software Engineer</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/jeffrey.jpg" />
+          <p class="td1">Jeffery Wescott, CTO</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img class="pic1" src="images/staff/deonna.jpg" />
+          <p class="td1">Deonna Hodges, Software Engineering Practitioner</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid block2" >
+      <div class="row">
+        <div class="col-xs-0 col-sm-4 col-md-4 col-lg-4"></div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="">
+            <img class="pic1" src="images/staff/trevor.jpg" />
+            <p class="td1">Trevor Little, Software Engineer</p>
+          </div>
+        </div>
+        <div class="col-xs-0 col-sm-4 col-md-4 col-lg-4"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-part-of-our-story">
+    <h2>You're the next part of the story.</h2>
+      <a class="btn home-page_button btn-round-lg btn-lg round" href="https://www.learnersguild.org/enroll_start.html">SEE IF YOU QUALIFY</a>
 </center>
-</body>
-</html>
