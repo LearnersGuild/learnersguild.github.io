@@ -20,6 +20,9 @@
 h3.about-page_block-text {
   font-family: "Proxima";
 }
+p.carousel-text-2 {
+  font-size: 4vw;
+}
 
 h2.about-page_block-header {
   font-size: 600%;
@@ -32,7 +35,7 @@ h2.about-page_block-header {
   background-color: grey !important;
 }
 
-.carousel-indicators .active .about-carousel {
+.carousel-indicators .active {
   background-color: #ec3656 !important;
 }
 
@@ -152,33 +155,26 @@ h2.about-page_block4-text {
   margin: 20px 0;
   padding: 20px 0;
 }
-
-
 .teamblock .container-fluid {
   margin-top: 40px;
 }
-
 .td1 {
   padding-top: 20px;
   color: #20202b;
   text-transform: uppercase;
   font-weight: bold;
 }
-
 .td2 {
   color: #626366;
 }
-
 .tdd {
   float: right;
   padding: 20px;
   display: none;
 }
-
 .pic1 {
   width: 100%;
 }
-
 .cwidth1,
 .teamblock .container-fluid {
   max-width: 1000px;
@@ -200,7 +196,7 @@ h2.about-page_block4-text {
 
 
 .picture1 {
-  background-image: url('../images/newres/aboutbg3.png');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/newres/aboutbg3.png');
 }
 .carousel-header {
   font-size: 42px;
@@ -216,19 +212,19 @@ h2.about-page_block4-text {
 }
 
 .picture2 {
-  background-image: url('../images/about2/layer_59_720.png');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/about2/layer_59_720.png');
 }
 
 .picture3 {
-  background-image: url('../images/about2/layer_60_720.png');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/about2/layer_60_720.png');
 }
 
 .picture4 {
-  background-image: url('../images/about2/layer_61_720.png');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/about2/layer_61_720.png');
 }
 
 .picture5 {
-  background-image: url('../images/about2/layer_62_720.png');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/about2/layer_62_720.png');
 }
 
 .row.block5.about {
@@ -242,7 +238,7 @@ h2.about-page_block4-text {
 #aboutCarousel2 p {
   padding: 10% 25%;
   text-shadow: 1px 1px 1px #000;
-  font-size: 30px;
+  font-size: 3vh;
   line-height: 60px;
 }
 .about-part-of-our-story {
