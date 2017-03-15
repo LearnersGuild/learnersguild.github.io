@@ -13,6 +13,9 @@
 .community-page_block1 {
   padding: 50px;
 }
+.community-page_button {
+  width: 25%;
+}
 .community-page_block1-video {
   position: fixed;
   top: 0px;
@@ -82,13 +85,20 @@ h3.community-page_block-text {
   margin: 40px;
 }
 .btn.round {
-  background-color: #ee255b;
+  background: #ee255b;
+  border-radius: 40px;
+  border: 0;
+  padding: 14px;
+  margin: 40px;
   color: white;
-  border-radius: 20px;
-  font-size: 20px;
-  padding: 5px;
-  width: 300px;
-  margin: 0 auto;
+  text-align: center;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+}
+.btn.round:hover {
+  background: transparent;
+  border: 2px solid #ee255b;
+  color: #ee255b;
 }
 .community-page_block-header {
   font-family: "Stag";
