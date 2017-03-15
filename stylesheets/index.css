@@ -24,15 +24,15 @@
   height: auto !important;
   position: relative;
   text-indent: 75%;
-  margin: -15% 0;
   top: 0px;
+  margin: auto;
+  text-shadow: 1px 1px 1px #000;
 }
 .carousel-inner>img {
   min-height: 750px !important;
   padding: 5px;
   width: 2000px;
   z-index: -1000px;
-  margin: -75px 0 0 -100px;
 }
 .carousel-caption {
   top: 50%;
@@ -42,11 +42,12 @@
   border: none;
   background: white;
 }
-#myCarousel1 .carousel-indicators.carousel1 .active {
+#myCarousel1 .carousel-indicators .active {
   background-color: grey !important;
 }
 .carousel-caption p {
   font-size: 32px;
+  text-shadow: 1px 1px 1px #000;
 }
 #playit {
   position: fixed;
@@ -186,8 +187,11 @@ h1, h2, h3 {
 .carousel-indicators {
   bottom: 0px !important;
 }
-#myCarousel2 .carousel-indicators .active {
+.carousel-indicators .active {
   background-color: #ec3656 !important;
+}
+.home-page_block2-button {
+  width: 25%;
 }
 #myCarousel2 .glyphicon-chevron-right:before, #myCarousel2 .glyphicon-chevron-left:before {
   color: #0099da;
@@ -219,8 +223,8 @@ img.home-page_block5-image {
 }
 .home-page_block6-triangle {
   position: absolute;
-  right: 15px;
-  top: 140px;
+  right: 0px;
+  top: 100px;
 }
 .home-page_block6-text {
   background-color: #222230;
@@ -229,7 +233,6 @@ img.home-page_block5-image {
   font-size: 32px;
   padding: 18px;
   font-family: "StagLight";
-  margin: 20px;
   padding: 60px;
   text-align: left;
 }
@@ -241,11 +244,15 @@ img.home-page_block5-image {
 .home-page_block6-text3 {
   padding: 20px 0px;
 }
-#block6 {
-  display: flex;
-  justify-content: space-around;
-  max-width: 100%;
+#block6image {
   height: 100%;
+}
+img#block6image {
+  height: 100%;
+}
+#block6 {
+  max-width: 100%;
+  min-height: 100%;
   background-image: url('/images/newres/b4bg.png');
   background-repeat: repeat;
 }
