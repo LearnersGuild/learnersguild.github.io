@@ -171,7 +171,7 @@
   z-index: 1;
 }
 
-.howitworks-section-four__header___text {
+.different-section-four__header___text {
   position: relative;
   top: 80px;
   left: 608%;
@@ -217,7 +217,7 @@
 }
 
 .howitworks-section-three__description__sub-header,
-.howitworks-section-four__header___text,
+.different-section-four__header___text,
 .howitworks-section-five__sub-header {
   font-family: 'Proxima';
   font-size: 25px;
@@ -574,7 +574,7 @@
     left: 90% !important;
   }
 
-  .howitworks-section-four__header___text {
+  .different-section-four__header___text {
     left: 530%;
   }
 }
