@@ -42,6 +42,9 @@
   border: none;
   background: white;
 }
+.carousel-indicators li {
+  border: none !important;
+}
 #myCarousel1 .carousel-indicators .active {
   background-color: grey !important;
 }
@@ -183,9 +186,6 @@ h1, h2, h3 {
 .carousel-indicators.carousel2 li {
   margin-top: 25px;
   background-color: grey !important;
-}
-.carousel-indicators {
-  bottom: 0px !important;
 }
 .carousel-indicators .active {
   background-color: #ec3656 !important;
