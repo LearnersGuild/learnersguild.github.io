@@ -15,8 +15,8 @@ footer:before {
 }
 
 footer.row {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .footer-primary {
@@ -30,12 +30,11 @@ footer.row {
   background-color: #151521;
   padding: 5px;
   color: #666;
-  font-size: .8em;
   margin-top: 20px;
 }
 
 .footer-containers:not(:first-child) {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .footer-logo img {
@@ -44,6 +43,7 @@ footer.row {
 
 .footer-containers .fa {
   color: #fff;
+  margin: 0 3px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -52,11 +52,14 @@ footer.row {
 }
 
 .footer-containers h5 {
-  margin: 0px;
+  margin: 0;
 }
 
 .footer-containers p {
-  margin: 2px 0px;
+  margin: 2px 0;
+  font-size: 1.1em;
+  font-family: proxima;
+  font-weight: 400;
 }
 
 .footer-containers p.address {
@@ -78,12 +81,12 @@ footer.row {
   min-height: 3px;
   background-color: #97C93D;
   max-width: 100px;
-  margin: 5px 0px;
+  margin: 5px 0 15px 0;
 }
 
 .contact-us-line {
   min-height: 3px;
   background-color: #F2BB1A;
-  max-width: 100px;
-  margin: 5px 0px;
+  max-width: 110px;
+  margin: 5px 0;
 }
