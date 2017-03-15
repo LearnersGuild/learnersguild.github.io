@@ -69,6 +69,7 @@
   font-weight: 400;
   line-height: 1.4em;
   max-width: 80%;
+  text-align: center;
 }
 
 .impact-3-img:nth-child(1) h5 span {
@@ -81,6 +82,7 @@
 
 .impact-3-img:nth-child(5) h5 {
   margin: 20px 0 22px 0;
+  text-align: center;
 }
 
 .impact-3-img:nth-child(5) h5 span {

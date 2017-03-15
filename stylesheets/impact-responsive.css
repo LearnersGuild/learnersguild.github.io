@@ -2,26 +2,21 @@
   center {
     max-width: 100%;
   }
-
   .impact-section-one h2 {
     max-width: 200px;
   }
-
   .impact-guild-tracker h2 {
     width: 200px;
     margin: 0;
   }
-
   .impact-guild-tracker p {
-    max-width: 200px;
+    max-width: 90%;
   }
-
+  .we-bet-on {
+    max-width: 90%;
+  }
   .impact-3-img h5 {
-    margin-left: 30%;
-  }
-
-  .impact-3-img:nth-child(5) h5 {
-    margin: 10px auto 10px 30%;
+    font-size: 1.5em;
   }
 }
 
