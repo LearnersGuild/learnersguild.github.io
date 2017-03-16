@@ -200,4 +200,7 @@
   .home-page_block7 {
     margin: 20px;
   }
+  .carousel-inner.homepage {
+    display: block;
+  }
 }
