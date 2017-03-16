@@ -249,13 +249,13 @@ howitworks-section-two__apply-now a {
     margin: auto !important;
   }
 
-  .carousel-control.right {
+  /*.carousel-control.right {
     left: 90% !important;
   }
 
   .carousel-control.left {
     left: -2% !important;
-  }
+  }*/
 
   .howitworks-section-four__header___text {
     left: 51%;
