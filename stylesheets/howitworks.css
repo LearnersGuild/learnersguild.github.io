@@ -51,6 +51,11 @@
   padding:40px 0px;
 }
 
+.howitworks-section-two__icon-row___description img {
+  width: 30%;
+  height: auto;
+}
+
 .howitworks-section-two__sub-header {
   font-family:'proxima';
   font-weight: 300;
@@ -71,7 +76,6 @@
 .howitworks-section-two__icon-row___description {
   margin: 0px 55px;
   text-align: center;
-  width:;
 }
 
 .howitworks-section-two__icon-row___description h2 {
@@ -153,7 +157,6 @@
   padding: 25px 40px;
 }
 
-.howitworks-section-three__description,
 .howitworks-section-four__panel-one__description {
   padding: 30px 70px 30px 20px;
 }
@@ -350,3 +353,4 @@ howitworks-section-two__apply-now a {
     height: 170px;
   }
 }
+
