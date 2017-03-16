@@ -133,7 +133,7 @@ p.td1 {
   font-size: 150%;
   margin-bottom: 2%;
 }
-#aboutCarousel .glyphicon-chevron-right:before, 
+#aboutCarousel .glyphicon-chevron-right:before,
 #aboutCarousel .glyphicon-chevron-left:before {
   color: #0099da;
 }
@@ -203,14 +203,6 @@ h2.about-page_block4-text {
   font-size: 42px;
   border-bottom: 12px solid #f2ba19;
 }
-.picture1, .picture2, .picture3, .picture4, .picture5 {
-  display: flex;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 600px;
-}
 
 .picture2 {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/about2/layer_59_720.png');
@@ -226,6 +218,16 @@ h2.about-page_block4-text {
 
 .picture5 {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/about2/layer_62_720.png');
+}
+.picture1, .picture2, .picture3, .picture4, .picture5 {
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
 }
 
 .row.block5.about {
