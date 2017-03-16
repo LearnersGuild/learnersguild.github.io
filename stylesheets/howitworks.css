@@ -14,7 +14,7 @@
 }
 
 .howitworks-section-one__sub-header h3 {
-  font-family:'proxima';
+  font-family:'stag';
   font-weight: 400;
   text-align: center;
   color: #F2BB1A;
@@ -141,7 +141,6 @@
 .howitworks-section-four__header {
   position: absolute;
   background-color: transparent;
-  /*top: 633px;*/
   z-index: 1;
 }
 
@@ -260,6 +259,98 @@ howitworks-section-two__apply-now a {
 
   .howitworks-section-four__header___text {
     left: 51%;
+  }
+}
+
+@media (max-width: 2900px) {
+  .different-section-seven__graph--arrow {
+    transform: translate(232px,180px) rotate(-16deg) scale(1,0.9) skew(6deg);
+  }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 599px) {
+  .howitworks-section-one__sub-header h3 {
+    font-size: 100%;
+    margin-top: 0px;
+  }
+
+  .howitworks-section-one__header {
+    font-size: 28px !important;
+    padding: 0px;
+  }
+
+  .howitworks-section-one__header h2 {
+    margin-top: 0px;
+  }
+
+  .howitworks-section-two {
+    padding-top: 15px;
+  }
+
+  .howitworks-section-two__sub-header {
+    font-size: 14px;
+    padding: 15px 17px;
+  }
+
+  .howitworks-section-two__icon-row{
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+
+  .howitworks-section-two__icon-row___description img {
+    height: 90px;
+  }
+
+  .howitworks-section-two__icon-row___description {
+    margin: 0px;
+  }
+
+  .howitworks-section-two__icon-row___description h2,
+  .howitworks-section-two__icon-row___description p {
+  font-size: 20px;
+  }
+
+  .howitworks-section-three {
+    flex-direction: column;
+  }
+
+  .howitworks-section-three__image {
+    padding: 25px 10px;
+  }
+
+  .howitworks-section-three__image img {
+    height: 300px;
+  }
+
+  .howitworks-section-three__description {
+    padding: 0px 15px;
+    margin-bottom: 15px;
+  }
+
+  .howitworks-section-three__description__sub-header,
+  .howitworks-section-three__description__text {
+    font-size: 17px;
+  }
+
+  .howitworks-section-three__description__sub-header p {
+    margin: 0 0 0px;
+  }
+
+  .howitworks-section-four__header___text {
+    position: relative;
+    top: 0;
+    left: 3%;
+    font-size: 17px;
+  }
+
+  .howitworks-section-four__image-one,
+  .howitworks-section-four__image-two,
+  .howitworks-section-four__image-three {
+    display: none;
+  }
+
+  .howitworks-section-five img {
+    height: 170px;
   }
 }
 

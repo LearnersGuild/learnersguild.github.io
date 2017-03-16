@@ -1,4 +1,3 @@
-
 .community-page_block1 {
   padding: 50px;
 }
@@ -24,7 +23,8 @@ ul.community-page_block1-nav {
   width: 100%;
   padding: 0;
 }
-.community-page_block1-nav>a, .community-page_block1-nav>li {
+.community-page_block1-nav>a, 
+.community-page_block1-nav>li {
   margin: 5px;
 }
 img.community-page_block3-image {
@@ -72,25 +72,7 @@ h3.community-page_block-text {
   background-size: cover;
   height: 770px;
 }
-.button {
-  margin: 40px;
-}
-.btn.round {
-  background: #ee255b;
-  border-radius: 40px;
-  border: 0;
-  padding: 14px;
-  margin: 40px;
-  color: white;
-  text-align: center;
-  margin: auto;
-  transition: all 0.3s ease-in-out;
-}
-.btn.round:hover {
-  background: transparent;
-  border: 2px solid #ee255b;
-  color: #ee255b;
-}
+
 .community-page_block-header {
   font-family: "Stag";
   color: white;
@@ -135,7 +117,8 @@ p.community-page_block3-subtext {
   background: white;
   width: 80%;
 }
-.community-page_block3-subtext-white>p, h5 {
+.community-page_block3-subtext-white>p, 
+h5 {
   text-align: left;
 }
 p#subtitle1 {
@@ -211,7 +194,8 @@ div.community-page-individual_block3-text {
 img#wistia_48.thumbnail_img {
   width: 100px
 }
-.community-page-individual_block3-text>p, .wistia_embed.wistia_async_8m601o0qqk {
+.community-page-individual_block3-text>p, 
+.wistia_embed.wistia_async_8m601o0qqk {
   text-align: left;
   margin: 3% 10%;
   font-size: 24px;
@@ -236,13 +220,14 @@ img#wistia_48.thumbnail_img {
   padding: 20px;
   font-size: 20px;
 }
-.fa.fa-facebook-square.commmunity, .fa.fa-twitter-square.commmunity {
+.fa.fa-facebook-square.commmunity, 
+.fa.fa-twitter-square.commmunity {
   font-size: 50px;
 }
 .community-page-individual_block1c {
   height: 500px;
   text-align: center;
-  background-image: url('https://static1.squarespace.com/static/53fe73e3e4b051bac9406675/t/5435f82ae4b02f08a78b9405/1412823091359/Fast-Company-logo.jpg');
+  background-image: url('/images/partner-logos/Fast-Company-logo.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-color: black;

@@ -68,18 +68,19 @@
 
 .nav-apply-pill {
   font-family: proxima;
-  font-weight: 500;
+  font-weight: 300;
   margin: 5px 15px;
   padding: 8px 18px;
-  border: 2px solid #ED3F60;
+  border: 2px solid #ee255b;
+  background-color: #ee255b;
   border-radius: 30px;
-  color: #000;
+  color: #fff;
   transition: all 0.3s ease-in-out;
 }
 
 .nav-apply-pill:hover {
-  background-color: #ED3F60;
-  color: #fff;
+  background-color: transparent;
+  color: #ee255b;
 }
 
 .LG-logo {
