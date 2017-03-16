@@ -18,12 +18,13 @@
 
 .howitworks-section-one {
   background-image:url('../images/newres/worksbg1.png');
-  background-repeat: no-repeat;
+  min-height: 50vh;
+  max-height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
-  background-position: center center;
-  width: 100%;
+  padding-top: 5%;
   color: white;
-  min-height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,6 +67,11 @@
   padding:40px 0px;
 }
 
+.howitworks-section-two__icon-row___description img {
+  width: 30%;
+  height: auto;
+}
+
 .howitworks-section-two__sub-header {
   font-family: 'ProximaNova-Light';
   text-align: center;
@@ -85,7 +91,6 @@
 .howitworks-section-two__icon-row___description {
   margin: 0px 55px;
   text-align: center;
-  width:;
 }
 
 .howitworks-section-two__icon-row___description h2 {
@@ -174,7 +179,6 @@
   padding: 25px 40px;
 }
 
-.howitworks-section-three__description,
 .howitworks-section-four__panel-one__description {
   padding: 30px 70px 30px 20px;
 }
@@ -275,6 +279,5 @@ howitworks-section-two__apply-now a {
   .howitworks-section-four__header___text {
     left: 51%;
   }
-
-
 }
+
