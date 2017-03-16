@@ -129,3 +129,7 @@ h5, h6 {
   padding: 0;
   margin-top: 0;
 }
+
+.carousel-control {
+  width: 25%;
+}
