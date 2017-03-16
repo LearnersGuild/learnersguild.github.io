@@ -68,15 +68,7 @@
   font-family: Stag;
   font-size: 60px;
 }
-.btn.round {
-  background-color: #ee255b;
-  color: white;
-  border-radius: 20px;
-}
-.btn.round:hover {
-  color: white;
-  text-decoration: underline;
-}
+
 button#homepagebutton {
   width: 380px;
   padding: 10px;

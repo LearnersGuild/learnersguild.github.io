@@ -14,7 +14,7 @@
 }
 
 .howitworks-section-one__sub-header h3 {
-  font-family:'proxima';
+  font-family:'stag';
   font-weight: 400;
   text-align: center;
   color: #F2BB1A;
@@ -137,7 +137,6 @@
 .howitworks-section-four__header {
   position: absolute;
   background-color: transparent;
-  /*top: 633px;*/
   z-index: 1;
 }
 
@@ -257,6 +256,12 @@ howitworks-section-two__apply-now a {
 
   .howitworks-section-four__header___text {
     left: 51%;
+  }
+}
+
+@media (max-width: 2900px) {
+  .different-section-seven__graph--arrow {
+    transform: translate(232px,180px) rotate(-16deg) scale(1,0.9) skew(6deg);
   }
 }
 

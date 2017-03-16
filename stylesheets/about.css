@@ -133,7 +133,8 @@ p.td1 {
   font-size: 150%;
   margin-bottom: 2%;
 }
-#aboutCarousel .glyphicon-chevron-right:before, #aboutCarousel .glyphicon-chevron-left:before {
+#aboutCarousel .glyphicon-chevron-right:before, 
+#aboutCarousel .glyphicon-chevron-left:before {
   color: #0099da;
 }
 .teamblock .col-xs-4 * {

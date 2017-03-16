@@ -1,5 +1,5 @@
-.howitworks-section-one {
-  background-image:url('../images/newres/worksbg1.png');
+.different-section-one {
+  background-image:url('/images/newres/worksbg1.png');
   min-height: 50vh;
   max-height: 400px;
   -webkit-background-size: cover;
@@ -40,7 +40,7 @@
   right: -100px !important;
 }
 
-.howitworks-section-one__header {
+.different-section-one__header {
   font-family: 'stag';
   font-weight: 400;
   text-align: center;
@@ -83,13 +83,13 @@
   width:;
 }
 
-.howitworks-section-two__icon-row___description h2 {
+.different-section-two__icon-row___description h2 {
   font-family: 'stag';
   font-weight: 400;
   width: 335px;
 }
 
-.howitworks-section-two__icon-row___description p {
+.different-section-two__icon-row___description p {
   font-family: 'proxima';
   font-weight: 400;
   font-size: 20px;
@@ -184,12 +184,12 @@
   text-align: left;
 }
 
-.howitworks-section-three__description h2,
-.howitworks-section-three__description01 h2,
-.howitworks-section-four__panel-one__description h2,
-.howitworks-section-four__panel-two__description h2,
-.howitworks-section-four__panel-three__description h2,
-.howitworks-section-five h2 {
+.different-section-three__description h2,
+.different-section-three__description01 h2,
+.different-section-four__panel-one__description h2,
+.different-section-four__panel-two__description h2,
+.different-section-four__panel-three__description h2,
+.different-section-five h2 {
   font-family: 'stag';
   font-weight: 400;
   font-size:48px;
@@ -198,17 +198,17 @@
 
 .different-section-three__description__sub-header,
 .different-section-four__header___text,
-.howitworks-section-five__sub-header {
+.different-section-five__sub-header {
   font-family: 'proxima';
   font-weight: 400;
   font-size: 25px;
   font-weight: 300;
 }
 
-.howitworks-section-three__description__text,
-.howitworks-section-four__panel-one__text,
-.howitworks-section-four__panel-two__text,
-.howitworks-section-four__panel-three__text {
+.different-section-three__description__text,
+.different-section-four__panel-one__text,
+.different-section-four__panel-two__text,
+.different-section-four__panel-three__text {
   font-family: 'proxima';
   font-weight: 400;
   font-size: 22px;
@@ -346,15 +346,25 @@
 }
 
 .different-section-two__button--applynow {
+  font-family: "proxima";
+  font-weight: 300;
   background: #ee255b;
   border-radius: 40px;
-  border: 0;
+  border: 2px solid #ee255b;
+  border: 2;
+  font-size: 1.2em;
   width: 140px;
-  padding: 14px;
+  padding: 12px 14px;
   margin: 40px;
   color: white;
   text-align: center;
   margin: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.different-section-two__button--applynow:hover {
+  background-color: transparent;
+  color: #ee255b;
 }
 
 .different-section-three__description {
