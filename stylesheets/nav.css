@@ -95,3 +95,18 @@
   max-height: 40px;
   margin: 5px;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .circle-logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -40px !important;  /* 50% of your logo width */
+    display: block;
+    visibility: visible ;
+  }
+
+  .LG-logo {
+    visibility: hidden;
+    display: none;
+  }
+}

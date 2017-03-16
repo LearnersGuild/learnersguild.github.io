@@ -1,21 +1,3 @@
-@font-face {
-  font-family: 'Proxima';
-  src: url("../images/newres/proxima.otf") format("opentype");
-}
-
-@font-face {
-  font-family: 'ProximaNova-Light';
-  src: url("../fonts/newres/ProximaNova-Light.otf") format("opentype");
-}
-@font-face {
-  font-family: 'StagLight';
-  src: url("../fonts/Stag-Light.otf") format("opentype");
-}
-@font-face {
-  font-family: 'Stag';
-  src: url("../fonts/Stag-Medium.otf") format("opentype");
-}
-
 .howitworks-section-one {
   background-image:url('../images/newres/worksbg1.png');
   min-height: 50vh;
@@ -32,7 +14,8 @@
 }
 
 .different-section-one__sub-header {
-  font-family:'Proxima';
+  font-family:'proxima';
+  font-weight: 400;
   text-align: center;
   color: #F2BB1A;
   padding: 0.5em;
@@ -59,7 +42,8 @@
 
 
 .howitworks-section-one__header {
-  font-family: 'Stag';
+  font-family: 'stag';
+  font-weight: 400;
   text-align: center;
   text-shadow: 1px 1px 1px #000;
   font-size:60px;
@@ -81,7 +65,8 @@
 
 .different-section-two__sub-header h1 {
   font-size: 40px;
-  font-family: 'Stag';
+  font-family: 'stag';
+  font-weight: 400;
 }
 
 .different-section-two__icon-row {
@@ -100,12 +85,14 @@
 }
 
 .howitworks-section-two__icon-row___description h2 {
-  font-family: 'Stag';
+  font-family: 'stag';
+  font-weight: 400;
   width: 335px;
 }
 
 .howitworks-section-two__icon-row___description p {
-  font-family: 'Proxima';
+  font-family: 'proxima';
+  font-weight: 400;
   font-size: 20px;
   font-weight: 300;
 }
@@ -212,7 +199,8 @@
 .howitworks-section-four__panel-two__description h2,
 .howitworks-section-four__panel-three__description h2,
 .howitworks-section-five h2 {
-  font-family: 'Stag';
+  font-family: 'stag';
+  font-weight: 400;
   font-size:48px;
   margin:20px 0px;
 }
@@ -221,7 +209,8 @@
 .howitworks-section-three__description__sub-header,
 .different-section-four__header___text,
 .howitworks-section-five__sub-header {
-  font-family: 'Proxima';
+  font-family: 'proxima';
+  font-weight: 400;
   font-size: 25px;
   font-weight: 300;
 }
@@ -230,7 +219,8 @@
 .howitworks-section-four__panel-one__text,
 .howitworks-section-four__panel-two__text,
 .howitworks-section-four__panel-three__text {
-  font-family: 'Proxima';
+  font-family: 'proxima';
+  font-weight: 400;
   font-size: 22px;
 }
 
@@ -312,7 +302,8 @@
 .different-section-two__card-three___text {
   border-bottom: 1px solid;
   margin: 10px 20px;
-  font-family: 'Proxima';
+  font-family: 'proxima';
+  font-size: 400;
   font-size: 18px;
   font-weight: 300;
 }
@@ -347,7 +338,8 @@
 
 .different-section-two__card-three h3,
 .different-section-two__card-one h3 {
-  font-family: 'Stag';
+  font-family: 'stag';
+  font-weight: 400;
 }
 
 .different-section-two__card-one h3 {
@@ -405,6 +397,7 @@
 
 .different-section-five__side___header {
   font-family: 'Proxima';
+  font-weight: 400;
   font-size: 25px;
   font-weight: 300;
 }
@@ -422,7 +415,8 @@
 }
 
 .different-section-five__side__content-text {
-  font-family: 'Proxima';
+  font-family: 'proxima';
+  font-weight: 400;
   font-size: 18px;
   color: #5c5d60;
 }
@@ -445,7 +439,8 @@
 
 .different-section-six__header h1,
 .different-section-seven__header h1 {
-  font-family: 'Stag';
+  font-family: 'stag';
+  font-weight: 400;
   padding-bottom: 30px;
   font-size: 50px;
 }
@@ -461,7 +456,8 @@
 }
 
 .different-section-seven__header h3 {
-  font-family: 'Proxima';
+  font-family: 'proxima';
+  font-weight: 400;
   font-size: 25px;
   font-weight: 300;
 }
@@ -506,7 +502,8 @@
   text-align: center;
   padding-left: 22px;
   padding-right: 80px;
-  font-family: 'Stag';
+  font-family: 'stag';
+  font-weight: 400;
   text-shadow: 1px 1px 1px #000;
 }
 

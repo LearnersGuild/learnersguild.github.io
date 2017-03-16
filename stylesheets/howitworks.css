@@ -1,21 +1,3 @@
-@font-face {
-  font-family: 'Proxima';
-  src: url("../images/newres/proxima.otf") format("opentype");
-}
-
-@font-face {
-  font-family: 'ProximaNova-Light';
-  src: url("../fonts/newres/ProximaNova-Light.otf") format("opentype");
-}
-@font-face {
-  font-family: 'StagLight';
-  src: url("../fonts/Stag-Light.otf") format("opentype");
-}
-@font-face {
-  font-family: 'Stag';
-  src: url("../fonts/Stag-Medium.otf") format("opentype");
-}
-
 .howitworks-section-one {
   background-image:url('../images/newres/worksbg1.png');
   background-repeat: no-repeat;
@@ -31,7 +13,8 @@
 }
 
 .howitworks-section-one__sub-header h3 {
-  font-family:'Proxima';
+  font-family:'proxima';
+  font-weight: 400;
   text-align: center;
   color: #F2BB1A;
   padding: 0.5em;
@@ -53,7 +36,8 @@
 
 
 .howitworks-section-one__header {
-  font-family: 'Stag';
+  font-family: 'stag';
+  font-weight: 500;
   text-align: center;
   text-shadow: 1px 1px 1px #000;
   font-size:60px;
@@ -67,7 +51,8 @@
 }
 
 .howitworks-section-two__sub-header {
-  font-family: 'ProximaNova-Light';
+  font-family:'proxima';
+  font-weight: 300;
   text-align: center;
   max-width:100%;
   font-size:24px;
@@ -89,12 +74,14 @@
 }
 
 .howitworks-section-two__icon-row___description h2 {
-  font-family: 'Stag';
+  font-family: 'stag';
+  font-weight: 500;
   width: 335px;
 }
 
 .howitworks-section-two__icon-row___description p {
-  font-family: 'Proxima', sans-serif;
+  font-family:'proxima';
+  font-weight: 400;
   font-size: 20px;
   font-weight: 300;
 }
@@ -141,14 +128,6 @@
   flex-direction: row;
   justify-content: center;
 }
-
-/*.howitworks-section-four__panel-one,
-.howitworks-section-four__panel-two,
-.howitworks-section-four__panel-three {
-  /*background:#f7f7f7;*/
-  position: absolute;
-  width: 100%;
-}*/
 
 .glyphicon-chevron-left:before {
   text-shadow: 3px 3px 3px #000 !important;
@@ -207,7 +186,8 @@
 .howitworks-section-four__panel-two__description h2,
 .howitworks-section-four__panel-three__description h2,
 .howitworks-section-five h2 {
-  font-family: 'Stag';
+  font-family: 'stag';
+  font-weight: 500;
   font-size:48px;
   margin:20px 0px;
 }
@@ -215,7 +195,8 @@
 .howitworks-section-three__description__sub-header,
 .howitworks-section-four__header___text,
 .howitworks-section-five__sub-header {
-  font-family: 'Proxima', sans-serif;
+  font-family:'proxima';
+  font-weight: 400;
   font-size: 25px;
   font-weight: 300;
 }
@@ -224,7 +205,8 @@
 .howitworks-section-four__panel-one__text,
 .howitworks-section-four__panel-two__text,
 .howitworks-section-four__panel-three__text {
-  font-family: 'Proxima', sans-serif;
+  font-family:'proxima';
+  font-weight: 400;
   font-size: 22px;
 }
 

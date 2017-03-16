@@ -1,13 +1,25 @@
 @font-face {
   font-family: stag;
-  font-weight: 600;
-  src: url("/fonts/Stag-Bold.otf") format("opentype");
+  font-weight: 300;
+  src: url("/fonts/Stag-Light.otf") format("opentype");
 }
 
 @font-face {
   font-family: stag;
   font-weight: 400;
   src: url("/fonts/Stag-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: stag;
+  font-weight: 500;
+  src: url("/fonts/Stag-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: stag;
+  font-weight: 600;
+  src: url("/fonts/Stag-Bold.otf") format("opentype");
 }
 
 @font-face {
@@ -27,3 +39,4 @@
   font-weight: 600;
   src: url("/fonts/ProximaNova-Bold.otf") format("opentype");
 }
+
