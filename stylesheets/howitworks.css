@@ -30,7 +30,7 @@
   right: 0;
 }
 
-.carousel-control, .glyphicon .glyphicon-chevron-left, .carousel-control, .icon-prev {\
+.carousel-control, .glyphicon .glyphicon-chevron-left, .carousel-control, .icon-prev {
   position: absolute !important;
   right: -100px !important;
 }
@@ -139,9 +139,8 @@
 }
 
 .howitworks-section-four__header {
-  position: absolute;
-  background-color: transparent;
-  z-index: 1;
+  text-align: left;
+  padding-left: 25%;
 }
 
 .howitworks-section-four__header___text {
@@ -262,9 +261,13 @@ howitworks-section-two__apply-now a {
   }
 }
 
-@media (max-width: 2900px) {
+@media (max-width: 1900px) {
   .different-section-seven__graph--arrow {
     transform: translate(232px,180px) rotate(-16deg) scale(1,0.9) skew(6deg);
+  }
+
+  .howitworks-section-four__header {
+    padding-left: 10%;
   }
 }
 
@@ -332,17 +335,20 @@ howitworks-section-two__apply-now a {
     font-size: 17px;
   }
 
+  .howitworks-section-four__header {
+    position: relative;
+    text-align: left;
+    top: 0;
+    padding-left: 22%;
+    left: 3%;
+  }
+
   .howitworks-section-three__description__sub-header p {
     margin: 0 0 0px;
   }
 
   .howitworks-section-four__header___text {
-    position: relative;
-    top: 0;
-    left: 3%;
-    font-size: 17px;
-  }
-
+}
   .howitworks-section-four__image-one,
   .howitworks-section-four__image-two,
   .howitworks-section-four__image-three {
@@ -352,5 +358,9 @@ howitworks-section-two__apply-now a {
   .howitworks-section-five img {
     height: 170px;
   }
-}
 
+  .howitworks-section-four__panel-three__description p {
+    font-size: 3vh;
+  }
+
+}

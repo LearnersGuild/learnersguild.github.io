@@ -144,16 +144,14 @@
 }
 
 .different-section-four__header {
-  position: absolute;
   background-color: transparent;
-  /*top: 633px;*/
-  z-index: 1;
 }
 
 .different-section-four__header___text {
   position: relative;
+  padding-top: 10px;
+  padding-left: 25%;
   top: 80px;
-  left: 608%;
   z-index: 1000;
 }
 
@@ -568,9 +566,9 @@
     margin: auto !important;
   }
 
-  .carousel-control.right {
+  /*.carousel-control.right {
     left: 90% !important;
-  }
+  }*/
 
   .different-section-four__header___text {
     left: 530%;
