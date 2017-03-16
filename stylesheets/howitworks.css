@@ -353,4 +353,8 @@ howitworks-section-two__apply-now a {
   .howitworks-section-five img {
     height: 170px;
   }
+
+  .howitworks-section-four__panel-three__description p {
+    font-size: 3vh;
+  }
 }
