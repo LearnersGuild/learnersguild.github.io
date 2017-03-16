@@ -11,9 +11,9 @@
 }
 
 .faq-splash h2 {
-  font-size: 32px; 
-  letter-spacing: 2px; 
-  font-size: 3em; 
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-size: 3em;
   color: #fff;
   margin-top: 15vh;
 }
@@ -37,13 +37,13 @@
 }
 
 .left-questions-panel {
-  font-size: 24px; 
+  font-size: 24px;
   max-width: 300px;
   margin: auto;
 }
 
 .left-questions-panel p {
-  text-align: left;  
+  text-align: left;
 }
 
 button {
@@ -67,18 +67,17 @@ button {
 .right-answers-panel button {
   background-image: url('/images/newres/faqarrowdown.png');
   background-repeat: no-repeat;
-  background-position: right; 
+  background-position: right;
   font-size: 24px;
   border-top: 1px solid gray;
   font-weight: bold;
 }
 
 .right-answers-panel .collapsed {
-  background-image: url('/images/newres/faqarrowup.png') !important;  
+  background-image: url('/images/newres/faqarrowup.png') !important;
 }
 
 button {
-  width: 100%;
   font-family: "Proxima";
   font-size: 12px;
 }

@@ -19,7 +19,37 @@
 .carousel.slide.homepage-responsive {
   display: none;
 }
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a {
+.item.homepage-carousel_pic1 {
+  background-image: url('../images/newres/hp4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  max-height: 600px;
+
+}
+.item.homepage-carousel_pic2 {
+  background-image: url('../images/newres/hp1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  max-height: 600px;
+
+}
+.item.homepage-carousel_pic3 {
+  background-image: url('../images/newres/hp5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  max-height: 600px;
+}
+
+.carousel-inner.homepage>.item>a>img,
+.carousel-inner.homepage>.item>img,
+.img-responsive,
+.thumbnail a {
   width: 100% !important;
   height: auto !important;
   position: relative;
@@ -28,7 +58,7 @@
   margin: auto;
   text-shadow: 1px 1px 1px #000;
 }
-.carousel-inner>img {
+.carousel-inner.homepage>img {
   min-height: 750px !important;
   padding: 5px;
   width: 2000px;
@@ -70,8 +100,10 @@
 }
 
 button#homepagebutton {
-  width: 380px;
   padding: 10px;
+}
+.home-page_block3-link {
+  margin: 0 auto;
 }
 .home-page_block1 {
   background-color: #20202b;
@@ -103,12 +135,12 @@ button#homepagebutton {
 }
 .home-page_block2>h2, .home-page_block2>h1 {
   font-family: Stag;
-  font-weight: lighter;
+  font-weight: bolder;
   font-size: 50px;
   margin: 20px 0;
 }
 .home-page_block2-image {
-  width: 75%;
+  width: 50%;
   padding: 10px;
 }
 .home-page_block4 {
@@ -225,13 +257,15 @@ img.home-page_block5-image {
   height: 100%;
   font-size: 32px;
   padding: 18px;
-  font-family: "StagLight";
+  font-family: "Stag";
+  font-weight: lighter;
   padding: 60px;
   text-align: left;
 }
 .home-page_block6-text2 {
   color: #96c83c;
   font-family: "Stag";
+  font-weight: lighter;
   letter-spacing: 1.3px;
 }
 .home-page_block6-text3 {
@@ -243,7 +277,8 @@ img.home-page_block5-image {
 img#block6image {
   height: 100%;
 }
-#block6 {
+.row.home-page_block6 {
+  text-align: center;
   max-width: 100%;
   min-height: 100%;
   background-image: url('/images/newres/b4bg.png');
