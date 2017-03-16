@@ -22,10 +22,6 @@
   font-size: 1em;
 }
 
-.curly-brace {
-  font-size: 200%;
-}
-
 .different-section-one__sub-header__text {
   line-height: 13px;
   margin: 10px;
@@ -38,17 +34,6 @@
 .carousel-control, .glyphicon .glyphicon-chevron-left, .carousel-control, .icon-prev {\
   position: absolute !important;
   right: -100px !important;
-}
-
-.different-section-one__header {
-  font-family: 'stag';
-  font-weight: 400;
-  text-align: center;
-  text-shadow: 1px 1px 1px #000;
-  font-size:60px;
-  padding: 0.5em;
-  font-size: 4em;
-  width: 100%;
 }
 
 .different-section-two {

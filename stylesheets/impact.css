@@ -1,4 +1,4 @@
-.impact-section-one {
+.impact-splash {
   background-image: url(/images/newres/differentbg1.png);
   min-height: 50vh;
   max-height: 400px;
@@ -6,34 +6,6 @@
   -moz-background-size: cover;
   background-size: cover;
   padding-top: 5%;
-}
-
-.impact-section-one div {
-  background: #F2B317; 
-  padding: 15px; 
-  width: 220px; 
-  color: white;
-  font-family: 'Lato';
-  text-align: center;
-  line-height: 13px;
-  margin: 10px;
-}
-.impact-page_block-text {
-  font-family: 'Proxima';
-  width: 70%;
-  margin: 30px 0;
-  font-size: 150%;
-  color: #F2BB1A;
-}
-
-.impact-section-one h2 {
-  font-family: stag;
-  font-weight: semibold;
-  font-size: 4em; 
-  padding-top: 30px; 
-  letter-spacing: 2px; 
-  color: white; 
-  max-width: 200;
 }
 
 .impact-section-two {
@@ -185,7 +157,7 @@
   center {
     max-width: 100%;
   }
-  .impact-section-one h2 {
+  .impact-splash h2 {
     max-width: 200px;
   }
   .impact-guild-tracker h2 {
@@ -205,7 +177,7 @@
 }
 
 @media only screen and (min-device-width: 568px) and (max-device-width: 900px) {
-  .impact-section-one h2 {
+  .impact-splash h2 {
     padding-top: 10px;
   }
 

@@ -73,15 +73,19 @@ h1, h2, h3 {
 
 h4, h5, h6 {
   font-family: stag;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h1, h2 {
   letter-spacing: 3px;
 }
 
-h3, h4, h5 , h6 {
+h3, h4 {
   letter-spacing: 2px;
+}
+
+h5, h6 {
+  letter-spacing: 1px;
 }
 
 .button {
@@ -103,4 +107,25 @@ h3, h4, h5 , h6 {
   background-color: transparent;
   color: #ee255b;
   border: 2px solid #ee255b;
+}
+
+.curly-brace {
+  font-size: 200%;
+}
+
+.splash-header {
+  font-family: 'proxima'!important;
+  font-weight: 400;
+  font-size: 150%;
+  color: #F2BB1A;
+  width: 70%;
+  margin: 30px 0;
+}
+
+.splash-headline {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 4em;
+  padding: 0;
+  margin-top: 0;
 }

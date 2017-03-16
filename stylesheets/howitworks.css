@@ -6,24 +6,6 @@
   -moz-background-size: cover;
   background-size: cover;
   padding-top: 5%;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.howitworks-section-one__sub-header h3 {
-  font-family:'stag';
-  font-weight: 400;
-  text-align: center;
-  color: #F2BB1A;
-  padding: 0.5em;
-  font-size: 150%;
-}
-
-.curly-brace {
-  font-size: 200%;
 }
 
 .carousel-control, .glyphicon-chevron-right, .carousel-control, .icon-next {
@@ -33,18 +15,6 @@
 .carousel-control, .glyphicon .glyphicon-chevron-left, .carousel-control, .icon-prev {\
   position: absolute !important;
   right: -100px !important;
-}
-
-
-.howitworks-section-one__header {
-  font-family: 'stag';
-  font-weight: 500;
-  text-align: center;
-  text-shadow: 1px 1px 1px #000;
-  font-size:60px;
-  padding: 0.5em;
-  font-size: 4em;
-  width: 100%;
 }
 
 .howitworks-section-two {
@@ -97,17 +67,26 @@
   text-align: center;
 }
 
-.howitworks-section-two__apply-now___button,
-.howitworks-section-five__different___button {
+.howitworks-button {
   background: #ee255b;
+  font-family: "proxima";
+  font-weight: 400;
   border-radius: 40px;
-  border: 0;
   width: 140px;
-  padding: 14px;
+  padding: 12px 14px;
   margin: 40px;
   color: white;
   text-align: center;
   margin: auto;
+  border: 2px solid #ee255b;
+  font-size: 1.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.howitworks-button:hover {
+  background-color: transparent;
+  color: #ee255b;
+  border: 2px solid #ee255b;
 }
 
 .howitworks-section-three,
@@ -269,17 +248,8 @@ howitworks-section-two__apply-now a {
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 599px) {
-  .howitworks-section-one__sub-header h3 {
+  .splash-header {
     font-size: 100%;
-    margin-top: 0px;
-  }
-
-  .howitworks-section-one__header {
-    font-size: 28px !important;
-    padding: 0px;
-  }
-
-  .howitworks-section-one__header h2 {
     margin-top: 0px;
   }
 

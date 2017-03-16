@@ -4,18 +4,7 @@
   margin: 0 !important;
   height: 450px;
 }
-@font-face {
-  font-family: StagLight;
-  src: url("/images/newres/Stag-Light.otf") format("opentype");
-}
-@font-face {
-  font-family: Stag;
-  src: url("/images/newres/Stag-Black.otf") format("opentype");
-}
-@font-face {
-  font-family: Proxima;
-  src: url("/images/newres/proxima.otf") format("opentype");
-}
+
 .carousel.slide.homepage-responsive {
   display: none;
 }
@@ -109,7 +98,7 @@ button#homepagebutton {
   background-color: #20202b;
   font-size: 26px;
   line-height: 1.42857143;
-  font-family: Proxima;
+  font-family: "proxima;
   color: white;
   padding: 1% 0;
 }
@@ -121,7 +110,7 @@ button#homepagebutton {
 }
 .home-page_block2 {
   margin: 50px 0;
-  font-family: Proxima;
+  font-family: "proxima;
 }
 .home-page_block2 p {
   width: 75%;
@@ -152,7 +141,7 @@ button#homepagebutton {
   width: 100%;
 }
 p.home-page_block4-text {
-  font-family: Proxima;
+  font-family: "proxima;
   font-size: 22px;
   word-spacing: 3px;
   letter-spacing: 2px;
@@ -203,7 +192,7 @@ h1, h2, h3 {
   font-family: Stag;
 }
 .home-page_block6-text3 {
-  font-family: Proxima;
+  font-family: "proxima;
 }
 .carousel-control.right, .carousel-control.left {
   background-image: none !important;
@@ -232,7 +221,7 @@ img.home-page_block5-image {
   width: 25%;
 }
 .home-page_block5-text {
-  font-family: Proxima;
+  font-family: "proxima;
   font-size: 150%;
   text-align: left;
 }
