@@ -1,0 +1,112 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  h3.different-section-one__sub-header-text {
+    font-size: 2.5vh;
+  }
+
+  .different-section-two__sub-header {
+    padding: 5px;
+  }
+
+  .different-section-two__card-two,
+  .different-section-two__card-one,
+  .different-section-two__card-three {
+    width: 30%;
+    font-size: 2vw;
+  }
+
+  .different-section-two__card-two p,
+  .different-section-two__card-one p,
+  .different-section-two__card-three p {
+    font-size: 2.5vw;
+  }
+
+  .different-section-two__card-two h3,
+  .different-section-two__card-one h3,
+  .different-section-two__card-three h3 {
+    font-size: 3.5vw;
+  }
+
+  .different-section-two__card-two img {
+    width: 100%;
+    height: auto;
+    margin: 2px;
+  }
+  .different-section-four img {
+    display: none;
+  }
+/*  .different-section-four__header {
+    position: relative;
+  }*/
+  .different-section-four__header___text {
+    left: 0;
+    top: 0;
+  }
+  .different-section-three__description__text,
+  .different-section-four__panel-one__text,
+  .different-section-four__panel-two__text,
+  .different-section-four__panel-three__text {
+    font-size: 4vw !important;
+  }
+  .different-section-three__image,
+  .different-section-four__image-one,
+  .different-section-four__image-two {
+    padding: 0;
+  }
+
+  .different-section-three__description,
+  .different-section-three__description01,
+  .different-section-four__panel-one__description,
+  .different-section-four__panel-two__description,
+  .different-section-four__panel-three__description {
+    margin-top: 10%;
+  }
+
+  .different-section-five__side__img {
+    width: 90%;
+    margin: 0;
+  }
+
+  div.different-section-five {
+    display: block;
+    font-size: 16px;
+  }
+  .different-section-five__side {
+    padding: 2px;
+    width: 100%;
+  }
+  .different-section-five__side__content-header {
+    font-size: 5vw;
+  }
+  .different-section-seven__header {
+    padding: 2px;
+  }
+  .different-section-six,
+  .different-section-seven__graph--arrow {
+    display: none;
+  }
+  .different-section-seven__graph--levels {
+    display: block;
+    position: relative;
+    height: 100%;
+  }
+  .different-section-seven__header h3 {
+    text-align: left;
+    font-size: 3vh;
+  }
+
+  .different-section-seven__graph--lvl-one,
+  .different-section-seven__graph--lvl-two,
+  .different-section-seven__graph--lvl-three,
+  .different-section-seven__graph--lvl-four {
+    padding: 0;
+  }
+
+  .different-section-seven__graph__block--one,
+  .different-section-seven__graph__block--two,
+  .different-section-seven__graph__block--three,
+  .different-section-seven__graph__block--four {
+    margin: 5% 10%;
+  }
+
+
+}
