@@ -12,10 +12,10 @@
   right: 0;
 }
 
-.carousel-control, .glyphicon .glyphicon-chevron-left, .carousel-control, .icon-prev {
+/*.carousel-control, .glyphicon .glyphicon-chevron-left, .carousel-control, .icon-prev {
   position: absolute !important;
   right: -100px !important;
-}
+}*/
 
 .howitworks-section-two {
   padding:40px 0px;
@@ -113,7 +113,8 @@
   justify-content: center;
 }
 
-.glyphicon-chevron-left:before {
+.glyphicon-chevron-left:before, .glyphicon-chevron-right:before {
+  color: #0099da;
   text-shadow: 3px 3px 3px #000 !important;
 }
 
@@ -198,6 +199,9 @@
 
 .carousel.slide img {
   height:500px;
+}
+.carousel-control.howitworks-section-four__carousel {
+  width: 2%;
 }
 
 .item.active {

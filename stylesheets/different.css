@@ -14,8 +14,6 @@
 }
 
 .different-section-one__sub-header {
-  font-family:'proxima';
-  font-weight: 400;
   text-align: center;
   color: #F2BB1A;
   padding: 0.5em;
@@ -31,26 +29,21 @@
   right: 0;
 }
 
-.carousel-control, .glyphicon .glyphicon-chevron-left, .carousel-control, .icon-prev {\
+/*.carousel-control, .glyphicon .glyphicon-chevron-left, .carousel-control, .icon-prev {\
   position: absolute !important;
   right: -100px !important;
-}
+}*/
 
 .different-section-two {
   padding:40px 0px;
 }
 
 .different-section-two__sub-header {
+  font-family: cursive;
   background-color: transparent;
   text-align: center;
   max-width:100%;
   padding:20px 300px;
-}
-
-.different-section-two__sub-header h1 {
-  font-size: 40px;
-  font-family: 'stag';
-  font-weight: 400;
 }
 
 .different-section-two__icon-row {
@@ -69,16 +62,7 @@
 }
 
 .different-section-two__icon-row___description h2 {
-  font-family: 'stag';
-  font-weight: 400;
   width: 335px;
-}
-
-.different-section-two__icon-row___description p {
-  font-family: 'proxima';
-  font-weight: 400;
-  font-size: 20px;
-  font-weight: 300;
 }
 
 .different-section-two__apply-now,
@@ -113,6 +97,10 @@
 
 .carousel-inner .carousel-control.left, .carousel-inner  .carousel-control.right {
   background-image: none;
+}
+
+.carousel-control.different-section-four__carousel {
+  width: 1%;
 }
 
 .different-section-three,
@@ -173,8 +161,6 @@
 .different-section-four__panel-two__description h2,
 .different-section-four__panel-three__description h2,
 .different-section-five h2 {
-  font-family: 'stag';
-  font-weight: 400;
   font-size:48px;
   margin:20px 0px;
 }
@@ -182,8 +168,6 @@
 .different-section-three__description__sub-header,
 .different-section-four__header___text,
 .different-section-five__sub-header {
-  font-family: 'proxima';
-  font-weight: 400;
   font-size: 25px;
   font-weight: 300;
 }
@@ -192,8 +176,6 @@
 .different-section-four__panel-one__text,
 .different-section-four__panel-two__text,
 .different-section-four__panel-three__text {
-  font-family: 'proxima';
-  font-weight: 400;
   font-size: 22px;
 }
 
@@ -274,7 +256,6 @@
 .different-section-two__card-three___text {
   border-bottom: 1px solid;
   margin: 10px 20px;
-  font-family: 'proxima';
   font-size: 400;
   font-size: 18px;
   font-weight: 300;
@@ -308,12 +289,6 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.different-section-two__card-three h3,
-.different-section-two__card-one h3 {
-  font-family: 'stag';
-  font-weight: 400;
-}
-
 .different-section-two__card-one h3 {
   padding-bottom: 15px;
 }
@@ -329,7 +304,6 @@
 }
 
 .different-section-two__button--applynow {
-  font-family: "proxima";
   font-weight: 300;
   background: #ee255b;
   border-radius: 40px;
@@ -378,8 +352,6 @@
 }
 
 .different-section-five__side___header {
-  font-family: 'Proxima';
-  font-weight: 400;
   font-size: 25px;
   font-weight: 300;
 }
@@ -397,8 +369,6 @@
 }
 
 .different-section-five__side__content-text {
-  font-family: 'proxima';
-  font-weight: 400;
   font-size: 18px;
   color: #5c5d60;
 }
@@ -421,8 +391,6 @@
 
 .different-section-six__header h1,
 .different-section-seven__header h1 {
-  font-family: 'stag';
-  font-weight: 400;
   padding-bottom: 30px;
   font-size: 50px;
 }
@@ -438,8 +406,6 @@
 }
 
 .different-section-seven__header h3 {
-  font-family: 'proxima';
-  font-weight: 400;
   font-size: 25px;
   font-weight: 300;
 }
@@ -484,8 +450,6 @@
   text-align: center;
   padding-left: 22px;
   padding-right: 80px;
-  font-family: 'stag';
-  font-weight: 400;
   text-shadow: 1px 1px 1px #000;
 }
 
