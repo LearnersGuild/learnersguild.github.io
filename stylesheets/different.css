@@ -16,7 +16,7 @@
   src: url("../fonts/Stag-Medium.otf") format("opentype");
 }
 
-.different-section-one {
+.howitworks-section-one {
   background-image:url('../images/newres/worksbg1.png');
   min-height: 50vh;
   max-height: 400px;
@@ -43,7 +43,7 @@
   font-size: 200%;
 }
 
-.different-section-one__sub-header__text {
+.howitworks-section-one__sub-header__text {
   line-height: 13px;
   margin: 10px;
 }
@@ -58,7 +58,7 @@
 }
 
 
-.different-section-one__header {
+.howitworks-section-one__header {
   font-family: 'Stag';
   text-align: center;
   text-shadow: 1px 1px 1px #000;
@@ -99,12 +99,12 @@
   width:;
 }
 
-.different-section-two__icon-row___description h2 {
+.howitworks-section-two__icon-row___description h2 {
   font-family: 'Stag';
   width: 335px;
 }
 
-.different-section-two__icon-row___description p {
+.howitworks-section-two__icon-row___description p {
   font-family: 'Proxima';
   font-size: 20px;
   font-weight: 300;
@@ -206,29 +206,30 @@
   text-align: left;
 }
 
-.different-section-three__description h2,
-.different-section-three__description01 h2,
-.different-section-four__panel-one__description h2,
-.different-section-four__panel-two__description h2,
-.different-section-four__panel-three__description h2,
-.different-section-five h2 {
+.howitworks-section-three__description h2,
+.howitworks-section-three__description01 h2,
+.howitworks-section-four__panel-one__description h2,
+.howitworks-section-four__panel-two__description h2,
+.howitworks-section-four__panel-three__description h2,
+.howitworks-section-five h2 {
   font-family: 'Stag';
   font-size:48px;
   margin:20px 0px;
 }
 
-.different-section-three__description__sub-header,
+
+.howitworks-section-three__description__sub-header,
 .different-section-four__header___text,
-.different-section-five__sub-header {
+.howitworks-section-five__sub-header {
   font-family: 'Proxima';
   font-size: 25px;
   font-weight: 300;
 }
 
-.different-section-three__description__text,
-.different-section-four__panel-one__text,
-.different-section-four__panel-two__text,
-.different-section-four__panel-three__text {
+.howitworks-section-three__description__text,
+.howitworks-section-four__panel-one__text,
+.howitworks-section-four__panel-two__text,
+.howitworks-section-four__panel-three__text {
   font-family: 'Proxima';
   font-size: 22px;
 }
@@ -241,11 +242,12 @@
 .carousel.slide img {
   height:500px;
 }
-.different-section-three__image01 {
+
+.howitworks-section-three__image01 {
   padding: 25px 0px 25px 0px;
 }
 
-.different-section-three__image01 img {
+.howitworks-section-three__image01 img {
   position: relative;
   right: 10%;
 }
