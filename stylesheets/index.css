@@ -176,7 +176,10 @@ div.home-page_block4-video {
   width: 100%;
 }
 .home-page_block5 {
-  margin: 20px auto;
+  padding: 50px 0 30px;
+}
+.home-page_block5 .carousel-indicators {
+  bottom: 0px;
 }
 .row.block5>p {
   font-size: 24px;
@@ -196,10 +199,10 @@ h1, h2, h3 {
 }
 .carousel-indicators.carousel2 li {
   margin-top: 25px;
-  background-color: grey !important;
+  background-color: grey;
 }
 .carousel-indicators .active {
-  background-color: #ec3656 !important;
+  background-color: #ec3656;
 }
 .home-page_block2-button {
   width: 25%;
@@ -223,8 +226,7 @@ img.home-page_block5-image {
   text-align: left;
 }
 .home-page_block5-header-text {
-  font-size: 40px;
-  text-align: center;
+  font-size: 16px;
 }
 .container-fluid .block6 {
   margin: 120px 0px;
