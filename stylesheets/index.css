@@ -9,7 +9,7 @@
   display: none;
 }
 .item.homepage-carousel_pic1 {
-  background-image: url('../images/newres/hp4.png');
+  background-image: url('/images/homeSplash3.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,7 +17,7 @@
 
 }
 .item.homepage-carousel_pic2 {
-  background-image: url('../images/newres/hp1.png');
+  background-image: url('/images/homeSplash1.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -25,7 +25,7 @@
 
 }
 .item.homepage-carousel_pic3 {
-  background-image: url('../images/newres/hp5.png');
+  background-image: url('/images/homeSplash2.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
