@@ -33,7 +33,7 @@ module.exports = function(grunt) {
     uglify: {
       app: {
         files: {
-          'scripts/app.js': ['js/app.js']
+          'scripts/app.js': ['scripts/app.js']
         }
       }
     },
@@ -49,6 +49,15 @@ module.exports = function(grunt) {
         expand: true,
         src: ['images/*.{png,jpg,gif,jpeg}']
       }
+    },
+    watch: {
+      scripts: {
+        files: ['scripts/*.js','stylesheets/*.css'],
+        tasks: ['concat', 'cssmin', 'uglify'],
+        options: {
+          spawn: false,
+        },
+      },
     }
   });
 
@@ -56,6 +65,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('build', ['concat', 'cssmin', 'uglify']);
   grunt.registerTask('default', ['build']);
 };
