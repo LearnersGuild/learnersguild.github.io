@@ -32,6 +32,7 @@
   font-size: 24px;
   max-width: 300px;
   margin: auto;
+  text-align: left;
 }
 
 .left-questions-panel p {
@@ -48,7 +49,9 @@ button {
 .left-questions-panel button {
   font-size: 24px;
   transition: all 0.3s ease-in-out;
+  width: 100%;
 }
+
 .left-questions-panel button:hover {
   background-color: #F2BB1A;
 }
