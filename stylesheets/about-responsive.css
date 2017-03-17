@@ -1,0 +1,93 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .about-splash {
+    max-height: 200px !important;
+  }
+  .item .container-fluid {
+    margin: 0 !important;
+  }
+  .about-page_block2 {
+    margin: 10px 0 !important;
+  }
+  #aboutCarousel {
+    height: 30vh !important;
+  }
+  #aboutCarousel-mobile {
+    height: 25px !important;
+  }
+  .carousel-header {
+    font-size: 20px !important;
+    border-bottom: 3px solid #f2ba19 !important;
+  }
+  #aboutCarousel2 p {
+    padding: 4px !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+  }
+  .picture1, .picture2, .picture3, .picture4, .picture5 {
+    height: 250px !important;
+  }
+  .carousel-text-2 {
+    height: 200px;
+  }
+
+  p.td1 {
+    font-size: 100% !important;
+  }
+
+  div.mobile {
+    display: block;
+  }
+  div.full-screen {
+    display: none;
+  }
+
+  .about-part-of-our-story {
+    min-height: 200px !important;
+  }
+
+  .about-page_block3 p{
+    width: 90%;
+  }
+  .about-page_block3 h2 {
+    width: 50%;
+  }
+
+  h3.about-page_block-text {
+    font-size: 90%;
+  }
+
+  .picture1, .picture2, .picture3, .picture4, .picture5 {
+    width: 100%;
+    height: 300px;
+  }
+
+  p.carousel-text-2 {
+    font-size: 14px !important;
+  }
+
+  .about-part-of-our-story {
+    min-height: 200px;
+  }
+
+  .carousel-inner {
+    margin: 0px !important;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-carousel-jusleft p {
+    font-size: 10px !important;
+  }
+  .row {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  #aboutCarousel2 p {
+    font-size: 2.5vh !important;
+  }
+}

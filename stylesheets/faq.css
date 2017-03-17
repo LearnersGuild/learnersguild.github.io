@@ -1,0 +1,104 @@
+.faq-splash {
+  color: white;
+  display: block;
+  background-image: url('/images/newres/faqbg1.png');
+  min-height: 50vh;
+  max-height: 380px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  padding-top: 5%;
+}
+
+#faq-main:first-child {
+  margin: 40px 0px;
+}
+
+.right-answers-panel p {
+  font-size: 18px;
+  color: #626366;
+}
+
+.right-answers-panel h3 {
+  font-size: 32px;
+  padding: 20px 0px;
+}
+
+.right-answers-panel * {
+  max-width: 800px;
+}
+
+.left-questions-panel {
+  font-size: 24px;
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+.left-questions-panel p {
+  text-align: left;
+}
+
+button {
+  background:none;
+  border: none;
+  font-family: "Proxima";
+  text-align: left;
+}
+
+.left-questions-panel button {
+  font-size: 24px;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.left-questions-panel button:hover {
+  background-color: #F2BB1A;
+}
+.right-answers-panel {
+  text-align:left;
+}
+
+.right-answers-panel button {
+  background-image: url('/images/newres/faqarrowdown.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: 24px;
+  border-top: 1px solid gray;
+  font-weight: bold;
+  display: block;
+}
+
+.right-answers-panel .collapsed {
+  background-image: url('/images/newres/faqarrowup.png') !important;
+}
+
+button {
+  font-family: "Proxima";
+  font-size: 12px;
+}
+
+.faq-image{
+  max-width: 100%;
+}
+
+.collapse {
+  margin-top: 10px;
+}
+
+.collapsing {
+  margin-top: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .left-questions-panel button {
+    margin: 5px 0;
+  }
+  .right-answers-panel .collapsed,
+  .right-answers-panel button {
+    margin: 5px 0;
+  }
+  .faq-splash {
+    background-position: 30% 0;
+  }
+}
