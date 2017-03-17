@@ -126,7 +126,6 @@
 .howitworks-section-four__header___text {
   position: relative;
   top: 80px;
-  left: 230px;
   z-index: 1000;
 }
 
@@ -168,8 +167,6 @@
 .howitworks-section-four__panel-two__description h2,
 .howitworks-section-four__panel-three__description h2,
 .howitworks-section-five h2 {
-  font-family: 'stag';
-  font-weight: 500;
   font-size:48px;
   margin:20px 0px;
 }
@@ -177,8 +174,6 @@
 .howitworks-section-three__description__sub-header,
 .howitworks-section-four__header___text,
 .howitworks-section-five__sub-header {
-  font-family:'proxima';
-  font-weight: 400;
   font-size: 25px;
   font-weight: 300;
 }
@@ -187,8 +182,6 @@
 .howitworks-section-four__panel-one__text,
 .howitworks-section-four__panel-two__text,
 .howitworks-section-four__panel-three__text {
-  font-family:'proxima';
-  font-weight: 400;
   font-size: 22px;
 }
 
@@ -231,13 +224,6 @@ howitworks-section-two__apply-now a {
     margin: auto !important;
   }
 
-  /*.carousel-control.right {
-    left: 90% !important;
-  }
-
-  .carousel-control.left {
-    left: -2% !important;
-  }*/
 
   .howitworks-section-four__header___text {
     left: 51%;
@@ -249,8 +235,14 @@ howitworks-section-two__apply-now a {
     transform: translate(232px,180px) rotate(-16deg) scale(1,0.9) skew(6deg);
   }
 
+  .howitworks-section-four__panel-one__description h2,
+  .howitworks-section-four__panel-two__description h2,
+  .howitworks-section-four__panel-three__description h2 {
+    font-size: 33px;
+  }
+  
   .howitworks-section-four__header {
-    padding-left: 10%;
+    padding-left: 15%;
   }
 }
 
@@ -321,8 +313,6 @@ howitworks-section-two__apply-now a {
     margin: 0 0 0px;
   }
 
-  .howitworks-section-four__header___text {
-}
   .howitworks-section-four__image-one,
   .howitworks-section-four__image-two,
   .howitworks-section-four__image-three {
@@ -333,7 +323,7 @@ howitworks-section-two__apply-now a {
     height: 170px;
   }
 
-  .howitworks-section-four__panel-three__description p {
+  .howitworks-section-four__panel-three__description.p {
     font-size: 3vh;
   }
 
