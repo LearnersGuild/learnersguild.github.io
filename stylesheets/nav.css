@@ -72,15 +72,16 @@
   margin: 5px 15px;
   padding: 8px 18px;
   border: 2px solid #ee255b;
-  background-color: #ee255b;
+  background-color: #FFF;
   border-radius: 30px;
-  color: #fff;
+  color: #000;
   transition: all 0.3s ease-in-out;
 }
 
 .nav-apply-pill:hover {
   background-color: transparent;
-  color: #ee255b;
+  color: #FFF;
+  background-color: #ee255b;
 }
 
 .LG-logo {
