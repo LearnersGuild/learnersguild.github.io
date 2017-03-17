@@ -25,7 +25,7 @@ module.exports = function(grunt) {
           'stylesheets/about.css',
           'stylesheets/about-responsive.css',
           'stylesheets/impact.css',
-          'stylesheets/faq.min.css',
+          'stylesheets/faq.css',
         ],
         dest: 'style.min.css'
       },
