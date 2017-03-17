@@ -96,6 +96,6 @@ footer.row {
     margin-bottom: 0;
   }
   .footer-containers:not(:first-child) {
-  margin-top: 25px;
-}
+    margin-top: 25px;
+  }
 }

@@ -58,7 +58,6 @@
 .different-section-two__icon-row___description {
   margin: 0px 55px;
   text-align: center;
-  width:;
 }
 
 .different-section-two__icon-row___description h2 {
@@ -95,7 +94,8 @@
   margin: auto;
 }
 
-.carousel-inner .carousel-control.left, .carousel-inner  .carousel-control.right {
+.carousel-inner .carousel-control.left, 
+.carousel-inner  .carousel-control.right {
   background-image: none;
 }
 
