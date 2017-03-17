@@ -66,6 +66,7 @@ button {
   font-size: 24px;
   border-top: 1px solid gray;
   font-weight: bold;
+  display: block;
 }
 
 .right-answers-panel .collapsed {

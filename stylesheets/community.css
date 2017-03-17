@@ -12,6 +12,9 @@
   width: 50%;
   margin: 50px auto;
 }
+#myplay1 {
+  margin-bottom: 15px;
+}
 ul.community-page_block1-nav {
   list-style: none;
   display: flex;
