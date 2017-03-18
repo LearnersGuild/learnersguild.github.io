@@ -32,6 +32,13 @@
 @media(max-width: 767px){
   .pad30 {
     padding: 40px 15px;
+  .LG-logo {
+    position: relative;
+    top: 5px;
+    left: 15px;
+    margin: 0;
+    width: auto !important;
+  }
   }
   #block6-right {
     padding-left: 0;
@@ -47,12 +54,8 @@
   #myCarousel #myCarousel1 {
     display: none;
   }
-  .LG-logo {
-    position: relative;
-    top: 5px;
-    left: 15px;
-    margin: 0;
-    width: auto !important;
+  .home-page_block2>h1 {
+    margin: 20px 10px;
   }
   .navbar-collapse {
     max-height: none !important;
