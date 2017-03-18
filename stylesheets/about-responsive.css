@@ -1,6 +1,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .about-splash {
     padding-top: 15% !important;
+    height: 250px !important;
   }
   .item .container-fluid {
     margin: 0 !important;
