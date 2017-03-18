@@ -4,17 +4,12 @@
   -moz-background-size: cover;
   background-size: cover;
   color: #fff;
-  min-height: 50vh;
-  max-height: 400px;
+  height: 500px;
   padding-top: 5%;
-}
-
-.about-splash {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/newres/aboutbg1.png');
   flex-direction: column;
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 400px;
+  min-height: 250px;
 }
 .text-yellow {
   color: #f2ba19;
@@ -184,7 +179,7 @@ h2.about-page_block4-text {
 }
 
 .about-page_block3 {
-  min-height: 600px;
+  height: 600px;
   display: flex;
   margin-top: 50px;
   color: white;
@@ -214,7 +209,7 @@ h2.about-page_block4-text {
 }
 
 .picture5 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/about2/layer_62_720.png');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/newres/difgroup1.jpg');
 }
 .picture1, .picture2, .picture3, .picture4, .picture5 {
   display: flex;
@@ -222,7 +217,7 @@ h2.about-page_block4-text {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 600px;
+  height: 600px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
 }
