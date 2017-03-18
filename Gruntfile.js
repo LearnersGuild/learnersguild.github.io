@@ -26,6 +26,7 @@ module.exports = function(grunt) {
           'stylesheets/community-responsive.css',
           'stylesheets/about-responsive.css',
           'stylesheets/about.css',
+          'stylesheets/hamburger.css',
         ],
         dest: 'style.min.css'
       },

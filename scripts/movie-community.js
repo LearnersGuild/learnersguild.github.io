@@ -7,3 +7,14 @@ $("#myplay1").click(function(){
 $("#playit1").click(function(){
   $("#playit1").hide();
 });
+
+active = false;
+$('.hamburger--squeeze').on('click',function(){
+	if(active == false){
+		$(this).addClass('is-active');
+		active = true;
+	} else {
+		$(this).removeClass('is-active');
+		active = false;
+	}
+});

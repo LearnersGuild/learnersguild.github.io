@@ -103,9 +103,9 @@ h5, h6 {
   transition: all 0.3s ease-in-out;
 }
 .btn.round:hover {
-  background-color: transparent;
-  color: #ee255b;
-  border: 2px solid #ee255b;
+  background-color: #97c93d;
+  color: #FFF;
+  border: 2px solid #97c93d;
 }
 
 .curly-brace {
