@@ -93,6 +93,9 @@
     margin: 20px;
     font-size: 12px;
   }
+  .hamburger--squeeze {
+    width:auto;
+  }
   h1 {
     font-size: 20px !important;
   }
