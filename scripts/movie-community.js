@@ -6,6 +6,8 @@ $("#myplay1").click(function(){
 
 $("#playit1").click(function(){
   $("#playit1").hide();
+  $(".carousel-indicators").css("display", "block");
+  $('body').css('overflow-y', 'auto');
 });
 
 active = false;
