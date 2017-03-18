@@ -4,8 +4,7 @@ module.exports = function(grunt) {
       js: {
         src: [
           'scripts/carousel.js',
-          'scripts/movie-community.js',
-          'scripts/video-play.js',
+          'scripts/movie-community.js'
         ],
         dest: 'scripts/app.js'
       },

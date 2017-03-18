@@ -10,6 +10,22 @@
 .carousel.slide.homepage-responsive {
   display: none;
 }
+.modal {
+  background-color: rgba(0,0,0,0.3);
+}
+.modal-content {
+  background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+.modal-header {
+  border-bottom: none;
+}
+.close {
+  color: white;
+  font-size: 50px;
+  opacity: 1;
+}
 .item.homepage-carousel_pic1 {
   background-image: url('/images/homeSplash3.png');
   background-repeat: no-repeat;

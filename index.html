@@ -70,21 +70,22 @@ layout: default
     
     <div class="clearfix"></div>
     <div class="home-page_block4">
-      <img id="myplay1" src="../images/newres/videoplay2.png">
+      <a href="#!" data-toggle="modal" data-target="#video-modal"><img id="myplay1" src="../images/newres/videoplay2.png"></a>
       <p class="home-page_block4-text">WATCH THE VIDEO</p>
       <h2 class="home-page_block4-text">If you're serious about becoming<br>
       a software developer, we want to prepare and invest in you.</h2>
-      <div class="home-page_block4-video" id="playit1">
-        <script async src="//fast.wistia.com/embed/medias/vpld4j6fjs.jsonp">
-        </script> 
-        <script async src="//fast.wistia.com/assets/external/E-v1.js">
-        </script>
-        <div class="wistia_responsive_padding">
-          <div class="wistia_responsive_wrapper">
-            <span class="wistia_embed wistia_async_vpld4j6fjs popover=true popoverAnimateThumbnail=true videoFoam=true">&nbsp;</span>
-          </div>
-        </div>
-      </div>
+      <div class="modal fade" tabindex="-1" role="dialog" id="video-modal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <script src="https://fast.wistia.com/embed/medias/wqsqs6qtcp.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_wqsqs6qtcp videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
     </div>
     <div class="home-page_block5">
       <div class="carousel slide homepage2" data-interval="false" data-ride="carousel" id="myCarousel2">
