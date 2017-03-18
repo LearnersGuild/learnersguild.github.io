@@ -44,7 +44,7 @@
     padding-left: 0;
   }
   .container {
-    height:auto;
+    height:auto !important;
   }
   .carousel-caption{
     position: absolute;
@@ -63,8 +63,16 @@
   .home-page_block5 {
     display: none;
   }
+  #myCarousel3 {
+    padding-bottom: 50px;
+  }
   #myCarousel3 .carousel-indicators {
     display: block;
+  }
+  #myCarousel3 .carousel-indicators li,#myCarousel3 .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 1px 5px;
   }
   #myCarousel3 .carousel-control {
     display: none;
@@ -167,12 +175,6 @@
   .carousel-caption>p, .carousel-caption>a {
     font-family: "Proxima";
     font-size: 12px;
-  }
-  .container.block2 {
-    display: none;
-  }
-  .container-mobile.block2 {
-    display: block;
   }
   img.home-page_block2-image {
     width: 250px;

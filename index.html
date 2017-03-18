@@ -1,7 +1,6 @@
----
+--- 
 layout: default
 ---
-<body>
   <center>
     <div class="carousel slide homepage" data-ride="carousel" id="myCarousel">
       <div class="carousel-inner homepage" role="listbox">
@@ -9,24 +8,19 @@ layout: default
           <div class="carousel-caption">
             <h3>Learn to code.</h3>
             <h3>Get paid while you do it.</h3>
-            <p>Pay us only when you get a high-paying job.</p>
-            <a href="/enroll_start">
-              <button class="btn home-page_button btn-round-lg btn-lg round" id="homepagebutton" type="button">See if I qualify</button>
-            </a>
+            <p>Pay us only when you get a high-paying job.</p><a href="/enroll_start"><button class="btn home-page_button btn-round-lg btn-lg round" id="homepagebutton" type="button">See if I qualify</button></a>
           </div>
         </div>
         <div class="item active homepage-carousel_pic2">
           <div class="carousel-caption">
             <h3>Learn in an environment of trust and teamwork.</h3>
-            <p>Get rigorous training without shark tank competition.</p>
-            <a href="/community"><button class="btn home-page_button btn-round-lg btn-lg round" id="homepagebutton" type="button">Learn more about community</button></a>
+            <p>Get rigorous training without shark tank competition.</p><a href="/community"><button class="btn home-page_button btn-round-lg btn-lg round" id="homepagebutton" type="button">Learn more about community</button></a>
           </div>
         </div>
         <div class="item homepage-carousel_pic3">
           <div class="carousel-caption">
             <h3>Learn by mentoring others.</h3>
-            <p>As you advance, you’ll lead groups of newer learners, as they adopt concepts you’ve recently mastered.</p>
-            <a href="/howitworks"><button class="btn home-page_button btn-round-lg btn-lg round" id="homepagebutton" type="button">Learn about our learning model</button></a>
+            <p>As you advance, you’ll lead groups of newer learners, as they adopt concepts you’ve recently mastered.</p><a href="/howitworks"><button class="btn home-page_button btn-round-lg btn-lg round" id="homepagebutton" type="button">Learn about our learning model</button></a>
           </div>
         </div>
       </div>
@@ -35,7 +29,7 @@ layout: default
           <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
           <li class="" data-slide-to="1" data-target="#myCarousel"></li>
           <li class="" data-slide-to="2" data-target="#myCarousel"></li>
-        </ol><a class="left carousel-control" id="myCarousel1" data-slide="prev" href="#myCarousel" role="button"><span aria-hidden="true" id="myCarousel1" class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span></a> <a class="right carousel-control" id="myCarousel1" data-slide="next" href="#myCarousel" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
+        </ol><a class="left carousel-control" data-slide="prev" href="#myCarousel" id="myCarousel1" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left" id="myCarousel1"></span> <span class="sr-only">Previous</span></a> <a class="right carousel-control" data-slide="next" href="#myCarousel" id="myCarousel1" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
       </div>
     </div>
     <div class="home-page_block1">
@@ -47,33 +41,32 @@ layout: default
       <span class="home-page_block2-text">a great career in tech.</span></h1>
       <p>Learners Guild offers a 10-month life-changing experience that takes you from beginner to professional-level full stack Javascript developer ready for a high-paying career. No other coding program is this immersive, challenging or in-depth.</p>
       <div class="container block2">
-        <div class="row">
+        <div class="row clearfix">
           <div class="col-sm-4 home-page_block2">
-            <div class="row"><img class="home-page_block2-image" src="../images/newres/i1.png"></div>
+            <img class="home-page_block2-image" src="../images/newres/i1.png">
             <h2>We'll pay you...<br>
             Seriously!</h2>
             <p>From the founders of Dev Bootcamp, our new, well-funded venture pays you a stipend (up to $1,500/mo) and money to purchase a laptop so you have the resources to succeed.</p>
           </div>
           <div class="col-sm-4 home-page_block2">
-            <div class="row"><img class="home-page_block2-image" src="../images/newres/i2.png"></div>
+            <img class="home-page_block2-image" src="../images/newres/i2.png">
             <h2>We learn<br>
             together.</h2>
             <p>All the support you need from professionals and advanced learners to become ready for a career in tech. Build world-class technical skills and make new friends for life</p>
           </div>
           <div class="col-sm-4 home-page_block2">
-            <div class="row"><img class="home-page_block2-image" src="../images/newres/i3.png"></div>
+            <img class="home-page_block2-image" src="../images/newres/i3.png">
             <h2>You win,<br>
             we win.</h2>
             <p>If after the Guild you don’t make over $50,000, we don’t get paid. Period. We are seeking people who are committed to advancing their career; bring your dedication and passion, and we'll invest in you.</p>
           </div>
+          <a class="home-page_block3-link" href="/howitworks"><button class="btn home-page_button btn-round-lg btn-lg round" id="homepagebutton" type="button">LEARN MORE</button></a>
         </div>
+        <div class="clearfix"></div>
       </div>
-        <a class="home-page_block3-link" href="/howitworks">
-          <button class="btn home-page_button btn-round-lg btn-lg round" id="homepagebutton" type="button">
-            LEARN MORE
-          </button>
-        </a>
     </div>
+    
+    <div class="clearfix"></div>
     <div class="home-page_block4">
       <img id="myplay1" src="../images/newres/videoplay2.png">
       <p class="home-page_block4-text">WATCH THE VIDEO</p>
@@ -81,7 +74,7 @@ layout: default
       a software developer, we want to prepare and invest in you.</h2>
       <div class="home-page_block4-video" id="playit1">
         <script async src="//fast.wistia.com/embed/medias/vpld4j6fjs.jsonp">
-        </script>
+        </script> 
         <script async src="//fast.wistia.com/assets/external/E-v1.js">
         </script>
         <div class="wistia_responsive_padding">
@@ -161,29 +154,29 @@ layout: default
         <div class="item active">
           <div class="container">
             <img class="home-page_block5-image second-carousel" src="../images/newres/hp3.png">
-              <h3 class="home-page_block5-header">The world's most<br>
-              in-depth, immersive<br>
-              coding experience.</h3>
-              <p class="home-page_block5-text">Designed as a full-time, real-world environment, you'll leave here with professional-level skills, brimming with know-how, experience, and confidence.</p>
+            <h3 class="home-page_block5-header">The world's most<br>
+            in-depth, immersive<br>
+            coding experience.</h3>
+            <p class="home-page_block5-text">Designed as a full-time, real-world environment, you'll leave here with professional-level skills, brimming with know-how, experience, and confidence.</p>
           </div>
         </div>
         <div class="item">
           <div class="container">
             <img class="home-page_block5-image second-carousel" src="../images/newres/homebgnew10.png">
-              <h3 class="home-page_block5-header">Tuition built on<br>
-              the belief that debt sucks.</h3>
-              <p class="home-page_block5-text">Advancing your career shouldn't be like buying a car -- if you buy a lemon, you're screwed. That's why our deal is different. You pay nothing upfront, and our community will support you with a monthly stipend, if you need one. We get a return on our investment and a chance to invest in the next generation once you get a well-paying job.</p>
+            <h3 class="home-page_block5-header">Tuition built on<br>
+            the belief that debt sucks.</h3>
+            <p class="home-page_block5-text">Advancing your career shouldn't be like buying a car -- if you buy a lemon, you're screwed. That's why our deal is different. You pay nothing upfront, and our community will support you with a monthly stipend, if you need one. We get a return on our investment and a chance to invest in the next generation once you get a well-paying job.</p>
           </div>
         </div>
         <div class="item">
           <div class="container">
             <img class="home-page_block5-image second-carousel" src="../images/newres/homebgnew11.png">
-              <h3 class="home-page_block5-header">Allies dedicated<br>
-              to your success.</h3>
-              <p class="home-page_block5-text">Learners Guild is based on teamwork and collaboration, not competition. Our learners go far because they go together.</p>
+            <h3 class="home-page_block5-header">Allies dedicated<br>
+            to your success.</h3>
+            <p class="home-page_block5-text">Learners Guild is based on teamwork and collaboration, not competition. Our learners go far because they go together.</p>
           </div>
         </div>
-      </div><a class="left carousel-control" id="myCarousel3" data-slide="prev" href="#myCarousel3" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span></a> <a class="right carousel-control" data-slide="next" href="#myCarousel3" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
+      </div><a class="left carousel-control" data-slide="prev" href="#myCarousel3" id="myCarousel3" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span></a> <a class="right carousel-control" data-slide="next" href="#myCarousel3" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
     </div>
     <div class="container-fluid block6">
       <div class="row">
@@ -199,9 +192,7 @@ layout: default
               </div>
             </div>
           </div>
-          <div class="col-sm-6" id="block6-right">
-            <img id="block6image" src="../images/newres/ana1.png">
-          </div>
+          <div class="col-sm-6" id="block6-right"><img id="block6image" src="../images/newres/ana1.png"></div>
         </div>
       </div>
       <div class="home-page_block7">
@@ -209,4 +200,4 @@ layout: default
       </div>
     </div>
   </center>
-</body>
+<!-- </body> -->
