@@ -25,27 +25,27 @@
   opacity: 1;
 }
 .item.homepage-carousel_pic1 {
-  background-image: url('/images/homeSplash3.png');
+  /*background-image: url('/images/homeSplash3.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 750px;
+  height: 750px;*/
 
 }
 .item.homepage-carousel_pic2 {
-  background-image: url('/images/homeSplash1.png');
+  /*background-image: url('/images/homeSplash1.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 750px;
+  height: 750px;*/
 
 }
 .item.homepage-carousel_pic3 {
-  background-image: url('/images/homeSplash2.png');
+  /*background-image: url('/images/homeSplash2.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 750px;
+  height: 750px;*/
 }
 
 .carousel-inner.homepage>.item>a>img,
@@ -60,6 +60,9 @@
   margin: auto;
   text-shadow: 1px 1px 1px #000;
 }
+.carousel-inner.homepage>.item>img {
+  height: 100% !important;
+}
 .carousel-inner.homepage>img {
   min-height: 750px !important;
   padding: 5px;
@@ -67,8 +70,9 @@
   z-index: -1000px;
 }
 .carousel-caption {
+  position: absolute;
   top: 50%;
-  transform: translateY(-30%);
+  transform: translateY(-50%);
 }
 .carousel-indicators.carousel1 li {
   border: none;
@@ -79,6 +83,9 @@
 }
 #myCarousel1 .carousel-indicators .active {
   background-color: grey !important;
+}
+#myCarousel .carousel-indicators {
+  bottom: 90px;
 }
 .carousel-caption p {
   font-size: 32px;
