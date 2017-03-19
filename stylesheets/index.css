@@ -157,12 +157,19 @@ button#homepagebutton {
   margin-bottom: 15px;
 }
 .home-page_block4 {
-  background-image: url('../images/newres/hp2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px;
-  height: 875px;
+  height: 100%;
+  position: relative;
+}
+.home-page_block4 .bg-img {
+  height: 100%;
   width: 100%;
+}
+.block4-meta {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
 }
 p.home-page_block4-text {
   font-family: "proxima";
@@ -173,6 +180,7 @@ p.home-page_block4-text {
   padding-bottom: 8px;
   border-bottom: #f2ba19 14px solid;
   width: 250px;
+  margin: 0 auto;
 }
 h2.home-page_block4-text {
   font-size: 29px;
