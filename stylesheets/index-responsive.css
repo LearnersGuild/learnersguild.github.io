@@ -38,6 +38,9 @@
   #myCarousel .carousel-indicators {
       bottom: 15px;
   }
+  .carousel .item {
+    height: 350px;
+  }
   .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a {
     width: 100% !important;
     position: relative;
@@ -120,13 +123,7 @@
     font-size: 16px;
   }
   .home-page_block4 {
-    background-image: url('../images/newres/hp5.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 120px;
-    padding: 10px;
-    height: 220px;
-    width: 100%;
+    margin-bottom: 50px;
   }
   .block4-meta {
     padding: 0 15px;
@@ -237,7 +234,7 @@
   }
   .carousel-caption{
     position: absolute;
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
   }
   #myCarousel #myCarousel1 {
