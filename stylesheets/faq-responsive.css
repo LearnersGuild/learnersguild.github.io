@@ -1,0 +1,5 @@
+@media(max-width: 767px){
+	.question-row .col-xs-1 {
+		padding-left: 0;
+	}
+}

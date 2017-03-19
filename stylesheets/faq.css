@@ -15,7 +15,7 @@
 }
 
 .right-answers-panel p {
-  font-size: 18px;
+  font-size: 16px;
   color: #626366;
 }
 
@@ -38,6 +38,18 @@
 .left-questions-panel p {
   text-align: left;
 }
+.question-row {
+  border-bottom: 1px solid #CCC;
+}
+.question-row img {
+  margin-top: 25px;
+}
+.question {
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 19px;
+  cursor: pointer;
+}
 
 button {
   background:none;
@@ -57,20 +69,6 @@ button {
 }
 .right-answers-panel {
   text-align:left;
-}
-
-.right-answers-panel button {
-  background-image: url('/images/newres/faqarrowdown.png');
-  background-repeat: no-repeat;
-  background-position: right;
-  font-size: 24px;
-  border-top: 1px solid gray;
-  font-weight: bold;
-  display: block;
-}
-
-.right-answers-panel .collapsed {
-  background-image: url('/images/newres/faqarrowup.png') !important;
 }
 
 button {
