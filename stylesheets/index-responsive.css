@@ -35,6 +35,9 @@
     padding: 0px !important;
     margin: 0 !important;
   }
+  #myCarousel .carousel-indicators {
+      bottom: 15px;
+  }
   .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a {
     width: 100% !important;
     position: relative;
@@ -43,10 +46,6 @@
     height: 300px !important;
     margin: -10px 0;
     z-index: -1000px;
-  }
-  .item.homepage-carousel_pic1, .item.homepage-carousel_pic2, .item.homepage-carousel_pic3 {
-    height: 300px !important;
-    padding: 5px;
   }
   .carousel-caption {
     padding-top: 0 !important;
@@ -129,6 +128,9 @@
     height: 220px;
     width: 100%;
   }
+  .block4-meta {
+    padding: 0 15px;
+  }
   p.home-page_block4-text {
     font-family: "Proxima";
     font-size: 12px;
@@ -139,9 +141,6 @@
     margin-bottom: 2px;
   }
   h2.home-page_block4-text {
-    padding-top: 20px;
-    margin: 50px 0;
-    color: black !important;
     font-size: 14px !important;
   }
   img.home-page_block5-image {
@@ -171,7 +170,7 @@
     width: 100%;
   }
   img#myplay1 {
-    width: 150px;
+    width: 50px;
   }
   .home-page_block5 {
     margin: 50px auto;
