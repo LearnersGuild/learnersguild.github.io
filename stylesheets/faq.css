@@ -9,7 +9,9 @@
   background-size: cover;
   padding-top: 5%;
 }
-
+#faq-main {
+  padding-top: 50px;
+}
 #faq-main:first-child {
   margin: 40px 0px;
 }
@@ -18,7 +20,9 @@
   font-size: 16px;
   color: #626366;
 }
-
+.right-answers-panel h1 {
+  margin-top: 0;
+}
 .right-answers-panel h3 {
   font-size: 32px;
   padding: 20px 0px;
@@ -59,13 +63,21 @@ button {
 }
 
 .left-questions-panel button {
-  font-size: 24px;
+  font-size: 21px;
   transition: all 0.3s ease-in-out;
   width: 100%;
+  color:#a6a6a9;
+  transition: color 0.25s ease-in-out;
 }
-
+.left-questions-panel button.active {
+  color: #000;
+  font-weight: 500;
+}
 .left-questions-panel button:hover {
-  background-color: #F2BB1A;
+  color: #000;
+}
+.left-questions-panel button:focus {
+  outline: none;
 }
 .right-answers-panel {
   text-align:left;
