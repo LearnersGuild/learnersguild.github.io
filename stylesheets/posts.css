@@ -1,0 +1,99 @@
+
+.community-page-individual_block1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+.community-page-individual_block1-header {
+  color: #ec3555;
+  border-bottom: 4px solid #009cdc;
+  padding-bottom: 8px;
+  width: 160px;
+}
+.community-page-individual_block2 {
+  background: white;
+  position: relative;
+  text-align: left;
+  top: -50px;
+  padding: 30px;
+  width: 40%;
+  height: 200%;
+  z-index: 10;
+  font-size: 1.5em;
+}
+
+.community-page-individual_block1-image {
+  max-width: 100%;
+  margin: auto;
+}
+div.community-page-individual_block3-text {
+  padding: 5% 25%;
+  background: #e9e9e9;
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  line-height: 28px;
+  margin: 0 !important;
+}
+img#wistia_48.thumbnail_img {
+  width: 100px
+}
+.community-page-individual_block3-text>p,
+.wistia_embed.wistia_async_8m601o0qqk {
+  text-align: left;
+  margin: 3% 10%;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.community-page-individual_block1b {
+  background-image: url('../images/newres/hp2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+.community-page-individual_block1-icon {
+  width: 10%;
+}
+#blue-title {
+  color: #009cdc !important;
+}
+.community-page-individual_block4-text {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.fa.fa-facebook-square.commmunity,
+.fa.fa-twitter-square.commmunity {
+  font-size: 50px;
+}
+.community-page-individual_block1c {
+  height: 500px;
+  text-align: center;
+  background-image: url('/images/partner-logos/Fast-Company-logo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+h3.community-block-quote {
+  border-top: #e9e9e9 4px solid;
+  border-bottom: #e9e9e9 4px solid;
+  padding: 10px 0;
+  text-align: left;
+  margin: 2% 0;
+  font-size: 1.3em;
+  line-height: 201%;
+}
+span.quotes {
+  color: #f2b317;
+  font-size: 210%;
+}
+#yellow-title {
+  color: #f2b317;
+}
+
+.container-mobile.block {
+  display: none;
+}
