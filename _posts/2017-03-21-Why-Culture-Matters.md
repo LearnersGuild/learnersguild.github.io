@@ -4,9 +4,8 @@ title: Why Culture Matters
 date: March 21, 2017
 category: "Chalk Talk"
 author: "Ana Sauceda"
-author_image: 
+author_image: /images/posts/ana_profile_pic.jpeg
 splash_image: /images/posts/community-ana-bg.png
-background-image: url('../images/newres/community-ana-bg.png');
 ---
 Learners Guild creates space and provides tools for the immense amount of unlearning most of us must go through and struggle with while going through this life-changing program. I know people have pushed back and they may not, at first, see the importance of focusing on the culture we are building here. But it is so important. The adjustment to this radical form of learning is not easy. So many people of color, women, and others who are minorities in this field have been fighting battles with themselves for years, some of us have come accustomed to fighting, or to mistrust ourselves and others, or to silence. Clearing that out of the way so I could focus on my learning, and be really honest with myself about what I need to do to accomplish my goals was so important. Doing that work in home-group through interactive activities and discussions helped me so much, as well as the 1 on 1 support I have gotten from the Learning Facilitators. I am so grateful for the benchmarking and goal setting, I am going to continue to improve week after week. I have arranged my life for the next few months so I can push myself even harder to level up and make the most of this home stretch.
 
