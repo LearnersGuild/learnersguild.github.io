@@ -88,6 +88,17 @@
 #myCarousel .carousel-indicators {
   bottom: 90px;
 }
+#myCarousel.homepage .arrow-controls {
+  height: auto;
+  position: absolute;
+  top: 50%;
+}
+.left-control {
+  left: 50px;
+}
+.right-control {
+  right: 50px;
+}
 .carousel-caption p {
   font-size: 32px;
 }
