@@ -3,20 +3,32 @@
   {% include head.html %}
   <body class="stretched no-transition {{page.blah}}">
     {% include navBar.html %}
-    <div id="wrapper" class="clearfix">
-      <div class="community-page-individual_block1" styles="background-image: url('{{ page.splash_image }}')";></div>
-      <div class="community-page-individual_block3">
-        <div class="community-page-individual_block2">
-          <p class="community-page-individual_block1-header">{{ page.category }}</p>
-          <h2 class="community-page-individual_block1-text">{{ page.title }}</h2>
-          <p class="community-page-individual_block1-subtext">Published by {{ page.post_author }}</p>
-          <p>{{ page.date }}</p>
-        </div>
-        <div class="community-page-individual_block2">
-          {{ content }}
+    <center>
+      <div id="wrapper" class="clearfix">
+        <div class="community-page-individual_block1" style="background-image: url('{{ site.baseurl }}{{ page.splash_image }}');";></div>
+        <div class="community-page-individual_block3">
+          <div class="community-page-individual_block2">
+            <p class="community-page-individual_block1-header">{{ page.post_category }}</p>
+            <h2 class="community-page-individual_block1-text">{{ page.title }}</h2>
+            <p class="community-page-individual_block1-subtext">Published by {{ page.post_author }}</p>
+            <p>{{ page.post_date }}</p>
+          </div>
+          <div class="community-page-individual_block2">
+            {{ content }}
+          </div>
+          <div class="community-page-individual_block4-text">
+            <p>SHARE THIS STORY </p>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.learnersguild.org{{ site.baseurl }}{{ page.url }}">
+                <i class="fa fa-facebook-square commmunity"></i>
+              </a>
+              <a href="https://twitter.com/home?status=http://www.learnersguild.org{{ site.baseurl }}{{ page.url }}">
+                <i class="fa fa-twitter-square commmunity"></i>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </center>
     {% include footer.html %}
   </body>
 </html>

@@ -23,7 +23,7 @@ This is a [Jekyll][jekyll] site. **Be sure you understand how to work with Jekyl
 ## Creating a blog post
 
 Create a new `.md` file in the _posts folder.
-File name must be `yyyy-mm-dd-blog-title-here.md` This file name will double as the URL for the blog.
+File name must be `yyyy-dd-mm-blog-title-here.md` This file name will double as the URL for the blog.
 
 Every blog post must have this a heading formatted like this: 
 ```
@@ -40,4 +40,7 @@ splash_image: /images/posts/community-ana-bg.png
 
 Feel free to edit the title, date, category, author, author_image & background_image.
 
+
+## Other Notes
+- If you create new css files make sure to add them to the Gruntfile & run the `grunt` command.
 [jekyll]: https://jekyllrb.com/
