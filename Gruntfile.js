@@ -23,8 +23,8 @@ module.exports = function(grunt) {
           'stylesheets/different-responsive.css',
           'stylesheets/community.css',
           'stylesheets/community-responsive.css',
-          'stylesheets/about-responsive.css',
           'stylesheets/about.css',
+          'stylesheets/about-responsive.css',
           'stylesheets/hamburger.css',
           'stylesheets/faq-responsive.css'
         ],
