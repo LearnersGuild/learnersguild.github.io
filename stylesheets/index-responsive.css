@@ -34,6 +34,9 @@
     width: 100% !important;
     margin: 0 !important;
   }
+  .navbar-nav {
+      margin: 0 -15px;
+  }
   #myCarousel .carousel-indicators {
     bottom: 15px;
   }
@@ -148,9 +151,9 @@
     font-size: 16px !important;
   }
   img.home-page_block5-image {
-    width: 100px !important;
-    height: 70px;
-    margin-top: 50px;
+    width: 125px !important;
+    height: auto;
+    margin-top: 10px;
   }
   div.home-page_block4-video {
     position: fixed;
@@ -224,13 +227,13 @@
   }
   .pad30 {
     padding: 40px 15px;
+  }
   .LG-logo {
     position: relative;
     top: 5px;
     left: 15px;
     margin: 0;
     width: auto !important;
-  }
   }
   #block6-right {
     padding-left: 0;
