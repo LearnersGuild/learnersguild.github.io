@@ -1,15 +1,12 @@
 .about-splash {
-  background-image:url('../images/newres/worksbg1.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   color: #fff;
-  height: 500px;
-  padding-top: 5%;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/newres/aboutbg1.png');
-  flex-direction: column;
-  background-repeat: repeat;
-  min-height: 250px;
+  height: 385px;
+  background-image: url('/images/about-hero.jpg');
+  background-repeat: no-repeat;
+  position: relative;
 }
 .text-yellow {
   color: #f2ba19;
@@ -43,12 +40,6 @@ h2.about-page_block-header {
 
 .text-green {
   color: #8dc235;
-}
-
-.about-splash div {
-  font-size:60px;
-  padding-top:40px;
-  letter-spacing:2px;
 }
 
 .about-page_block2 {

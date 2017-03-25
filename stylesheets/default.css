@@ -46,7 +46,7 @@ html, body {
 }
 
 body {
-  padding-top: 29px;
+  padding-top: 60px;
   overflow-x: hidden;
 }
 
@@ -111,14 +111,28 @@ h5, h6 {
 .curly-brace {
   font-size: 200%;
 }
-
+.splash-meta {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
 .splash-header {
   font-family: 'proxima'!important;
   font-weight: 400;
-  font-size: 150%;
-  color: #F2BB1A;
+  font-size: 16px;
+  color: #FFF;
   width: 70%;
-  margin: 30px 0;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.splash-header span {
+  background-color: #f2b317;
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 .splash-headline {
