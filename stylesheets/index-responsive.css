@@ -36,7 +36,17 @@
     margin: 0 !important;
   }
   #myCarousel .carousel-indicators {
-      bottom: 15px;
+    bottom: 15px;
+  }
+  #myCarousel .carousel-caption {
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    padding: 0 30px;
+  }
+  #myCarousel .item {
+    height: 300px;
   }
   .carousel .item {
     height: 350px;
