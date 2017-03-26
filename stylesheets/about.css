@@ -82,7 +82,9 @@ h2.about-page_block-header {
   width: 100%;
   height: 450px;
 }
-
+#story-carousel .first-caption {
+  top: 43%;
+}
 .about-carousel-jusleft {
   text-align: left;
 }
