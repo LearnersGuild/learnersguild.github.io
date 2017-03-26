@@ -266,8 +266,8 @@
     display: block;
   }
   #myCarousel3 .carousel-indicators li,#myCarousel3 .carousel-indicators .active {
-    width: 15px;
-    height: 15px;
+    width: 15px !important;
+    height: 15px !important;
     margin: 1px 5px;
   }
   #myCarousel3 .carousel-control {
