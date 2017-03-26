@@ -16,49 +16,22 @@
 }
 
 .howitworks-section-two {
-  padding:40px 0px;
+  padding: 50px 0px;
 }
 
-.howitworks-section-two__icon-row___description img {
-  width: 30%;
-  height: auto;
+.howitworks-section-two img {
+  width: 150px;
 }
-
-.howitworks-section-two__sub-header {
-  font-family:'proxima';
-  font-weight: 300;
-  text-align: center;
-  max-width:100%;
-  font-size:24px;
-  padding:20px 300px;
+.howitworks-section-two .opening {
+  font-size: 18px;
+  margin-bottom: 50px;
 }
-
-.howitworks-section-two__icon-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  max-width: 100%;
-  margin: 10px 180px;
+.howitworks-section-two h2 {
+  font-size: 25px;
 }
-
-.howitworks-section-two__icon-row___description {
-  margin: 0px 55px;
-  text-align: center;
+.howitworks-section-two .col-sm-4 p {
+  font-size: 16px;
 }
-
-.howitworks-section-two__icon-row___description h2 {
-  font-family: 'stag';
-  font-weight: 500;
-  width: 335px;
-}
-
-.howitworks-section-two__icon-row___description p {
-  font-family:'proxima';
-  font-weight: 400;
-  font-size: 20px;
-  font-weight: 300;
-}
-
 .howitworks-section-two__apply-now,
 .howitworks-section-five__different {
   padding-top: 20px;
@@ -70,12 +43,10 @@
   font-family: "proxima";
   font-weight: 400;
   border-radius: 40px;
-  width: 140px;
-  padding: 12px 14px;
-  margin: 40px;
+  padding: 10px 35px;
+  margin-top: 50px;
   color: white;
   text-align: center;
-  margin: auto;
   border: 2px solid #ee255b;
   font-size: 1.3em;
   transition: all 0.3s ease-in-out;
@@ -83,7 +54,7 @@
 
 .howitworks-button:hover {
   background-color: transparent;
-  color: #ee255b;
+  color: #000;
   border: 2px solid #ee255b;
 }
 
