@@ -1,21 +1,19 @@
 .howitworks-section-one {
-  background-image:url('../images/newres/worksbg1.png');
-  min-height: 50vh;
-  max-height: 400px;
+  background-image:url('../images/newres/worksbg1.png');  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  padding-top: 5%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  position: relative;
+  height: 385px;
 }
-
+.howitworks-section-one .how-top {
+  background-color: #1d90de;
+}
 .carousel-control, .glyphicon-chevron-right, .carousel-control, .icon-next {
   right: 0;
 }
-
-/*.carousel-control, .glyphicon .glyphicon-chevron-left, .carousel-control, .icon-prev {
-  position: absolute !important;
-  right: -100px !important;
-}*/
 
 .howitworks-section-two {
   padding:40px 0px;
