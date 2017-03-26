@@ -152,7 +152,7 @@
   }
   img.home-page_block5-image {
     width: 125px !important;
-    height: auto;
+    height: auto !important;
     margin-top: 10px;
   }
   div.home-page_block4-video {
