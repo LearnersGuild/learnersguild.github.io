@@ -35,3 +35,18 @@ $('.question').on('click',function(){
 		$(this).parent().parent().find('.arrow-up').addClass('hide');
 	}
 }); 
+
+$(window).resize(function(){
+  if ($(window).width() > 767) {
+  	columnHeight();
+  }
+});
+$(document).ready(function(){
+  if ($(window).width() > 767) {
+  	columnHeight();
+  }
+});
+function columnHeight(){
+  var height = $('#section-three').find('.img-container').outerHeight();
+  $('.section-three-meta-container').css({'height':height})
+}
