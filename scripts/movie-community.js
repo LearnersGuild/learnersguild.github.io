@@ -48,5 +48,5 @@ $(document).ready(function(){
 });
 function columnHeight(){
   var height = $('#section-three').find('.img-container').outerHeight();
-  $('.section-three-meta-container').css({'height':height})
+  $('.section-three-meta-container').css({'height':height});
 }

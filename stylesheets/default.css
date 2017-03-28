@@ -147,6 +147,12 @@ h5, h6 {
 .carousel-control {
   width: 25%;
 }
+@media(max-width: 991px){
+  .splash-headline {
+    font-size: 3em;
+    padding: 0 30px;
+  }
+}
 @media(max-width: 767px){
   .splash-headline {
     font-size: 34px;
