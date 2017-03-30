@@ -40,8 +40,11 @@
 }
 
 @media (max-width: 767px) {
+  .howitworks-section-one {
+    height: 300px;
+  }
   .howitworks-section-two {
-    padding-top: 15px;
+    padding-top: 50px;
   }
   .howitworks-section-two .col-sm-4 {
     margin-bottom: 30px;
@@ -85,6 +88,16 @@
   }
   #section-four-carousel .carousel-indicators {
     left: 17%;
+  }
+  #section-four-carousel .carousel-inner {
+    height: 400px;
+  }
+  .howitworks-section-five {
+    padding: 0 15px;
+  }
+  .howitworks-section-five .desktop {
+    height: auto;
+    max-width: 100%;
   }
   .howitworks-section-five img {
     height: 170px;

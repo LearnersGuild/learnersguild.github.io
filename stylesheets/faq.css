@@ -1,13 +1,13 @@
 .faq-splash {
   color: white;
-  display: block;
   background-image: url('/images/newres/faqbg1.png');
-  min-height: 50vh;
-  max-height: 380px;
+  height: 385px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  padding-top: 5%;
+}
+.faq-splash .splash-meta {
+  top: 40%;
 }
 #faq-main {
   padding-top: 50px;

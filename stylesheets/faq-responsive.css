@@ -1,4 +1,16 @@
+@media(max-width: 1199px){
+		
+}
+@media(max-width: 991px){
+	
+}
 @media(max-width: 767px){
+	.faq-splash {
+	  height: 250px !important;
+	}
+	.faq-splash .splash-meta {
+		top: 30%;
+	}
 	.question-row .col-xs-1 {
 		padding-left: 0;
 	}

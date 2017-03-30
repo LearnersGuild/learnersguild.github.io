@@ -38,12 +38,18 @@
   #story-carousel .container {
     padding: 0 50px;
   }
+  #story-carousel .item {
+    height: 285px;
+  }
   #story-carousel .item img {
     width: 100%;
-    height: 250px;
+    height: 250px !important;
   }
   #story-carousel .carousel-caption {
     top: 35%;
+  }
+  #story-carousel .arrow-controls {
+    top: 26%;
   }
   .believe {
     margin-bottom: 20px;
