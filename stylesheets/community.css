@@ -1,20 +1,116 @@
 .community-splash {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/newres/communitybg1.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  color: #fff;
+  height: 385px;
+  background-image: url('/images/community-hero.jpg');
   background-repeat: no-repeat;
-  min-height: 50vh;
-  max-height: 400px;
-  padding-top: 5%;
+  position: relative;
 }
-.community-page_block1-nav {
-  width: 50%;
-  margin: 50px auto;
+.community-splash .community-top {
+  background-color: #79AC3A;
 }
-#myplay1 {
-  margin-bottom: 15px;
+.community-splash .splash-headline {
+  color: #FFF;
+  font-size: 50px;
 }
+.community-splash .btn.round {
+  margin: 0;
+  padding: 10px 50px;
+}
+.wistia_embed.wistia_async_8m601o0qqk {
+  margin: 0 !important; 
+  height: 70% !important;
+  width: 70% !important;
+}
+.community-page_button {
+  font-size: 12px;
+}
+.community-nav{
+  padding: 30px 0;
+  background-color: #FFF;
+}
+.community-nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.community-nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #b8b8b8;
+  cursor: pointer;
+}
+.community-nav ul li.active {
+  color: #201d1d;
+}
+.community-nav p {
+  text-align: center;
+  text-transform: uppercase;
+}
+.community-nav .community-link {
+  color: #b8b8b8;
+  font-size: 15px;
+}
+.community-nav .community-link.active {
+  color: #201d1d;
+}
+.community-nav .community-link:hover {
+  text-decoration: none;
+  color: #201d1d;
+}
+.chalk {
+  color: #eb3755;
+}
+.news {
+  color: #f2b318;
+}
+.members {
+  
+}
+.news {
+  
+}
+#community-posts {
+  background-color: #D5DAD7;
+  padding: 40px 150px;
+}
+#community-posts .post-meta {
+  background-color: #FFF;
+  text-align: left;
+  padding: 20px 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#community-posts .post-image img {
+  width: 100%;
+}
+#community-posts .post-category {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#community-posts .post-author {
+  color: #a8aaad;
+  font-size: 12px;
+}
+#community-posts .author-img {
+  float: left;
+  margin-right: 10px;
+}
+#community-posts .post-title {
+  font-weight: 300;
+  font-size: 22px;
+  font-family: "Stag";
+  color: #201d1d;
+}
+#community-posts .post-title a {
+  color: #201d1d;
+}
+
+
 ul.community-page_block1-nav {
   list-style: none;
   display: flex;
@@ -39,9 +135,6 @@ ul.community-page_block1-nav>li>a:hover {
   display: none;
 }
 
-.community-page_button {
-  width: 25%;
-}
 div.wistia_embed.wistia_async_8m601o0qqk {
   height: 349px;
   width: 500px;

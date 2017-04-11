@@ -1,106 +1,18 @@
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .community-page_block1 {
-    background-size: cover;
-    background-position: center;
-    height: 320px;
+@media(max-width: 991px){
+  #community-posts {
+    padding: 40px 80px;
   }
-  .community-splash {
-    min-height: none;
-    padding-top: 15%;
+}
+@media(max-width: 800px){
+  #community-posts {
+    padding: 40px 20px;
   }
-  .community-page_block3-subtext-white {
-    margin: 20px;
-    text-align: center;
-    width: 85%;
-    margin-bottom: 15%;
+}
+@media(max-width: 767px){
+  .community-splash .splash-headline {
+    font-size: 30px;
   }
-  h3.community-page_block-text {
-    padding-top: 5px;
-    font-size: 70%;
-  }
-  .community-page_block3-text {
-    margin: 20px 5px;
-  }
-  .container-mobile.block, .community-page_block2 {
-    display: block;
-    text-align: center;
-  }
-  .community-page_button {
-    width: auto;
-  }
-  .community-page_block3 {
-    display: none;
-  }
-  .image2 {
-    width: 85% !important;
-  }
-  img.carousel.slide {
-    height: none !important;
-  }
-  .community-page_block2 {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .community-page_block3 {
-    text-align: center;
-    height: 600px;
-    padding: 10% 5% !important;
-  }
-  h5#subtitle1, h5#subtitle2 {
-    font-size: 18px !important;
-  }
-  .community-page-individual_block1 {
-    background-image: url('../images/newres/community-ana-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 100%;
-  }
-  .community-page-individual_block1-header {
-    color: #ec3555;
-    border-bottom: 4px solid #009cdc;
-    padding-bottom: 8px;
-    width: 150px;
-  }
-  .community-page-individual_block2 {
-    background: white;
-    position: relative;
-    width: 80% !important;
-    top: -50px;
-    padding: 10px;
-    z-index: 10;
-  }
-  div.community-page-individual_block3-text {
-    padding: 0 !important;
-    margin-top: 100px;
-    font-size: 12px !important;
-  }
-  p.community-page-individual_block1-subtext {
-    font-size: 12px;
-  }
-  .community-page-individual_block3-text {
-    font-size: 18px;
-    line-height: 28px;
-  }
-  img.community-page-individual_block1-image {
-    width: 300% !important;
-  }
-  .community-page-individual_block1b,
-  .community-page-individual_block1c {
-    height: 250px;
-  }
-  .wistia_embed.wistia_async_8m601o0qqk.wistia_embed_initialized {
-    width: 200px !important;
-    height: 250px !important;
-  }
-  .community-page-individual_block3-text>p,
-  .wistia_embed.wistia_async_8m601o0qqk {
-    margin: 0 !important;
-    padding: 15px;
-    font-size: 16px !important;
-  }
-  #communitybutton {
-    width: 250px !important;
+  .post {
+    margin-bottom: 30px;
   }
 }
