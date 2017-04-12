@@ -1,6 +1,14 @@
+@media(max-width: 1200px){
+  .blog-author-meta {
+    width: 27%;
+  }
+}
 @media(max-width: 991px){
   #community-posts {
     padding: 40px 80px;
+  }
+  .blog-author-meta {
+    width: 37%;
   }
 }
 @media(max-width: 800px){
@@ -14,5 +22,11 @@
   }
   .post {
     margin-bottom: 30px;
+  }
+  .blog-author-meta {
+    width: 75%;
+  }
+  .blog-post-title {
+    font-size: 28px;
   }
 }
