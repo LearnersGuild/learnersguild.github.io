@@ -87,7 +87,12 @@ h3, h4 {
 h5, h6 {
   letter-spacing: 1px;
 }
-
+.mb30 {
+  margin-bottom: 30px;
+}
+.mb50 {
+  margin-bottom: 50px;
+}
 .button {
   margin: 40px;
 }
