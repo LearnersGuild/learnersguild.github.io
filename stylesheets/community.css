@@ -372,6 +372,22 @@ img#wistia_48.thumbnail_img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.community-page-individual_block1a {
+  height: 500px;
+  text-align: center;
+  background-image: url('/images/goodbye-image.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .community-page-individual_block1e {
   height: 500px;
