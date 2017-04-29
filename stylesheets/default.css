@@ -162,4 +162,9 @@ h5, h6 {
   .splash-headline {
     font-size: 34px;
   }
+  #myCarousel .carousel-indicators li,#myCarousel .carousel-indicators li.active {
+    width: 15px !important;
+    height: 15px !important;
+    margin: 1px 4px;
+  }
 }
