@@ -118,7 +118,7 @@ h2.about-page_block-header {
   padding: 50px 0;
   background-color: #f4f4f4;
 }
-.about-page_block4 .row {
+.about-page_block4 .col-sm-4 {
   margin-bottom: 30px;
 }
 h2.about-page_block4-text {
