@@ -13,6 +13,10 @@
   justify-content: center;
 }
 
+.different-section-one .different-top {
+  background-color: #1d90de;
+}
+
 .different-section-one__sub-header {
   text-align: center;
   color: #F2BB1A;
