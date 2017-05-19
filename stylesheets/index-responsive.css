@@ -37,15 +37,22 @@
   .navbar-nav {
       margin: 0 -15px;
   }
+  #home-carousel, 
+  #myCarousel.homepage, 
+  #myCarousel.homepage .carousel-inner {
+      height: auto;
+  }
   #myCarousel .carousel-indicators {
     bottom: 15px;
   }
   #myCarousel .carousel-caption {
+    position: absolute;
     margin-top: 0;
     width: 100%;
     text-align: center;
     left: 0;
-    padding: 0 30px;
+    top: 40%;
+    transform: translateY(-40%);
   }
   #myCarousel .item {
     height: 300px;
@@ -277,5 +284,12 @@
   }
   .mb50-desktop {
     margin-bottom:0;
+  }
+}
+
+@media (max-width: 480px) {
+  #myCarousel .carousel-caption {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

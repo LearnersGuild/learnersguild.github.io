@@ -24,28 +24,6 @@
   font-size: 50px;
   opacity: 1;
 }
-
-.carousel-inner.homepage>.item>a>img,
-.carousel-inner.homepage>.item>img,
-.img-responsive,
-.thumbnail a {
-  width: 100% !important;
-  height: auto !important;
-  position: relative;
-  text-indent: 75%;
-  top: 0px;
-  margin: auto;
-  text-shadow: 1px 1px 1px #000;
-}
-.carousel-inner.homepage>.item>img {
-  height: 100% !important;
-}
-.carousel-inner.homepage>img {
-  min-height: 750px !important;
-  padding: 5px;
-  width: 2000px;
-  z-index: -1000px;
-}
 .carousel-caption {
   position: absolute;
   top: 50%;
@@ -55,20 +33,39 @@
 .carousel-indicators.carousel1 li {
   border: none;
   background: white;
+  margin: 1px 3px;
 }
 .carousel-indicators li {
   border: none !important;
+}
+#home-carousel {
+    position: relative;
+    height: calc(100% - 62px);
+}
+#myCarousel.homepage, 
+#myCarousel.homepage .carousel-inner {
+    position: relative;
+    height: 100%;
+}
+#myCarousel .carousel-caption {
+    position: relative;
+    left: 0;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 #myCarousel1 .carousel-indicators .active {
   background-color: grey !important;
 }
 #myCarousel .carousel-indicators {
-  bottom: 90px;
+  bottom: 5%;
 }
 #myCarousel.homepage .arrow-controls {
   height: auto;
   position: absolute;
   top: 50%;
+}
+#myCarousel .item {
+  height: 100%;
 }
 .right-control {
   right: 50px;
@@ -108,7 +105,7 @@ button#homepagebutton {
   line-height: 1.42857143;
   font-family: "proxima";
   color: white;
-  padding: 1% 0;
+  padding: 20px 0;
 }
 .home-page_block1-link {
   color: #ee255b;
