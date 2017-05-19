@@ -100,10 +100,8 @@
 }
 @media(max-width: 767px){
   .LG-logo {
-    position: relative;
-    left: 0;
-    margin: 0 auto;
-    width: auto !important;
+    top: 17px;
+    margin-left: -94px;
   }
 }
 
@@ -119,7 +117,7 @@
 
 @media (max-width: 400px) {
     .LG-logo {
-        width: 200px !important;
-        top: 9px;
+        margin-left: 0;
+        left: 98px;
     }
 }
