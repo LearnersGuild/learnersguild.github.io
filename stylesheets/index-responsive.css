@@ -2,6 +2,10 @@
   .pad30 {
     padding: 13% 14%;
   }
+  
+  .home-page_block4 {
+    height: 600px;
+  }
 }
 @media(max-width:1095px){
   .pad30 {
@@ -22,6 +26,9 @@
   }
   .home-page_block5 .carousel-indicators {
       bottom: -40px;
+  }
+  .home-page_block4 {
+    height: 450px;
   }
 }
 @media(max-width: 800px){
@@ -141,6 +148,9 @@
   .home-page_block4 {
     margin-bottom: 50px;
     height: 300px;
+  }
+  .home-page_block4 .bg-img {
+    width: auto;
   }
   .block4-meta {
     padding: 0 15px;
