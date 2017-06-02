@@ -1,0 +1,39 @@
+@media (max-width: 568px) {
+  center {
+    max-width: 100%;
+  }
+
+  .impact-section-one h2 {
+    max-width: 200px;
+  }
+
+  .impact-guild-tracker h2 {
+    width: 200px;
+    margin: 0;
+  }
+
+  .impact-guild-tracker p {
+    max-width: 200px;
+  }
+
+}
+
+@media (min-width: 568px) and (max-width: 900px) {
+  .impact-section-one h2 {
+    padding-top: 10px;
+  }
+
+  .impact-3-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .impact-3-img h5 {
+    margin-left: 10px;
+  }
+
+  .impact-3-img:nth-child(5) h5 {
+    margin: auto auto auto 10px;
+  }
+}

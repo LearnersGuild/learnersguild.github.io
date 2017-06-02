@@ -40,9 +40,8 @@
 .impact-3-img h5 {
   font-size: 1.2em;
   line-height: 1.4em;
-  width: 100%;
+  max-width: 80%;
   text-align: center;
-  padding: 0 10px;
 }
 
 .impact-3-img:nth-child(1) h5 span {
@@ -68,8 +67,6 @@
 
 .impact-3-col-symbols {
   padding: 5% 0;
-  width: 12.5%;
-  float: left;
 }
 
 .impact-section-two-track-progress {
@@ -156,28 +153,6 @@
   margin-bottom: 40px;
 }
 
-@media(max-width:991px) {
-    .impact-3-col-symbols {
-        width: 100%;
-    }
-}
-
-@media (min-width: 568px) and (max-width: 900px) {
-  .impact-splash h2 {
-    padding-top: 10px;
-  }
-
-  .impact-3-img {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .impact-3-img:nth-child(5) h5 {
-    margin: auto auto auto 10px;
-  }
-}
-
 @media (max-width: 568px) {
   center {
     max-width: 100%;
@@ -198,5 +173,26 @@
   }
   .impact-3-img h5 {
     font-size: 1.5em;
+
+  }
+}
+
+@media (min-width: 568px) and (max-width: 900px) {
+  .impact-splash h2 {
+    padding-top: 10px;
+  }
+
+  .impact-3-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .impact-3-img h5 {
+    margin-left: 10px;
+  }
+
+  .impact-3-img:nth-child(5) h5 {
+    margin: auto auto auto 10px;
   }
 }
