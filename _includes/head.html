@@ -11,9 +11,16 @@
   <link rel="stylesheet" href="/style.min.css" type="text/css" />
   <link rel="stylesheet" href="/stylesheets/faq.css" type="text/css" />
 
+  {% if page.url == "/community-advancing-diversity-in-tech-and-winning-together.html" %}
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://www.learnersguild.org/images/advancing-image.jpg">
+  <meta property="og:title" content="Advancing Diversity in Tech and Winning Together">
+  {% else %}
   <meta property="og:image" content="https://www.learnersguild.org/images/social-media-img.jpg">
   <meta property="og:image:url" content="https://www.learnersguild.org/images/social-media-img.jpg">
   <meta property="og:image:secure_url" content="https://www.learnersguild.org/images/social-media-img.jpg">
+  {% endif %}
+  
 
   <!-- favicon -->
   <link rel="icon" type="image/png" sizes="192x192" href="https://brand.learnersguild.org/android-chrome-192x192.png">
