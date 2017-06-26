@@ -18,6 +18,10 @@
 .community-splash .btn.round {
   margin: 0;
   padding: 10px 50px;
+  width: auto;
+}
+.community-splash .button {
+    margin-bottom: 0;
 }
 .community-page_button {
   font-size: 12px;

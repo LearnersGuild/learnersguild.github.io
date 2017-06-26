@@ -16,7 +16,9 @@ module.exports = function(grunt) {
           'stylesheets/index.css',
           'stylesheets/index-responsive.css',
           'stylesheets/faq.css',
+          'stylesheets/faq-responsive.css',
           'stylesheets/impact.css',
+          'stylesheets/impact-responsive.css',
           'stylesheets/howitworks.css',
           'stylesheets/howitworks-responsive.css',
           'stylesheets/different.css',
@@ -25,8 +27,7 @@ module.exports = function(grunt) {
           'stylesheets/community-responsive.css',
           'stylesheets/about.css',
           'stylesheets/about-responsive.css',
-          'stylesheets/hamburger.css',
-          'stylesheets/faq-responsive.css'
+          'stylesheets/hamburger.css'
         ],
         dest: 'style.min.css'
       },

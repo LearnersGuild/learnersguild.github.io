@@ -17,6 +17,9 @@
   }
 }
 @media(max-width: 767px){
+  .community-splash {
+    height: 300px;
+  }
   .community-splash .splash-headline {
     font-size: 30px;
   }

@@ -1,8 +1,7 @@
 .impact-splash {
   position: relative;
   background-image: url(/images/newres/differentbg1.png);
-  min-height: 50vh;
-  max-height: 600px;
+  height: 385px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -157,7 +156,7 @@
   margin-bottom: 40px;
 }
 
-@media(max-width:991px) {
+@media(max-width: 991px) {
     .impact-3-col-symbols {
         width: 100%;
     }
@@ -179,12 +178,17 @@
   }
 }
 
+@media (max-width: 767px) {
+  .impact-splash {
+    height: 300px;
+  }
+}
+
 @media (max-width: 568px) {
   center {
     max-width: 100%;
   }
   .impact-splash h2 {
-    max-width: 200px;
     padding-top: 15px;
   }
   .impact-guild-tracker h2 {

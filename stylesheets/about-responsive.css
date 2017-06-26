@@ -8,7 +8,7 @@
 }
 @media(max-width: 767px) {
   .about-splash {
-    height: 250px !important;
+    height: 300px !important;
   }
   .about-page_block2 {
     padding: 30px 0;
