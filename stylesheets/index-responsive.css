@@ -302,4 +302,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  .carousel .item {
+    height: 420px;
+  }
 }

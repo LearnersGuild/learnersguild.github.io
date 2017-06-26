@@ -115,3 +115,8 @@
     font-size: 34px;
   }
 }
+@media(max-width: 400px) {
+  #aboutCarousel .carousel-inner {
+      height: 540px;
+  }
+ }
