@@ -22,16 +22,37 @@
 .navbar-nav>li {
   float: none;
 }
-.navbar-default .navbar-nav>li>a {
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    width: auto;
+    border: none;
+    padding: 0;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a, 
+.dropdown-submenu>.dropdown-menu>li>a {
   font-family: proxima;
   font-weight: 500;
   padding-left: 25px;
+  padding-right: 25px;
   padding-top: 19px;
   letter-spacing: 1px;
   font-size: 1.2em;
   transition: all 0.3s ease-in-out;
 }
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover,
+.dropdown-submenu>.dropdown-menu>li>a:hover {
   background-color: #F2BB1A;
 }
 

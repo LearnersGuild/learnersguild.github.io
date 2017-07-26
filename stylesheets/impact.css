@@ -42,7 +42,7 @@
   line-height: 1.4em;
   width: 100%;
   text-align: center;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .impact-3-img:nth-child(1) h5 span {
@@ -131,7 +131,7 @@
 
 .impact-image {
   max-width: 100%;
-  padding: 0 5px;
+  padding: 0;
 }
 
 .impact-line {

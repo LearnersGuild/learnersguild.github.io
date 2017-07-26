@@ -59,6 +59,10 @@ h2.about-page_block-header {
 #story-carousel {
   color: white;
   text-align: center;
+  height: auto;
+}
+#story-carousel .carousel-inner {
+  height: auto;
 }
 #story-carousel .arrow-controls {
   height: auto;
@@ -78,12 +82,11 @@ h2.about-page_block-header {
   font-size: 18px;
   text-align: center;
 }
-#story-carousel .item img {
-  width: 100%;
+#story-carousel .item {
   height: 450px;
 }
-#story-carousel .first-caption {
-  top: 43%;
+#story-carousel .item .carousel-caption {
+  bottom: auto;
 }
 .about-carousel-jusleft {
   text-align: left;

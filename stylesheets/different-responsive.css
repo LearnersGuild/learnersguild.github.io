@@ -1,3 +1,40 @@
+@media (max-width: 1199px) {
+  .different-section-seven__graph--arrow {
+    transform: translate(232px,180px) rotate(-16deg) scale(1,0.9) skew(6deg);
+  }
+
+  .different-section-seven {
+    min-height: 665px;
+  }
+  
+  .different-section-four #section-four-carousel .carousel-indicators {
+      bottom: 15%;
+  }
+}
+
+@media (max-width: 767px) {
+    
+    .different-section-four #section-four-carousel .img-column-1 {
+        background: url('/images/newres/different04.jpg') no-repeat 100% center; background-size: cover;
+        height: 100%;
+    }
+    .different-section-four #section-four-carousel .img-column-2 {
+        background: url('/images/newres/different02.jpg') no-repeat 100% center; background-size: cover;
+        height: 100%;
+    }
+    .different-section-four #section-four-carousel .img-column-3 {
+        background: url('/images/newres/different03.jpg') no-repeat 100% center; background-size: cover;
+        height: 100%;
+    }
+    .different-section-four #section-four-carousel .img-column-4 {
+        background: url('/images/newres/difgroup01.jpg') no-repeat 100% center; background-size: cover;
+        height: 100%;
+    }
+    .different-section-four #section-four-carousel .caption-column {
+        top: -400px;
+    }
+}
+
 @media (max-width: 568px) {
     
   .different-section-one h3.splash-header {
@@ -40,33 +77,15 @@
     height: auto;
     margin: 2px;
   }
-  .different-section-four img {
-    display: none;
-  }
-/*  .different-section-four__header {
-    position: relative;
-  }*/
-  .different-section-four__header___text {
-    left: 0;
-    top: 0;
-  }
-  .different-section-three__description__text,
-  .different-section-four__panel-one__text,
-  .different-section-four__panel-two__text,
-  .different-section-four__panel-three__text {
+  .different-section-three__description__text {
     font-size: 4vw !important;
   }
-  .different-section-three__image,
-  .different-section-four__image-one,
-  .different-section-four__image-two {
+  .different-section-three__image {
     padding: 0;
   }
 
   .different-section-three__description,
-  .different-section-three__description01,
-  .different-section-four__panel-one__description,
-  .different-section-four__panel-two__description,
-  .different-section-four__panel-three__description {
+  .different-section-three__description01 {
     margin-top: 10%;
   }
 
@@ -89,7 +108,6 @@
   .different-section-seven__header {
     padding: 2px;
   }
-  .different-section-six,
   .different-section-seven__graph--arrow {
     display: none;
   }

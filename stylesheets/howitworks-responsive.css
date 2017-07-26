@@ -1,28 +1,21 @@
-@media (max-width: 2900px) {
-  .different-section-seven__graph--arrow {
-    transform: translate(232px,180px) rotate(-16deg) scale(1,0.9) skew(6deg);
-  }
-
-  .howitworks-section-two__icon-row___description h2 {
-    width: 100%;
-  }
-}
 
 @media(max-width: 1199px){
   .howitworks-section-three-meta {
     padding-left: 30px;
+    padding-right: 30px;
   }
   #section-four-carousel .carousel-caption {
     top: 100px;
   }
-  #section-four-carousel .carousel-indicators {
-    left: 7%;
-    bottom: 20%;
+  .howitworks-section-four #section-four-carousel .carousel-indicators {
+      left: 8%;
+      bottom: 15%;
   }
 }
 @media(max-width: 991px){
   .howitworks-section-three-meta {
-    padding-left: 0;
+    padding-left: 5px;
+    padding-right: 20px;
   }
   .howitworks-section-three-meta h2 {
     font-size: 46px;
@@ -36,6 +29,9 @@
   #section-four-carousel .carousel-indicators {
     left: 9%;
     bottom: 10%;
+  }
+  #section-four-carousel .carousel-indicators {
+      bottom: 10% !important;
   }
 }
 
@@ -53,11 +49,13 @@
     padding-right: 0;
   }
   .section-three-meta-container {
-    padding-top: 30px;
+      padding-top: 60px;
+      padding-bottom: 30px;
   }
   .howitworks-section-three-meta {
     position: static;
     transform: translateY(0);
+    padding-right: 0;
   }
   .howitworks-section-three-meta h2 {
     font-size: 38px;
@@ -69,13 +67,9 @@
     font-size: 16px;
     margin-bottom: 30px;
   }
-  .howitworks-section-four__header___text {
-    text-align: center;
-    top: 0;
-    font-size: 17px;
-  }
   #section-four-carousel .item {
     width: 100%;
+    height: 100%;
   }
   #section-four-carousel .top-heading {
     color: #FFF;
@@ -87,31 +81,38 @@
     color: #FFF;
   }
   #section-four-carousel .carousel-indicators {
-    left: 17%;
+    left: 50% !important;
   }
   #section-four-carousel .carousel-inner {
     height: 400px;
   }
+  #section-four-carousel .img-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+  }
+  .howitworks-section-four #section-four-carousel .img-column-1 {
+    background: url('/images/you-will-get-1.jpg') no-repeat 100% center; background-size: cover;
+    height: 100%;
+  }
+  .howitworks-section-four #section-four-carousel .img-column-2 {
+    background: url('/images/you-will-get-2.jpg') no-repeat 100% center; background-size: cover;
+    height: 100%;
+  }
+  .howitworks-section-four #section-four-carousel .img-column-3 {
+    background: url('/images/you-will-get-3.jpg') no-repeat 100% center; background-size: cover;
+    height: 100%;
+  }
   .howitworks-section-five {
     padding: 0 15px;
   }
-  .howitworks-section-five .desktop {
-    height: auto;
-    max-width: 100%;
-  }
-  .howitworks-section-five img {
-    height: 170px;
-  }
+
   .howitworks-section-five__sub-header {
     padding-top: 20px;
   }
 
-  .howitworks-section-four__panel-one__description,
-  .howitworks-section-four__panel-two__description,
-  .howitworks-section-four__panel-three__description {
-    padding: 15px 0;
-    text-align: center;
-  }
   .howitworks-section-five__sub-header {
     font-size: 17px;
   }
@@ -119,9 +120,7 @@
   .carousel-inner.howitworks {
     display: block;
   }
-  .howitworks-section-three__description__text,
-  .howitworks-section-four__panel-one__text,
-  .howitworks-section-four__panel-two__text{
+  .howitworks-section-three__description__text {
     font-size: 3vh;
   }
 

@@ -36,17 +36,24 @@ $('.question').on('click',function(){
 	}
 }); 
 
+// Fix for floating text bug (safari only) on howitworks page section 3
+var is_safari = (navigator.userAgent.indexOf('Safari') != -1) && (navigator.userAgent.indexOf('Chrome') == -1);
+
 $(window).resize(function(){
-  if ($(window).width() > 767) {
-  	columnHeight();
-  }
+    if (is_safari) {
+        if ($(window).width() > 767) {
+          $('.howitworks-section-three-meta').addClass('howitworks-section-three-meta-safari');
+        } else {
+          $('.howitworks-section-three-meta').removeClass('howitworks-section-three-meta-safari');
+        }
+    }
 });
 $(document).ready(function(){
-  if ($(window).width() > 767) {
-  	columnHeight();
-  }
+    if (is_safari) {
+        if ($(window).width() > 767) {
+          $('.howitworks-section-three-meta').addClass('howitworks-section-three-meta-safari');
+        } else {
+           $('.howitworks-section-three-meta').removeClass('howitworks-section-three-meta-safari');
+        }
+    }
 });
-function columnHeight(){
-  var height = $('#section-three').find('.img-container').outerHeight();
-  $('.section-three-meta-container').css({'height':height});
-}

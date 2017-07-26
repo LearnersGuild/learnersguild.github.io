@@ -44,6 +44,9 @@
   .navbar-nav {
       margin: 0 -15px;
   }
+  .row-eq-height {
+    display: block;
+  }
   #home-carousel, 
   #myCarousel.homepage, 
   #myCarousel.homepage .carousel-inner {
@@ -67,7 +70,7 @@
   .carousel .item {
     height: 350px;
   }
-  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a {
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .thumbnail a {
     width: 100% !important;
     position: relative;
     margin: 10 auto;
