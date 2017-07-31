@@ -4,7 +4,8 @@
   background-size: cover;
   color: #fff;
   height: 385px;
-  background-image: url('/images/community-hero.jpg');
+  /*background-image: url('/images/community-hero.jpg');*/
+  background-image: url('/images/community-hero-2.jpg');
   background-repeat: no-repeat;
   position: relative;
 }
@@ -388,6 +389,10 @@ img#wistia_48.thumbnail_img {
 }
 .community-page-individual_block1i {
   background-image: url('/images/social-media-img.jpg');
+}
+.community-page-individual_block1f {
+  background-image: url('/images/meet-devon-image.jpg');
+  background-position: top left !important;
 }
 .community-bg{
   background-repeat: no-repeat;

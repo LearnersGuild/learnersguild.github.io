@@ -90,7 +90,7 @@
 }
 
 .impact-guild-tracker img {
-  padding-bottom: 40px;
+  padding: 0 15px 40px;
 }
 
 .impact-guild-tracker h2 {
@@ -125,6 +125,10 @@
 }
 
 .impact-stat-imgs {
+    padding: 0 15px;
+}
+
+.impact-stat-imgs img {
   margin-bottom: 60px;
   max-width: 100%;
 }
