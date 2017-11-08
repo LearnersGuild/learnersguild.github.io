@@ -160,9 +160,100 @@
   margin-bottom: 40px;
 }
 
+#impact-salary-stats {
+    background-color: white; 
+    padding-top: 30px
+}
+
+#impact-salary-stats p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#impact-salary-charts, #impact-salary-charts .row {
+    background-color: white; 
+    max-height: 460px
+}
+
+#impact-salary-charts .col-sm-5 {
+    padding: 50px;
+    max-height: 460px;
+}
+
+#impact-salary-charts .col-sm-2 {
+    padding-top: 180px;
+}
+
+#impact-salary-charts ul {
+    list-style-type: square;
+    text-align: left;
+}
+
+#impact-salary-charts ul > li {
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.ct-chart-1, .ct-chart-2 {
+    max-height: 360px;
+}
+
+svg.ct-chart-pie {
+    overflow: overlay !important;
+}
+    
+.ct-series-a .ct-slice-pie, li.bullet-color-a {
+    fill: #03a5e0;
+    color: #03a5e0;
+}
+
+.ct-series-b .ct-slice-pie, li.bullet-color-b {
+    fill: #ee3e60;
+    color: #ee3e60;
+}
+
+.ct-series-c .ct-slice-pie, li.bullet-color-c {
+    fill: #98ca3d;
+    color: #98ca3d;
+}
+
+.ct-series-d .ct-slice-pie, li.bullet-color-d {
+    fill: #f4bc17;
+    color: #f4bc17;
+}
+
+.ct-series-e .ct-slice-pie, li.bullet-color-e {
+    fill: #a8aaac;
+    color: #a8aaac;
+}
+
+.ct-chart-donut .ct-label, .ct-chart-pie .ct-label {
+    fill: black;
+    font-size: 13px;
+}
+
+#impact-salary-charts ul > li > span {
+    color: black;
+    font-size: 13px;
+    position: relative;
+    top: -2px;
+}
+
 @media(max-width: 991px) {
     .impact-3-col-symbols {
         width: 100%;
+    }
+    
+    #impact-salary-charts ul {
+        padding-left: 0
+    }
+    
+    #impact-salary-charts .col-sm-2 {
+        padding-top: 140px;
+    }
+    
+    #impact-salary-charts ul > li > span {
+        font-size: 11px;
     }
 }
 
@@ -185,6 +276,18 @@
 @media (max-width: 767px) {
   .impact-splash {
     height: 300px;
+  }
+  
+  #impact-salary-charts, #impact-salary-charts .row, #impact-salary-charts .col-sm-5 {
+      max-height: none
+  }
+  
+  #impact-salary-charts .col-sm-2 {
+      padding-top: 0;
+  }
+  
+  #impact-salary-charts ul {
+      width: 100px;
   }
 }
 
@@ -209,3 +312,16 @@
     font-size: 1.5em;
   }
 }
+
+@media (max-width: 467px) {
+
+    #impact-salary-charts .col-sm-5 {
+        padding: 50px 15px;
+    }
+    
+    .ct-chart-donut .ct-label, .ct-chart-pie .ct-label {
+        font-size: 11px;
+    }
+}
+
+
