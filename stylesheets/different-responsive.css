@@ -10,6 +10,10 @@
   .different-section-four #section-four-carousel .carousel-indicators {
       bottom: 15%;
   }
+  
+  .different-section-two__sub-header {
+    padding: 20px 200px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -33,6 +37,9 @@
     .different-section-four #section-four-carousel .caption-column {
         top: -400px;
     }
+    .different-section-two__sub-header {
+      padding: 10px 100px 30px;
+    }
 }
 
 @media (max-width: 568px) {
@@ -50,7 +57,7 @@
   }
 
   .different-section-two__sub-header {
-    padding: 5px;
+    padding: 10px 10px 30px;
   }
 
   .different-section-two__card-two,

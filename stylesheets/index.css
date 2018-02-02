@@ -148,13 +148,41 @@ button#homepagebutton {
   width: 64%;
   margin-bottom: 15px;
 }
-.home-page_block4 {
-  height: 800px;
+.learning-model {
+  min-height: 800px;
   position: relative;
+  padding: 50px 0;
 }
-.home-page_block4 .bg-img {
+.learning-model .bg-img {
   height: 100%;
   width: 100%;
+}
+.learning-model h1 {
+  font-family: Stag;
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 80px;
+}
+.learning-model h2 {
+  font-family: Stag;
+  font-size: 40px;
+  color: #fff;
+}
+.learning-model h3 {
+  font-family: Stag;
+  font-size: 30px;
+  color: #fff;
+}
+.learning-model p {
+  font-size: 22px;
+  color: #fff;
+}
+.learning-model .first-p,
+.learning-model img {
+  margin-top: 20px;
+}
+.learning-model hr {
+  border: 7px solid #F2BB1A;
 }
 .block4-meta {
   position: absolute;
@@ -276,7 +304,8 @@ h1, h2, h3 {
   text-align: left;
 }
 .home-page_block5-header-text {
-  font-size: 16px;
+    font-size: 24px;
+    font-weight: bold;
 }
 .container-fluid .block6 {
   margin: 120px 0px;
@@ -330,19 +359,4 @@ img#block6image {
 }
 .container-fluid.block6 {
   margin: 0 !important;
-}
-.home-page_block7 {
-  text-align: center;
-  margin: 50px 0px;
-}
-.home-page_block7-header {
-  margin-bottom: 50px;
-}
-.home-page_block7-button {
-  margin: 40px;
-  width: 200px;
-}
-h1.home-page_block7-header {
-  font-family: Stag;
-  color: #222230;
 }
