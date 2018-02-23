@@ -184,8 +184,11 @@ button#homepagebutton {
 .learning-model hr {
   border: 7px solid #F2BB1A;
 }
-.learning-model .learning-model-last-div {
+.learning-model-last-div {
   padding-top: 40px;
+}
+.learning-model-last-div a {
+  color: #F2BB1A;
 }
 .block4-meta {
   position: absolute;
